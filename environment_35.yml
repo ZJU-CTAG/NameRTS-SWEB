@@ -1,0 +1,34 @@
+# Best-effort Python 3.5 dependency floor for SWE-bench compatibility work.
+#
+# This environment is intentionally not registered as a supported NameRTS
+# runtime yet.  The current NameRTS import path still requires a source
+# backport (f-strings, variable annotations, and dataclasses) and a Python 3.5
+# tree-sitter Python language binding.  Keep this file as the reproducible
+# starting point for that follow-up work; do not treat environment creation
+# alone as proof that NameRTS runs on Python 3.5.
+name: NameRTS35
+channels:
+  # Tsinghua's current repodata no longer exposes Python 3.5.  Keep the
+  # official archived main channel explicit so modern conda can solve 3.5.6.
+  - https://repo.anaconda.com/pkgs/main
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.5.6
+  # Bootstrap versions available to Python 3.5 in the archived conda channel;
+  # pip upgrades them before installing the remaining analysis dependencies.
+  - pip=10.0.1
+  - setuptools=40.2.0
+  - wheel=0.37.1
+  - pip:
+      - pip==20.3.4
+      - setuptools==50.3.2
+      - numpy==1.18.5
+      - pandas==0.25.3
+      - networkx==2.4
+      - detect-indent==1.0.0
+      # 0.20.4 declares Python 3.5 support but contains Python 3.6 variable
+      # annotations; 0.20.1 has been import-tested under CPython 3.5.6.
+      - tree-sitter==0.20.1
+      - future-fstrings==1.2.0
+      - xxhash==2.0.2

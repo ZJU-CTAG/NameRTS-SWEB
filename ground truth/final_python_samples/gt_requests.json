@@ -1,0 +1,45 @@
+[
+  {
+    "affected_functions_by_test": {
+      "test_requests.py": [
+        "requests/models.py::PreparedRequest.prepare_content_length"
+      ]
+    },
+    "base_commit": "22623bd8c265b78b161542663ee980738441c307",
+    "dynamic_hit_tests": [
+      "test_requests.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "test_requests.py"
+    ],
+    "elapsed_seconds": 0.755,
+    "failed_test_files": [
+      "test_requests.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "psf__requests-1142",
+    "modified_functions": [
+      {
+        "insertion_line": 389,
+        "line": 388,
+        "marker": "requests/models.py::PreparedRequest.prepare_content_length",
+        "path": "requests/models.py",
+        "qualname": "PreparedRequest.prepare_content_length"
+      }
+    ],
+    "passed_test_files": 0,
+    "passing_dynamic_hit_tests": [],
+    "patch_file": "22623bd8c265b78b161542663ee980738441c307/golden.patch",
+    "project": "psf/requests",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/final_python_samples/requests/ground_truth_runs/psf__requests-1142_1784862544_993888",
+    "test_env": "RTSFinal39_requests_d683258c",
+    "tests_to_run": [
+      "test_requests.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 1,
+    "uninstrumentable_changes": [],
+    "version": "1.1"
+  }
+]

@@ -1,0 +1,293 @@
+[
+  {
+    "affected_functions_by_test": {
+      "xarray/tests/test_accessor_dt.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_accessor_str.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_backends.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_cftimeindex.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_cftimeindex_resample.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_coding.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_coding_strings.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_coding_times.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_combine.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_computation.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_concat.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_conventions.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_dask.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_dataarray.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_dataset.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_duck_array_ops.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_extensions.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_formatting.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_formatting_html.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_groupby.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_indexing.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_interp.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_merge.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_missing.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_options.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_plot.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_sparse.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_testing.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_ufuncs.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_units.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_utils.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_variable.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ],
+      "xarray/tests/test_weighted.py": [
+        "xarray/core/variable.py::as_compatible_data"
+      ]
+    },
+    "base_commit": "7c4e2ac83f7b4306296ff9b7b51aaf016e5ad614",
+    "dynamic_hit_tests": [
+      "xarray/tests/test_accessor_dt.py",
+      "xarray/tests/test_accessor_str.py",
+      "xarray/tests/test_backends.py",
+      "xarray/tests/test_cftimeindex.py",
+      "xarray/tests/test_cftimeindex_resample.py",
+      "xarray/tests/test_coding.py",
+      "xarray/tests/test_coding_strings.py",
+      "xarray/tests/test_coding_times.py",
+      "xarray/tests/test_combine.py",
+      "xarray/tests/test_computation.py",
+      "xarray/tests/test_concat.py",
+      "xarray/tests/test_conventions.py",
+      "xarray/tests/test_dask.py",
+      "xarray/tests/test_dataarray.py",
+      "xarray/tests/test_dataset.py",
+      "xarray/tests/test_duck_array_ops.py",
+      "xarray/tests/test_extensions.py",
+      "xarray/tests/test_formatting.py",
+      "xarray/tests/test_formatting_html.py",
+      "xarray/tests/test_groupby.py",
+      "xarray/tests/test_indexing.py",
+      "xarray/tests/test_interp.py",
+      "xarray/tests/test_merge.py",
+      "xarray/tests/test_missing.py",
+      "xarray/tests/test_options.py",
+      "xarray/tests/test_plot.py",
+      "xarray/tests/test_sparse.py",
+      "xarray/tests/test_testing.py",
+      "xarray/tests/test_ufuncs.py",
+      "xarray/tests/test_units.py",
+      "xarray/tests/test_utils.py",
+      "xarray/tests/test_variable.py",
+      "xarray/tests/test_weighted.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "xarray/tests/test_accessor_dt.py",
+      "xarray/tests/test_accessor_str.py",
+      "xarray/tests/test_backends.py",
+      "xarray/tests/test_cftimeindex.py",
+      "xarray/tests/test_cftimeindex_resample.py",
+      "xarray/tests/test_coding.py",
+      "xarray/tests/test_coding_strings.py",
+      "xarray/tests/test_coding_times.py",
+      "xarray/tests/test_combine.py",
+      "xarray/tests/test_computation.py",
+      "xarray/tests/test_concat.py",
+      "xarray/tests/test_conventions.py",
+      "xarray/tests/test_dask.py",
+      "xarray/tests/test_dataarray.py",
+      "xarray/tests/test_dataset.py",
+      "xarray/tests/test_duck_array_ops.py",
+      "xarray/tests/test_extensions.py",
+      "xarray/tests/test_formatting.py",
+      "xarray/tests/test_formatting_html.py",
+      "xarray/tests/test_groupby.py",
+      "xarray/tests/test_indexing.py",
+      "xarray/tests/test_interp.py",
+      "xarray/tests/test_merge.py",
+      "xarray/tests/test_missing.py",
+      "xarray/tests/test_options.py",
+      "xarray/tests/test_plot.py",
+      "xarray/tests/test_sparse.py",
+      "xarray/tests/test_testing.py",
+      "xarray/tests/test_ufuncs.py",
+      "xarray/tests/test_units.py",
+      "xarray/tests/test_utils.py",
+      "xarray/tests/test_variable.py",
+      "xarray/tests/test_weighted.py"
+    ],
+    "elapsed_seconds": 64.066,
+    "failed_test_files": [
+      "xarray/tests/test_backends.py",
+      "xarray/tests/test_cftimeindex.py",
+      "xarray/tests/test_combine.py",
+      "xarray/tests/test_computation.py",
+      "xarray/tests/test_cupy.py",
+      "xarray/tests/test_dask.py",
+      "xarray/tests/test_dataarray.py",
+      "xarray/tests/test_dataset.py",
+      "xarray/tests/test_distributed.py",
+      "xarray/tests/test_duck_array_ops.py",
+      "xarray/tests/test_plot.py",
+      "xarray/tests/test_sparse.py",
+      "xarray/tests/test_variable.py",
+      "xarray/tests/test_weighted.py"
+    ],
+    "in_test_hit_tests": [
+      "xarray/tests/test_accessor_dt.py",
+      "xarray/tests/test_accessor_str.py",
+      "xarray/tests/test_cftimeindex_resample.py",
+      "xarray/tests/test_coding.py",
+      "xarray/tests/test_coding_strings.py",
+      "xarray/tests/test_coding_times.py",
+      "xarray/tests/test_concat.py",
+      "xarray/tests/test_conventions.py",
+      "xarray/tests/test_extensions.py",
+      "xarray/tests/test_formatting.py",
+      "xarray/tests/test_formatting_html.py",
+      "xarray/tests/test_groupby.py",
+      "xarray/tests/test_indexing.py",
+      "xarray/tests/test_interp.py",
+      "xarray/tests/test_merge.py",
+      "xarray/tests/test_missing.py",
+      "xarray/tests/test_options.py",
+      "xarray/tests/test_testing.py",
+      "xarray/tests/test_ufuncs.py",
+      "xarray/tests/test_units.py"
+    ],
+    "instance_id": "pydata__xarray-2905",
+    "modified_functions": [
+      {
+        "insertion_line": 200,
+        "line": 189,
+        "marker": "xarray/core/variable.py::as_compatible_data",
+        "path": "xarray/core/variable.py",
+        "qualname": "as_compatible_data"
+      }
+    ],
+    "passed_test_files": 32,
+    "passing_dynamic_hit_tests": [
+      "xarray/tests/test_accessor_dt.py",
+      "xarray/tests/test_accessor_str.py",
+      "xarray/tests/test_cftimeindex_resample.py",
+      "xarray/tests/test_coding.py",
+      "xarray/tests/test_coding_strings.py",
+      "xarray/tests/test_coding_times.py",
+      "xarray/tests/test_concat.py",
+      "xarray/tests/test_conventions.py",
+      "xarray/tests/test_extensions.py",
+      "xarray/tests/test_formatting.py",
+      "xarray/tests/test_formatting_html.py",
+      "xarray/tests/test_groupby.py",
+      "xarray/tests/test_indexing.py",
+      "xarray/tests/test_interp.py",
+      "xarray/tests/test_merge.py",
+      "xarray/tests/test_missing.py",
+      "xarray/tests/test_options.py",
+      "xarray/tests/test_testing.py",
+      "xarray/tests/test_ufuncs.py",
+      "xarray/tests/test_units.py",
+      "xarray/tests/test_utils.py"
+    ],
+    "patch_file": "7c4e2ac83f7b4306296ff9b7b51aaf016e5ad614/golden.patch",
+    "project": "pydata/xarray",
+    "python": "Python 3.10.15",
+    "run_dir": "/shared_dir/projects/namerts/runtime/final_python_samples/xarray/ground_truth_runs/pydata__xarray-2905_1784862552_994289",
+    "test_env": "RTSFinal310_xarray_56c96dc3",
+    "tests_to_run": [
+      "xarray/tests/test_accessor_dt.py",
+      "xarray/tests/test_accessor_str.py",
+      "xarray/tests/test_backends.py",
+      "xarray/tests/test_cftimeindex.py",
+      "xarray/tests/test_cftimeindex_resample.py",
+      "xarray/tests/test_coding.py",
+      "xarray/tests/test_coding_strings.py",
+      "xarray/tests/test_coding_times.py",
+      "xarray/tests/test_combine.py",
+      "xarray/tests/test_computation.py",
+      "xarray/tests/test_concat.py",
+      "xarray/tests/test_conventions.py",
+      "xarray/tests/test_dask.py",
+      "xarray/tests/test_dataarray.py",
+      "xarray/tests/test_dataset.py",
+      "xarray/tests/test_duck_array_ops.py",
+      "xarray/tests/test_extensions.py",
+      "xarray/tests/test_formatting.py",
+      "xarray/tests/test_formatting_html.py",
+      "xarray/tests/test_groupby.py",
+      "xarray/tests/test_indexing.py",
+      "xarray/tests/test_interp.py",
+      "xarray/tests/test_merge.py",
+      "xarray/tests/test_missing.py",
+      "xarray/tests/test_options.py",
+      "xarray/tests/test_plot.py",
+      "xarray/tests/test_sparse.py",
+      "xarray/tests/test_testing.py",
+      "xarray/tests/test_ufuncs.py",
+      "xarray/tests/test_units.py",
+      "xarray/tests/test_utils.py",
+      "xarray/tests/test_variable.py",
+      "xarray/tests/test_weighted.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 46,
+    "uninstrumentable_changes": [],
+    "version": "0.12"
+  }
+]

@@ -1,0 +1,220 @@
+[
+  {
+    "affected_functions_by_test": {
+      "sympy/geometry/tests/test_curve.py": [
+        "sympy/geometry/point.py::Point.distance"
+      ],
+      "sympy/geometry/tests/test_ellipse.py": [
+        "sympy/geometry/point.py::Point.distance"
+      ],
+      "sympy/geometry/tests/test_entity.py": [
+        "sympy/geometry/point.py::Point.distance"
+      ],
+      "sympy/geometry/tests/test_line.py": [
+        "sympy/geometry/point.py::Point.distance"
+      ],
+      "sympy/geometry/tests/test_parabola.py": [
+        "sympy/geometry/point.py::Point.distance"
+      ],
+      "sympy/geometry/tests/test_plane.py": [
+        "sympy/geometry/point.py::Point.distance"
+      ],
+      "sympy/geometry/tests/test_point.py": [
+        "sympy/geometry/point.py::Point.distance"
+      ],
+      "sympy/geometry/tests/test_polygon.py": [
+        "sympy/geometry/point.py::Point.distance"
+      ],
+      "sympy/geometry/tests/test_util.py": [
+        "sympy/geometry/point.py::Point.distance"
+      ]
+    },
+    "base_commit": "360290c4c401e386db60723ddb0109ed499c9f6e",
+    "dynamic_hit_tests": [
+      "sympy/geometry/tests/test_curve.py",
+      "sympy/geometry/tests/test_ellipse.py",
+      "sympy/geometry/tests/test_entity.py",
+      "sympy/geometry/tests/test_line.py",
+      "sympy/geometry/tests/test_parabola.py",
+      "sympy/geometry/tests/test_plane.py",
+      "sympy/geometry/tests/test_point.py",
+      "sympy/geometry/tests/test_polygon.py",
+      "sympy/geometry/tests/test_util.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "sympy/geometry/tests/test_curve.py",
+      "sympy/geometry/tests/test_ellipse.py",
+      "sympy/geometry/tests/test_entity.py",
+      "sympy/geometry/tests/test_line.py",
+      "sympy/geometry/tests/test_parabola.py",
+      "sympy/geometry/tests/test_plane.py",
+      "sympy/geometry/tests/test_point.py",
+      "sympy/geometry/tests/test_polygon.py",
+      "sympy/geometry/tests/test_util.py"
+    ],
+    "elapsed_seconds": 1005.02,
+    "failed_test_files": [
+      "sympy/assumptions/tests/test_matrices.py",
+      "sympy/assumptions/tests/test_query.py",
+      "sympy/assumptions/tests/test_satask.py",
+      "sympy/calculus/tests/test_finite_diff.py",
+      "sympy/calculus/tests/test_singularities.py",
+      "sympy/combinatorics/tests/test_perm_groups.py",
+      "sympy/combinatorics/tests/test_tensor_can.py",
+      "sympy/concrete/tests/test_sums_products.py",
+      "sympy/core/tests/test_args.py",
+      "sympy/core/tests/test_arit.py",
+      "sympy/core/tests/test_assumptions.py",
+      "sympy/core/tests/test_eval.py",
+      "sympy/core/tests/test_evalf.py",
+      "sympy/core/tests/test_expr.py",
+      "sympy/core/tests/test_function.py",
+      "sympy/core/tests/test_match.py",
+      "sympy/core/tests/test_noncommutative.py",
+      "sympy/core/tests/test_numbers.py",
+      "sympy/core/tests/test_relational.py",
+      "sympy/core/tests/test_subs.py",
+      "sympy/core/tests/test_sympify.py",
+      "sympy/core/tests/test_wester.py",
+      "sympy/deprecated/tests/test_class_registry.py",
+      "sympy/external/tests/test_autowrap.py",
+      "sympy/external/tests/test_codegen.py",
+      "sympy/functions/combinatorial/tests/test_comb_factorials.py",
+      "sympy/functions/combinatorial/tests/test_comb_numbers.py",
+      "sympy/functions/elementary/tests/test_complexes.py",
+      "sympy/functions/elementary/tests/test_integers.py",
+      "sympy/functions/elementary/tests/test_piecewise.py",
+      "sympy/functions/elementary/tests/test_trigonometric.py",
+      "sympy/functions/special/tests/test_delta_functions.py",
+      "sympy/functions/special/tests/test_spec_polynomials.py",
+      "sympy/holonomic/tests/test_holonomic.py",
+      "sympy/integrals/tests/test_failing_integrals.py",
+      "sympy/integrals/tests/test_heurisch.py",
+      "sympy/integrals/tests/test_integrals.py",
+      "sympy/integrals/tests/test_rde.py",
+      "sympy/integrals/tests/test_transforms.py",
+      "sympy/logic/tests/test_boolalg.py",
+      "sympy/matrices/expressions/tests/test_slice.py",
+      "sympy/matrices/expressions/tests/test_trace.py",
+      "sympy/matrices/tests/test_matrices.py",
+      "sympy/ntheory/tests/test_residue.py",
+      "sympy/parsing/tests/test_sympy_parser.py",
+      "sympy/physics/mechanics/tests/test_kane3.py",
+      "sympy/physics/quantum/tests/test_circuitplot.py",
+      "sympy/physics/quantum/tests/test_dagger.py",
+      "sympy/physics/quantum/tests/test_identitysearch.py",
+      "sympy/physics/quantum/tests/test_matrixutils.py",
+      "sympy/physics/quantum/tests/test_operatorset.py",
+      "sympy/physics/quantum/tests/test_printing.py",
+      "sympy/physics/quantum/tests/test_represent.py",
+      "sympy/physics/quantum/tests/test_sho1d.py",
+      "sympy/physics/quantum/tests/test_shor.py",
+      "sympy/physics/tests/test_paulialgebra.py",
+      "sympy/physics/tests/test_secondquant.py",
+      "sympy/physics/vector/tests/test_fieldfunctions.py",
+      "sympy/plotting/tests/test_plot.py",
+      "sympy/plotting/tests/test_plot_implicit.py",
+      "sympy/polys/tests/test_fields.py",
+      "sympy/polys/tests/test_partfrac.py",
+      "sympy/polys/tests/test_polytools.py",
+      "sympy/printing/pretty/tests/test_pretty.py",
+      "sympy/printing/tests/test_gtk.py",
+      "sympy/printing/tests/test_julia.py",
+      "sympy/printing/tests/test_latex.py",
+      "sympy/printing/tests/test_numpy.py",
+      "sympy/printing/tests/test_octave.py",
+      "sympy/printing/tests/test_python.py",
+      "sympy/series/tests/test_formal.py",
+      "sympy/series/tests/test_gruntz.py",
+      "sympy/series/tests/test_limits.py",
+      "sympy/series/tests/test_limitseq.py",
+      "sympy/series/tests/test_nseries.py",
+      "sympy/series/tests/test_residues.py",
+      "sympy/sets/tests/test_fancysets.py",
+      "sympy/sets/tests/test_sets.py",
+      "sympy/simplify/tests/test_cse.py",
+      "sympy/simplify/tests/test_hyperexpand.py",
+      "sympy/simplify/tests/test_radsimp.py",
+      "sympy/simplify/tests/test_simplify.py",
+      "sympy/simplify/tests/test_trigsimp.py",
+      "sympy/solvers/tests/test_constantsimp.py",
+      "sympy/solvers/tests/test_decompogen.py",
+      "sympy/solvers/tests/test_diophantine.py",
+      "sympy/solvers/tests/test_inequalities.py",
+      "sympy/solvers/tests/test_numeric.py",
+      "sympy/solvers/tests/test_solvers.py",
+      "sympy/solvers/tests/test_solveset.py",
+      "sympy/stats/tests/test_continuous_rv.py",
+      "sympy/stats/tests/test_rv.py",
+      "sympy/strategies/branch/tests/test_core.py",
+      "sympy/strategies/branch/tests/test_tools.py",
+      "sympy/strategies/branch/tests/test_traverse.py",
+      "sympy/strategies/tests/test_strat.py",
+      "sympy/strategies/tests/test_tree.py",
+      "sympy/tensor/tests/test_indexed.py",
+      "sympy/tensor/tests/test_tensor.py",
+      "sympy/unify/tests/test_sympy.py",
+      "sympy/utilities/tests/test_codegen_julia.py",
+      "sympy/utilities/tests/test_codegen_octave.py",
+      "sympy/utilities/tests/test_lambdify.py",
+      "sympy/utilities/tests/test_module_imports.py",
+      "sympy/utilities/tests/test_pickling.py",
+      "sympy/vector/tests/test_printing.py"
+    ],
+    "in_test_hit_tests": [
+      "sympy/geometry/tests/test_curve.py",
+      "sympy/geometry/tests/test_ellipse.py",
+      "sympy/geometry/tests/test_entity.py",
+      "sympy/geometry/tests/test_line.py",
+      "sympy/geometry/tests/test_parabola.py",
+      "sympy/geometry/tests/test_plane.py",
+      "sympy/geometry/tests/test_point.py",
+      "sympy/geometry/tests/test_polygon.py",
+      "sympy/geometry/tests/test_util.py"
+    ],
+    "instance_id": "sympy__sympy-11618",
+    "modified_functions": [
+      {
+        "insertion_line": 269,
+        "line": 237,
+        "marker": "sympy/geometry/point.py::Point.distance",
+        "path": "sympy/geometry/point.py",
+        "qualname": "Point.distance"
+      }
+    ],
+    "passed_test_files": 318,
+    "passing_dynamic_hit_tests": [
+      "sympy/geometry/tests/test_curve.py",
+      "sympy/geometry/tests/test_ellipse.py",
+      "sympy/geometry/tests/test_entity.py",
+      "sympy/geometry/tests/test_line.py",
+      "sympy/geometry/tests/test_parabola.py",
+      "sympy/geometry/tests/test_plane.py",
+      "sympy/geometry/tests/test_point.py",
+      "sympy/geometry/tests/test_polygon.py",
+      "sympy/geometry/tests/test_util.py"
+    ],
+    "patch_file": "360290c4c401e386db60723ddb0109ed499c9f6e/golden.patch",
+    "project": "sympy/sympy",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/final_python_samples/sympy/ground_truth_runs/sympy__sympy-11618_1784862619_1000854",
+    "test_env": "RTSTest39_sympy_7e0852a8",
+    "tests_to_run": [
+      "sympy/geometry/tests/test_curve.py",
+      "sympy/geometry/tests/test_ellipse.py",
+      "sympy/geometry/tests/test_entity.py",
+      "sympy/geometry/tests/test_line.py",
+      "sympy/geometry/tests/test_parabola.py",
+      "sympy/geometry/tests/test_plane.py",
+      "sympy/geometry/tests/test_point.py",
+      "sympy/geometry/tests/test_polygon.py",
+      "sympy/geometry/tests/test_util.py"
+    ],
+    "timed_out_test_files": [
+      "sympy/solvers/tests/test_ode.py"
+    ],
+    "total_tests": 425,
+    "uninstrumentable_changes": [],
+    "version": "1.0"
+  }
+]

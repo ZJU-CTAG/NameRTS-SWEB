@@ -1,0 +1,794 @@
+[
+    {
+        "current": "23860365816440b050e9211e1c395a966de3c403",
+        "direct_parent": "aebf7d8dba58b41090cefbfea4074682edf62349",
+        "true_parent": "aebf7d8dba58b41090cefbfea4074682edf62349",
+        "tests_to_run": [
+            "tests/_marks/test_text.py",
+            "tests/test_distributions.py",
+            "tests/test_categorical.py",
+            "tests/_marks/test_dot.py",
+            "tests/test_axisgrid.py",
+            "tests/test_relational.py",
+            "tests/_core/test_plot.py",
+            "tests/_marks/test_area.py",
+            "tests/test_base.py",
+            "tests/_marks/test_bar.py",
+            "tests/_marks/test_line.py"
+        ],
+        "init_time": "0:09:58.620000",
+        "test_time": "0:03:08.860000",
+        "select_time": "0:00:02.910000"
+    },
+    {
+        "current": "af613f1db95e2ebc02810a985723f7fab19ff01c",
+        "direct_parent": "23860365816440b050e9211e1c395a966de3c403",
+        "true_parent": "23860365816440b050e9211e1c395a966de3c403",
+        "tests_to_run": [
+            "tests/test_categorical.py",
+            "tests/test_base.py",
+            "tests/test_distributions.py",
+            "tests/test_axisgrid.py",
+            "tests/test_relational.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:02:56.600000",
+        "select_time": "0:00:03.660000"
+    },
+    {
+        "current": "58cf6285d7299ac6dda83bbd4af8dbd019c58058",
+        "direct_parent": "af613f1db95e2ebc02810a985723f7fab19ff01c",
+        "true_parent": "af613f1db95e2ebc02810a985723f7fab19ff01c",
+        "tests_to_run": [
+            "tests/test_axisgrid.py",
+            "tests/_core/test_data.py",
+            "tests/_core/test_plot.py",
+            "tests/test_base.py",
+            "tests/_marks/test_text.py",
+            "tests/test_distributions.py",
+            "tests/test_categorical.py",
+            "tests/_marks/test_dot.py",
+            "tests/test_utils.py",
+            "tests/test_relational.py",
+            "tests/_core/test_scales.py",
+            "tests/test_regression.py",
+            "tests/_marks/test_area.py",
+            "tests/_marks/test_bar.py",
+            "tests/_marks/test_line.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:03:23.930000",
+        "select_time": "0:00:04.100000"
+    },
+    {
+        "current": "67a777a54dd1064c3f9038733b1ed71c6d50a6af",
+        "direct_parent": "58cf6285d7299ac6dda83bbd4af8dbd019c58058",
+        "true_parent": "58cf6285d7299ac6dda83bbd4af8dbd019c58058",
+        "tests_to_run": [
+            "tests/test_categorical.py",
+            "tests/test_base.py",
+            "tests/test_distributions.py",
+            "tests/test_axisgrid.py",
+            "tests/test_relational.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:03:02.270000",
+        "select_time": "0:00:03.660000"
+    },
+    {
+        "current": "b3e6b8d62194577deabebaa595520a13d55cf269",
+        "direct_parent": "67a777a54dd1064c3f9038733b1ed71c6d50a6af",
+        "true_parent": "67a777a54dd1064c3f9038733b1ed71c6d50a6af",
+        "tests_to_run": [
+            "tests/test_distributions.py",
+            "tests/_core/test_scales.py",
+            "tests/test_matrix.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:41.870000",
+        "select_time": "0:00:02.920000"
+    },
+    {
+        "current": "9049ddd2e7676660b61fc19b88e773230f52f521",
+        "direct_parent": "b3e6b8d62194577deabebaa595520a13d55cf269",
+        "true_parent": "b3e6b8d62194577deabebaa595520a13d55cf269",
+        "tests_to_run": [
+            "tests/test_distributions.py",
+            "tests/test_categorical.py",
+            "tests/_stats/test_density.py",
+            "tests/_marks/test_text.py",
+            "tests/_marks/test_dot.py",
+            "tests/test_axisgrid.py",
+            "tests/test_utils.py",
+            "tests/test_relational.py",
+            "tests/_core/test_plot.py",
+            "tests/_stats/test_counting.py",
+            "tests/_core/test_scales.py",
+            "tests/_core/test_properties.py",
+            "tests/test_regression.py",
+            "tests/_marks/test_area.py",
+            "tests/test_base.py",
+            "tests/_marks/test_bar.py",
+            "tests/_marks/test_line.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:03:24.550000",
+        "select_time": "0:00:04.100000"
+    },
+    {
+        "current": "3d3d715989d1a9cecc2b08fb23c695b6bb686754",
+        "direct_parent": "9049ddd2e7676660b61fc19b88e773230f52f521",
+        "true_parent": "9049ddd2e7676660b61fc19b88e773230f52f521",
+        "tests_to_run": [
+            "tests/test_base.py",
+            "tests/test_matrix.py",
+            "tests/_marks/test_text.py",
+            "tests/test_distributions.py",
+            "tests/test_categorical.py",
+            "tests/_marks/test_dot.py",
+            "tests/test_axisgrid.py",
+            "tests/test_utils.py",
+            "tests/test_relational.py",
+            "tests/test_palettes.py",
+            "tests/_marks/test_base.py",
+            "tests/_core/test_plot.py",
+            "tests/_core/test_scales.py",
+            "tests/test_regression.py",
+            "tests/_marks/test_area.py",
+            "tests/test_miscplot.py",
+            "tests/_marks/test_bar.py",
+            "tests/_marks/test_line.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:03:38.530000",
+        "select_time": "0:00:03.530000"
+    },
+    {
+        "current": "20db4d4e14f962267dd1aab3f364cbf70b20d0c1",
+        "direct_parent": "3d3d715989d1a9cecc2b08fb23c695b6bb686754",
+        "true_parent": "3d3d715989d1a9cecc2b08fb23c695b6bb686754",
+        "tests_to_run": [
+            "tests/_marks/test_line.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:04.180000",
+        "select_time": "0:00:02.420000"
+    },
+    {
+        "current": "07711372d1b7bdd2dd30a1546bbcd1de55232165",
+        "direct_parent": "20db4d4e14f962267dd1aab3f364cbf70b20d0c1",
+        "true_parent": "20db4d4e14f962267dd1aab3f364cbf70b20d0c1",
+        "tests_to_run": [
+            "tests/test_relational.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:32.680000",
+        "select_time": "0:00:02.670000"
+    },
+    {
+        "current": "ce02525ef40f8291165d705343c7cda87981484a",
+        "direct_parent": "07711372d1b7bdd2dd30a1546bbcd1de55232165",
+        "true_parent": "07711372d1b7bdd2dd30a1546bbcd1de55232165",
+        "tests_to_run": [
+            "tests/test_base.py",
+            "tests/test_distributions.py",
+            "tests/test_categorical.py",
+            "tests/test_axisgrid.py",
+            "tests/test_relational.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:03:00.040000",
+        "select_time": "0:00:02.740000"
+    },
+    {
+        "current": "01fddcfa8724ff0e9aea475d9370051a0f5ef73c",
+        "direct_parent": "ce02525ef40f8291165d705343c7cda87981484a",
+        "true_parent": "ce02525ef40f8291165d705343c7cda87981484a",
+        "tests_to_run": [
+            "tests/test_regression.py",
+            "tests/test_axisgrid.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:56.550000",
+        "select_time": "0:00:02.580000"
+    },
+    {
+        "current": "0a64c1aec2ecabe8d7f9b3c616f4f793b0b74f94",
+        "direct_parent": "01fddcfa8724ff0e9aea475d9370051a0f5ef73c",
+        "true_parent": "01fddcfa8724ff0e9aea475d9370051a0f5ef73c",
+        "tests_to_run": [
+            "tests/test_utils.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:09.430000",
+        "select_time": "0:00:02.540000"
+    },
+    {
+        "current": "082486d8505cee37416a855da65ff6349c7259e2",
+        "direct_parent": "0a64c1aec2ecabe8d7f9b3c616f4f793b0b74f94",
+        "true_parent": "0a64c1aec2ecabe8d7f9b3c616f4f793b0b74f94",
+        "tests_to_run": [
+            "tests/_core/test_plot.py",
+            "tests/_marks/test_text.py",
+            "tests/_marks/test_dot.py",
+            "tests/_marks/test_area.py",
+            "tests/_marks/test_bar.py",
+            "tests/_marks/test_line.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:16.710000",
+        "select_time": "0:00:02.990000"
+    },
+    {
+        "current": "74a83017fd4114c78854b492f8f1d252083f3146",
+        "direct_parent": "5d530ac2423d0cc825ef66ab3c8b8563a6441281",
+        "true_parent": "082486d8505cee37416a855da65ff6349c7259e2",
+        "tests_to_run": [
+            "tests/_core/test_plot.py",
+            "tests/_marks/test_text.py",
+            "tests/_marks/test_dot.py",
+            "tests/_marks/test_area.py",
+            "tests/_marks/test_bar.py",
+            "tests/_marks/test_line.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:16.170000",
+        "select_time": "0:00:02.990000"
+    },
+    {
+        "current": "ff446eef75f87253c1e53f0e06f5307d2644ca00",
+        "direct_parent": "74a83017fd4114c78854b492f8f1d252083f3146",
+        "true_parent": "74a83017fd4114c78854b492f8f1d252083f3146",
+        "tests_to_run": [
+            "tests/_core/test_plot.py",
+            "tests/_marks/test_text.py",
+            "tests/_marks/test_dot.py",
+            "tests/_marks/test_area.py",
+            "tests/_marks/test_bar.py",
+            "tests/_marks/test_line.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:16.610000",
+        "select_time": "0:00:03.040000"
+    },
+    {
+        "current": "e71d95b661a069e85473ad347773d35317611486",
+        "direct_parent": "ff446eef75f87253c1e53f0e06f5307d2644ca00",
+        "true_parent": "ff446eef75f87253c1e53f0e06f5307d2644ca00",
+        "tests_to_run": [
+            "tests/test_categorical.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:01:13.110000",
+        "select_time": "0:00:03.070000"
+    },
+    {
+        "current": "fbc44d57b34dadbea765da3ae3d52cf4fa6effbf",
+        "direct_parent": "e71d95b661a069e85473ad347773d35317611486",
+        "true_parent": "e71d95b661a069e85473ad347773d35317611486",
+        "tests_to_run": [
+            "tests/test_categorical.py",
+            "tests/test_axisgrid.py",
+            "tests/test_utils.py",
+            "tests/test_relational.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:02:59.530000",
+        "select_time": "0:00:03.970000"
+    },
+    {
+        "current": "1f788201822941a3aca7fedf0bcd49d16ebc313b",
+        "direct_parent": "fbc44d57b34dadbea765da3ae3d52cf4fa6effbf",
+        "true_parent": "fbc44d57b34dadbea765da3ae3d52cf4fa6effbf",
+        "tests_to_run": [
+            "tests/test_relational.py",
+            "tests/test_axisgrid.py",
+            "tests/test_utils.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:01:27.190000",
+        "select_time": "0:00:02.750000"
+    },
+    {
+        "current": "c01e103d79de4f46313abc70df08c8c2ad54bf33",
+        "direct_parent": "4c90fa9422a65438b9f33c9d780dc72c1a38c3e4",
+        "true_parent": "1f788201822941a3aca7fedf0bcd49d16ebc313b",
+        "tests_to_run": [
+            "tests/test_distributions.py",
+            "tests/test_categorical.py",
+            "tests/test_axisgrid.py",
+            "tests/test_utils.py",
+            "tests/test_relational.py",
+            "tests/_stats/test_counting.py",
+            "tests/test_base.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:03:11.580000",
+        "select_time": "0:00:03.370000"
+    },
+    {
+        "current": "65d8692070aa79fca8c29cc715e4ada1a8e8298d",
+        "direct_parent": "c01e103d79de4f46313abc70df08c8c2ad54bf33",
+        "true_parent": "c01e103d79de4f46313abc70df08c8c2ad54bf33",
+        "tests_to_run": [
+            "tests/test_distributions.py",
+            "tests/test_axisgrid.py",
+            "tests/_stats/test_counting.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:01:19.620000",
+        "select_time": "0:00:02.940000"
+    },
+    {
+        "current": "cbac948ef6eed8a86b42e59b18ae5e1f6bd37d77",
+        "direct_parent": "65d8692070aa79fca8c29cc715e4ada1a8e8298d",
+        "true_parent": "65d8692070aa79fca8c29cc715e4ada1a8e8298d",
+        "tests_to_run": [],
+        "init_time": "0:00:00",
+        "test_time": "0:00:00",
+        "select_time": "0:00:02.320000",
+        "tests_time": 0.0
+    },
+    {
+        "current": "9af5cfe3cf4bf936aaadfaf42732e78562a04173",
+        "direct_parent": "cbac948ef6eed8a86b42e59b18ae5e1f6bd37d77",
+        "true_parent": "cbac948ef6eed8a86b42e59b18ae5e1f6bd37d77",
+        "tests_to_run": [
+            "tests/test_axisgrid.py",
+            "tests/test_categorical.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:01:56.210000",
+        "select_time": "0:00:02.500000"
+    },
+    {
+        "current": "c8459c28da688d1817aaec8acdb564c7acd42a90",
+        "direct_parent": "9af5cfe3cf4bf936aaadfaf42732e78562a04173",
+        "true_parent": "9af5cfe3cf4bf936aaadfaf42732e78562a04173",
+        "tests_to_run": [
+            "tests/test_categorical.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:01:14.270000",
+        "select_time": "0:00:03.070000"
+    },
+    {
+        "current": "92c22bc69955536947a0f538ae9fb7360223db1c",
+        "direct_parent": "c8459c28da688d1817aaec8acdb564c7acd42a90",
+        "true_parent": "c8459c28da688d1817aaec8acdb564c7acd42a90",
+        "tests_to_run": [
+            "tests/test_categorical.py",
+            "tests/test_axisgrid.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:01:56.960000",
+        "select_time": "0:00:03.100000"
+    },
+    {
+        "current": "6b9e2fb93ba3aa73e65a34c684c7cecd8382c749",
+        "direct_parent": "0d46709b4a96f464070a4c635323b3d10315afed",
+        "true_parent": "92c22bc69955536947a0f538ae9fb7360223db1c",
+        "tests_to_run": [
+            "tests/test_distributions.py",
+            "tests/test_categorical.py",
+            "tests/test_axisgrid.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:02:25.670000",
+        "select_time": "0:00:02.770000"
+    },
+    {
+        "current": "d657c54add9ebd45018fbe9a17a5eafa4bf1d1b0",
+        "direct_parent": "43d762ef50754572519e718d10e976a0dcafbb3d",
+        "true_parent": "92c22bc69955536947a0f538ae9fb7360223db1c",
+        "tests_to_run": [
+            "tests/test_categorical.py",
+            "tests/_core/test_moves.py",
+            "tests/test_distributions.py",
+            "tests/test_axisgrid.py",
+            "tests/_core/test_groupby.py",
+            "tests/_stats/test_order.py",
+            "tests/_stats/test_density.py",
+            "tests/_core/test_plot.py",
+            "tests/_stats/test_counting.py",
+            "tests/_stats/test_regression.py",
+            "tests/_stats/test_aggregation.py",
+            "tests/_marks/test_line.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:02:40.940000",
+        "select_time": "0:00:03.530000"
+    },
+    {
+        "current": "782b71ee81bae4c40f861d89f3ecc00d2c1c9543",
+        "direct_parent": "6b9e2fb93ba3aa73e65a34c684c7cecd8382c749",
+        "true_parent": "6b9e2fb93ba3aa73e65a34c684c7cecd8382c749",
+        "tests_to_run": [
+            "tests/_core/test_moves.py",
+            "tests/test_axisgrid.py",
+            "tests/_core/test_groupby.py",
+            "tests/_stats/test_order.py",
+            "tests/_stats/test_density.py",
+            "tests/_core/test_plot.py",
+            "tests/_stats/test_counting.py",
+            "tests/_stats/test_regression.py",
+            "tests/_stats/test_aggregation.py",
+            "tests/_marks/test_line.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:01:01.730000",
+        "select_time": "0:00:02.650000"
+    },
+    {
+        "current": "4888797c7aa9e77915474d72bfbbe1dcfe196d45",
+        "direct_parent": "782b71ee81bae4c40f861d89f3ecc00d2c1c9543",
+        "true_parent": "782b71ee81bae4c40f861d89f3ecc00d2c1c9543",
+        "tests_to_run": [
+            "tests/test_categorical.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:01:15.660000",
+        "select_time": "0:00:03.100000"
+    },
+    {
+        "current": "d00a27df750130e28e4801caaedc782433863a37",
+        "direct_parent": "f2abeb0113b9aecb073d66fcd9ba196f6dd48f8c",
+        "true_parent": "d657c54add9ebd45018fbe9a17a5eafa4bf1d1b0",
+        "tests_to_run": [
+            "tests/test_matrix.py",
+            "tests/_core/test_rules.py",
+            "tests/test_distributions.py",
+            "tests/test_categorical.py",
+            "tests/test_utils.py",
+            "tests/test_relational.py",
+            "tests/_core/test_plot.py",
+            "tests/_core/test_scales.py",
+            "tests/_core/test_properties.py",
+            "tests/test_regression.py",
+            "tests/test_statistics.py",
+            "tests/_stats/test_aggregation.py",
+            "tests/test_base.py",
+            "tests/_core/test_moves.py",
+            "tests/_marks/test_text.py",
+            "tests/_marks/test_dot.py",
+            "tests/test_axisgrid.py",
+            "tests/_core/test_groupby.py",
+            "tests/_stats/test_order.py",
+            "tests/_stats/test_density.py",
+            "tests/_marks/test_base.py",
+            "tests/_stats/test_counting.py",
+            "tests/_marks/test_area.py",
+            "tests/_stats/test_regression.py",
+            "tests/_core/test_subplots.py",
+            "tests/_marks/test_bar.py",
+            "tests/_marks/test_line.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:08:43.780000",
+        "select_time": "0:00:05.980000"
+    },
+    {
+        "current": "a8b6cac4c8293b10cd21586387832aa5cb5c3035",
+        "direct_parent": "4888797c7aa9e77915474d72bfbbe1dcfe196d45",
+        "true_parent": "4888797c7aa9e77915474d72bfbbe1dcfe196d45",
+        "tests_to_run": [],
+        "init_time": "0:00:00",
+        "test_time": "0:00:00",
+        "select_time": "0:00:02.420000",
+        "tests_time": 0.0
+    },
+    {
+        "current": "877ca7c0d516bafa51118aceee01b8a7a251deb1",
+        "direct_parent": "d00a27df750130e28e4801caaedc782433863a37",
+        "true_parent": "d00a27df750130e28e4801caaedc782433863a37",
+        "tests_to_run": [
+            "tests/test_categorical.py",
+            "tests/_stats/test_density.py",
+            "tests/_marks/test_text.py",
+            "tests/test_distributions.py",
+            "tests/_marks/test_dot.py",
+            "tests/test_axisgrid.py",
+            "tests/test_relational.py",
+            "tests/_core/test_plot.py",
+            "tests/_marks/test_area.py",
+            "tests/test_base.py",
+            "tests/_marks/test_bar.py",
+            "tests/_marks/test_line.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:03:23.130000",
+        "select_time": "0:00:04"
+    },
+    {
+        "current": "acbb9cf8d447266021d873e06b6c119dae966a9b",
+        "direct_parent": "863539d71e281d88a93de64581827b166d9e2f22",
+        "true_parent": "a8b6cac4c8293b10cd21586387832aa5cb5c3035",
+        "tests_to_run": [
+            "tests/test_categorical.py",
+            "tests/test_utils.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:01:14.350000",
+        "select_time": "0:00:03.330000"
+    },
+    {
+        "current": "2a469a2f5f3b7884536a7acca4c02a61e28628c3",
+        "direct_parent": "acbb9cf8d447266021d873e06b6c119dae966a9b",
+        "true_parent": "acbb9cf8d447266021d873e06b6c119dae966a9b",
+        "tests_to_run": [
+            "tests/test_categorical.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:01:20.110000",
+        "select_time": "0:00:03.150000"
+    },
+    {
+        "current": "ea51c41b51e3cd7da2d431688fce36f329c5b84d",
+        "direct_parent": "8ed641f767abf4017f86b61660bb3f84f765c37a",
+        "true_parent": "2a469a2f5f3b7884536a7acca4c02a61e28628c3",
+        "tests_to_run": [
+            "tests/_core/test_rules.py",
+            "tests/test_base.py",
+            "tests/_core/test_moves.py",
+            "tests/_marks/test_text.py",
+            "tests/test_distributions.py",
+            "tests/test_categorical.py",
+            "tests/_marks/test_dot.py",
+            "tests/test_axisgrid.py",
+            "tests/_core/test_groupby.py",
+            "tests/test_utils.py",
+            "tests/test_relational.py",
+            "tests/_stats/test_order.py",
+            "tests/_stats/test_density.py",
+            "tests/_core/test_plot.py",
+            "tests/_stats/test_counting.py",
+            "tests/_core/test_scales.py",
+            "tests/_core/test_properties.py",
+            "tests/test_regression.py",
+            "tests/_marks/test_area.py",
+            "tests/_stats/test_regression.py",
+            "tests/_stats/test_aggregation.py",
+            "tests/_marks/test_bar.py",
+            "tests/_marks/test_line.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:03:37.870000",
+        "select_time": "0:00:02.920000"
+    },
+    {
+        "current": "aa3da42a006e11a858ffc841a02b183b588730dc",
+        "direct_parent": "01fb7bb1bf20d7bd0335721ab9f5c733baac2fe4",
+        "true_parent": "ea51c41b51e3cd7da2d431688fce36f329c5b84d",
+        "tests_to_run": [
+            "tests/test_categorical.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:01:17.100000",
+        "select_time": "0:00:02.620000"
+    },
+    {
+        "current": "9a2196d42a53272e135809f1b042130d0875739a",
+        "direct_parent": "d4b8de81f74a153bb3c15af760d956d32aad980b",
+        "true_parent": "aa3da42a006e11a858ffc841a02b183b588730dc",
+        "tests_to_run": [
+            "tests/test_relational.py",
+            "tests/test_distributions.py",
+            "tests/test_categorical.py",
+            "tests/test_axisgrid.py",
+            "tests/test_base.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:03:11.340000",
+        "select_time": "0:00:02.800000"
+    },
+    {
+        "current": "7e3da70b6b332673aa5f74cc8e03658d0ff990b0",
+        "direct_parent": "9a2196d42a53272e135809f1b042130d0875739a",
+        "true_parent": "9a2196d42a53272e135809f1b042130d0875739a",
+        "tests_to_run": [
+            "tests/_core/test_plot.py",
+            "tests/_core/test_scales.py",
+            "tests/_core/test_properties.py",
+            "tests/test_regression.py",
+            "tests/_marks/test_text.py",
+            "tests/_marks/test_dot.py",
+            "tests/_marks/test_area.py",
+            "tests/_core/test_subplots.py",
+            "tests/_marks/test_bar.py",
+            "tests/_marks/test_line.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:26.170000",
+        "select_time": "0:00:03.510000"
+    },
+    {
+        "current": "2bb945c01ad0c18f4c9faa516f0a75e7b89043ec",
+        "direct_parent": "f0136337211854b2e63e5d26bee8b12ab60e0f42",
+        "true_parent": "7e3da70b6b332673aa5f74cc8e03658d0ff990b0",
+        "tests_to_run": [
+            "tests/test_statistics.py",
+            "tests/_stats/test_aggregation.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:05:01.340000",
+        "select_time": "0:00:02.680000"
+    },
+    {
+        "current": "03d703b80f0fcc20a037d476af0d1fb25b5f3870",
+        "direct_parent": "2bb945c01ad0c18f4c9faa516f0a75e7b89043ec",
+        "true_parent": "2bb945c01ad0c18f4c9faa516f0a75e7b89043ec",
+        "tests_to_run": [
+            "tests/test_categorical.py",
+            "tests/test_relational.py",
+            "tests/test_statistics.py",
+            "tests/test_axisgrid.py",
+            "tests/_stats/test_aggregation.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:07:41",
+        "select_time": "0:00:03.620000"
+    },
+    {
+        "current": "056413d7393e3daec597d430c076e45938d53376",
+        "direct_parent": "03d703b80f0fcc20a037d476af0d1fb25b5f3870",
+        "true_parent": "03d703b80f0fcc20a037d476af0d1fb25b5f3870",
+        "tests_to_run": [
+            "tests/_core/test_plot.py",
+            "tests/_marks/test_text.py",
+            "tests/_marks/test_dot.py",
+            "tests/_marks/test_area.py",
+            "tests/_core/test_subplots.py",
+            "tests/_marks/test_bar.py",
+            "tests/_marks/test_line.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:17.650000",
+        "select_time": "0:00:03.110000"
+    },
+    {
+        "current": "cfa74b4c1ab0e17b074c21604073d3152a4a0018",
+        "direct_parent": "5051ede2ee9715f41fbbf04323b900eb74ced41c",
+        "true_parent": "056413d7393e3daec597d430c076e45938d53376",
+        "tests_to_run": [
+            "tests/test_distributions.py",
+            "tests/test_axisgrid.py",
+            "tests/test_regression.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:01:27.290000",
+        "select_time": "0:00:03.380000"
+    },
+    {
+        "current": "2c115ed7626a236c772ee8a4eacdfa300c570e68",
+        "direct_parent": "1617be03dc8f6c2977dbb31714e3ea9029ea3c9a",
+        "true_parent": "cfa74b4c1ab0e17b074c21604073d3152a4a0018",
+        "tests_to_run": [
+            "tests/test_categorical.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:01:18.120000",
+        "select_time": "0:00:03.130000"
+    },
+    {
+        "current": "45a098fd254b6b7385e708b29a556017808ecd40",
+        "direct_parent": "2c115ed7626a236c772ee8a4eacdfa300c570e68",
+        "true_parent": "2c115ed7626a236c772ee8a4eacdfa300c570e68",
+        "tests_to_run": [
+            "tests/_core/test_plot.py",
+            "tests/_marks/test_text.py",
+            "tests/_marks/test_dot.py",
+            "tests/_marks/test_area.py",
+            "tests/_marks/test_bar.py",
+            "tests/_marks/test_line.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:16.950000",
+        "select_time": "0:00:03"
+    },
+    {
+        "current": "785708f4a4b5a4497958fa611df78da96b311879",
+        "direct_parent": "45a098fd254b6b7385e708b29a556017808ecd40",
+        "true_parent": "45a098fd254b6b7385e708b29a556017808ecd40",
+        "tests_to_run": [
+            "tests/test_matrix.py",
+            "tests/_core/test_plot.py",
+            "tests/_core/test_properties.py",
+            "tests/_marks/test_text.py",
+            "tests/test_distributions.py",
+            "tests/test_categorical.py",
+            "tests/_marks/test_dot.py",
+            "tests/test_axisgrid.py",
+            "tests/test_utils.py",
+            "tests/test_relational.py",
+            "tests/_marks/test_base.py",
+            "tests/_core/test_scales.py",
+            "tests/_marks/test_area.py",
+            "tests/test_statistics.py",
+            "tests/test_base.py",
+            "tests/_marks/test_bar.py",
+            "tests/_marks/test_line.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:08:34.720000",
+        "select_time": "0:00:03.950000"
+    },
+    {
+        "current": "7aed2a044ce2754a53729251184d65b723ada892",
+        "direct_parent": "a3cb0f1b33551eb25fed1907d0abdd0237fac215",
+        "true_parent": "785708f4a4b5a4497958fa611df78da96b311879",
+        "tests_to_run": [
+            "tests/test_categorical.py",
+            "tests/_stats/test_density.py",
+            "tests/_marks/test_text.py",
+            "tests/test_distributions.py",
+            "tests/_marks/test_dot.py",
+            "tests/test_axisgrid.py",
+            "tests/test_relational.py",
+            "tests/_core/test_plot.py",
+            "tests/_marks/test_area.py",
+            "tests/test_base.py",
+            "tests/_marks/test_bar.py",
+            "tests/_marks/test_line.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:03:24.300000",
+        "select_time": "0:00:03.740000"
+    },
+    {
+        "current": "d767578eceafe5feb84817fcdc56296bf2731a6d",
+        "direct_parent": "58f170fe799ef496adae19925d7d4f0f14f8da95",
+        "true_parent": "7aed2a044ce2754a53729251184d65b723ada892",
+        "tests_to_run": [
+            "tests/test_distributions.py",
+            "tests/_core/test_plot.py",
+            "tests/_marks/test_line.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:47.120000",
+        "select_time": "0:00:03.010000"
+    },
+    {
+        "current": "f0b48e891a1bb573b7a46cfc9936dcd35d7d4f24",
+        "direct_parent": "d767578eceafe5feb84817fcdc56296bf2731a6d",
+        "true_parent": "d767578eceafe5feb84817fcdc56296bf2731a6d",
+        "tests_to_run": [],
+        "init_time": "0:00:00",
+        "test_time": "0:00:00",
+        "select_time": "0:00:02.710000",
+        "tests_time": 0.0
+    },
+    {
+        "current": "385e54676ca16d0132434bc9df6bc41ea8b2a0d4",
+        "direct_parent": "b4e5f8d261d6d5524a00b7dd35e00a40e4855872",
+        "true_parent": "f0b48e891a1bb573b7a46cfc9936dcd35d7d4f24",
+        "tests_to_run": [
+            "tests/_core/test_plot.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:14.020000",
+        "select_time": "0:00:02.940000"
+    },
+    {
+        "current": "5023f2ee885a45200f5b63156a158ddf7272c29e",
+        "direct_parent": "385e54676ca16d0132434bc9df6bc41ea8b2a0d4",
+        "true_parent": "385e54676ca16d0132434bc9df6bc41ea8b2a0d4",
+        "tests_to_run": [
+            "tests/test_categorical.py",
+            "tests/test_base.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:01:20.210000",
+        "select_time": "0:00:03.520000"
+    },
+    {
+        "current": "eb0b5cc1c331d8ef7358caeb5c85df2781f69bb1",
+        "direct_parent": "e0c2431789384559050cc81b8cd97dfbf7738bdc",
+        "true_parent": "5023f2ee885a45200f5b63156a158ddf7272c29e",
+        "tests_to_run": [
+            "tests/test_matrix.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:10.340000",
+        "select_time": "0:00:02.530000"
+    }
+]

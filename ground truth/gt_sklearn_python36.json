@@ -1,0 +1,1853 @@
+[
+  {
+    "affected_functions_by_test": {
+      "sklearn/linear_model/tests/test_ridge.py": [
+        "sklearn/linear_model/ridge.py::RidgeClassifierCV.__init__"
+      ]
+    },
+    "base_commit": "b90661d6a46aa3619d3eec94d5281f5888add501",
+    "dynamic_hit_tests": [
+      "sklearn/linear_model/tests/test_ridge.py"
+    ],
+    "elapsed_seconds": 13.442,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_mean_shift.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/linear_model/tests/test_logistic.py",
+      "sklearn/model_selection/tests/test_split.py",
+      "sklearn/neighbors/tests/test_approximate.py",
+      "sklearn/svm/tests/test_sparse.py",
+      "sklearn/utils/tests/test_multiclass.py",
+      "sklearn/utils/tests/test_validation.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-10297",
+    "modified_functions": [
+      {
+        "insertion_line": 1343,
+        "line": 1340,
+        "marker": "sklearn/linear_model/ridge.py::RidgeClassifierCV.__init__",
+        "path": "sklearn/linear_model/ridge.py",
+        "qualname": "RidgeClassifierCV.__init__"
+      }
+    ],
+    "passed_test_files": 151,
+    "patch_file": "b90661d6a46aa3619d3eec94d5281f5888add501/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-10297_1784775692_602458",
+    "semantic_reviews": [],
+    "tests_to_run": [
+      "sklearn/linear_model/tests/test_ridge.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 159,
+    "uninstrumentable_changes": [],
+    "version": "0.20"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/metrics/cluster/tests/test_common.py": [
+        "sklearn/metrics/cluster/supervised.py::fowlkes_mallows_score"
+      ],
+      "sklearn/metrics/cluster/tests/test_supervised.py": [
+        "sklearn/metrics/cluster/supervised.py::fowlkes_mallows_score"
+      ],
+      "sklearn/metrics/tests/test_score_objects.py": [
+        "sklearn/metrics/cluster/supervised.py::fowlkes_mallows_score"
+      ],
+      "sklearn/model_selection/tests/test_search.py": [
+        "sklearn/metrics/cluster/supervised.py::fowlkes_mallows_score"
+      ]
+    },
+    "base_commit": "97523985b39ecde369d83352d7c3baf403b60a22",
+    "dynamic_hit_tests": [
+      "sklearn/metrics/cluster/tests/test_common.py",
+      "sklearn/metrics/cluster/tests/test_supervised.py",
+      "sklearn/metrics/tests/test_score_objects.py",
+      "sklearn/model_selection/tests/test_search.py"
+    ],
+    "elapsed_seconds": 12.808,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_mean_shift.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/model_selection/tests/test_split.py",
+      "sklearn/svm/tests/test_sparse.py",
+      "sklearn/utils/tests/test_multiclass.py",
+      "sklearn/utils/tests/test_validation.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-10844",
+    "modified_functions": [
+      {
+        "insertion_line": 852,
+        "line": 787,
+        "marker": "sklearn/metrics/cluster/supervised.py::fowlkes_mallows_score",
+        "path": "sklearn/metrics/cluster/supervised.py",
+        "qualname": "fowlkes_mallows_score"
+      }
+    ],
+    "passed_test_files": 157,
+    "patch_file": "97523985b39ecde369d83352d7c3baf403b60a22/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-10844_1784775983_609184",
+    "semantic_reviews": [],
+    "tests_to_run": [
+      "sklearn/metrics/cluster/tests/test_common.py",
+      "sklearn/metrics/cluster/tests/test_supervised.py",
+      "sklearn/metrics/tests/test_score_objects.py",
+      "sklearn/model_selection/tests/test_search.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 164,
+    "uninstrumentable_changes": [],
+    "version": "0.20"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/feature_extraction/tests/test_text.py": [
+        "sklearn/feature_extraction/text.py::CountVectorizer.inverse_transform"
+      ]
+    },
+    "base_commit": "67d06b18c68ee4452768f8a1e868565dd4354abf",
+    "dynamic_hit_tests": [
+      "sklearn/feature_extraction/tests/test_text.py"
+    ],
+    "elapsed_seconds": 12.678,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_mean_shift.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/model_selection/tests/test_split.py",
+      "sklearn/svm/tests/test_sparse.py",
+      "sklearn/utils/tests/test_multiclass.py",
+      "sklearn/utils/tests/test_validation.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-10908",
+    "modified_functions": [
+      {
+        "insertion_line": 976,
+        "line": 964,
+        "marker": "sklearn/feature_extraction/text.py::CountVectorizer.inverse_transform",
+        "path": "sklearn/feature_extraction/text.py",
+        "qualname": "CountVectorizer.inverse_transform"
+      }
+    ],
+    "passed_test_files": 157,
+    "patch_file": "67d06b18c68ee4452768f8a1e868565dd4354abf/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-10908_1784776069_609184",
+    "semantic_reviews": [],
+    "tests_to_run": [
+      "sklearn/feature_extraction/tests/test_text.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 164,
+    "uninstrumentable_changes": [],
+    "version": "0.20"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/decomposition/tests/test_kernel_pca.py": [
+        "sklearn/model_selection/_search.py::BaseSearchCV.fit"
+      ],
+      "sklearn/ensemble/tests/test_bagging.py": [
+        "sklearn/model_selection/_search.py::BaseSearchCV.fit"
+      ],
+      "sklearn/ensemble/tests/test_forest.py": [
+        "sklearn/model_selection/_search.py::BaseSearchCV.fit"
+      ],
+      "sklearn/ensemble/tests/test_voting_classifier.py": [
+        "sklearn/model_selection/_search.py::BaseSearchCV.fit"
+      ],
+      "sklearn/ensemble/tests/test_weight_boosting.py": [
+        "sklearn/model_selection/_search.py::BaseSearchCV.fit"
+      ],
+      "sklearn/feature_extraction/tests/test_text.py": [
+        "sklearn/model_selection/_search.py::BaseSearchCV.fit"
+      ],
+      "sklearn/linear_model/tests/test_ridge.py": [
+        "sklearn/model_selection/_search.py::BaseSearchCV.fit"
+      ],
+      "sklearn/metrics/tests/test_score_objects.py": [
+        "sklearn/model_selection/_search.py::BaseSearchCV.fit"
+      ],
+      "sklearn/model_selection/tests/test_search.py": [
+        "sklearn/model_selection/_search.py::BaseSearchCV.fit"
+      ],
+      "sklearn/model_selection/tests/test_split.py": [
+        "sklearn/model_selection/_search.py::BaseSearchCV.fit"
+      ],
+      "sklearn/model_selection/tests/test_validation.py": [
+        "sklearn/model_selection/_search.py::BaseSearchCV.fit"
+      ],
+      "sklearn/neighbors/tests/test_kde.py": [
+        "sklearn/model_selection/_search.py::BaseSearchCV.fit"
+      ],
+      "sklearn/preprocessing/tests/test_imputation.py": [
+        "sklearn/model_selection/_search.py::BaseSearchCV.fit"
+      ],
+      "sklearn/tests/test_impute.py": [
+        "sklearn/model_selection/_search.py::BaseSearchCV.fit"
+      ],
+      "sklearn/tests/test_metaestimators.py": [
+        "sklearn/model_selection/_search.py::BaseSearchCV.fit"
+      ],
+      "sklearn/tests/test_multiclass.py": [
+        "sklearn/model_selection/_search.py::BaseSearchCV.fit"
+      ]
+    },
+    "base_commit": "553b5fb8f84ba05c8397f26dd079deece2b05029",
+    "dynamic_hit_tests": [
+      "sklearn/decomposition/tests/test_kernel_pca.py",
+      "sklearn/ensemble/tests/test_bagging.py",
+      "sklearn/ensemble/tests/test_forest.py",
+      "sklearn/ensemble/tests/test_voting_classifier.py",
+      "sklearn/ensemble/tests/test_weight_boosting.py",
+      "sklearn/feature_extraction/tests/test_text.py",
+      "sklearn/linear_model/tests/test_ridge.py",
+      "sklearn/metrics/tests/test_score_objects.py",
+      "sklearn/model_selection/tests/test_search.py",
+      "sklearn/model_selection/tests/test_split.py",
+      "sklearn/model_selection/tests/test_validation.py",
+      "sklearn/neighbors/tests/test_kde.py",
+      "sklearn/preprocessing/tests/test_imputation.py",
+      "sklearn/tests/test_impute.py",
+      "sklearn/tests/test_metaestimators.py",
+      "sklearn/tests/test_multiclass.py"
+    ],
+    "elapsed_seconds": 56.886,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_mean_shift.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/linear_model/tests/test_sgd.py",
+      "sklearn/mixture/tests/test_dpgmm.py",
+      "sklearn/model_selection/tests/test_search.py",
+      "sklearn/model_selection/tests/test_split.py",
+      "sklearn/neighbors/tests/test_dist_metrics.py",
+      "sklearn/svm/tests/test_sparse.py",
+      "sklearn/tests/test_common.py",
+      "sklearn/utils/tests/test_multiclass.py",
+      "sklearn/utils/tests/test_validation.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-11310",
+    "modified_functions": [
+      {
+        "insertion_line": 602,
+        "line": 580,
+        "marker": "sklearn/model_selection/_search.py::BaseSearchCV.fit",
+        "path": "sklearn/model_selection/_search.py",
+        "qualname": "BaseSearchCV.fit"
+      }
+    ],
+    "passed_test_files": 155,
+    "patch_file": "553b5fb8f84ba05c8397f26dd079deece2b05029/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-11310_1784776183_609184",
+    "semantic_reviews": [],
+    "tests_to_run": [
+      "sklearn/decomposition/tests/test_kernel_pca.py",
+      "sklearn/ensemble/tests/test_bagging.py",
+      "sklearn/ensemble/tests/test_forest.py",
+      "sklearn/ensemble/tests/test_voting_classifier.py",
+      "sklearn/ensemble/tests/test_weight_boosting.py",
+      "sklearn/feature_extraction/tests/test_text.py",
+      "sklearn/linear_model/tests/test_ridge.py",
+      "sklearn/metrics/tests/test_score_objects.py",
+      "sklearn/model_selection/tests/test_search.py",
+      "sklearn/model_selection/tests/test_split.py",
+      "sklearn/model_selection/tests/test_validation.py",
+      "sklearn/neighbors/tests/test_kde.py",
+      "sklearn/preprocessing/tests/test_imputation.py",
+      "sklearn/tests/test_impute.py",
+      "sklearn/tests/test_metaestimators.py",
+      "sklearn/tests/test_multiclass.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 167,
+    "uninstrumentable_changes": [],
+    "version": "0.20"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/linear_model/tests/test_logistic.py": [
+        "sklearn/linear_model/logistic.py::_log_reg_scoring_path"
+      ],
+      "sklearn/tests/test_common.py": [
+        "sklearn/linear_model/logistic.py::_log_reg_scoring_path"
+      ]
+    },
+    "base_commit": "dd69361a0d9c6ccde0d2353b00b86e0e7541a3e3",
+    "dynamic_hit_tests": [
+      "sklearn/linear_model/tests/test_logistic.py",
+      "sklearn/tests/test_common.py"
+    ],
+    "elapsed_seconds": 59.839,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/cluster/tests/test_mean_shift.py",
+      "sklearn/datasets/tests/test_california_housing.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/tests/test_gradient_boosting.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/linear_model/tests/test_sgd.py",
+      "sklearn/model_selection/tests/test_search.py",
+      "sklearn/model_selection/tests/test_split.py",
+      "sklearn/neighbors/tests/test_dist_metrics.py",
+      "sklearn/svm/tests/test_sparse.py",
+      "sklearn/tests/test_common.py",
+      "sklearn/tests/test_init.py",
+      "sklearn/utils/tests/test_multiclass.py",
+      "sklearn/utils/tests/test_validation.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-11578",
+    "modified_functions": [
+      {
+        "insertion_line": 903,
+        "line": 774,
+        "marker": "sklearn/linear_model/logistic.py::_log_reg_scoring_path",
+        "path": "sklearn/linear_model/logistic.py",
+        "qualname": "_log_reg_scoring_path"
+      }
+    ],
+    "passed_test_files": 150,
+    "patch_file": "dd69361a0d9c6ccde0d2353b00b86e0e7541a3e3/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-11578_1784776387_609184",
+    "semantic_reviews": [],
+    "tests_to_run": [
+      "sklearn/linear_model/tests/test_logistic.py",
+      "sklearn/tests/test_common.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 165,
+    "uninstrumentable_changes": [],
+    "version": "0.20"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/cluster/tests/test_k_means.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/compose/tests/test_column_transformer.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/compose/tests/test_target.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/covariance/tests/test_graph_lasso.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/covariance/tests/test_graphical_lasso.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/decomposition/tests/test_kernel_pca.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/decomposition/tests/test_nmf.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/ensemble/tests/test_bagging.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/ensemble/tests/test_base.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/ensemble/tests/test_forest.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/ensemble/tests/test_gradient_boosting.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/ensemble/tests/test_iforest.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/ensemble/tests/test_voting_classifier.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/ensemble/tests/test_weight_boosting.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/feature_extraction/tests/test_text.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/feature_selection/tests/test_from_model.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/feature_selection/tests/test_rfe.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/gaussian_process/tests/test_gpc.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/gaussian_process/tests/test_gpr.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/gaussian_process/tests/test_kernels.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/linear_model/tests/test_logistic.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/linear_model/tests/test_ransac.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/linear_model/tests/test_ridge.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/linear_model/tests/test_sag.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/linear_model/tests/test_sgd.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/metrics/tests/test_score_objects.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/model_selection/tests/test_search.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/model_selection/tests/test_split.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/model_selection/tests/test_validation.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/neighbors/tests/test_kde.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/neighbors/tests/test_lof.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/neighbors/tests/test_neighbors.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/preprocessing/tests/test_common.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/preprocessing/tests/test_data.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/preprocessing/tests/test_imputation.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/svm/tests/test_sparse.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/svm/tests/test_svm.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/tests/test_base.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/tests/test_calibration.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/tests/test_common.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/tests/test_dummy.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/tests/test_impute.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/tests/test_metaestimators.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/tests/test_multiclass.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/tests/test_multioutput.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/tests/test_naive_bayes.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/tests/test_pipeline.py": [
+        "sklearn/base.py::clone"
+      ],
+      "sklearn/utils/tests/test_estimator_checks.py": [
+        "sklearn/base.py::clone"
+      ]
+    },
+    "base_commit": "bfc4a566423e036fbdc9fb02765fd893e4860c85",
+    "dynamic_hit_tests": [
+      "sklearn/cluster/tests/test_k_means.py",
+      "sklearn/compose/tests/test_column_transformer.py",
+      "sklearn/compose/tests/test_target.py",
+      "sklearn/covariance/tests/test_graph_lasso.py",
+      "sklearn/covariance/tests/test_graphical_lasso.py",
+      "sklearn/decomposition/tests/test_kernel_pca.py",
+      "sklearn/decomposition/tests/test_nmf.py",
+      "sklearn/ensemble/tests/test_bagging.py",
+      "sklearn/ensemble/tests/test_base.py",
+      "sklearn/ensemble/tests/test_forest.py",
+      "sklearn/ensemble/tests/test_gradient_boosting.py",
+      "sklearn/ensemble/tests/test_iforest.py",
+      "sklearn/ensemble/tests/test_voting_classifier.py",
+      "sklearn/ensemble/tests/test_weight_boosting.py",
+      "sklearn/feature_extraction/tests/test_text.py",
+      "sklearn/feature_selection/tests/test_from_model.py",
+      "sklearn/feature_selection/tests/test_rfe.py",
+      "sklearn/gaussian_process/tests/test_gpc.py",
+      "sklearn/gaussian_process/tests/test_gpr.py",
+      "sklearn/gaussian_process/tests/test_kernels.py",
+      "sklearn/linear_model/tests/test_logistic.py",
+      "sklearn/linear_model/tests/test_ransac.py",
+      "sklearn/linear_model/tests/test_ridge.py",
+      "sklearn/linear_model/tests/test_sag.py",
+      "sklearn/linear_model/tests/test_sgd.py",
+      "sklearn/metrics/tests/test_score_objects.py",
+      "sklearn/model_selection/tests/test_search.py",
+      "sklearn/model_selection/tests/test_split.py",
+      "sklearn/model_selection/tests/test_validation.py",
+      "sklearn/neighbors/tests/test_kde.py",
+      "sklearn/neighbors/tests/test_lof.py",
+      "sklearn/neighbors/tests/test_neighbors.py",
+      "sklearn/preprocessing/tests/test_common.py",
+      "sklearn/preprocessing/tests/test_data.py",
+      "sklearn/preprocessing/tests/test_imputation.py",
+      "sklearn/svm/tests/test_sparse.py",
+      "sklearn/svm/tests/test_svm.py",
+      "sklearn/tests/test_base.py",
+      "sklearn/tests/test_calibration.py",
+      "sklearn/tests/test_common.py",
+      "sklearn/tests/test_dummy.py",
+      "sklearn/tests/test_impute.py",
+      "sklearn/tests/test_metaestimators.py",
+      "sklearn/tests/test_multiclass.py",
+      "sklearn/tests/test_multioutput.py",
+      "sklearn/tests/test_naive_bayes.py",
+      "sklearn/tests/test_pipeline.py",
+      "sklearn/utils/tests/test_estimator_checks.py"
+    ],
+    "elapsed_seconds": 68.611,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/cluster/tests/test_mean_shift.py",
+      "sklearn/compose/tests/test_target.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/tests/test_forest.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/linear_model/tests/test_sgd.py",
+      "sklearn/model_selection/tests/test_search.py",
+      "sklearn/model_selection/tests/test_split.py",
+      "sklearn/neighbors/tests/test_dist_metrics.py",
+      "sklearn/svm/tests/test_sparse.py",
+      "sklearn/tests/test_pipeline.py",
+      "sklearn/utils/tests/test_multiclass.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-12585",
+    "modified_functions": [
+      {
+        "insertion_line": 47,
+        "line": 30,
+        "marker": "sklearn/base.py::clone",
+        "path": "sklearn/base.py",
+        "qualname": "clone"
+      }
+    ],
+    "passed_test_files": 152,
+    "patch_file": "bfc4a566423e036fbdc9fb02765fd893e4860c85/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-12585_1784776611_609184",
+    "semantic_reviews": [],
+    "tests_to_run": [
+      "sklearn/cluster/tests/test_k_means.py",
+      "sklearn/compose/tests/test_column_transformer.py",
+      "sklearn/compose/tests/test_target.py",
+      "sklearn/covariance/tests/test_graph_lasso.py",
+      "sklearn/covariance/tests/test_graphical_lasso.py",
+      "sklearn/decomposition/tests/test_kernel_pca.py",
+      "sklearn/decomposition/tests/test_nmf.py",
+      "sklearn/ensemble/tests/test_bagging.py",
+      "sklearn/ensemble/tests/test_base.py",
+      "sklearn/ensemble/tests/test_forest.py",
+      "sklearn/ensemble/tests/test_gradient_boosting.py",
+      "sklearn/ensemble/tests/test_iforest.py",
+      "sklearn/ensemble/tests/test_voting_classifier.py",
+      "sklearn/ensemble/tests/test_weight_boosting.py",
+      "sklearn/feature_extraction/tests/test_text.py",
+      "sklearn/feature_selection/tests/test_from_model.py",
+      "sklearn/feature_selection/tests/test_rfe.py",
+      "sklearn/gaussian_process/tests/test_gpc.py",
+      "sklearn/gaussian_process/tests/test_gpr.py",
+      "sklearn/gaussian_process/tests/test_kernels.py",
+      "sklearn/linear_model/tests/test_logistic.py",
+      "sklearn/linear_model/tests/test_ransac.py",
+      "sklearn/linear_model/tests/test_ridge.py",
+      "sklearn/linear_model/tests/test_sag.py",
+      "sklearn/linear_model/tests/test_sgd.py",
+      "sklearn/metrics/tests/test_score_objects.py",
+      "sklearn/model_selection/tests/test_search.py",
+      "sklearn/model_selection/tests/test_split.py",
+      "sklearn/model_selection/tests/test_validation.py",
+      "sklearn/neighbors/tests/test_kde.py",
+      "sklearn/neighbors/tests/test_lof.py",
+      "sklearn/neighbors/tests/test_neighbors.py",
+      "sklearn/preprocessing/tests/test_common.py",
+      "sklearn/preprocessing/tests/test_data.py",
+      "sklearn/preprocessing/tests/test_imputation.py",
+      "sklearn/svm/tests/test_sparse.py",
+      "sklearn/svm/tests/test_svm.py",
+      "sklearn/tests/test_base.py",
+      "sklearn/tests/test_calibration.py",
+      "sklearn/tests/test_common.py",
+      "sklearn/tests/test_dummy.py",
+      "sklearn/tests/test_impute.py",
+      "sklearn/tests/test_metaestimators.py",
+      "sklearn/tests/test_multiclass.py",
+      "sklearn/tests/test_multioutput.py",
+      "sklearn/tests/test_naive_bayes.py",
+      "sklearn/tests/test_pipeline.py",
+      "sklearn/utils/tests/test_estimator_checks.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 165,
+    "uninstrumentable_changes": [],
+    "version": "0.21"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/decomposition/tests/test_dict_learning.py": [
+        "sklearn/decomposition/dict_learning.py::DictionaryLearning.__init__",
+        "sklearn/decomposition/dict_learning.py::DictionaryLearning.fit",
+        "sklearn/decomposition/dict_learning.py::MiniBatchDictionaryLearning.__init__",
+        "sklearn/decomposition/dict_learning.py::MiniBatchDictionaryLearning.fit",
+        "sklearn/decomposition/dict_learning.py::MiniBatchDictionaryLearning.partial_fit",
+        "sklearn/decomposition/dict_learning.py::SparseCoder.__init__",
+        "sklearn/decomposition/dict_learning.py::SparseCodingMixin._set_sparse_coding_params",
+        "sklearn/decomposition/dict_learning.py::SparseCodingMixin.transform",
+        "sklearn/decomposition/dict_learning.py::_sparse_encode",
+        "sklearn/decomposition/dict_learning.py::dict_learning",
+        "sklearn/decomposition/dict_learning.py::dict_learning_online",
+        "sklearn/decomposition/dict_learning.py::sparse_encode"
+      ],
+      "sklearn/decomposition/tests/test_sparse_pca.py": [
+        "sklearn/decomposition/dict_learning.py::_sparse_encode",
+        "sklearn/decomposition/dict_learning.py::dict_learning",
+        "sklearn/decomposition/dict_learning.py::dict_learning_online",
+        "sklearn/decomposition/dict_learning.py::sparse_encode"
+      ],
+      "sklearn/tests/test_common.py": [
+        "sklearn/decomposition/dict_learning.py::DictionaryLearning.__init__",
+        "sklearn/decomposition/dict_learning.py::DictionaryLearning.fit",
+        "sklearn/decomposition/dict_learning.py::MiniBatchDictionaryLearning.__init__",
+        "sklearn/decomposition/dict_learning.py::MiniBatchDictionaryLearning.fit",
+        "sklearn/decomposition/dict_learning.py::MiniBatchDictionaryLearning.partial_fit",
+        "sklearn/decomposition/dict_learning.py::SparseCodingMixin._set_sparse_coding_params",
+        "sklearn/decomposition/dict_learning.py::SparseCodingMixin.transform",
+        "sklearn/decomposition/dict_learning.py::_sparse_encode",
+        "sklearn/decomposition/dict_learning.py::dict_learning",
+        "sklearn/decomposition/dict_learning.py::dict_learning_online",
+        "sklearn/decomposition/dict_learning.py::sparse_encode"
+      ]
+    },
+    "base_commit": "d360ffa7c5896a91ae498b3fb9cf464464ce8f34",
+    "dynamic_hit_tests": [
+      "sklearn/decomposition/tests/test_dict_learning.py",
+      "sklearn/decomposition/tests/test_sparse_pca.py",
+      "sklearn/tests/test_common.py"
+    ],
+    "elapsed_seconds": 49.523,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_compare_lightgbm.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/inspection/tests/test_partial_dependence.py",
+      "sklearn/tests/test_discriminant_analysis.py",
+      "sklearn/tree/tests/test_export.py",
+      "sklearn/utils/tests/test_multiclass.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-12682",
+    "modified_functions": [
+      {
+        "insertion_line": 29,
+        "line": 27,
+        "marker": "examples/decomposition/plot_sparse_coding.py::ricker_function",
+        "path": "examples/decomposition/plot_sparse_coding.py",
+        "qualname": "ricker_function"
+      },
+      {
+        "insertion_line": 1189,
+        "line": 1182,
+        "marker": "sklearn/decomposition/dict_learning.py::DictionaryLearning.__init__",
+        "path": "sklearn/decomposition/dict_learning.py",
+        "qualname": "DictionaryLearning.__init__"
+      },
+      {
+        "insertion_line": 1219,
+        "line": 1203,
+        "marker": "sklearn/decomposition/dict_learning.py::DictionaryLearning.fit",
+        "path": "sklearn/decomposition/dict_learning.py",
+        "qualname": "DictionaryLearning.fit"
+      },
+      {
+        "insertion_line": 1386,
+        "line": 1378,
+        "marker": "sklearn/decomposition/dict_learning.py::MiniBatchDictionaryLearning.__init__",
+        "path": "sklearn/decomposition/dict_learning.py",
+        "qualname": "MiniBatchDictionaryLearning.__init__"
+      },
+      {
+        "insertion_line": 1417,
+        "line": 1401,
+        "marker": "sklearn/decomposition/dict_learning.py::MiniBatchDictionaryLearning.fit",
+        "path": "sklearn/decomposition/dict_learning.py",
+        "qualname": "MiniBatchDictionaryLearning.fit"
+      },
+      {
+        "insertion_line": 1461,
+        "line": 1439,
+        "marker": "sklearn/decomposition/dict_learning.py::MiniBatchDictionaryLearning.partial_fit",
+        "path": "sklearn/decomposition/dict_learning.py",
+        "qualname": "MiniBatchDictionaryLearning.partial_fit"
+      },
+      {
+        "insertion_line": 1021,
+        "line": 1017,
+        "marker": "sklearn/decomposition/dict_learning.py::SparseCoder.__init__",
+        "path": "sklearn/decomposition/dict_learning.py",
+        "qualname": "SparseCoder.__init__"
+      },
+      {
+        "insertion_line": 887,
+        "line": 881,
+        "marker": "sklearn/decomposition/dict_learning.py::SparseCodingMixin._set_sparse_coding_params",
+        "path": "sklearn/decomposition/dict_learning.py",
+        "qualname": "SparseCodingMixin._set_sparse_coding_params"
+      },
+      {
+        "insertion_line": 914,
+        "line": 896,
+        "marker": "sklearn/decomposition/dict_learning.py::SparseCodingMixin.transform",
+        "path": "sklearn/decomposition/dict_learning.py",
+        "qualname": "SparseCodingMixin.transform"
+      },
+      {
+        "insertion_line": 106,
+        "line": 32,
+        "marker": "sklearn/decomposition/dict_learning.py::_sparse_encode",
+        "path": "sklearn/decomposition/dict_learning.py",
+        "qualname": "_sparse_encode"
+      },
+      {
+        "insertion_line": 532,
+        "line": 425,
+        "marker": "sklearn/decomposition/dict_learning.py::dict_learning",
+        "path": "sklearn/decomposition/dict_learning.py",
+        "qualname": "dict_learning"
+      },
+      {
+        "insertion_line": 750,
+        "line": 620,
+        "marker": "sklearn/decomposition/dict_learning.py::dict_learning_online",
+        "path": "sklearn/decomposition/dict_learning.py",
+        "qualname": "dict_learning_online"
+      },
+      {
+        "insertion_line": 282,
+        "line": 188,
+        "marker": "sklearn/decomposition/dict_learning.py::sparse_encode",
+        "path": "sklearn/decomposition/dict_learning.py",
+        "qualname": "sparse_encode"
+      }
+    ],
+    "passed_test_files": 168,
+    "patch_file": "d360ffa7c5896a91ae498b3fb9cf464464ce8f34/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-12682_1784777014_646137",
+    "semantic_reviews": [],
+    "tests_to_run": [
+      "sklearn/decomposition/tests/test_dict_learning.py",
+      "sklearn/decomposition/tests/test_sparse_pca.py",
+      "sklearn/tests/test_common.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 176,
+    "uninstrumentable_changes": [],
+    "version": "0.22"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/linear_model/tests/test_least_angle.py": [
+        "sklearn/linear_model/least_angle.py::LassoLarsIC.fit"
+      ],
+      "sklearn/tests/test_common.py": [
+        "sklearn/linear_model/least_angle.py::LassoLarsIC.fit"
+      ]
+    },
+    "base_commit": "a7b8b9e9e16d4e15fabda5ae615086c2e1c47d8a",
+    "dynamic_hit_tests": [
+      "sklearn/linear_model/tests/test_least_angle.py",
+      "sklearn/tests/test_common.py"
+    ],
+    "elapsed_seconds": 63.497,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/cluster/tests/test_mean_shift.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/utils/tests/test_multiclass.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-12973",
+    "modified_functions": [
+      {
+        "insertion_line": 1503,
+        "line": 1482,
+        "marker": "sklearn/linear_model/least_angle.py::LassoLarsIC.fit",
+        "path": "sklearn/linear_model/least_angle.py",
+        "qualname": "LassoLarsIC.fit"
+      }
+    ],
+    "passed_test_files": 160,
+    "patch_file": "a7b8b9e9e16d4e15fabda5ae615086c2e1c47d8a/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-12973_1784777247_649902",
+    "semantic_reviews": [],
+    "tests_to_run": [
+      "sklearn/linear_model/tests/test_least_angle.py",
+      "sklearn/tests/test_common.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 165,
+    "uninstrumentable_changes": [],
+    "version": "0.21"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/decomposition/tests/test_kernel_pca.py": [
+        "sklearn/model_selection/_split.py::StratifiedKFold._make_test_folds"
+      ],
+      "sklearn/ensemble/tests/test_bagging.py": [
+        "sklearn/model_selection/_split.py::StratifiedKFold._make_test_folds"
+      ],
+      "sklearn/ensemble/tests/test_forest.py": [
+        "sklearn/model_selection/_split.py::StratifiedKFold._make_test_folds"
+      ],
+      "sklearn/ensemble/tests/test_voting_classifier.py": [
+        "sklearn/model_selection/_split.py::StratifiedKFold._make_test_folds"
+      ],
+      "sklearn/ensemble/tests/test_weight_boosting.py": [
+        "sklearn/model_selection/_split.py::StratifiedKFold._make_test_folds"
+      ],
+      "sklearn/feature_extraction/tests/test_text.py": [
+        "sklearn/model_selection/_split.py::StratifiedKFold._make_test_folds"
+      ],
+      "sklearn/feature_selection/tests/test_rfe.py": [
+        "sklearn/model_selection/_split.py::StratifiedKFold._make_test_folds"
+      ],
+      "sklearn/linear_model/tests/test_coordinate_descent.py": [
+        "sklearn/model_selection/_split.py::StratifiedKFold._make_test_folds"
+      ],
+      "sklearn/linear_model/tests/test_logistic.py": [
+        "sklearn/model_selection/_split.py::StratifiedKFold._make_test_folds"
+      ],
+      "sklearn/linear_model/tests/test_sgd.py": [
+        "sklearn/model_selection/_split.py::StratifiedKFold._make_test_folds"
+      ],
+      "sklearn/metrics/tests/test_score_objects.py": [
+        "sklearn/model_selection/_split.py::StratifiedKFold._make_test_folds"
+      ],
+      "sklearn/model_selection/tests/test_search.py": [
+        "sklearn/model_selection/_split.py::StratifiedKFold._make_test_folds"
+      ],
+      "sklearn/model_selection/tests/test_split.py": [
+        "sklearn/model_selection/_split.py::StratifiedKFold._make_test_folds"
+      ],
+      "sklearn/model_selection/tests/test_validation.py": [
+        "sklearn/model_selection/_split.py::StratifiedKFold._make_test_folds"
+      ],
+      "sklearn/neighbors/tests/test_neighbors.py": [
+        "sklearn/model_selection/_split.py::StratifiedKFold._make_test_folds"
+      ],
+      "sklearn/tests/test_calibration.py": [
+        "sklearn/model_selection/_split.py::StratifiedKFold._make_test_folds"
+      ],
+      "sklearn/tests/test_common.py": [
+        "sklearn/model_selection/_split.py::StratifiedKFold._make_test_folds"
+      ],
+      "sklearn/tests/test_multiclass.py": [
+        "sklearn/model_selection/_split.py::StratifiedKFold._make_test_folds"
+      ],
+      "sklearn/tests/test_multioutput.py": [
+        "sklearn/model_selection/_split.py::StratifiedKFold._make_test_folds"
+      ],
+      "sklearn/tests/test_naive_bayes.py": [
+        "sklearn/model_selection/_split.py::StratifiedKFold._make_test_folds"
+      ]
+    },
+    "base_commit": "9f0b959a8c9195d1b6e203f08b698e052b426ca9",
+    "dynamic_hit_tests": [
+      "sklearn/decomposition/tests/test_kernel_pca.py",
+      "sklearn/ensemble/tests/test_bagging.py",
+      "sklearn/ensemble/tests/test_forest.py",
+      "sklearn/ensemble/tests/test_voting_classifier.py",
+      "sklearn/ensemble/tests/test_weight_boosting.py",
+      "sklearn/feature_extraction/tests/test_text.py",
+      "sklearn/feature_selection/tests/test_rfe.py",
+      "sklearn/linear_model/tests/test_coordinate_descent.py",
+      "sklearn/linear_model/tests/test_logistic.py",
+      "sklearn/linear_model/tests/test_sgd.py",
+      "sklearn/metrics/tests/test_score_objects.py",
+      "sklearn/model_selection/tests/test_search.py",
+      "sklearn/model_selection/tests/test_split.py",
+      "sklearn/model_selection/tests/test_validation.py",
+      "sklearn/neighbors/tests/test_neighbors.py",
+      "sklearn/tests/test_calibration.py",
+      "sklearn/tests/test_common.py",
+      "sklearn/tests/test_multiclass.py",
+      "sklearn/tests/test_multioutput.py",
+      "sklearn/tests/test_naive_bayes.py"
+    ],
+    "elapsed_seconds": 66.669,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/cluster/tests/test_mean_shift.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/linear_model/tests/test_logistic.py",
+      "sklearn/model_selection/tests/test_search.py",
+      "sklearn/utils/tests/test_multiclass.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-13124",
+    "modified_functions": [
+      {
+        "insertion_line": 622,
+        "line": 621,
+        "marker": "sklearn/model_selection/_split.py::StratifiedKFold._make_test_folds",
+        "path": "sklearn/model_selection/_split.py",
+        "qualname": "StratifiedKFold._make_test_folds"
+      }
+    ],
+    "passed_test_files": 159,
+    "patch_file": "9f0b959a8c9195d1b6e203f08b698e052b426ca9/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-13124_1784777457_649902",
+    "semantic_reviews": [],
+    "tests_to_run": [
+      "sklearn/decomposition/tests/test_kernel_pca.py",
+      "sklearn/ensemble/tests/test_bagging.py",
+      "sklearn/ensemble/tests/test_forest.py",
+      "sklearn/ensemble/tests/test_voting_classifier.py",
+      "sklearn/ensemble/tests/test_weight_boosting.py",
+      "sklearn/feature_extraction/tests/test_text.py",
+      "sklearn/feature_selection/tests/test_rfe.py",
+      "sklearn/linear_model/tests/test_coordinate_descent.py",
+      "sklearn/linear_model/tests/test_logistic.py",
+      "sklearn/linear_model/tests/test_sgd.py",
+      "sklearn/metrics/tests/test_score_objects.py",
+      "sklearn/model_selection/tests/test_search.py",
+      "sklearn/model_selection/tests/test_split.py",
+      "sklearn/model_selection/tests/test_validation.py",
+      "sklearn/neighbors/tests/test_neighbors.py",
+      "sklearn/tests/test_calibration.py",
+      "sklearn/tests/test_common.py",
+      "sklearn/tests/test_multiclass.py",
+      "sklearn/tests/test_multioutput.py",
+      "sklearn/tests/test_naive_bayes.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 166,
+    "uninstrumentable_changes": [],
+    "version": "0.21"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/preprocessing/tests/test_discretization.py": [
+        "sklearn/preprocessing/_discretization.py::KBinsDiscretizer.fit"
+      ],
+      "sklearn/tests/test_common.py": [
+        "sklearn/preprocessing/_discretization.py::KBinsDiscretizer.fit"
+      ]
+    },
+    "base_commit": "a061ada48efccf0845acae17009553e01764452b",
+    "dynamic_hit_tests": [
+      "sklearn/preprocessing/tests/test_discretization.py",
+      "sklearn/tests/test_common.py"
+    ],
+    "elapsed_seconds": 311.543,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/cluster/tests/test_mean_shift.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/utils/tests/test_multiclass.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-13135",
+    "modified_functions": [
+      {
+        "insertion_line": 130,
+        "line": 116,
+        "marker": "sklearn/preprocessing/_discretization.py::KBinsDiscretizer.fit",
+        "path": "sklearn/preprocessing/_discretization.py",
+        "qualname": "KBinsDiscretizer.fit"
+      }
+    ],
+    "passed_test_files": 161,
+    "patch_file": "a061ada48efccf0845acae17009553e01764452b/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-13135_1784773635_488063",
+    "semantic_reviews": [],
+    "tests_to_run": [
+      "sklearn/preprocessing/tests/test_discretization.py",
+      "sklearn/tests/test_common.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 166,
+    "uninstrumentable_changes": [],
+    "version": "0.21"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/mixture/tests/test_bayesian_mixture.py": [
+        "sklearn/mixture/base.py::BaseMixture.fit_predict"
+      ],
+      "sklearn/mixture/tests/test_gaussian_mixture.py": [
+        "sklearn/mixture/base.py::BaseMixture.fit_predict"
+      ],
+      "sklearn/mixture/tests/test_mixture.py": [
+        "sklearn/mixture/base.py::BaseMixture.fit_predict"
+      ],
+      "sklearn/tests/test_common.py": [
+        "sklearn/mixture/base.py::BaseMixture.fit_predict"
+      ],
+      "sklearn/utils/tests/test_estimator_checks.py": [
+        "sklearn/mixture/base.py::BaseMixture.fit_predict"
+      ]
+    },
+    "base_commit": "1c8668b0a021832386470ddf740d834e02c66f69",
+    "dynamic_hit_tests": [
+      "sklearn/mixture/tests/test_bayesian_mixture.py",
+      "sklearn/mixture/tests/test_gaussian_mixture.py",
+      "sklearn/mixture/tests/test_mixture.py",
+      "sklearn/tests/test_common.py",
+      "sklearn/utils/tests/test_estimator_checks.py"
+    ],
+    "elapsed_seconds": 65.206,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/cluster/tests/test_mean_shift.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/utils/tests/test_multiclass.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-13142",
+    "modified_functions": [
+      {
+        "insertion_line": 217,
+        "line": 194,
+        "marker": "sklearn/mixture/base.py::BaseMixture.fit_predict",
+        "path": "sklearn/mixture/base.py",
+        "qualname": "BaseMixture.fit_predict"
+      }
+    ],
+    "passed_test_files": 161,
+    "patch_file": "1c8668b0a021832386470ddf740d834e02c66f69/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-13142_1784777663_649902",
+    "semantic_reviews": [
+      {
+        "decision": "exclude",
+        "evidence": "runtime/sklearn_python36/trace_scikit-learn__scikit-learn-13142_1784780951_736523/trace.json",
+        "instance_id": "scikit-learn__scikit-learn-13142",
+        "reason": "Common estimator checks call fit(), which indirectly enters fit_predict(), but discard its returned labels. The patch only moves the final E-step so fit_predict returns labels for the restored best parameters; fit() already restores the same best model state before and after the patch.",
+        "test_file": "sklearn/tests/test_common.py"
+      }
+    ],
+    "tests_to_run": [
+      "sklearn/mixture/tests/test_bayesian_mixture.py",
+      "sklearn/mixture/tests/test_gaussian_mixture.py",
+      "sklearn/mixture/tests/test_mixture.py",
+      "sklearn/utils/tests/test_estimator_checks.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 166,
+    "uninstrumentable_changes": [],
+    "version": "0.21"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/linear_model/tests/test_huber.py": [
+        "sklearn/linear_model/huber.py::HuberRegressor.fit"
+      ],
+      "sklearn/tests/test_common.py": [
+        "sklearn/linear_model/huber.py::HuberRegressor.fit"
+      ]
+    },
+    "base_commit": "37b0e66c871e8fb032a9c7086b2a1d5419838154",
+    "dynamic_hit_tests": [
+      "sklearn/linear_model/tests/test_huber.py",
+      "sklearn/tests/test_common.py"
+    ],
+    "elapsed_seconds": 72.437,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/tests/test_discriminant_analysis.py",
+      "sklearn/utils/tests/test_multiclass.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-13328",
+    "modified_functions": [
+      {
+        "insertion_line": 253,
+        "line": 234,
+        "marker": "sklearn/linear_model/huber.py::HuberRegressor.fit",
+        "path": "sklearn/linear_model/huber.py",
+        "qualname": "HuberRegressor.fit"
+      }
+    ],
+    "passed_test_files": 162,
+    "patch_file": "37b0e66c871e8fb032a9c7086b2a1d5419838154/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-13328_1784777922_649902",
+    "semantic_reviews": [],
+    "tests_to_run": [
+      "sklearn/linear_model/tests/test_huber.py",
+      "sklearn/tests/test_common.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 167,
+    "uninstrumentable_changes": [],
+    "version": "0.21"
+  },
+  {
+    "affected_functions_by_test": {},
+    "base_commit": "a62775e99f2a5ea3d51db7160fad783f6cd8a4c5",
+    "dynamic_hit_tests": [],
+    "elapsed_seconds": 71.319,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/tests/test_discriminant_analysis.py",
+      "sklearn/utils/tests/test_multiclass.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-13439",
+    "modified_functions": [
+      {
+        "insertion_line": 206,
+        "line": 202,
+        "marker": "sklearn/pipeline.py::Pipeline.__len__",
+        "path": "sklearn/pipeline.py",
+        "qualname": "Pipeline.__len__"
+      }
+    ],
+    "passed_test_files": 162,
+    "patch_file": "a62775e99f2a5ea3d51db7160fad783f6cd8a4c5/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-13439_1784778152_649902",
+    "semantic_reviews": [],
+    "tests_to_run": [],
+    "timed_out_test_files": [],
+    "total_tests": 167,
+    "uninstrumentable_changes": [],
+    "version": "0.21"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/ensemble/tests/test_iforest.py": [
+        "sklearn/ensemble/iforest.py::IsolationForest.__init__"
+      ],
+      "sklearn/tests/test_common.py": [
+        "sklearn/ensemble/iforest.py::IsolationForest.__init__"
+      ]
+    },
+    "base_commit": "3aefc834dce72e850bff48689bea3c7dff5f3fad",
+    "dynamic_hit_tests": [
+      "sklearn/ensemble/tests/test_iforest.py",
+      "sklearn/tests/test_common.py"
+    ],
+    "elapsed_seconds": 70.475,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/tests/test_discriminant_analysis.py",
+      "sklearn/utils/tests/test_multiclass.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-13496",
+    "modified_functions": [
+      {
+        "insertion_line": 184,
+        "line": 173,
+        "marker": "sklearn/ensemble/iforest.py::IsolationForest.__init__",
+        "path": "sklearn/ensemble/iforest.py",
+        "qualname": "IsolationForest.__init__"
+      }
+    ],
+    "passed_test_files": 162,
+    "patch_file": "3aefc834dce72e850bff48689bea3c7dff5f3fad/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-13496_1784778375_649902",
+    "semantic_reviews": [
+      {
+        "decision": "retain",
+        "evidence": "runtime/sklearn_python36/trace_scikit-learn__scikit-learn-13496_1784781112_737177/trace.json",
+        "instance_id": "scikit-learn__scikit-learn-13496",
+        "reason": "The patch adds warm_start to IsolationForest.__init__. Common checks observe the constructor parameter through get_params(), iterate and set it in check_set_params, and take the warm_start branch in check_fit_idempotent. The patch therefore changes values and control flow consumed by this test file.",
+        "test_file": "sklearn/tests/test_common.py"
+      }
+    ],
+    "tests_to_run": [
+      "sklearn/ensemble/tests/test_iforest.py",
+      "sklearn/tests/test_common.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 167,
+    "uninstrumentable_changes": [],
+    "version": "0.21"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/ensemble/tests/test_voting.py": [
+        "sklearn/ensemble/voting.py::_BaseVoting.fit"
+      ]
+    },
+    "base_commit": "b34751b7ed02b2cfcc36037fb729d4360480a299",
+    "dynamic_hit_tests": [
+      "sklearn/ensemble/tests/test_voting.py"
+    ],
+    "elapsed_seconds": 70.755,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/cluster/tests/test_mean_shift.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_compare_lightgbm.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/inspection/tests/test_partial_dependence.py",
+      "sklearn/tests/test_discriminant_analysis.py",
+      "sklearn/tree/tests/test_export.py",
+      "sklearn/utils/tests/test_multiclass.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-13779",
+    "modified_functions": [
+      {
+        "insertion_line": 68,
+        "line": 63,
+        "marker": "sklearn/ensemble/voting.py::_BaseVoting.fit",
+        "path": "sklearn/ensemble/voting.py",
+        "qualname": "_BaseVoting.fit"
+      }
+    ],
+    "passed_test_files": 168,
+    "patch_file": "b34751b7ed02b2cfcc36037fb729d4360480a299/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-13779_1784778659_649902",
+    "semantic_reviews": [],
+    "tests_to_run": [
+      "sklearn/ensemble/tests/test_voting.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 177,
+    "uninstrumentable_changes": [],
+    "version": "0.22"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/tree/tests/test_export.py": [
+        "sklearn/tree/export.py::export_text"
+      ]
+    },
+    "base_commit": "6ab8c86c383dd847a1be7103ad115f174fe23ffd",
+    "dynamic_hit_tests": [
+      "sklearn/tree/tests/test_export.py"
+    ],
+    "elapsed_seconds": 68.64,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/cluster/tests/test_mean_shift.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_compare_lightgbm.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/inspection/tests/test_partial_dependence.py",
+      "sklearn/tests/test_discriminant_analysis.py",
+      "sklearn/tree/tests/test_export.py",
+      "sklearn/utils/tests/test_multiclass.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-14053",
+    "modified_functions": [
+      {
+        "insertion_line": 863,
+        "line": 806,
+        "marker": "sklearn/tree/export.py::export_text",
+        "path": "sklearn/tree/export.py",
+        "qualname": "export_text"
+      }
+    ],
+    "passed_test_files": 166,
+    "patch_file": "6ab8c86c383dd847a1be7103ad115f174fe23ffd/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-14053_1784778893_649902",
+    "semantic_reviews": [],
+    "tests_to_run": [
+      "sklearn/tree/tests/test_export.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 175,
+    "uninstrumentable_changes": [],
+    "version": "0.22"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/linear_model/tests/test_logistic.py": [
+        "sklearn/linear_model/logistic.py::LogisticRegressionCV.fit"
+      ],
+      "sklearn/tests/test_common.py": [
+        "sklearn/linear_model/logistic.py::LogisticRegressionCV.fit"
+      ]
+    },
+    "base_commit": "a5743ed36fbd3fbc8e351bdab16561fbfca7dfa1",
+    "dynamic_hit_tests": [
+      "sklearn/linear_model/tests/test_logistic.py",
+      "sklearn/tests/test_common.py"
+    ],
+    "elapsed_seconds": 68.86,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/cluster/tests/test_mean_shift.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_compare_lightgbm.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/inspection/tests/test_partial_dependence.py",
+      "sklearn/tests/test_discriminant_analysis.py",
+      "sklearn/tree/tests/test_export.py",
+      "sklearn/utils/tests/test_multiclass.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-14087",
+    "modified_functions": [
+      {
+        "insertion_line": 1956,
+        "line": 1936,
+        "marker": "sklearn/linear_model/logistic.py::LogisticRegressionCV.fit",
+        "path": "sklearn/linear_model/logistic.py",
+        "qualname": "LogisticRegressionCV.fit"
+      }
+    ],
+    "passed_test_files": 166,
+    "patch_file": "a5743ed36fbd3fbc8e351bdab16561fbfca7dfa1/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-14087_1784779092_649902",
+    "semantic_reviews": [],
+    "tests_to_run": [
+      "sklearn/linear_model/tests/test_logistic.py",
+      "sklearn/tests/test_common.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 175,
+    "uninstrumentable_changes": [],
+    "version": "0.22"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/utils/tests/test_show_versions.py": [
+        "sklearn/utils/_show_versions.py::_get_deps_info"
+      ]
+    },
+    "base_commit": "3d997697fdd166eff428ea9fd35734b6a8ba113e",
+    "dynamic_hit_tests": [
+      "sklearn/utils/tests/test_show_versions.py"
+    ],
+    "elapsed_seconds": 49.827,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/cluster/tests/test_mean_shift.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_compare_lightgbm.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/inspection/tests/test_partial_dependence.py",
+      "sklearn/tests/test_discriminant_analysis.py",
+      "sklearn/tree/tests/test_export.py",
+      "sklearn/utils/tests/test_multiclass.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-14141",
+    "modified_functions": [
+      {
+        "insertion_line": 42,
+        "line": 33,
+        "marker": "sklearn/utils/_show_versions.py::_get_deps_info",
+        "path": "sklearn/utils/_show_versions.py",
+        "qualname": "_get_deps_info"
+      }
+    ],
+    "passed_test_files": 167,
+    "patch_file": "3d997697fdd166eff428ea9fd35734b6a8ba113e/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-14141_1784779300_649902",
+    "semantic_reviews": [],
+    "tests_to_run": [
+      "sklearn/utils/tests/test_show_versions.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 176,
+    "uninstrumentable_changes": [],
+    "version": "0.22"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/cluster/tests/test_optics.py": [
+        "sklearn/cluster/optics_.py::_xi_cluster",
+        "sklearn/cluster/optics_.py::cluster_optics_xi",
+        "sklearn/cluster/optics_.py::compute_optics_graph"
+      ],
+      "sklearn/tests/test_common.py": [
+        "sklearn/cluster/optics_.py::_xi_cluster",
+        "sklearn/cluster/optics_.py::cluster_optics_xi",
+        "sklearn/cluster/optics_.py::compute_optics_graph"
+      ]
+    },
+    "base_commit": "d49a6f13af2f22228d430ac64ac2b518937800d0",
+    "dynamic_hit_tests": [
+      "sklearn/cluster/tests/test_optics.py",
+      "sklearn/tests/test_common.py"
+    ],
+    "elapsed_seconds": 48.868,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_compare_lightgbm.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/inspection/tests/test_partial_dependence.py",
+      "sklearn/tests/test_discriminant_analysis.py",
+      "sklearn/tree/tests/test_export.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-14496",
+    "modified_functions": [
+      {
+        "insertion_line": 778,
+        "line": 735,
+        "marker": "sklearn/cluster/optics_.py::_xi_cluster",
+        "path": "sklearn/cluster/optics_.py",
+        "qualname": "_xi_cluster"
+      },
+      {
+        "insertion_line": 619,
+        "line": 569,
+        "marker": "sklearn/cluster/optics_.py::cluster_optics_xi",
+        "path": "sklearn/cluster/optics_.py",
+        "qualname": "cluster_optics_xi"
+      },
+      {
+        "insertion_line": 437,
+        "line": 331,
+        "marker": "sklearn/cluster/optics_.py::compute_optics_graph",
+        "path": "sklearn/cluster/optics_.py",
+        "qualname": "compute_optics_graph"
+      }
+    ],
+    "passed_test_files": 171,
+    "patch_file": "d49a6f13af2f22228d430ac64ac2b518937800d0/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-14496_1784779484_649902",
+    "semantic_reviews": [],
+    "tests_to_run": [
+      "sklearn/cluster/tests/test_optics.py",
+      "sklearn/tests/test_common.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 178,
+    "uninstrumentable_changes": [],
+    "version": "0.22"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/tests/test_common.py": [
+        "sklearn/multioutput.py::_BaseChain.fit"
+      ],
+      "sklearn/tests/test_multioutput.py": [
+        "sklearn/multioutput.py::MultiOutputClassifier.fit",
+        "sklearn/multioutput.py::_BaseChain.fit"
+      ]
+    },
+    "base_commit": "4aded39b5663d943f6a4809abacfa9cae3d7fb6a",
+    "dynamic_hit_tests": [
+      "sklearn/tests/test_common.py",
+      "sklearn/tests/test_multioutput.py"
+    ],
+    "elapsed_seconds": 49.429,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_compare_lightgbm.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/inspection/tests/test_partial_dependence.py",
+      "sklearn/metrics/_plot/tests/test_plot_roc_curve.py",
+      "sklearn/tests/test_discriminant_analysis.py",
+      "sklearn/tree/tests/test_export.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-14629",
+    "modified_functions": [
+      {
+        "insertion_line": 346,
+        "line": 328,
+        "marker": "sklearn/multioutput.py::MultiOutputClassifier.fit",
+        "path": "sklearn/multioutput.py",
+        "qualname": "MultiOutputClassifier.fit"
+      },
+      {
+        "insertion_line": 434,
+        "line": 419,
+        "marker": "sklearn/multioutput.py::_BaseChain.fit",
+        "path": "sklearn/multioutput.py",
+        "qualname": "_BaseChain.fit"
+      }
+    ],
+    "passed_test_files": 171,
+    "patch_file": "4aded39b5663d943f6a4809abacfa9cae3d7fb6a/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-14629_1784779663_649902",
+    "semantic_reviews": [
+      {
+        "decision": "exclude",
+        "evidence": "ground truth/gt_sklearn_python36.json affected_functions_by_test",
+        "instance_id": "scikit-learn__scikit-learn-14629",
+        "reason": "The common test only hits _BaseChain.fit, whose golden-patch change is indentation-only. It never hits the newly added MultiOutputClassifier.fit implementation that carries the behavioral fix.",
+        "test_file": "sklearn/tests/test_common.py"
+      }
+    ],
+    "tests_to_run": [
+      "sklearn/tests/test_multioutput.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 179,
+    "uninstrumentable_changes": [],
+    "version": "0.22"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_gradient_boosting.py": [
+        "sklearn/ensemble/_hist_gradient_boosting/gradient_boosting.py::BaseHistGradientBoosting._check_early_stopping_scorer"
+      ],
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_warm_start.py": [
+        "sklearn/ensemble/_hist_gradient_boosting/gradient_boosting.py::BaseHistGradientBoosting._check_early_stopping_scorer"
+      ]
+    },
+    "base_commit": "4b6273b87442a4437d8b3873ea3022ae163f4fdf",
+    "dynamic_hit_tests": [
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_gradient_boosting.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_warm_start.py"
+    ],
+    "elapsed_seconds": 49.148,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_compare_lightgbm.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/inspection/tests/test_partial_dependence.py",
+      "sklearn/metrics/_plot/tests/test_plot_roc_curve.py",
+      "sklearn/tests/test_discriminant_analysis.py",
+      "sklearn/tree/tests/test_export.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-14710",
+    "modified_functions": [
+      {
+        "insertion_line": 429,
+        "line": 423,
+        "marker": "sklearn/ensemble/_hist_gradient_boosting/gradient_boosting.py::BaseHistGradientBoosting._check_early_stopping_scorer",
+        "path": "sklearn/ensemble/_hist_gradient_boosting/gradient_boosting.py",
+        "qualname": "BaseHistGradientBoosting._check_early_stopping_scorer"
+      }
+    ],
+    "passed_test_files": 171,
+    "patch_file": "4b6273b87442a4437d8b3873ea3022ae163f4fdf/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-14710_1784779838_649902",
+    "semantic_reviews": [],
+    "tests_to_run": [
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_gradient_boosting.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_warm_start.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 179,
+    "uninstrumentable_changes": [],
+    "version": "0.22"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/ensemble/tests/test_bagging.py": [
+        "sklearn/svm/base.py::BaseLibSVM._sparse_fit"
+      ],
+      "sklearn/ensemble/tests/test_weight_boosting.py": [
+        "sklearn/svm/base.py::BaseLibSVM._sparse_fit"
+      ],
+      "sklearn/feature_selection/tests/test_rfe.py": [
+        "sklearn/svm/base.py::BaseLibSVM._sparse_fit"
+      ],
+      "sklearn/model_selection/tests/test_validation.py": [
+        "sklearn/svm/base.py::BaseLibSVM._sparse_fit"
+      ],
+      "sklearn/svm/tests/test_sparse.py": [
+        "sklearn/svm/base.py::BaseLibSVM._sparse_fit"
+      ],
+      "sklearn/tests/test_common.py": [
+        "sklearn/svm/base.py::BaseLibSVM._sparse_fit"
+      ],
+      "sklearn/tests/test_multiclass.py": [
+        "sklearn/svm/base.py::BaseLibSVM._sparse_fit"
+      ]
+    },
+    "base_commit": "fdbaa58acbead5a254f2e6d597dc1ab3b947f4c6",
+    "dynamic_hit_tests": [
+      "sklearn/ensemble/tests/test_bagging.py",
+      "sklearn/ensemble/tests/test_weight_boosting.py",
+      "sklearn/feature_selection/tests/test_rfe.py",
+      "sklearn/model_selection/tests/test_validation.py",
+      "sklearn/svm/tests/test_sparse.py",
+      "sklearn/tests/test_common.py",
+      "sklearn/tests/test_multiclass.py"
+    ],
+    "elapsed_seconds": 56.878,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_compare_lightgbm.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/inspection/tests/test_plot_partial_dependence.py",
+      "sklearn/metrics/_plot/tests/test_plot_roc_curve.py",
+      "sklearn/tree/tests/test_export.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-14894",
+    "modified_functions": [
+      {
+        "insertion_line": 263,
+        "line": 261,
+        "marker": "sklearn/svm/base.py::BaseLibSVM._sparse_fit",
+        "path": "sklearn/svm/base.py",
+        "qualname": "BaseLibSVM._sparse_fit"
+      }
+    ],
+    "passed_test_files": 178,
+    "patch_file": "fdbaa58acbead5a254f2e6d597dc1ab3b947f4c6/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-14894_1784780025_649902",
+    "semantic_reviews": [],
+    "tests_to_run": [
+      "sklearn/ensemble/tests/test_bagging.py",
+      "sklearn/ensemble/tests/test_weight_boosting.py",
+      "sklearn/feature_selection/tests/test_rfe.py",
+      "sklearn/model_selection/tests/test_validation.py",
+      "sklearn/svm/tests/test_sparse.py",
+      "sklearn/tests/test_common.py",
+      "sklearn/tests/test_multiclass.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 185,
+    "uninstrumentable_changes": [],
+    "version": "0.22"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/model_selection/tests/test_split.py": [
+        "sklearn/model_selection/_split.py::_build_repr"
+      ]
+    },
+    "base_commit": "06632c0d185128a53c57ccc73b25b6408e90bb89",
+    "dynamic_hit_tests": [
+      "sklearn/model_selection/tests/test_split.py"
+    ],
+    "elapsed_seconds": 51.785,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_compare_lightgbm.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/inspection/tests/test_partial_dependence.py",
+      "sklearn/metrics/_plot/tests/test_plot_roc_curve.py",
+      "sklearn/tests/test_discriminant_analysis.py",
+      "sklearn/tree/tests/test_export.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-14983",
+    "modified_functions": [
+      {
+        "insertion_line": 1167,
+        "line": 1166,
+        "marker": "sklearn/model_selection/_split.py::_RepeatedSplits.__repr__",
+        "path": "sklearn/model_selection/_split.py",
+        "qualname": "_RepeatedSplits.__repr__"
+      },
+      {
+        "insertion_line": 2143,
+        "line": 2141,
+        "marker": "sklearn/model_selection/_split.py::_build_repr",
+        "path": "sklearn/model_selection/_split.py",
+        "qualname": "_build_repr"
+      }
+    ],
+    "passed_test_files": 173,
+    "patch_file": "06632c0d185128a53c57ccc73b25b6408e90bb89/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-14983_1784780223_649902",
+    "semantic_reviews": [],
+    "tests_to_run": [
+      "sklearn/model_selection/tests/test_split.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 181,
+    "uninstrumentable_changes": [],
+    "version": "0.22"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/feature_extraction/tests/test_text.py": [
+        "sklearn/feature_extraction/text.py::strip_accents_unicode"
+      ]
+    },
+    "base_commit": "af8a6e592a1a15d92d77011856d5aa0ec4db4c6c",
+    "dynamic_hit_tests": [
+      "sklearn/feature_extraction/tests/test_text.py"
+    ],
+    "elapsed_seconds": 53.325,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_compare_lightgbm.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/inspection/tests/test_plot_partial_dependence.py",
+      "sklearn/metrics/_plot/tests/test_plot_roc_curve.py",
+      "sklearn/tree/tests/test_export.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-15100",
+    "modified_functions": [
+      {
+        "insertion_line": 132,
+        "line": 114,
+        "marker": "sklearn/feature_extraction/text.py::strip_accents_unicode",
+        "path": "sklearn/feature_extraction/text.py",
+        "qualname": "strip_accents_unicode"
+      }
+    ],
+    "passed_test_files": 178,
+    "patch_file": "af8a6e592a1a15d92d77011856d5aa0ec4db4c6c/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-15100_1784780410_649902",
+    "semantic_reviews": [],
+    "tests_to_run": [
+      "sklearn/feature_extraction/tests/test_text.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 185,
+    "uninstrumentable_changes": [],
+    "version": "0.22"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/cluster/tests/test_bicluster.py": [
+        "sklearn/cluster/k_means_.py::k_means"
+      ],
+      "sklearn/cluster/tests/test_k_means.py": [
+        "sklearn/cluster/k_means_.py::k_means"
+      ],
+      "sklearn/cluster/tests/test_spectral.py": [
+        "sklearn/cluster/k_means_.py::k_means"
+      ],
+      "sklearn/ensemble/tests/test_weight_boosting.py": [
+        "sklearn/cluster/k_means_.py::k_means"
+      ],
+      "sklearn/inspection/tests/test_partial_dependence.py": [
+        "sklearn/cluster/k_means_.py::k_means"
+      ],
+      "sklearn/manifold/tests/test_spectral_embedding.py": [
+        "sklearn/cluster/k_means_.py::k_means"
+      ],
+      "sklearn/metrics/tests/test_score_objects.py": [
+        "sklearn/cluster/k_means_.py::k_means"
+      ],
+      "sklearn/mixture/tests/test_bayesian_mixture.py": [
+        "sklearn/cluster/k_means_.py::k_means"
+      ],
+      "sklearn/mixture/tests/test_gaussian_mixture.py": [
+        "sklearn/cluster/k_means_.py::k_means"
+      ],
+      "sklearn/mixture/tests/test_mixture.py": [
+        "sklearn/cluster/k_means_.py::k_means"
+      ],
+      "sklearn/model_selection/tests/test_search.py": [
+        "sklearn/cluster/k_means_.py::k_means"
+      ],
+      "sklearn/model_selection/tests/test_validation.py": [
+        "sklearn/cluster/k_means_.py::k_means"
+      ],
+      "sklearn/preprocessing/tests/test_discretization.py": [
+        "sklearn/cluster/k_means_.py::k_means"
+      ],
+      "sklearn/tests/test_common.py": [
+        "sklearn/cluster/k_means_.py::k_means"
+      ],
+      "sklearn/tests/test_pipeline.py": [
+        "sklearn/cluster/k_means_.py::k_means"
+      ],
+      "sklearn/utils/tests/test_estimator_checks.py": [
+        "sklearn/cluster/k_means_.py::k_means"
+      ]
+    },
+    "base_commit": "3eacf948e0f95ef957862568d87ce082f378e186",
+    "dynamic_hit_tests": [
+      "sklearn/cluster/tests/test_bicluster.py",
+      "sklearn/cluster/tests/test_k_means.py",
+      "sklearn/cluster/tests/test_spectral.py",
+      "sklearn/ensemble/tests/test_weight_boosting.py",
+      "sklearn/inspection/tests/test_partial_dependence.py",
+      "sklearn/manifold/tests/test_spectral_embedding.py",
+      "sklearn/metrics/tests/test_score_objects.py",
+      "sklearn/mixture/tests/test_bayesian_mixture.py",
+      "sklearn/mixture/tests/test_gaussian_mixture.py",
+      "sklearn/mixture/tests/test_mixture.py",
+      "sklearn/model_selection/tests/test_search.py",
+      "sklearn/model_selection/tests/test_validation.py",
+      "sklearn/preprocessing/tests/test_discretization.py",
+      "sklearn/tests/test_common.py",
+      "sklearn/tests/test_pipeline.py",
+      "sklearn/utils/tests/test_estimator_checks.py"
+    ],
+    "elapsed_seconds": 49.843,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/datasets/tests/test_common.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_compare_lightgbm.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/inspection/tests/test_partial_dependence.py",
+      "sklearn/metrics/_plot/tests/test_plot_roc_curve.py",
+      "sklearn/tests/test_discriminant_analysis.py",
+      "sklearn/tree/tests/test_export.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-9288",
+    "modified_functions": [
+      {
+        "insertion_line": 291,
+        "line": 178,
+        "marker": "sklearn/cluster/k_means_.py::k_means",
+        "path": "sklearn/cluster/k_means_.py",
+        "qualname": "k_means"
+      }
+    ],
+    "passed_test_files": 171,
+    "patch_file": "3eacf948e0f95ef957862568d87ce082f378e186/golden.patch",
+    "python": "Python 3.6.13 :: Anaconda, Inc.",
+    "run_dir": "/shared_dir/projects/namerts/runtime/sklearn_python36/scikit-learn__scikit-learn-9288_1784780606_649902",
+    "semantic_reviews": [],
+    "tests_to_run": [
+      "sklearn/cluster/tests/test_bicluster.py",
+      "sklearn/cluster/tests/test_k_means.py",
+      "sklearn/cluster/tests/test_spectral.py",
+      "sklearn/ensemble/tests/test_weight_boosting.py",
+      "sklearn/inspection/tests/test_partial_dependence.py",
+      "sklearn/manifold/tests/test_spectral_embedding.py",
+      "sklearn/metrics/tests/test_score_objects.py",
+      "sklearn/mixture/tests/test_bayesian_mixture.py",
+      "sklearn/mixture/tests/test_gaussian_mixture.py",
+      "sklearn/mixture/tests/test_mixture.py",
+      "sklearn/model_selection/tests/test_search.py",
+      "sklearn/model_selection/tests/test_validation.py",
+      "sklearn/preprocessing/tests/test_discretization.py",
+      "sklearn/tests/test_common.py",
+      "sklearn/tests/test_pipeline.py",
+      "sklearn/utils/tests/test_estimator_checks.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 179,
+    "uninstrumentable_changes": [],
+    "version": "0.22"
+  }
+]

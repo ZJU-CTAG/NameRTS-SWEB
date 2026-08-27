@@ -1,0 +1,35 @@
+# Best-effort Python 2.7 dependency floor for the single Python 2.7
+# SWE-bench Verified instance (psf__requests-1724).
+#
+# This environment is not a supported NameRTS runtime.  NameRTS is a Python 3
+# codebase and uses Python 3-only syntax and APIs throughout (including type
+# annotations, f-strings, pathlib, dataclasses, and subprocess features).  A
+# working Python 2.7 runtime would therefore require a substantial source and
+# instrumentation port, not only dependency pinning.  Keep this file as the
+# reproducible dependency starting point for any future port.
+name: NameRTS27
+channels:
+  # Python 2.7 packages are served from the archived official channel.
+  - https://repo.anaconda.com/pkgs/main
+  - conda-forge
+  # Ignore host-level default channel additions (notably the retired
+  # pkgs/free mirror) so this archived environment remains reproducible.
+  - nodefaults
+dependencies:
+  - python=2.7.18
+  - pip=19.3.1
+  - setuptools=44.0.0
+  - wheel=0.37.1
+  - numpy=1.16.6
+  - pandas=0.24.2
+  - networkx=2.2
+  # Prevent the solver from selecting the Python-3-only decorator 5.x noarch
+  # build for this legacy interpreter.
+  - decorator=4.4.2
+  - pip:
+      - xxhash==1.4.4
+
+# There are no Python 2.7 distributions for the required detect-indent and
+# tree-sitter bindings.  They are deliberately not listed as installable
+# dependencies: the environment above is the verified compatible subset, and
+# a future Python 2 port must replace or vendor those two components.

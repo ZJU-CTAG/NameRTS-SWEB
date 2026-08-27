@@ -1,0 +1,26 @@
+[
+  {
+    "instance_id": "django__django-12708",
+    "exclude_all_dynamic_hits": true,
+    "classification": "entry-hit-without-changed-branch",
+    "reason": "Both files remove an ordinary non-unique index, but the patch only changes constraint disambiguation when a unique constraint exists on the same fields. Neither existing test constructs that competing unique constraint, so adding unique=False doesn't alter their result."
+  },
+  {
+    "instance_id": "django__django-13516",
+    "exclude_all_dynamic_hits": true,
+    "classification": "entry-hit-without-observed-patch-effect",
+    "reason": "The patch adds OutputWrapper.flush() and delegates to the wrapped stream. The Django/unittest runner flushes its output wrapper during ordinary process lifecycle, so 725 unrelated test modules enter the method. No existing test references OutputWrapper or asserts propagation to the wrapped stream; these files don't observe the changed behavior."
+  },
+  {
+    "instance_id": "django__django-15368",
+    "exclude_all_dynamic_hits": true,
+    "classification": "entry-hit-without-changed-type-case",
+    "reason": "The patch accepts duck-typed values with resolve_expression that aren't Expression subclasses. The two ordering files use primitive values and test_bulk_update.py uses built-in Django Expression subclasses (Lower/F/CombinedExpression); none supplies the newly supported duck-typed case."
+  },
+  {
+    "instance_id": "django__django-16255",
+    "exclude_all_dynamic_hits": true,
+    "classification": "entry-hit-without-empty-callable-lastmod-case",
+    "reason": "The patch changes max() only when lastmod is callable and items() is empty. Existing callable-lastmod sitemap fixtures return non-empty lists; EmptySitemap has no lastmod attribute. Both files enter get_latest_lastmod but don't exercise the new empty iterable behavior."
+  }
+]

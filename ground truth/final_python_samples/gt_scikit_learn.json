@@ -1,0 +1,1231 @@
+[
+  {
+    "affected_functions_by_test": {
+      "sklearn/linear_model/tests/test_ridge.py": [
+        "sklearn/linear_model/ridge.py::RidgeClassifierCV.__init__"
+      ]
+    },
+    "base_commit": "b90661d6a46aa3619d3eec94d5281f5888add501",
+    "dynamic_hit_tests": [
+      "sklearn/linear_model/tests/test_ridge.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "sklearn/linear_model/tests/test_ridge.py"
+    ],
+    "elapsed_seconds": 21.42,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_mean_shift.py",
+      "sklearn/ensemble/tests/test_partial_dependence.py",
+      "sklearn/linear_model/tests/test_logistic.py",
+      "sklearn/model_selection/tests/test_split.py",
+      "sklearn/svm/tests/test_sparse.py",
+      "sklearn/utils/tests/test_multiclass.py",
+      "sklearn/utils/tests/test_validation.py"
+    ],
+    "in_test_hit_tests": [
+      "sklearn/linear_model/tests/test_ridge.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-10297",
+    "modified_functions": [
+      {
+        "insertion_line": 1343,
+        "line": 1340,
+        "marker": "sklearn/linear_model/ridge.py::RidgeClassifierCV.__init__",
+        "path": "sklearn/linear_model/ridge.py",
+        "qualname": "RidgeClassifierCV.__init__"
+      }
+    ],
+    "passed_test_files": 152,
+    "passing_dynamic_hit_tests": [
+      "sklearn/linear_model/tests/test_ridge.py"
+    ],
+    "patch_file": "b90661d6a46aa3619d3eec94d5281f5888add501/golden.patch",
+    "project": "scikit-learn/scikit-learn",
+    "python": "",
+    "run_dir": "/shared_dir/projects/namerts/runtime/final_python_samples/scikit_learn/ground_truth_runs/scikit-learn__scikit-learn-10297_1784862785_999626",
+    "test_env": "RTSFinal36_scikit_learn_d38103c2",
+    "tests_to_run": [
+      "sklearn/linear_model/tests/test_ridge.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 159,
+    "uninstrumentable_changes": [],
+    "version": "0.20"
+  },
+  {
+    "affected_functions_by_test": {
+      "sklearn/cluster/tests/test_affinity_propagation.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/cluster/tests/test_bicluster.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/cluster/tests/test_birch.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/cluster/tests/test_bisect_k_means.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/cluster/tests/test_dbscan.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/cluster/tests/test_feature_agglomeration.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/cluster/tests/test_hierarchical.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/cluster/tests/test_k_means.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/cluster/tests/test_mean_shift.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/cluster/tests/test_optics.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/cluster/tests/test_spectral.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/compose/tests/test_column_transformer.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/compose/tests/test_target.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/covariance/tests/test_covariance.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/covariance/tests/test_elliptic_envelope.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/covariance/tests/test_graphical_lasso.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/covariance/tests/test_robust_covariance.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/cross_decomposition/tests/test_pls.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/decomposition/tests/test_dict_learning.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/decomposition/tests/test_factor_analysis.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/decomposition/tests/test_fastica.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/decomposition/tests/test_incremental_pca.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/decomposition/tests/test_kernel_pca.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/decomposition/tests/test_nmf.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/decomposition/tests/test_online_lda.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/decomposition/tests/test_pca.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/decomposition/tests/test_sparse_pca.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/decomposition/tests/test_truncated_svd.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_gradient_boosting.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_monotonic_contraints.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_warm_start.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/ensemble/tests/test_bagging.py": [
+        "sklearn/base.py::BaseEstimator._validate_data",
+        "sklearn/feature_selection/_base.py::SelectorMixin._transform",
+        "sklearn/feature_selection/_base.py::SelectorMixin.transform"
+      ],
+      "sklearn/ensemble/tests/test_base.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/ensemble/tests/test_common.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/ensemble/tests/test_forest.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/ensemble/tests/test_gradient_boosting.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/ensemble/tests/test_iforest.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/ensemble/tests/test_stacking.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/ensemble/tests/test_voting.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/ensemble/tests/test_weight_boosting.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/feature_extraction/tests/test_dict_vectorizer.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/feature_extraction/tests/test_text.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/feature_selection/tests/test_base.py": [
+        "sklearn/base.py::BaseEstimator._validate_data",
+        "sklearn/feature_selection/_base.py::SelectorMixin._transform",
+        "sklearn/feature_selection/_base.py::SelectorMixin.transform"
+      ],
+      "sklearn/feature_selection/tests/test_chi2.py": [
+        "sklearn/base.py::BaseEstimator._validate_data",
+        "sklearn/feature_selection/_base.py::SelectorMixin._transform",
+        "sklearn/feature_selection/_base.py::SelectorMixin.transform"
+      ],
+      "sklearn/feature_selection/tests/test_feature_select.py": [
+        "sklearn/base.py::BaseEstimator._validate_data",
+        "sklearn/feature_selection/_base.py::SelectorMixin._transform",
+        "sklearn/feature_selection/_base.py::SelectorMixin.transform"
+      ],
+      "sklearn/feature_selection/tests/test_from_model.py": [
+        "sklearn/base.py::BaseEstimator._validate_data",
+        "sklearn/feature_selection/_base.py::SelectorMixin._transform",
+        "sklearn/feature_selection/_base.py::SelectorMixin.transform"
+      ],
+      "sklearn/feature_selection/tests/test_mutual_info.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/feature_selection/tests/test_rfe.py": [
+        "sklearn/base.py::BaseEstimator._validate_data",
+        "sklearn/feature_selection/_base.py::SelectorMixin._transform",
+        "sklearn/feature_selection/_base.py::SelectorMixin.transform"
+      ],
+      "sklearn/feature_selection/tests/test_sequential.py": [
+        "sklearn/base.py::BaseEstimator._validate_data",
+        "sklearn/feature_selection/_base.py::SelectorMixin._transform",
+        "sklearn/feature_selection/_base.py::SelectorMixin.transform"
+      ],
+      "sklearn/feature_selection/tests/test_variance_threshold.py": [
+        "sklearn/base.py::BaseEstimator._validate_data",
+        "sklearn/feature_selection/_base.py::SelectorMixin._transform",
+        "sklearn/feature_selection/_base.py::SelectorMixin.transform"
+      ],
+      "sklearn/gaussian_process/tests/test_gpc.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/gaussian_process/tests/test_gpr.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/impute/tests/test_common.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/impute/tests/test_impute.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/impute/tests/test_knn.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/inspection/_plot/tests/test_boundary_decision_display.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/inspection/_plot/tests/test_plot_partial_dependence.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/inspection/tests/test_partial_dependence.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/inspection/tests/test_permutation_importance.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/linear_model/_glm/tests/test_glm.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/linear_model/tests/test_base.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/linear_model/tests/test_bayes.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/linear_model/tests/test_common.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/linear_model/tests/test_coordinate_descent.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/linear_model/tests/test_huber.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/linear_model/tests/test_least_angle.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/linear_model/tests/test_logistic.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/linear_model/tests/test_omp.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/linear_model/tests/test_passive_aggressive.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/linear_model/tests/test_perceptron.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/linear_model/tests/test_quantile.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/linear_model/tests/test_ransac.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/linear_model/tests/test_ridge.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/linear_model/tests/test_sag.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/linear_model/tests/test_sgd.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/linear_model/tests/test_sparse_coordinate_descent.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/linear_model/tests/test_theil_sen.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/manifold/tests/test_isomap.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/manifold/tests/test_locally_linear.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/manifold/tests/test_mds.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/manifold/tests/test_spectral_embedding.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/manifold/tests/test_t_sne.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/metrics/_plot/tests/test_base.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/metrics/_plot/tests/test_common_curve_display.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/metrics/_plot/tests/test_confusion_matrix_display.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/metrics/_plot/tests/test_det_curve_display.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/metrics/_plot/tests/test_precision_recall_display.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/metrics/_plot/tests/test_predict_error_display.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/metrics/_plot/tests/test_roc_curve_display.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/metrics/tests/test_classification.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/metrics/tests/test_ranking.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/metrics/tests/test_score_objects.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/mixture/tests/test_bayesian_mixture.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/mixture/tests/test_gaussian_mixture.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/mixture/tests/test_mixture.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/model_selection/tests/test_plot.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/model_selection/tests/test_search.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/model_selection/tests/test_split.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/model_selection/tests/test_successive_halving.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/model_selection/tests/test_validation.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/neighbors/tests/test_graph.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/neighbors/tests/test_kde.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/neighbors/tests/test_lof.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/neighbors/tests/test_nca.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/neighbors/tests/test_nearest_centroid.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/neighbors/tests/test_neighbors.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/neighbors/tests/test_neighbors_pipeline.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/neural_network/tests/test_mlp.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/neural_network/tests/test_rbm.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/preprocessing/tests/test_common.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/preprocessing/tests/test_data.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/preprocessing/tests/test_discretization.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/preprocessing/tests/test_function_transformer.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/preprocessing/tests/test_polynomial.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/semi_supervised/tests/test_label_propagation.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/semi_supervised/tests/test_self_training.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/svm/tests/test_bounds.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/svm/tests/test_sparse.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/svm/tests/test_svm.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/tests/test_base.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/tests/test_calibration.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/tests/test_common.py": [
+        "sklearn/base.py::BaseEstimator._validate_data",
+        "sklearn/feature_selection/_base.py::SelectorMixin._transform",
+        "sklearn/feature_selection/_base.py::SelectorMixin.transform"
+      ],
+      "sklearn/tests/test_discriminant_analysis.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/tests/test_docstring_parameters.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/tests/test_kernel_approximation.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/tests/test_kernel_ridge.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/tests/test_metaestimators.py": [
+        "sklearn/base.py::BaseEstimator._validate_data",
+        "sklearn/feature_selection/_base.py::SelectorMixin._transform",
+        "sklearn/feature_selection/_base.py::SelectorMixin.transform"
+      ],
+      "sklearn/tests/test_multiclass.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/tests/test_multioutput.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/tests/test_naive_bayes.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/tests/test_pipeline.py": [
+        "sklearn/base.py::BaseEstimator._validate_data",
+        "sklearn/feature_selection/_base.py::SelectorMixin._transform",
+        "sklearn/feature_selection/_base.py::SelectorMixin.transform"
+      ],
+      "sklearn/tests/test_random_projection.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/tree/tests/test_export.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/tree/tests/test_tree.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/utils/tests/test_class_weight.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/utils/tests/test_estimator_checks.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/utils/tests/test_graph.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/utils/tests/test_parallel.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ],
+      "sklearn/utils/tests/test_validation.py": [
+        "sklearn/base.py::BaseEstimator._validate_data"
+      ]
+    },
+    "base_commit": "f9a1cf072da9d7375d6c2163f68a6038b13b310f",
+    "dynamic_hit_tests": [
+      "sklearn/cluster/tests/test_affinity_propagation.py",
+      "sklearn/cluster/tests/test_bicluster.py",
+      "sklearn/cluster/tests/test_birch.py",
+      "sklearn/cluster/tests/test_bisect_k_means.py",
+      "sklearn/cluster/tests/test_dbscan.py",
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/cluster/tests/test_hierarchical.py",
+      "sklearn/cluster/tests/test_k_means.py",
+      "sklearn/cluster/tests/test_mean_shift.py",
+      "sklearn/cluster/tests/test_optics.py",
+      "sklearn/cluster/tests/test_spectral.py",
+      "sklearn/compose/tests/test_column_transformer.py",
+      "sklearn/compose/tests/test_target.py",
+      "sklearn/covariance/tests/test_covariance.py",
+      "sklearn/covariance/tests/test_elliptic_envelope.py",
+      "sklearn/covariance/tests/test_graphical_lasso.py",
+      "sklearn/covariance/tests/test_robust_covariance.py",
+      "sklearn/cross_decomposition/tests/test_pls.py",
+      "sklearn/decomposition/tests/test_dict_learning.py",
+      "sklearn/decomposition/tests/test_factor_analysis.py",
+      "sklearn/decomposition/tests/test_fastica.py",
+      "sklearn/decomposition/tests/test_incremental_pca.py",
+      "sklearn/decomposition/tests/test_kernel_pca.py",
+      "sklearn/decomposition/tests/test_nmf.py",
+      "sklearn/decomposition/tests/test_online_lda.py",
+      "sklearn/decomposition/tests/test_pca.py",
+      "sklearn/decomposition/tests/test_sparse_pca.py",
+      "sklearn/decomposition/tests/test_truncated_svd.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_gradient_boosting.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_monotonic_contraints.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_warm_start.py",
+      "sklearn/ensemble/tests/test_bagging.py",
+      "sklearn/ensemble/tests/test_base.py",
+      "sklearn/ensemble/tests/test_common.py",
+      "sklearn/ensemble/tests/test_forest.py",
+      "sklearn/ensemble/tests/test_gradient_boosting.py",
+      "sklearn/ensemble/tests/test_iforest.py",
+      "sklearn/ensemble/tests/test_stacking.py",
+      "sklearn/ensemble/tests/test_voting.py",
+      "sklearn/ensemble/tests/test_weight_boosting.py",
+      "sklearn/feature_extraction/tests/test_dict_vectorizer.py",
+      "sklearn/feature_extraction/tests/test_text.py",
+      "sklearn/feature_selection/tests/test_base.py",
+      "sklearn/feature_selection/tests/test_chi2.py",
+      "sklearn/feature_selection/tests/test_feature_select.py",
+      "sklearn/feature_selection/tests/test_from_model.py",
+      "sklearn/feature_selection/tests/test_mutual_info.py",
+      "sklearn/feature_selection/tests/test_rfe.py",
+      "sklearn/feature_selection/tests/test_sequential.py",
+      "sklearn/feature_selection/tests/test_variance_threshold.py",
+      "sklearn/gaussian_process/tests/test_gpc.py",
+      "sklearn/gaussian_process/tests/test_gpr.py",
+      "sklearn/impute/tests/test_common.py",
+      "sklearn/impute/tests/test_impute.py",
+      "sklearn/impute/tests/test_knn.py",
+      "sklearn/inspection/_plot/tests/test_boundary_decision_display.py",
+      "sklearn/inspection/_plot/tests/test_plot_partial_dependence.py",
+      "sklearn/inspection/tests/test_partial_dependence.py",
+      "sklearn/inspection/tests/test_permutation_importance.py",
+      "sklearn/linear_model/_glm/tests/test_glm.py",
+      "sklearn/linear_model/tests/test_base.py",
+      "sklearn/linear_model/tests/test_bayes.py",
+      "sklearn/linear_model/tests/test_common.py",
+      "sklearn/linear_model/tests/test_coordinate_descent.py",
+      "sklearn/linear_model/tests/test_huber.py",
+      "sklearn/linear_model/tests/test_least_angle.py",
+      "sklearn/linear_model/tests/test_logistic.py",
+      "sklearn/linear_model/tests/test_omp.py",
+      "sklearn/linear_model/tests/test_passive_aggressive.py",
+      "sklearn/linear_model/tests/test_perceptron.py",
+      "sklearn/linear_model/tests/test_quantile.py",
+      "sklearn/linear_model/tests/test_ransac.py",
+      "sklearn/linear_model/tests/test_ridge.py",
+      "sklearn/linear_model/tests/test_sag.py",
+      "sklearn/linear_model/tests/test_sgd.py",
+      "sklearn/linear_model/tests/test_sparse_coordinate_descent.py",
+      "sklearn/linear_model/tests/test_theil_sen.py",
+      "sklearn/manifold/tests/test_isomap.py",
+      "sklearn/manifold/tests/test_locally_linear.py",
+      "sklearn/manifold/tests/test_mds.py",
+      "sklearn/manifold/tests/test_spectral_embedding.py",
+      "sklearn/manifold/tests/test_t_sne.py",
+      "sklearn/metrics/_plot/tests/test_base.py",
+      "sklearn/metrics/_plot/tests/test_common_curve_display.py",
+      "sklearn/metrics/_plot/tests/test_confusion_matrix_display.py",
+      "sklearn/metrics/_plot/tests/test_det_curve_display.py",
+      "sklearn/metrics/_plot/tests/test_precision_recall_display.py",
+      "sklearn/metrics/_plot/tests/test_predict_error_display.py",
+      "sklearn/metrics/_plot/tests/test_roc_curve_display.py",
+      "sklearn/metrics/tests/test_classification.py",
+      "sklearn/metrics/tests/test_ranking.py",
+      "sklearn/metrics/tests/test_score_objects.py",
+      "sklearn/mixture/tests/test_bayesian_mixture.py",
+      "sklearn/mixture/tests/test_gaussian_mixture.py",
+      "sklearn/mixture/tests/test_mixture.py",
+      "sklearn/model_selection/tests/test_plot.py",
+      "sklearn/model_selection/tests/test_search.py",
+      "sklearn/model_selection/tests/test_split.py",
+      "sklearn/model_selection/tests/test_successive_halving.py",
+      "sklearn/model_selection/tests/test_validation.py",
+      "sklearn/neighbors/tests/test_graph.py",
+      "sklearn/neighbors/tests/test_kde.py",
+      "sklearn/neighbors/tests/test_lof.py",
+      "sklearn/neighbors/tests/test_nca.py",
+      "sklearn/neighbors/tests/test_nearest_centroid.py",
+      "sklearn/neighbors/tests/test_neighbors.py",
+      "sklearn/neighbors/tests/test_neighbors_pipeline.py",
+      "sklearn/neural_network/tests/test_mlp.py",
+      "sklearn/neural_network/tests/test_rbm.py",
+      "sklearn/preprocessing/tests/test_common.py",
+      "sklearn/preprocessing/tests/test_data.py",
+      "sklearn/preprocessing/tests/test_discretization.py",
+      "sklearn/preprocessing/tests/test_function_transformer.py",
+      "sklearn/preprocessing/tests/test_polynomial.py",
+      "sklearn/semi_supervised/tests/test_label_propagation.py",
+      "sklearn/semi_supervised/tests/test_self_training.py",
+      "sklearn/svm/tests/test_bounds.py",
+      "sklearn/svm/tests/test_sparse.py",
+      "sklearn/svm/tests/test_svm.py",
+      "sklearn/tests/test_base.py",
+      "sklearn/tests/test_calibration.py",
+      "sklearn/tests/test_common.py",
+      "sklearn/tests/test_discriminant_analysis.py",
+      "sklearn/tests/test_docstring_parameters.py",
+      "sklearn/tests/test_kernel_approximation.py",
+      "sklearn/tests/test_kernel_ridge.py",
+      "sklearn/tests/test_metaestimators.py",
+      "sklearn/tests/test_multiclass.py",
+      "sklearn/tests/test_multioutput.py",
+      "sklearn/tests/test_naive_bayes.py",
+      "sklearn/tests/test_pipeline.py",
+      "sklearn/tests/test_random_projection.py",
+      "sklearn/tree/tests/test_export.py",
+      "sklearn/tree/tests/test_tree.py",
+      "sklearn/utils/tests/test_class_weight.py",
+      "sklearn/utils/tests/test_estimator_checks.py",
+      "sklearn/utils/tests/test_graph.py",
+      "sklearn/utils/tests/test_parallel.py",
+      "sklearn/utils/tests/test_validation.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "sklearn/cluster/tests/test_affinity_propagation.py",
+      "sklearn/cluster/tests/test_bicluster.py",
+      "sklearn/cluster/tests/test_birch.py",
+      "sklearn/cluster/tests/test_bisect_k_means.py",
+      "sklearn/cluster/tests/test_dbscan.py",
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/cluster/tests/test_hierarchical.py",
+      "sklearn/cluster/tests/test_k_means.py",
+      "sklearn/cluster/tests/test_mean_shift.py",
+      "sklearn/cluster/tests/test_optics.py",
+      "sklearn/cluster/tests/test_spectral.py",
+      "sklearn/compose/tests/test_column_transformer.py",
+      "sklearn/compose/tests/test_target.py",
+      "sklearn/covariance/tests/test_covariance.py",
+      "sklearn/covariance/tests/test_elliptic_envelope.py",
+      "sklearn/covariance/tests/test_graphical_lasso.py",
+      "sklearn/covariance/tests/test_robust_covariance.py",
+      "sklearn/cross_decomposition/tests/test_pls.py",
+      "sklearn/decomposition/tests/test_dict_learning.py",
+      "sklearn/decomposition/tests/test_factor_analysis.py",
+      "sklearn/decomposition/tests/test_fastica.py",
+      "sklearn/decomposition/tests/test_incremental_pca.py",
+      "sklearn/decomposition/tests/test_kernel_pca.py",
+      "sklearn/decomposition/tests/test_nmf.py",
+      "sklearn/decomposition/tests/test_online_lda.py",
+      "sklearn/decomposition/tests/test_pca.py",
+      "sklearn/decomposition/tests/test_sparse_pca.py",
+      "sklearn/decomposition/tests/test_truncated_svd.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_gradient_boosting.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_monotonic_contraints.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_warm_start.py",
+      "sklearn/ensemble/tests/test_bagging.py",
+      "sklearn/ensemble/tests/test_base.py",
+      "sklearn/ensemble/tests/test_common.py",
+      "sklearn/ensemble/tests/test_forest.py",
+      "sklearn/ensemble/tests/test_gradient_boosting.py",
+      "sklearn/ensemble/tests/test_iforest.py",
+      "sklearn/ensemble/tests/test_stacking.py",
+      "sklearn/ensemble/tests/test_voting.py",
+      "sklearn/ensemble/tests/test_weight_boosting.py",
+      "sklearn/feature_extraction/tests/test_dict_vectorizer.py",
+      "sklearn/feature_extraction/tests/test_text.py",
+      "sklearn/feature_selection/tests/test_base.py",
+      "sklearn/feature_selection/tests/test_chi2.py",
+      "sklearn/feature_selection/tests/test_feature_select.py",
+      "sklearn/feature_selection/tests/test_from_model.py",
+      "sklearn/feature_selection/tests/test_mutual_info.py",
+      "sklearn/feature_selection/tests/test_rfe.py",
+      "sklearn/feature_selection/tests/test_sequential.py",
+      "sklearn/feature_selection/tests/test_variance_threshold.py",
+      "sklearn/gaussian_process/tests/test_gpc.py",
+      "sklearn/gaussian_process/tests/test_gpr.py",
+      "sklearn/impute/tests/test_common.py",
+      "sklearn/impute/tests/test_impute.py",
+      "sklearn/impute/tests/test_knn.py",
+      "sklearn/inspection/_plot/tests/test_boundary_decision_display.py",
+      "sklearn/inspection/_plot/tests/test_plot_partial_dependence.py",
+      "sklearn/inspection/tests/test_partial_dependence.py",
+      "sklearn/inspection/tests/test_permutation_importance.py",
+      "sklearn/linear_model/_glm/tests/test_glm.py",
+      "sklearn/linear_model/tests/test_base.py",
+      "sklearn/linear_model/tests/test_bayes.py",
+      "sklearn/linear_model/tests/test_common.py",
+      "sklearn/linear_model/tests/test_coordinate_descent.py",
+      "sklearn/linear_model/tests/test_huber.py",
+      "sklearn/linear_model/tests/test_least_angle.py",
+      "sklearn/linear_model/tests/test_logistic.py",
+      "sklearn/linear_model/tests/test_omp.py",
+      "sklearn/linear_model/tests/test_passive_aggressive.py",
+      "sklearn/linear_model/tests/test_perceptron.py",
+      "sklearn/linear_model/tests/test_quantile.py",
+      "sklearn/linear_model/tests/test_ransac.py",
+      "sklearn/linear_model/tests/test_ridge.py",
+      "sklearn/linear_model/tests/test_sag.py",
+      "sklearn/linear_model/tests/test_sgd.py",
+      "sklearn/linear_model/tests/test_sparse_coordinate_descent.py",
+      "sklearn/linear_model/tests/test_theil_sen.py",
+      "sklearn/manifold/tests/test_isomap.py",
+      "sklearn/manifold/tests/test_locally_linear.py",
+      "sklearn/manifold/tests/test_mds.py",
+      "sklearn/manifold/tests/test_spectral_embedding.py",
+      "sklearn/manifold/tests/test_t_sne.py",
+      "sklearn/metrics/_plot/tests/test_base.py",
+      "sklearn/metrics/_plot/tests/test_common_curve_display.py",
+      "sklearn/metrics/_plot/tests/test_confusion_matrix_display.py",
+      "sklearn/metrics/_plot/tests/test_det_curve_display.py",
+      "sklearn/metrics/_plot/tests/test_precision_recall_display.py",
+      "sklearn/metrics/_plot/tests/test_predict_error_display.py",
+      "sklearn/metrics/_plot/tests/test_roc_curve_display.py",
+      "sklearn/metrics/tests/test_classification.py",
+      "sklearn/metrics/tests/test_ranking.py",
+      "sklearn/metrics/tests/test_score_objects.py",
+      "sklearn/mixture/tests/test_bayesian_mixture.py",
+      "sklearn/mixture/tests/test_gaussian_mixture.py",
+      "sklearn/mixture/tests/test_mixture.py",
+      "sklearn/model_selection/tests/test_plot.py",
+      "sklearn/model_selection/tests/test_search.py",
+      "sklearn/model_selection/tests/test_split.py",
+      "sklearn/model_selection/tests/test_successive_halving.py",
+      "sklearn/model_selection/tests/test_validation.py",
+      "sklearn/neighbors/tests/test_graph.py",
+      "sklearn/neighbors/tests/test_kde.py",
+      "sklearn/neighbors/tests/test_lof.py",
+      "sklearn/neighbors/tests/test_nca.py",
+      "sklearn/neighbors/tests/test_nearest_centroid.py",
+      "sklearn/neighbors/tests/test_neighbors.py",
+      "sklearn/neighbors/tests/test_neighbors_pipeline.py",
+      "sklearn/neural_network/tests/test_mlp.py",
+      "sklearn/neural_network/tests/test_rbm.py",
+      "sklearn/preprocessing/tests/test_common.py",
+      "sklearn/preprocessing/tests/test_data.py",
+      "sklearn/preprocessing/tests/test_discretization.py",
+      "sklearn/preprocessing/tests/test_function_transformer.py",
+      "sklearn/preprocessing/tests/test_polynomial.py",
+      "sklearn/semi_supervised/tests/test_label_propagation.py",
+      "sklearn/semi_supervised/tests/test_self_training.py",
+      "sklearn/svm/tests/test_bounds.py",
+      "sklearn/svm/tests/test_sparse.py",
+      "sklearn/svm/tests/test_svm.py",
+      "sklearn/tests/test_base.py",
+      "sklearn/tests/test_calibration.py",
+      "sklearn/tests/test_common.py",
+      "sklearn/tests/test_discriminant_analysis.py",
+      "sklearn/tests/test_docstring_parameters.py",
+      "sklearn/tests/test_kernel_approximation.py",
+      "sklearn/tests/test_kernel_ridge.py",
+      "sklearn/tests/test_metaestimators.py",
+      "sklearn/tests/test_multiclass.py",
+      "sklearn/tests/test_multioutput.py",
+      "sklearn/tests/test_naive_bayes.py",
+      "sklearn/tests/test_pipeline.py",
+      "sklearn/tests/test_random_projection.py",
+      "sklearn/tree/tests/test_export.py",
+      "sklearn/tree/tests/test_tree.py",
+      "sklearn/utils/tests/test_class_weight.py",
+      "sklearn/utils/tests/test_estimator_checks.py",
+      "sklearn/utils/tests/test_graph.py",
+      "sklearn/utils/tests/test_parallel.py",
+      "sklearn/utils/tests/test_validation.py"
+    ],
+    "elapsed_seconds": 176.124,
+    "failed_test_files": [
+      "sklearn/cluster/tests/test_optics.py",
+      "sklearn/compose/tests/test_target.py",
+      "sklearn/datasets/tests/test_openml.py",
+      "sklearn/feature_extraction/tests/test_image.py",
+      "sklearn/feature_selection/tests/test_base.py",
+      "sklearn/gaussian_process/tests/test_gpc.py",
+      "sklearn/gaussian_process/tests/test_gpr.py",
+      "sklearn/linear_model/tests/test_least_angle.py",
+      "sklearn/linear_model/tests/test_quantile.py",
+      "sklearn/manifold/tests/test_locally_linear.py",
+      "sklearn/model_selection/tests/test_search.py",
+      "sklearn/preprocessing/tests/test_data.py",
+      "sklearn/tests/test_base.py",
+      "sklearn/tests/test_common.py",
+      "sklearn/tests/test_docstrings.py",
+      "sklearn/utils/tests/test_validation.py"
+    ],
+    "in_test_hit_tests": [
+      "sklearn/cluster/tests/test_affinity_propagation.py",
+      "sklearn/cluster/tests/test_bicluster.py",
+      "sklearn/cluster/tests/test_birch.py",
+      "sklearn/cluster/tests/test_bisect_k_means.py",
+      "sklearn/cluster/tests/test_dbscan.py",
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/cluster/tests/test_hierarchical.py",
+      "sklearn/cluster/tests/test_k_means.py",
+      "sklearn/cluster/tests/test_mean_shift.py",
+      "sklearn/cluster/tests/test_spectral.py",
+      "sklearn/compose/tests/test_column_transformer.py",
+      "sklearn/covariance/tests/test_covariance.py",
+      "sklearn/covariance/tests/test_elliptic_envelope.py",
+      "sklearn/covariance/tests/test_graphical_lasso.py",
+      "sklearn/covariance/tests/test_robust_covariance.py",
+      "sklearn/cross_decomposition/tests/test_pls.py",
+      "sklearn/decomposition/tests/test_dict_learning.py",
+      "sklearn/decomposition/tests/test_factor_analysis.py",
+      "sklearn/decomposition/tests/test_fastica.py",
+      "sklearn/decomposition/tests/test_incremental_pca.py",
+      "sklearn/decomposition/tests/test_kernel_pca.py",
+      "sklearn/decomposition/tests/test_nmf.py",
+      "sklearn/decomposition/tests/test_online_lda.py",
+      "sklearn/decomposition/tests/test_pca.py",
+      "sklearn/decomposition/tests/test_sparse_pca.py",
+      "sklearn/decomposition/tests/test_truncated_svd.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_gradient_boosting.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_monotonic_contraints.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_warm_start.py",
+      "sklearn/ensemble/tests/test_bagging.py",
+      "sklearn/ensemble/tests/test_base.py",
+      "sklearn/ensemble/tests/test_common.py",
+      "sklearn/ensemble/tests/test_forest.py",
+      "sklearn/ensemble/tests/test_gradient_boosting.py",
+      "sklearn/ensemble/tests/test_iforest.py",
+      "sklearn/ensemble/tests/test_stacking.py",
+      "sklearn/ensemble/tests/test_voting.py",
+      "sklearn/ensemble/tests/test_weight_boosting.py",
+      "sklearn/feature_extraction/tests/test_dict_vectorizer.py",
+      "sklearn/feature_extraction/tests/test_text.py",
+      "sklearn/feature_selection/tests/test_chi2.py",
+      "sklearn/feature_selection/tests/test_feature_select.py",
+      "sklearn/feature_selection/tests/test_from_model.py",
+      "sklearn/feature_selection/tests/test_mutual_info.py",
+      "sklearn/feature_selection/tests/test_rfe.py",
+      "sklearn/feature_selection/tests/test_sequential.py",
+      "sklearn/feature_selection/tests/test_variance_threshold.py",
+      "sklearn/impute/tests/test_common.py",
+      "sklearn/impute/tests/test_impute.py",
+      "sklearn/impute/tests/test_knn.py",
+      "sklearn/inspection/_plot/tests/test_boundary_decision_display.py",
+      "sklearn/inspection/_plot/tests/test_plot_partial_dependence.py",
+      "sklearn/inspection/tests/test_partial_dependence.py",
+      "sklearn/inspection/tests/test_permutation_importance.py",
+      "sklearn/linear_model/_glm/tests/test_glm.py",
+      "sklearn/linear_model/tests/test_base.py",
+      "sklearn/linear_model/tests/test_bayes.py",
+      "sklearn/linear_model/tests/test_common.py",
+      "sklearn/linear_model/tests/test_coordinate_descent.py",
+      "sklearn/linear_model/tests/test_huber.py",
+      "sklearn/linear_model/tests/test_logistic.py",
+      "sklearn/linear_model/tests/test_omp.py",
+      "sklearn/linear_model/tests/test_passive_aggressive.py",
+      "sklearn/linear_model/tests/test_perceptron.py",
+      "sklearn/linear_model/tests/test_ransac.py",
+      "sklearn/linear_model/tests/test_ridge.py",
+      "sklearn/linear_model/tests/test_sag.py",
+      "sklearn/linear_model/tests/test_sgd.py",
+      "sklearn/linear_model/tests/test_sparse_coordinate_descent.py",
+      "sklearn/linear_model/tests/test_theil_sen.py",
+      "sklearn/manifold/tests/test_isomap.py",
+      "sklearn/manifold/tests/test_mds.py",
+      "sklearn/manifold/tests/test_spectral_embedding.py",
+      "sklearn/manifold/tests/test_t_sne.py",
+      "sklearn/metrics/_plot/tests/test_base.py",
+      "sklearn/metrics/_plot/tests/test_common_curve_display.py",
+      "sklearn/metrics/_plot/tests/test_confusion_matrix_display.py",
+      "sklearn/metrics/_plot/tests/test_det_curve_display.py",
+      "sklearn/metrics/_plot/tests/test_precision_recall_display.py",
+      "sklearn/metrics/_plot/tests/test_predict_error_display.py",
+      "sklearn/metrics/_plot/tests/test_roc_curve_display.py",
+      "sklearn/metrics/tests/test_classification.py",
+      "sklearn/metrics/tests/test_ranking.py",
+      "sklearn/metrics/tests/test_score_objects.py",
+      "sklearn/mixture/tests/test_bayesian_mixture.py",
+      "sklearn/mixture/tests/test_gaussian_mixture.py",
+      "sklearn/mixture/tests/test_mixture.py",
+      "sklearn/model_selection/tests/test_plot.py",
+      "sklearn/model_selection/tests/test_split.py",
+      "sklearn/model_selection/tests/test_successive_halving.py",
+      "sklearn/model_selection/tests/test_validation.py",
+      "sklearn/neighbors/tests/test_graph.py",
+      "sklearn/neighbors/tests/test_kde.py",
+      "sklearn/neighbors/tests/test_lof.py",
+      "sklearn/neighbors/tests/test_nca.py",
+      "sklearn/neighbors/tests/test_nearest_centroid.py",
+      "sklearn/neighbors/tests/test_neighbors.py",
+      "sklearn/neighbors/tests/test_neighbors_pipeline.py",
+      "sklearn/neural_network/tests/test_mlp.py",
+      "sklearn/neural_network/tests/test_rbm.py",
+      "sklearn/preprocessing/tests/test_common.py",
+      "sklearn/preprocessing/tests/test_discretization.py",
+      "sklearn/preprocessing/tests/test_function_transformer.py",
+      "sklearn/preprocessing/tests/test_polynomial.py",
+      "sklearn/semi_supervised/tests/test_label_propagation.py",
+      "sklearn/semi_supervised/tests/test_self_training.py",
+      "sklearn/svm/tests/test_bounds.py",
+      "sklearn/svm/tests/test_sparse.py",
+      "sklearn/svm/tests/test_svm.py",
+      "sklearn/tests/test_calibration.py",
+      "sklearn/tests/test_discriminant_analysis.py",
+      "sklearn/tests/test_docstring_parameters.py",
+      "sklearn/tests/test_kernel_approximation.py",
+      "sklearn/tests/test_kernel_ridge.py",
+      "sklearn/tests/test_metaestimators.py",
+      "sklearn/tests/test_multiclass.py",
+      "sklearn/tests/test_multioutput.py",
+      "sklearn/tests/test_naive_bayes.py",
+      "sklearn/tests/test_pipeline.py",
+      "sklearn/tests/test_random_projection.py",
+      "sklearn/tree/tests/test_export.py",
+      "sklearn/tree/tests/test_tree.py",
+      "sklearn/utils/tests/test_class_weight.py",
+      "sklearn/utils/tests/test_estimator_checks.py",
+      "sklearn/utils/tests/test_graph.py",
+      "sklearn/utils/tests/test_parallel.py"
+    ],
+    "instance_id": "scikit-learn__scikit-learn-25102",
+    "modified_functions": [
+      {
+        "insertion_line": 566,
+        "line": 495,
+        "marker": "sklearn/base.py::BaseEstimator._validate_data",
+        "path": "sklearn/base.py",
+        "qualname": "BaseEstimator._validate_data"
+      },
+      {
+        "insertion_line": 101,
+        "line": 99,
+        "marker": "sklearn/feature_selection/_base.py::SelectorMixin._transform",
+        "path": "sklearn/feature_selection/_base.py",
+        "qualname": "SelectorMixin._transform"
+      },
+      {
+        "insertion_line": 84,
+        "line": 69,
+        "marker": "sklearn/feature_selection/_base.py::SelectorMixin.transform",
+        "path": "sklearn/feature_selection/_base.py",
+        "qualname": "SelectorMixin.transform"
+      }
+    ],
+    "passed_test_files": 213,
+    "passing_dynamic_hit_tests": [
+      "sklearn/cluster/tests/test_affinity_propagation.py",
+      "sklearn/cluster/tests/test_bicluster.py",
+      "sklearn/cluster/tests/test_birch.py",
+      "sklearn/cluster/tests/test_bisect_k_means.py",
+      "sklearn/cluster/tests/test_dbscan.py",
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/cluster/tests/test_hierarchical.py",
+      "sklearn/cluster/tests/test_k_means.py",
+      "sklearn/cluster/tests/test_mean_shift.py",
+      "sklearn/cluster/tests/test_spectral.py",
+      "sklearn/compose/tests/test_column_transformer.py",
+      "sklearn/covariance/tests/test_covariance.py",
+      "sklearn/covariance/tests/test_elliptic_envelope.py",
+      "sklearn/covariance/tests/test_graphical_lasso.py",
+      "sklearn/covariance/tests/test_robust_covariance.py",
+      "sklearn/cross_decomposition/tests/test_pls.py",
+      "sklearn/decomposition/tests/test_dict_learning.py",
+      "sklearn/decomposition/tests/test_factor_analysis.py",
+      "sklearn/decomposition/tests/test_fastica.py",
+      "sklearn/decomposition/tests/test_incremental_pca.py",
+      "sklearn/decomposition/tests/test_kernel_pca.py",
+      "sklearn/decomposition/tests/test_nmf.py",
+      "sklearn/decomposition/tests/test_online_lda.py",
+      "sklearn/decomposition/tests/test_pca.py",
+      "sklearn/decomposition/tests/test_sparse_pca.py",
+      "sklearn/decomposition/tests/test_truncated_svd.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_gradient_boosting.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_monotonic_contraints.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_warm_start.py",
+      "sklearn/ensemble/tests/test_bagging.py",
+      "sklearn/ensemble/tests/test_base.py",
+      "sklearn/ensemble/tests/test_common.py",
+      "sklearn/ensemble/tests/test_forest.py",
+      "sklearn/ensemble/tests/test_gradient_boosting.py",
+      "sklearn/ensemble/tests/test_iforest.py",
+      "sklearn/ensemble/tests/test_stacking.py",
+      "sklearn/ensemble/tests/test_voting.py",
+      "sklearn/ensemble/tests/test_weight_boosting.py",
+      "sklearn/feature_extraction/tests/test_dict_vectorizer.py",
+      "sklearn/feature_extraction/tests/test_text.py",
+      "sklearn/feature_selection/tests/test_chi2.py",
+      "sklearn/feature_selection/tests/test_feature_select.py",
+      "sklearn/feature_selection/tests/test_from_model.py",
+      "sklearn/feature_selection/tests/test_mutual_info.py",
+      "sklearn/feature_selection/tests/test_rfe.py",
+      "sklearn/feature_selection/tests/test_sequential.py",
+      "sklearn/feature_selection/tests/test_variance_threshold.py",
+      "sklearn/impute/tests/test_common.py",
+      "sklearn/impute/tests/test_impute.py",
+      "sklearn/impute/tests/test_knn.py",
+      "sklearn/inspection/_plot/tests/test_boundary_decision_display.py",
+      "sklearn/inspection/_plot/tests/test_plot_partial_dependence.py",
+      "sklearn/inspection/tests/test_partial_dependence.py",
+      "sklearn/inspection/tests/test_permutation_importance.py",
+      "sklearn/linear_model/_glm/tests/test_glm.py",
+      "sklearn/linear_model/tests/test_base.py",
+      "sklearn/linear_model/tests/test_bayes.py",
+      "sklearn/linear_model/tests/test_common.py",
+      "sklearn/linear_model/tests/test_coordinate_descent.py",
+      "sklearn/linear_model/tests/test_huber.py",
+      "sklearn/linear_model/tests/test_logistic.py",
+      "sklearn/linear_model/tests/test_omp.py",
+      "sklearn/linear_model/tests/test_passive_aggressive.py",
+      "sklearn/linear_model/tests/test_perceptron.py",
+      "sklearn/linear_model/tests/test_ransac.py",
+      "sklearn/linear_model/tests/test_ridge.py",
+      "sklearn/linear_model/tests/test_sag.py",
+      "sklearn/linear_model/tests/test_sgd.py",
+      "sklearn/linear_model/tests/test_sparse_coordinate_descent.py",
+      "sklearn/linear_model/tests/test_theil_sen.py",
+      "sklearn/manifold/tests/test_isomap.py",
+      "sklearn/manifold/tests/test_mds.py",
+      "sklearn/manifold/tests/test_spectral_embedding.py",
+      "sklearn/manifold/tests/test_t_sne.py",
+      "sklearn/metrics/_plot/tests/test_base.py",
+      "sklearn/metrics/_plot/tests/test_common_curve_display.py",
+      "sklearn/metrics/_plot/tests/test_confusion_matrix_display.py",
+      "sklearn/metrics/_plot/tests/test_det_curve_display.py",
+      "sklearn/metrics/_plot/tests/test_precision_recall_display.py",
+      "sklearn/metrics/_plot/tests/test_predict_error_display.py",
+      "sklearn/metrics/_plot/tests/test_roc_curve_display.py",
+      "sklearn/metrics/tests/test_classification.py",
+      "sklearn/metrics/tests/test_ranking.py",
+      "sklearn/metrics/tests/test_score_objects.py",
+      "sklearn/mixture/tests/test_bayesian_mixture.py",
+      "sklearn/mixture/tests/test_gaussian_mixture.py",
+      "sklearn/mixture/tests/test_mixture.py",
+      "sklearn/model_selection/tests/test_plot.py",
+      "sklearn/model_selection/tests/test_split.py",
+      "sklearn/model_selection/tests/test_successive_halving.py",
+      "sklearn/model_selection/tests/test_validation.py",
+      "sklearn/neighbors/tests/test_graph.py",
+      "sklearn/neighbors/tests/test_kde.py",
+      "sklearn/neighbors/tests/test_lof.py",
+      "sklearn/neighbors/tests/test_nca.py",
+      "sklearn/neighbors/tests/test_nearest_centroid.py",
+      "sklearn/neighbors/tests/test_neighbors.py",
+      "sklearn/neighbors/tests/test_neighbors_pipeline.py",
+      "sklearn/neural_network/tests/test_mlp.py",
+      "sklearn/neural_network/tests/test_rbm.py",
+      "sklearn/preprocessing/tests/test_common.py",
+      "sklearn/preprocessing/tests/test_discretization.py",
+      "sklearn/preprocessing/tests/test_function_transformer.py",
+      "sklearn/preprocessing/tests/test_polynomial.py",
+      "sklearn/semi_supervised/tests/test_label_propagation.py",
+      "sklearn/semi_supervised/tests/test_self_training.py",
+      "sklearn/svm/tests/test_bounds.py",
+      "sklearn/svm/tests/test_sparse.py",
+      "sklearn/svm/tests/test_svm.py",
+      "sklearn/tests/test_calibration.py",
+      "sklearn/tests/test_discriminant_analysis.py",
+      "sklearn/tests/test_docstring_parameters.py",
+      "sklearn/tests/test_kernel_approximation.py",
+      "sklearn/tests/test_kernel_ridge.py",
+      "sklearn/tests/test_metaestimators.py",
+      "sklearn/tests/test_multiclass.py",
+      "sklearn/tests/test_multioutput.py",
+      "sklearn/tests/test_naive_bayes.py",
+      "sklearn/tests/test_pipeline.py",
+      "sklearn/tests/test_random_projection.py",
+      "sklearn/tree/tests/test_export.py",
+      "sklearn/tree/tests/test_tree.py",
+      "sklearn/utils/tests/test_class_weight.py",
+      "sklearn/utils/tests/test_estimator_checks.py",
+      "sklearn/utils/tests/test_graph.py",
+      "sklearn/utils/tests/test_parallel.py"
+    ],
+    "patch_file": "f9a1cf072da9d7375d6c2163f68a6038b13b310f/golden.patch",
+    "project": "scikit-learn/scikit-learn",
+    "python": "Python 3.9.21",
+    "run_dir": "/shared_dir/projects/namerts/runtime/final_python_samples/scikit_learn/ground_truth_runs/scikit-learn__scikit-learn-25102_1784863163_1004961",
+    "test_env": "RTSFinal39_scikit_learn_5fc879df",
+    "tests_to_run": [
+      "sklearn/cluster/tests/test_affinity_propagation.py",
+      "sklearn/cluster/tests/test_bicluster.py",
+      "sklearn/cluster/tests/test_birch.py",
+      "sklearn/cluster/tests/test_bisect_k_means.py",
+      "sklearn/cluster/tests/test_dbscan.py",
+      "sklearn/cluster/tests/test_feature_agglomeration.py",
+      "sklearn/cluster/tests/test_hierarchical.py",
+      "sklearn/cluster/tests/test_k_means.py",
+      "sklearn/cluster/tests/test_mean_shift.py",
+      "sklearn/cluster/tests/test_optics.py",
+      "sklearn/cluster/tests/test_spectral.py",
+      "sklearn/compose/tests/test_column_transformer.py",
+      "sklearn/compose/tests/test_target.py",
+      "sklearn/covariance/tests/test_covariance.py",
+      "sklearn/covariance/tests/test_elliptic_envelope.py",
+      "sklearn/covariance/tests/test_graphical_lasso.py",
+      "sklearn/covariance/tests/test_robust_covariance.py",
+      "sklearn/cross_decomposition/tests/test_pls.py",
+      "sklearn/decomposition/tests/test_dict_learning.py",
+      "sklearn/decomposition/tests/test_factor_analysis.py",
+      "sklearn/decomposition/tests/test_fastica.py",
+      "sklearn/decomposition/tests/test_incremental_pca.py",
+      "sklearn/decomposition/tests/test_kernel_pca.py",
+      "sklearn/decomposition/tests/test_nmf.py",
+      "sklearn/decomposition/tests/test_online_lda.py",
+      "sklearn/decomposition/tests/test_pca.py",
+      "sklearn/decomposition/tests/test_sparse_pca.py",
+      "sklearn/decomposition/tests/test_truncated_svd.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_gradient_boosting.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_monotonic_contraints.py",
+      "sklearn/ensemble/_hist_gradient_boosting/tests/test_warm_start.py",
+      "sklearn/ensemble/tests/test_bagging.py",
+      "sklearn/ensemble/tests/test_base.py",
+      "sklearn/ensemble/tests/test_common.py",
+      "sklearn/ensemble/tests/test_forest.py",
+      "sklearn/ensemble/tests/test_gradient_boosting.py",
+      "sklearn/ensemble/tests/test_iforest.py",
+      "sklearn/ensemble/tests/test_stacking.py",
+      "sklearn/ensemble/tests/test_voting.py",
+      "sklearn/ensemble/tests/test_weight_boosting.py",
+      "sklearn/feature_extraction/tests/test_dict_vectorizer.py",
+      "sklearn/feature_extraction/tests/test_text.py",
+      "sklearn/feature_selection/tests/test_base.py",
+      "sklearn/feature_selection/tests/test_chi2.py",
+      "sklearn/feature_selection/tests/test_feature_select.py",
+      "sklearn/feature_selection/tests/test_from_model.py",
+      "sklearn/feature_selection/tests/test_mutual_info.py",
+      "sklearn/feature_selection/tests/test_rfe.py",
+      "sklearn/feature_selection/tests/test_sequential.py",
+      "sklearn/feature_selection/tests/test_variance_threshold.py",
+      "sklearn/gaussian_process/tests/test_gpc.py",
+      "sklearn/gaussian_process/tests/test_gpr.py",
+      "sklearn/impute/tests/test_common.py",
+      "sklearn/impute/tests/test_impute.py",
+      "sklearn/impute/tests/test_knn.py",
+      "sklearn/inspection/_plot/tests/test_boundary_decision_display.py",
+      "sklearn/inspection/_plot/tests/test_plot_partial_dependence.py",
+      "sklearn/inspection/tests/test_partial_dependence.py",
+      "sklearn/inspection/tests/test_permutation_importance.py",
+      "sklearn/linear_model/_glm/tests/test_glm.py",
+      "sklearn/linear_model/tests/test_base.py",
+      "sklearn/linear_model/tests/test_bayes.py",
+      "sklearn/linear_model/tests/test_common.py",
+      "sklearn/linear_model/tests/test_coordinate_descent.py",
+      "sklearn/linear_model/tests/test_huber.py",
+      "sklearn/linear_model/tests/test_least_angle.py",
+      "sklearn/linear_model/tests/test_logistic.py",
+      "sklearn/linear_model/tests/test_omp.py",
+      "sklearn/linear_model/tests/test_passive_aggressive.py",
+      "sklearn/linear_model/tests/test_perceptron.py",
+      "sklearn/linear_model/tests/test_quantile.py",
+      "sklearn/linear_model/tests/test_ransac.py",
+      "sklearn/linear_model/tests/test_ridge.py",
+      "sklearn/linear_model/tests/test_sag.py",
+      "sklearn/linear_model/tests/test_sgd.py",
+      "sklearn/linear_model/tests/test_sparse_coordinate_descent.py",
+      "sklearn/linear_model/tests/test_theil_sen.py",
+      "sklearn/manifold/tests/test_isomap.py",
+      "sklearn/manifold/tests/test_locally_linear.py",
+      "sklearn/manifold/tests/test_mds.py",
+      "sklearn/manifold/tests/test_spectral_embedding.py",
+      "sklearn/manifold/tests/test_t_sne.py",
+      "sklearn/metrics/_plot/tests/test_base.py",
+      "sklearn/metrics/_plot/tests/test_common_curve_display.py",
+      "sklearn/metrics/_plot/tests/test_confusion_matrix_display.py",
+      "sklearn/metrics/_plot/tests/test_det_curve_display.py",
+      "sklearn/metrics/_plot/tests/test_precision_recall_display.py",
+      "sklearn/metrics/_plot/tests/test_predict_error_display.py",
+      "sklearn/metrics/_plot/tests/test_roc_curve_display.py",
+      "sklearn/metrics/tests/test_classification.py",
+      "sklearn/metrics/tests/test_ranking.py",
+      "sklearn/metrics/tests/test_score_objects.py",
+      "sklearn/mixture/tests/test_bayesian_mixture.py",
+      "sklearn/mixture/tests/test_gaussian_mixture.py",
+      "sklearn/mixture/tests/test_mixture.py",
+      "sklearn/model_selection/tests/test_plot.py",
+      "sklearn/model_selection/tests/test_search.py",
+      "sklearn/model_selection/tests/test_split.py",
+      "sklearn/model_selection/tests/test_successive_halving.py",
+      "sklearn/model_selection/tests/test_validation.py",
+      "sklearn/neighbors/tests/test_graph.py",
+      "sklearn/neighbors/tests/test_kde.py",
+      "sklearn/neighbors/tests/test_lof.py",
+      "sklearn/neighbors/tests/test_nca.py",
+      "sklearn/neighbors/tests/test_nearest_centroid.py",
+      "sklearn/neighbors/tests/test_neighbors.py",
+      "sklearn/neighbors/tests/test_neighbors_pipeline.py",
+      "sklearn/neural_network/tests/test_mlp.py",
+      "sklearn/neural_network/tests/test_rbm.py",
+      "sklearn/preprocessing/tests/test_common.py",
+      "sklearn/preprocessing/tests/test_data.py",
+      "sklearn/preprocessing/tests/test_discretization.py",
+      "sklearn/preprocessing/tests/test_function_transformer.py",
+      "sklearn/preprocessing/tests/test_polynomial.py",
+      "sklearn/semi_supervised/tests/test_label_propagation.py",
+      "sklearn/semi_supervised/tests/test_self_training.py",
+      "sklearn/svm/tests/test_bounds.py",
+      "sklearn/svm/tests/test_sparse.py",
+      "sklearn/svm/tests/test_svm.py",
+      "sklearn/tests/test_base.py",
+      "sklearn/tests/test_calibration.py",
+      "sklearn/tests/test_common.py",
+      "sklearn/tests/test_discriminant_analysis.py",
+      "sklearn/tests/test_docstring_parameters.py",
+      "sklearn/tests/test_kernel_approximation.py",
+      "sklearn/tests/test_kernel_ridge.py",
+      "sklearn/tests/test_metaestimators.py",
+      "sklearn/tests/test_multiclass.py",
+      "sklearn/tests/test_multioutput.py",
+      "sklearn/tests/test_naive_bayes.py",
+      "sklearn/tests/test_pipeline.py",
+      "sklearn/tests/test_random_projection.py",
+      "sklearn/tree/tests/test_export.py",
+      "sklearn/tree/tests/test_tree.py",
+      "sklearn/utils/tests/test_class_weight.py",
+      "sklearn/utils/tests/test_estimator_checks.py",
+      "sklearn/utils/tests/test_graph.py",
+      "sklearn/utils/tests/test_parallel.py",
+      "sklearn/utils/tests/test_validation.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 229,
+    "uninstrumentable_changes": [],
+    "version": "1.3"
+  }
+]

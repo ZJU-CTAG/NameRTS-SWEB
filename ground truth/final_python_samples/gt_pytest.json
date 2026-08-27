@@ -1,0 +1,72 @@
+[
+  {
+    "affected_functions_by_test": {
+      "testing/logging/test_fixture.py": [
+        "src/_pytest/logging.py::LogCaptureFixture.clear",
+        "src/_pytest/logging.py::LogCaptureHandler.clear"
+      ]
+    },
+    "base_commit": "aa55975c7d3f6c9f6d7f68accc41bb7cadf0eb9a",
+    "dynamic_hit_tests": [
+      "testing/logging/test_fixture.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "testing/logging/test_fixture.py"
+    ],
+    "elapsed_seconds": 11.149,
+    "failed_test_files": [
+      "testing/example_scripts/dataclasses/test_compare_dataclasses.py",
+      "testing/example_scripts/dataclasses/test_compare_dataclasses_verbose.py",
+      "testing/example_scripts/dataclasses/test_compare_dataclasses_with_custom_eq.py",
+      "testing/example_scripts/dataclasses/test_compare_initvar.py",
+      "testing/example_scripts/dataclasses/test_compare_recursive_dataclasses.py",
+      "testing/example_scripts/doctest/main_py/test_normal_module.py",
+      "testing/example_scripts/fixtures/fill_fixtures/test_detect_recursive_dependency_error.py",
+      "testing/example_scripts/fixtures/fill_fixtures/test_funcarg_lookupfails.py",
+      "testing/example_scripts/fixtures/test_fixture_named_request.py",
+      "testing/example_scripts/issue88_initial_file_multinodes/test_hello.py",
+      "testing/example_scripts/unittest/test_parametrized_fixture_error_message.py",
+      "testing/example_scripts/unittest/test_setup_skip_module.py",
+      "testing/example_scripts/unittest/test_unittest_asyncio.py",
+      "testing/example_scripts/unittest/test_unittest_asynctest.py",
+      "testing/io/test_terminalwriter.py",
+      "testing/logging/test_fixture.py",
+      "testing/test_junitxml.py",
+      "testing/test_legacypath.py",
+      "testing/test_monkeypatch.py",
+      "testing/test_terminal.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "pytest-dev__pytest-10051",
+    "modified_functions": [
+      {
+        "insertion_line": 446,
+        "line": 444,
+        "marker": "src/_pytest/logging.py::LogCaptureFixture.clear",
+        "path": "src/_pytest/logging.py",
+        "qualname": "LogCaptureFixture.clear"
+      },
+      {
+        "insertion_line": 348,
+        "line": 347,
+        "marker": "src/_pytest/logging.py::LogCaptureHandler.clear",
+        "path": "src/_pytest/logging.py",
+        "qualname": "LogCaptureHandler.clear"
+      }
+    ],
+    "passed_test_files": 78,
+    "passing_dynamic_hit_tests": [],
+    "patch_file": "aa55975c7d3f6c9f6d7f68accc41bb7cadf0eb9a/golden.patch",
+    "project": "pytest-dev/pytest",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/final_python_samples/pytest/ground_truth_runs/pytest-dev__pytest-10051_1784862589_999240",
+    "test_env": "RTSFinal39_pytest_c29104d9",
+    "tests_to_run": [
+      "testing/logging/test_fixture.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 98,
+    "uninstrumentable_changes": [],
+    "version": "7.2"
+  }
+]

@@ -1,0 +1,2786 @@
+[
+  {
+    "affected_functions_by_test": {},
+    "base_commit": "f1061c012e214f16fd8790dec3c283d787e3daa8",
+    "dynamic_hit_tests": [],
+    "dynamic_hit_tests_all": [],
+    "elapsed_seconds": 1.58,
+    "failed_test_files": [
+      "tests/roots/test-inheritance/dummy/test_nested.py",
+      "tests/test_api_translator.py",
+      "tests/test_application.py",
+      "tests/test_build.py",
+      "tests/test_build_changes.py",
+      "tests/test_build_dirhtml.py",
+      "tests/test_build_epub.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_linkcheck.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_build_text.py",
+      "tests/test_builder.py",
+      "tests/test_catalogs.py",
+      "tests/test_config.py",
+      "tests/test_correct_year.py",
+      "tests/test_directive_code.py",
+      "tests/test_directive_only.py",
+      "tests/test_directive_other.py",
+      "tests/test_directive_patch.py",
+      "tests/test_docutilsconf.py",
+      "tests/test_domain_c.py",
+      "tests/test_domain_cpp.py",
+      "tests/test_domain_js.py",
+      "tests/test_domain_py.py",
+      "tests/test_domain_rst.py",
+      "tests/test_domain_std.py",
+      "tests/test_environment.py",
+      "tests/test_environment_indexentries.py",
+      "tests/test_environment_toctree.py",
+      "tests/test_errors.py",
+      "tests/test_events.py",
+      "tests/test_ext_apidoc.py",
+      "tests/test_ext_autodoc.py",
+      "tests/test_ext_autodoc_autoattribute.py",
+      "tests/test_ext_autodoc_autoclass.py",
+      "tests/test_ext_autodoc_autodata.py",
+      "tests/test_ext_autodoc_autofunction.py",
+      "tests/test_ext_autodoc_automodule.py",
+      "tests/test_ext_autodoc_autoproperty.py",
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_ext_autodoc_events.py",
+      "tests/test_ext_autodoc_mock.py",
+      "tests/test_ext_autodoc_preserve_defaults.py",
+      "tests/test_ext_autodoc_private_members.py",
+      "tests/test_ext_autosectionlabel.py",
+      "tests/test_ext_autosummary.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_ext_doctest.py",
+      "tests/test_ext_duration.py",
+      "tests/test_ext_extlinks.py",
+      "tests/test_ext_githubpages.py",
+      "tests/test_ext_graphviz.py",
+      "tests/test_ext_ifconfig.py",
+      "tests/test_ext_imgconverter.py",
+      "tests/test_ext_inheritance_diagram.py",
+      "tests/test_ext_intersphinx.py",
+      "tests/test_ext_math.py",
+      "tests/test_ext_napoleon.py",
+      "tests/test_ext_napoleon_docstring.py",
+      "tests/test_ext_napoleon_iterators.py",
+      "tests/test_ext_todo.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_extension.py",
+      "tests/test_highlighting.py",
+      "tests/test_intl.py",
+      "tests/test_locale.py",
+      "tests/test_markup.py",
+      "tests/test_metadata.py",
+      "tests/test_parser.py",
+      "tests/test_project.py",
+      "tests/test_pycode.py",
+      "tests/test_pycode_ast.py",
+      "tests/test_pycode_parser.py",
+      "tests/test_quickstart.py",
+      "tests/test_roles.py",
+      "tests/test_search.py",
+      "tests/test_setup_command.py",
+      "tests/test_smartquotes.py",
+      "tests/test_templating.py",
+      "tests/test_theming.py",
+      "tests/test_toctree.py",
+      "tests/test_transforms_post_transforms.py",
+      "tests/test_transforms_post_transforms_code.py",
+      "tests/test_util.py",
+      "tests/test_util_docstrings.py",
+      "tests/test_util_docutils.py",
+      "tests/test_util_fileutil.py",
+      "tests/test_util_i18n.py",
+      "tests/test_util_images.py",
+      "tests/test_util_inspect.py",
+      "tests/test_util_inventory.py",
+      "tests/test_util_jsdump.py",
+      "tests/test_util_logging.py",
+      "tests/test_util_matching.py",
+      "tests/test_util_nodes.py",
+      "tests/test_util_rst.py",
+      "tests/test_util_template.py",
+      "tests/test_util_typing.py",
+      "tests/test_versioning.py",
+      "tests/test_writer_latex.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "sphinx-doc__sphinx-10435",
+    "modified_functions": [
+      {
+        "insertion_line": 1696,
+        "line": 1695,
+        "marker": "sphinx/writers/latex.py::LaTeXTranslator.visit_literal",
+        "path": "sphinx/writers/latex.py",
+        "qualname": "LaTeXTranslator.visit_literal"
+      }
+    ],
+    "passed_test_files": 0,
+    "patch_file": "f1061c012e214f16fd8790dec3c283d787e3daa8/golden.patch",
+    "project": "sphinx-doc/sphinx",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/sphinx/ground_truth_runs/sphinx-doc__sphinx-10435_1784794817_781254",
+    "test_env": "RTSTest39_sphinx_fd0d2891",
+    "tests_to_run": [],
+    "timed_out_test_files": [],
+    "total_tests": 103,
+    "uninstrumentable_changes": [],
+    "version": "5.0"
+  },
+  {
+    "affected_functions_by_test": {
+      "tests/test_build.py": [
+        "sphinx/ext/autodoc/typehints.py::merge_typehints"
+      ],
+      "tests/test_build_gettext.py": [
+        "sphinx/ext/autodoc/typehints.py::merge_typehints"
+      ],
+      "tests/test_build_html.py": [
+        "sphinx/ext/autodoc/typehints.py::merge_typehints"
+      ],
+      "tests/test_build_latex.py": [
+        "sphinx/ext/autodoc/typehints.py::merge_typehints"
+      ],
+      "tests/test_build_manpage.py": [
+        "sphinx/ext/autodoc/typehints.py::merge_typehints"
+      ],
+      "tests/test_build_texinfo.py": [
+        "sphinx/ext/autodoc/typehints.py::merge_typehints"
+      ],
+      "tests/test_builder.py": [
+        "sphinx/ext/autodoc/typehints.py::merge_typehints"
+      ],
+      "tests/test_domain_c.py": [
+        "sphinx/ext/autodoc/typehints.py::merge_typehints"
+      ],
+      "tests/test_domain_cpp.py": [
+        "sphinx/ext/autodoc/typehints.py::merge_typehints"
+      ],
+      "tests/test_domain_js.py": [
+        "sphinx/ext/autodoc/typehints.py::merge_typehints"
+      ],
+      "tests/test_domain_py.py": [
+        "sphinx/ext/autodoc/typehints.py::merge_typehints"
+      ],
+      "tests/test_domain_rst.py": [
+        "sphinx/ext/autodoc/typehints.py::merge_typehints"
+      ],
+      "tests/test_domain_std.py": [
+        "sphinx/ext/autodoc/typehints.py::merge_typehints"
+      ],
+      "tests/test_environment.py": [
+        "sphinx/ext/autodoc/typehints.py::merge_typehints"
+      ],
+      "tests/test_ext_autodoc.py": [
+        "sphinx/ext/autodoc/typehints.py::merge_typehints"
+      ],
+      "tests/test_ext_autodoc_configs.py": [
+        "sphinx/ext/autodoc/typehints.py::merge_typehints",
+        "sphinx/ext/autodoc/typehints.py::modify_field_list"
+      ],
+      "tests/test_ext_autosummary.py": [
+        "sphinx/ext/autodoc/typehints.py::merge_typehints"
+      ],
+      "tests/test_ext_coverage.py": [
+        "sphinx/ext/autodoc/typehints.py::merge_typehints"
+      ],
+      "tests/test_ext_viewcode.py": [
+        "sphinx/ext/autodoc/typehints.py::merge_typehints"
+      ],
+      "tests/test_search.py": [
+        "sphinx/ext/autodoc/typehints.py::merge_typehints"
+      ],
+      "tests/test_templating.py": [
+        "sphinx/ext/autodoc/typehints.py::merge_typehints"
+      ]
+    },
+    "base_commit": "36367765fe780f962bba861bf368a765380bbc68",
+    "dynamic_hit_tests": [
+      "tests/test_build.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_builder.py",
+      "tests/test_domain_c.py",
+      "tests/test_domain_cpp.py",
+      "tests/test_domain_js.py",
+      "tests/test_domain_py.py",
+      "tests/test_domain_rst.py",
+      "tests/test_domain_std.py",
+      "tests/test_environment.py",
+      "tests/test_ext_autodoc.py",
+      "tests/test_ext_autosummary.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_search.py",
+      "tests/test_templating.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "tests/test_build.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_builder.py",
+      "tests/test_domain_c.py",
+      "tests/test_domain_cpp.py",
+      "tests/test_domain_js.py",
+      "tests/test_domain_py.py",
+      "tests/test_domain_rst.py",
+      "tests/test_domain_std.py",
+      "tests/test_environment.py",
+      "tests/test_ext_autodoc.py",
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_ext_autosummary.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_search.py",
+      "tests/test_templating.py"
+    ],
+    "elapsed_seconds": 23.831,
+    "failed_test_files": [
+      "tests/roots/test-inheritance/dummy/test_nested.py",
+      "tests/test_build_linkcheck.py",
+      "tests/test_config.py",
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_intl.py",
+      "tests/test_theming.py",
+      "tests/test_util_i18n.py"
+    ],
+    "in_test_hit_tests": [
+      "tests/test_build.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_builder.py",
+      "tests/test_domain_c.py",
+      "tests/test_domain_cpp.py",
+      "tests/test_domain_js.py",
+      "tests/test_domain_py.py",
+      "tests/test_domain_rst.py",
+      "tests/test_domain_std.py",
+      "tests/test_environment.py",
+      "tests/test_ext_autodoc.py",
+      "tests/test_ext_autosummary.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_search.py",
+      "tests/test_templating.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-10449",
+    "modified_functions": [
+      {
+        "insertion_line": 38,
+        "line": 37,
+        "marker": "sphinx/ext/autodoc/typehints.py::merge_typehints",
+        "path": "sphinx/ext/autodoc/typehints.py",
+        "qualname": "merge_typehints"
+      },
+      {
+        "insertion_line": 91,
+        "line": 89,
+        "marker": "sphinx/ext/autodoc/typehints.py::modify_field_list",
+        "path": "sphinx/ext/autodoc/typehints.py",
+        "qualname": "modify_field_list"
+      }
+    ],
+    "passed_test_files": 94,
+    "patch_file": "36367765fe780f962bba861bf368a765380bbc68/golden.patch",
+    "project": "sphinx-doc/sphinx",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/sphinx/ground_truth_runs/sphinx-doc__sphinx-10449_1784794886_781254",
+    "test_env": "RTSTest39_sphinx_fd0d2891",
+    "tests_to_run": [
+      "tests/test_build.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_builder.py",
+      "tests/test_domain_c.py",
+      "tests/test_domain_cpp.py",
+      "tests/test_domain_js.py",
+      "tests/test_domain_py.py",
+      "tests/test_domain_rst.py",
+      "tests/test_domain_std.py",
+      "tests/test_environment.py",
+      "tests/test_ext_autodoc.py",
+      "tests/test_ext_autosummary.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_search.py",
+      "tests/test_templating.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 102,
+    "uninstrumentable_changes": [],
+    "version": "5.1"
+  },
+  {
+    "affected_functions_by_test": {},
+    "base_commit": "ac2b7599d212af7d04649959ce6926c63c3133fa",
+    "dynamic_hit_tests": [],
+    "dynamic_hit_tests_all": [],
+    "elapsed_seconds": 50.021,
+    "failed_test_files": [
+      "tests/roots/test-inheritance/dummy/test_nested.py",
+      "tests/test_build_linkcheck.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "sphinx-doc__sphinx-10614",
+    "modified_functions": [
+      {
+        "insertion_line": 403,
+        "line": 398,
+        "marker": "sphinx/ext/inheritance_diagram.py::html_visit_inheritance_diagram",
+        "path": "sphinx/ext/inheritance_diagram.py",
+        "qualname": "html_visit_inheritance_diagram"
+      }
+    ],
+    "passed_test_files": 104,
+    "patch_file": "ac2b7599d212af7d04649959ce6926c63c3133fa/golden.patch",
+    "project": "sphinx-doc/sphinx",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/sphinx/ground_truth_runs/sphinx-doc__sphinx-10614_1784795136_781254",
+    "test_env": "RTSTest39_sphinx_35f3b5e4",
+    "tests_to_run": [],
+    "timed_out_test_files": [],
+    "total_tests": 106,
+    "uninstrumentable_changes": [],
+    "version": "7.2"
+  },
+  {
+    "affected_functions_by_test": {},
+    "base_commit": "f35d2a6cc726f97d0e859ca7a0e1729f7da8a6c8",
+    "dynamic_hit_tests": [],
+    "dynamic_hit_tests_all": [],
+    "elapsed_seconds": 1.802,
+    "failed_test_files": [
+      "tests/roots/test-inheritance/dummy/test_nested.py",
+      "tests/test_api_translator.py",
+      "tests/test_application.py",
+      "tests/test_build.py",
+      "tests/test_build_changes.py",
+      "tests/test_build_dirhtml.py",
+      "tests/test_build_epub.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_linkcheck.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_build_text.py",
+      "tests/test_builder.py",
+      "tests/test_catalogs.py",
+      "tests/test_config.py",
+      "tests/test_correct_year.py",
+      "tests/test_directive_code.py",
+      "tests/test_directive_only.py",
+      "tests/test_directive_other.py",
+      "tests/test_directive_patch.py",
+      "tests/test_docutilsconf.py",
+      "tests/test_domain_c.py",
+      "tests/test_domain_cpp.py",
+      "tests/test_domain_js.py",
+      "tests/test_domain_py.py",
+      "tests/test_domain_rst.py",
+      "tests/test_domain_std.py",
+      "tests/test_environment.py",
+      "tests/test_environment_indexentries.py",
+      "tests/test_environment_toctree.py",
+      "tests/test_errors.py",
+      "tests/test_events.py",
+      "tests/test_ext_apidoc.py",
+      "tests/test_ext_autodoc.py",
+      "tests/test_ext_autodoc_autoattribute.py",
+      "tests/test_ext_autodoc_autoclass.py",
+      "tests/test_ext_autodoc_autodata.py",
+      "tests/test_ext_autodoc_autofunction.py",
+      "tests/test_ext_autodoc_automodule.py",
+      "tests/test_ext_autodoc_autoproperty.py",
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_ext_autodoc_events.py",
+      "tests/test_ext_autodoc_mock.py",
+      "tests/test_ext_autodoc_preserve_defaults.py",
+      "tests/test_ext_autodoc_private_members.py",
+      "tests/test_ext_autosectionlabel.py",
+      "tests/test_ext_autosummary.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_ext_doctest.py",
+      "tests/test_ext_duration.py",
+      "tests/test_ext_extlinks.py",
+      "tests/test_ext_githubpages.py",
+      "tests/test_ext_graphviz.py",
+      "tests/test_ext_ifconfig.py",
+      "tests/test_ext_imgconverter.py",
+      "tests/test_ext_inheritance_diagram.py",
+      "tests/test_ext_intersphinx.py",
+      "tests/test_ext_math.py",
+      "tests/test_ext_napoleon.py",
+      "tests/test_ext_napoleon_docstring.py",
+      "tests/test_ext_napoleon_iterators.py",
+      "tests/test_ext_todo.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_extension.py",
+      "tests/test_highlighting.py",
+      "tests/test_intl.py",
+      "tests/test_locale.py",
+      "tests/test_markup.py",
+      "tests/test_metadata.py",
+      "tests/test_parser.py",
+      "tests/test_project.py",
+      "tests/test_pycode.py",
+      "tests/test_pycode_ast.py",
+      "tests/test_pycode_parser.py",
+      "tests/test_quickstart.py",
+      "tests/test_roles.py",
+      "tests/test_search.py",
+      "tests/test_setup_command.py",
+      "tests/test_smartquotes.py",
+      "tests/test_templating.py",
+      "tests/test_theming.py",
+      "tests/test_toctree.py",
+      "tests/test_transforms_post_transforms.py",
+      "tests/test_transforms_post_transforms_code.py",
+      "tests/test_util.py",
+      "tests/test_util_docstrings.py",
+      "tests/test_util_docutils.py",
+      "tests/test_util_fileutil.py",
+      "tests/test_util_i18n.py",
+      "tests/test_util_images.py",
+      "tests/test_util_inspect.py",
+      "tests/test_util_inventory.py",
+      "tests/test_util_logging.py",
+      "tests/test_util_matching.py",
+      "tests/test_util_nodes.py",
+      "tests/test_util_rst.py",
+      "tests/test_util_template.py",
+      "tests/test_util_typing.py",
+      "tests/test_versioning.py",
+      "tests/test_writer_latex.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "sphinx-doc__sphinx-10673",
+    "modified_functions": [
+      {
+        "insertion_line": 80,
+        "line": 79,
+        "marker": "sphinx/directives/other.py::TocTree.parse_content",
+        "path": "sphinx/directives/other.py",
+        "qualname": "TocTree.parse_content"
+      },
+      {
+        "insertion_line": 55,
+        "line": 41,
+        "marker": "sphinx/environment/adapters/toctree.py::TocTree.resolve",
+        "path": "sphinx/environment/adapters/toctree.py",
+        "qualname": "TocTree.resolve"
+      },
+      {
+        "insertion_line": 115,
+        "line": 111,
+        "marker": "sphinx/environment/adapters/toctree.py::TocTree.resolve._entries_from_toctree",
+        "path": "sphinx/environment/adapters/toctree.py",
+        "qualname": "TocTree.resolve._entries_from_toctree"
+      },
+      {
+        "insertion_line": 204,
+        "line": 202,
+        "marker": "sphinx/environment/collectors/toctree.py::TocTreeCollector.assign_figure_numbers",
+        "path": "sphinx/environment/collectors/toctree.py",
+        "qualname": "TocTreeCollector.assign_figure_numbers"
+      },
+      {
+        "insertion_line": 251,
+        "line": 250,
+        "marker": "sphinx/environment/collectors/toctree.py::TocTreeCollector.assign_figure_numbers._walk_doctree",
+        "path": "sphinx/environment/collectors/toctree.py",
+        "qualname": "TocTreeCollector.assign_figure_numbers._walk_doctree"
+      }
+    ],
+    "passed_test_files": 0,
+    "patch_file": "f35d2a6cc726f97d0e859ca7a0e1729f7da8a6c8/golden.patch",
+    "project": "sphinx-doc/sphinx",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/sphinx/ground_truth_runs/sphinx-doc__sphinx-10673_1784794979_781254",
+    "test_env": "RTSTest39_sphinx_db60254c",
+    "tests_to_run": [],
+    "timed_out_test_files": [],
+    "total_tests": 102,
+    "uninstrumentable_changes": [],
+    "version": "5.2"
+  },
+  {
+    "affected_functions_by_test": {},
+    "base_commit": "71db08c05197545944949d5aa76cd340e7143627",
+    "dynamic_hit_tests": [],
+    "dynamic_hit_tests_all": [],
+    "elapsed_seconds": 1.621,
+    "failed_test_files": [
+      "tests/roots/test-inheritance/dummy/test_nested.py",
+      "tests/test_api_translator.py",
+      "tests/test_application.py",
+      "tests/test_build.py",
+      "tests/test_build_changes.py",
+      "tests/test_build_dirhtml.py",
+      "tests/test_build_epub.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_linkcheck.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_build_text.py",
+      "tests/test_builder.py",
+      "tests/test_catalogs.py",
+      "tests/test_config.py",
+      "tests/test_correct_year.py",
+      "tests/test_directive_code.py",
+      "tests/test_directive_object_description.py",
+      "tests/test_directive_only.py",
+      "tests/test_directive_other.py",
+      "tests/test_directive_patch.py",
+      "tests/test_docutilsconf.py",
+      "tests/test_domain_c.py",
+      "tests/test_domain_cpp.py",
+      "tests/test_domain_js.py",
+      "tests/test_domain_py.py",
+      "tests/test_domain_rst.py",
+      "tests/test_domain_std.py",
+      "tests/test_environment.py",
+      "tests/test_environment_indexentries.py",
+      "tests/test_environment_record_dependencies.py",
+      "tests/test_environment_toctree.py",
+      "tests/test_errors.py",
+      "tests/test_events.py",
+      "tests/test_ext_apidoc.py",
+      "tests/test_ext_autodoc.py",
+      "tests/test_ext_autodoc_autoattribute.py",
+      "tests/test_ext_autodoc_autoclass.py",
+      "tests/test_ext_autodoc_autodata.py",
+      "tests/test_ext_autodoc_autofunction.py",
+      "tests/test_ext_autodoc_automodule.py",
+      "tests/test_ext_autodoc_autoproperty.py",
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_ext_autodoc_events.py",
+      "tests/test_ext_autodoc_mock.py",
+      "tests/test_ext_autodoc_preserve_defaults.py",
+      "tests/test_ext_autodoc_private_members.py",
+      "tests/test_ext_autosectionlabel.py",
+      "tests/test_ext_autosummary.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_ext_doctest.py",
+      "tests/test_ext_duration.py",
+      "tests/test_ext_extlinks.py",
+      "tests/test_ext_githubpages.py",
+      "tests/test_ext_graphviz.py",
+      "tests/test_ext_ifconfig.py",
+      "tests/test_ext_imgconverter.py",
+      "tests/test_ext_imgmockconverter.py",
+      "tests/test_ext_inheritance_diagram.py",
+      "tests/test_ext_intersphinx.py",
+      "tests/test_ext_math.py",
+      "tests/test_ext_napoleon.py",
+      "tests/test_ext_napoleon_docstring.py",
+      "tests/test_ext_todo.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_extension.py",
+      "tests/test_highlighting.py",
+      "tests/test_intl.py",
+      "tests/test_locale.py",
+      "tests/test_markup.py",
+      "tests/test_metadata.py",
+      "tests/test_parser.py",
+      "tests/test_project.py",
+      "tests/test_pycode.py",
+      "tests/test_pycode_ast.py",
+      "tests/test_pycode_parser.py",
+      "tests/test_quickstart.py",
+      "tests/test_roles.py",
+      "tests/test_search.py",
+      "tests/test_smartquotes.py",
+      "tests/test_templating.py",
+      "tests/test_theming.py",
+      "tests/test_toctree.py",
+      "tests/test_transforms_post_transforms.py",
+      "tests/test_transforms_post_transforms_code.py",
+      "tests/test_util.py",
+      "tests/test_util_display.py",
+      "tests/test_util_docstrings.py",
+      "tests/test_util_docutils.py",
+      "tests/test_util_fileutil.py",
+      "tests/test_util_i18n.py",
+      "tests/test_util_images.py",
+      "tests/test_util_inspect.py",
+      "tests/test_util_inventory.py",
+      "tests/test_util_logging.py",
+      "tests/test_util_matching.py",
+      "tests/test_util_nodes.py",
+      "tests/test_util_rst.py",
+      "tests/test_util_template.py",
+      "tests/test_util_typing.py",
+      "tests/test_versioning.py",
+      "tests/test_writer_latex.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "sphinx-doc__sphinx-11445",
+    "modified_functions": [
+      {
+        "insertion_line": 75,
+        "line": 73,
+        "marker": "sphinx/util/rst.py::prepend_prolog",
+        "path": "sphinx/util/rst.py",
+        "qualname": "prepend_prolog"
+      }
+    ],
+    "passed_test_files": 0,
+    "patch_file": "71db08c05197545944949d5aa76cd340e7143627/golden.patch",
+    "project": "sphinx-doc/sphinx",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/sphinx/ground_truth_runs/sphinx-doc__sphinx-11445_1784795051_781254",
+    "test_env": "RTSTest39_sphinx_35f3b5e4",
+    "tests_to_run": [],
+    "timed_out_test_files": [],
+    "total_tests": 104,
+    "uninstrumentable_changes": [],
+    "version": "7.1"
+  },
+  {
+    "affected_functions_by_test": {
+      "tests/test_build.py": [
+        "sphinx/domains/std.py::make_glossary_term"
+      ],
+      "tests/test_build_gettext.py": [
+        "sphinx/domains/std.py::make_glossary_term"
+      ],
+      "tests/test_build_html.py": [
+        "sphinx/domains/std.py::make_glossary_term"
+      ],
+      "tests/test_build_latex.py": [
+        "sphinx/domains/std.py::make_glossary_term"
+      ],
+      "tests/test_build_manpage.py": [
+        "sphinx/domains/std.py::make_glossary_term"
+      ],
+      "tests/test_build_texinfo.py": [
+        "sphinx/domains/std.py::make_glossary_term"
+      ],
+      "tests/test_builder.py": [
+        "sphinx/domains/std.py::make_glossary_term"
+      ],
+      "tests/test_domain_std.py": [
+        "sphinx/domains/std.py::make_glossary_term"
+      ],
+      "tests/test_environment.py": [
+        "sphinx/domains/std.py::make_glossary_term"
+      ],
+      "tests/test_environment_indexentries.py": [
+        "sphinx/domains/std.py::make_glossary_term"
+      ],
+      "tests/test_ext_coverage.py": [
+        "sphinx/domains/std.py::make_glossary_term"
+      ],
+      "tests/test_intl.py": [
+        "sphinx/domains/std.py::make_glossary_term"
+      ],
+      "tests/test_markup.py": [
+        "sphinx/domains/std.py::make_glossary_term"
+      ]
+    },
+    "base_commit": "9bb204dcabe6ba0fc422bf4a45ad0c79c680d90b",
+    "dynamic_hit_tests": [
+      "tests/test_build_gettext.py",
+      "tests/test_builder.py",
+      "tests/test_environment.py",
+      "tests/test_environment_indexentries.py",
+      "tests/test_ext_coverage.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "tests/test_build.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_builder.py",
+      "tests/test_domain_std.py",
+      "tests/test_environment.py",
+      "tests/test_environment_indexentries.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_intl.py",
+      "tests/test_markup.py"
+    ],
+    "elapsed_seconds": 21.005,
+    "failed_test_files": [
+      "tests/roots/test-inheritance/dummy/test_nested.py",
+      "tests/test_application.py",
+      "tests/test_build.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_linkcheck.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_directive_code.py",
+      "tests/test_domain_std.py",
+      "tests/test_ext_autodoc.py",
+      "tests/test_ext_autosummary.py",
+      "tests/test_ext_imgconverter.py",
+      "tests/test_ext_intersphinx.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_intl.py",
+      "tests/test_markup.py",
+      "tests/test_metadata.py",
+      "tests/test_quickstart.py",
+      "tests/test_search.py",
+      "tests/test_smartquotes.py",
+      "tests/test_templating.py",
+      "tests/test_util_i18n.py",
+      "tests/test_util_inspect.py",
+      "tests/test_util_typing.py",
+      "tests/test_versioning.py"
+    ],
+    "in_test_hit_tests": [
+      "tests/test_build_gettext.py",
+      "tests/test_builder.py",
+      "tests/test_environment.py",
+      "tests/test_environment_indexentries.py",
+      "tests/test_ext_coverage.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-7440",
+    "modified_functions": [
+      {
+        "insertion_line": 281,
+        "line": 276,
+        "marker": "sphinx/domains/std.py::make_glossary_term",
+        "path": "sphinx/domains/std.py",
+        "qualname": "make_glossary_term"
+      }
+    ],
+    "passed_test_files": 69,
+    "patch_file": "9bb204dcabe6ba0fc422bf4a45ad0c79c680d90b/golden.patch",
+    "project": "sphinx-doc/sphinx",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/sphinx/ground_truth_runs/sphinx-doc__sphinx-7440_1784792976_764210",
+    "test_env": "RTSTest39_sphinx_ffae3ee1",
+    "tests_to_run": [
+      "tests/test_build_gettext.py",
+      "tests/test_builder.py",
+      "tests/test_environment.py",
+      "tests/test_environment_indexentries.py",
+      "tests/test_ext_coverage.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 95,
+    "uninstrumentable_changes": [],
+    "version": "3.0"
+  },
+  {
+    "affected_functions_by_test": {
+      "tests/test_build.py": [
+        "sphinx/domains/cpp.py::ASTIdentifier.describe_signature",
+        "sphinx/util/cfamily.py::verify_description_mode"
+      ],
+      "tests/test_build_changes.py": [
+        "sphinx/util/cfamily.py::verify_description_mode"
+      ],
+      "tests/test_build_gettext.py": [
+        "sphinx/domains/cpp.py::ASTIdentifier.describe_signature",
+        "sphinx/util/cfamily.py::verify_description_mode"
+      ],
+      "tests/test_build_html.py": [
+        "sphinx/domains/cpp.py::ASTIdentifier.describe_signature",
+        "sphinx/util/cfamily.py::verify_description_mode"
+      ],
+      "tests/test_build_latex.py": [
+        "sphinx/domains/cpp.py::ASTIdentifier.describe_signature",
+        "sphinx/util/cfamily.py::verify_description_mode"
+      ],
+      "tests/test_build_manpage.py": [
+        "sphinx/domains/cpp.py::ASTIdentifier.describe_signature",
+        "sphinx/util/cfamily.py::verify_description_mode"
+      ],
+      "tests/test_build_texinfo.py": [
+        "sphinx/domains/cpp.py::ASTIdentifier.describe_signature",
+        "sphinx/util/cfamily.py::verify_description_mode"
+      ],
+      "tests/test_builder.py": [
+        "sphinx/domains/cpp.py::ASTIdentifier.describe_signature",
+        "sphinx/util/cfamily.py::verify_description_mode"
+      ],
+      "tests/test_domain_c.py": [
+        "sphinx/domains/c.py::DefinitionParser._parse_literal",
+        "sphinx/util/cfamily.py::verify_description_mode"
+      ],
+      "tests/test_domain_cpp.py": [
+        "sphinx/domains/cpp.py::ASTCharLiteral.get_id",
+        "sphinx/domains/cpp.py::ASTIdentifier.describe_signature",
+        "sphinx/domains/cpp.py::ASTNumberLiteral.get_id",
+        "sphinx/domains/cpp.py::DefinitionParser._parse_literal",
+        "sphinx/domains/cpp.py::DefinitionParser._parse_literal._udl",
+        "sphinx/util/cfamily.py::verify_description_mode"
+      ],
+      "tests/test_environment.py": [
+        "sphinx/domains/cpp.py::ASTIdentifier.describe_signature",
+        "sphinx/util/cfamily.py::verify_description_mode"
+      ],
+      "tests/test_ext_coverage.py": [
+        "sphinx/domains/cpp.py::ASTIdentifier.describe_signature",
+        "sphinx/util/cfamily.py::verify_description_mode"
+      ],
+      "tests/test_ext_intersphinx.py": [
+        "sphinx/domains/cpp.py::ASTIdentifier.describe_signature",
+        "sphinx/util/cfamily.py::verify_description_mode"
+      ],
+      "tests/test_ext_viewcode.py": [
+        "sphinx/domains/cpp.py::ASTIdentifier.describe_signature",
+        "sphinx/util/cfamily.py::verify_description_mode"
+      ],
+      "tests/test_search.py": [
+        "sphinx/domains/cpp.py::ASTIdentifier.describe_signature",
+        "sphinx/util/cfamily.py::verify_description_mode"
+      ]
+    },
+    "base_commit": "2e506c5ab457cba743bb47eb5b8c8eb9dd51d23d",
+    "dynamic_hit_tests": [
+      "tests/test_build_changes.py",
+      "tests/test_build_gettext.py",
+      "tests/test_builder.py",
+      "tests/test_domain_c.py",
+      "tests/test_domain_cpp.py",
+      "tests/test_environment.py",
+      "tests/test_ext_coverage.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "tests/test_build.py",
+      "tests/test_build_changes.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_builder.py",
+      "tests/test_domain_c.py",
+      "tests/test_domain_cpp.py",
+      "tests/test_environment.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_ext_intersphinx.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_search.py"
+    ],
+    "elapsed_seconds": 22.655,
+    "failed_test_files": [
+      "tests/roots/test-inheritance/dummy/test_nested.py",
+      "tests/test_application.py",
+      "tests/test_build.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_linkcheck.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_directive_code.py",
+      "tests/test_domain_std.py",
+      "tests/test_ext_autodoc.py",
+      "tests/test_ext_autosummary.py",
+      "tests/test_ext_imgconverter.py",
+      "tests/test_ext_intersphinx.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_intl.py",
+      "tests/test_markup.py",
+      "tests/test_metadata.py",
+      "tests/test_quickstart.py",
+      "tests/test_search.py",
+      "tests/test_smartquotes.py",
+      "tests/test_util_i18n.py",
+      "tests/test_versioning.py"
+    ],
+    "in_test_hit_tests": [
+      "tests/test_build_changes.py",
+      "tests/test_build_gettext.py",
+      "tests/test_builder.py",
+      "tests/test_domain_c.py",
+      "tests/test_domain_cpp.py",
+      "tests/test_environment.py",
+      "tests/test_ext_coverage.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-7590",
+    "modified_functions": [
+      {
+        "insertion_line": 2075,
+        "line": 2069,
+        "marker": "sphinx/domains/c.py::DefinitionParser._parse_literal",
+        "path": "sphinx/domains/c.py",
+        "qualname": "DefinitionParser._parse_literal"
+      },
+      {
+        "insertion_line": 895,
+        "line": 893,
+        "marker": "sphinx/domains/cpp.py::ASTCharLiteral.get_id",
+        "path": "sphinx/domains/cpp.py",
+        "qualname": "ASTCharLiteral.get_id"
+      },
+      {
+        "insertion_line": 607,
+        "line": 605,
+        "marker": "sphinx/domains/cpp.py::ASTIdentifier.describe_signature",
+        "path": "sphinx/domains/cpp.py",
+        "qualname": "ASTIdentifier.describe_signature"
+      },
+      {
+        "insertion_line": 850,
+        "line": 848,
+        "marker": "sphinx/domains/cpp.py::ASTNumberLiteral.get_id",
+        "path": "sphinx/domains/cpp.py",
+        "qualname": "ASTNumberLiteral.get_id"
+      },
+      {
+        "insertion_line": 905,
+        "line": 904,
+        "marker": "sphinx/domains/cpp.py::ASTUserDefinedLiteral.__init__",
+        "path": "sphinx/domains/cpp.py",
+        "qualname": "ASTUserDefinedLiteral.__init__"
+      },
+      {
+        "insertion_line": 909,
+        "line": 908,
+        "marker": "sphinx/domains/cpp.py::ASTUserDefinedLiteral._stringify",
+        "path": "sphinx/domains/cpp.py",
+        "qualname": "ASTUserDefinedLiteral._stringify"
+      },
+      {
+        "insertion_line": 917,
+        "line": 915,
+        "marker": "sphinx/domains/cpp.py::ASTUserDefinedLiteral.describe_signature",
+        "path": "sphinx/domains/cpp.py",
+        "qualname": "ASTUserDefinedLiteral.describe_signature"
+      },
+      {
+        "insertion_line": 913,
+        "line": 911,
+        "marker": "sphinx/domains/cpp.py::ASTUserDefinedLiteral.get_id",
+        "path": "sphinx/domains/cpp.py",
+        "qualname": "ASTUserDefinedLiteral.get_id"
+      },
+      {
+        "insertion_line": 4693,
+        "line": 4684,
+        "marker": "sphinx/domains/cpp.py::DefinitionParser._parse_literal",
+        "path": "sphinx/domains/cpp.py",
+        "qualname": "DefinitionParser._parse_literal"
+      },
+      {
+        "insertion_line": 4694,
+        "line": 4693,
+        "marker": "sphinx/domains/cpp.py::DefinitionParser._parse_literal._udl",
+        "path": "sphinx/domains/cpp.py",
+        "qualname": "DefinitionParser._parse_literal._udl"
+      },
+      {
+        "insertion_line": 84,
+        "line": 83,
+        "marker": "sphinx/util/cfamily.py::verify_description_mode",
+        "path": "sphinx/util/cfamily.py",
+        "qualname": "verify_description_mode"
+      }
+    ],
+    "passed_test_files": 72,
+    "patch_file": "2e506c5ab457cba743bb47eb5b8c8eb9dd51d23d/golden.patch",
+    "project": "sphinx-doc/sphinx",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/sphinx/ground_truth_runs/sphinx-doc__sphinx-7590_1784794180_781254",
+    "semantic_excluded_tests": [
+      "tests/test_build_changes.py",
+      "tests/test_build_gettext.py",
+      "tests/test_builder.py",
+      "tests/test_environment.py",
+      "tests/test_ext_coverage.py"
+    ],
+    "semantic_review": {
+      "classification": "parser-helper-hit-without-new-literal-syntax",
+      "evidence": {
+        "behavior_exercising_tests": [
+          "tests/test_domain_c.py",
+          "tests/test_domain_cpp.py"
+        ],
+        "namerts_selected_both_behavior_exercising_tests": true
+      },
+      "instance_id": "sphinx-doc__sphinx-7590",
+      "python_version_related": false,
+      "reason": "The five excluded files enter generic C/C++ signature helpers but do not parse the newly supported numeric suffixes or C++ user-defined literals. The two domain test files that do exercise parser behavior were selected."
+    },
+    "test_env": "RTSTest39_sphinx_ffae3ee1",
+    "tests_to_run": [
+      "tests/test_domain_c.py",
+      "tests/test_domain_cpp.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 95,
+    "uninstrumentable_changes": [],
+    "version": "3.1"
+  },
+  {
+    "affected_functions_by_test": {},
+    "base_commit": "ec9af606c6cfa515f946d74da9b51574f2f9b16f",
+    "dynamic_hit_tests": [],
+    "dynamic_hit_tests_all": [],
+    "elapsed_seconds": 29.223,
+    "failed_test_files": [
+      "tests/roots/test-inheritance/dummy/test_nested.py",
+      "tests/test_application.py",
+      "tests/test_build.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_linkcheck.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_directive_code.py",
+      "tests/test_domain_std.py",
+      "tests/test_ext_autodoc.py",
+      "tests/test_ext_autosummary.py",
+      "tests/test_ext_imgconverter.py",
+      "tests/test_ext_intersphinx.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_intl.py",
+      "tests/test_markup.py",
+      "tests/test_metadata.py",
+      "tests/test_quickstart.py",
+      "tests/test_search.py",
+      "tests/test_smartquotes.py",
+      "tests/test_util_i18n.py",
+      "tests/test_versioning.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "sphinx-doc__sphinx-7889",
+    "modified_functions": [
+      {
+        "insertion_line": 56,
+        "line": 55,
+        "marker": "sphinx/ext/autodoc/mock.py::_MockObject.__getitem__",
+        "path": "sphinx/ext/autodoc/mock.py",
+        "qualname": "_MockObject.__getitem__"
+      }
+    ],
+    "passed_test_files": 72,
+    "patch_file": "ec9af606c6cfa515f946d74da9b51574f2f9b16f/golden.patch",
+    "project": "sphinx-doc/sphinx",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/sphinx/ground_truth_runs/sphinx-doc__sphinx-7889_1784794269_781254",
+    "test_env": "RTSTest39_sphinx_ffae3ee1",
+    "tests_to_run": [],
+    "timed_out_test_files": [],
+    "total_tests": 95,
+    "uninstrumentable_changes": [],
+    "version": "3.2"
+  },
+  {
+    "affected_functions_by_test": {
+      "tests/test_ext_autodoc.py": [
+        "sphinx/pycode/ast.py::_UnparseVisitor.visit_Subscript",
+        "sphinx/pycode/ast.py::_UnparseVisitor.visit_Subscript.is_simple_tuple"
+      ],
+      "tests/test_ext_autodoc_configs.py": [
+        "sphinx/pycode/ast.py::_UnparseVisitor.visit_Subscript",
+        "sphinx/pycode/ast.py::_UnparseVisitor.visit_Subscript.is_simple_tuple"
+      ],
+      "tests/test_ext_autosummary.py": [
+        "sphinx/pycode/ast.py::_UnparseVisitor.visit_Subscript",
+        "sphinx/pycode/ast.py::_UnparseVisitor.visit_Subscript.is_simple_tuple"
+      ],
+      "tests/test_pycode_ast.py": [
+        "sphinx/pycode/ast.py::_UnparseVisitor.visit_Subscript",
+        "sphinx/pycode/ast.py::_UnparseVisitor.visit_Subscript.is_simple_tuple",
+        "sphinx/pycode/ast.py::_UnparseVisitor.visit_Tuple"
+      ],
+      "tests/test_util_inspect.py": [
+        "sphinx/pycode/ast.py::_UnparseVisitor.visit_Subscript",
+        "sphinx/pycode/ast.py::_UnparseVisitor.visit_Subscript.is_simple_tuple"
+      ]
+    },
+    "base_commit": "b428cd2404675475a5c3dc2a2b0790ba57676202",
+    "dynamic_hit_tests": [
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_util_inspect.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "tests/test_ext_autodoc.py",
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_ext_autosummary.py",
+      "tests/test_pycode_ast.py",
+      "tests/test_util_inspect.py"
+    ],
+    "elapsed_seconds": 23.623,
+    "failed_test_files": [
+      "tests/roots/test-inheritance/dummy/test_nested.py",
+      "tests/test_application.py",
+      "tests/test_build.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_linkcheck.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_directive_code.py",
+      "tests/test_domain_std.py",
+      "tests/test_ext_autodoc.py",
+      "tests/test_ext_autosummary.py",
+      "tests/test_ext_imgconverter.py",
+      "tests/test_ext_intersphinx.py",
+      "tests/test_ext_napoleon_docstring.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_intl.py",
+      "tests/test_markup.py",
+      "tests/test_metadata.py",
+      "tests/test_pycode_ast.py",
+      "tests/test_quickstart.py",
+      "tests/test_search.py",
+      "tests/test_smartquotes.py",
+      "tests/test_util_i18n.py",
+      "tests/test_versioning.py"
+    ],
+    "in_test_hit_tests": [
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_util_inspect.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-8265",
+    "modified_functions": [
+      {
+        "insertion_line": 169,
+        "line": 168,
+        "marker": "sphinx/pycode/ast.py::_UnparseVisitor.visit_Subscript",
+        "path": "sphinx/pycode/ast.py",
+        "qualname": "_UnparseVisitor.visit_Subscript"
+      },
+      {
+        "insertion_line": 170,
+        "line": 169,
+        "marker": "sphinx/pycode/ast.py::_UnparseVisitor.visit_Subscript.is_simple_tuple",
+        "path": "sphinx/pycode/ast.py",
+        "qualname": "_UnparseVisitor.visit_Subscript.is_simple_tuple"
+      },
+      {
+        "insertion_line": 189,
+        "line": 188,
+        "marker": "sphinx/pycode/ast.py::_UnparseVisitor.visit_Tuple",
+        "path": "sphinx/pycode/ast.py",
+        "qualname": "_UnparseVisitor.visit_Tuple"
+      }
+    ],
+    "passed_test_files": 70,
+    "patch_file": "b428cd2404675475a5c3dc2a2b0790ba57676202/golden.patch",
+    "project": "sphinx-doc/sphinx",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/sphinx/ground_truth_runs/sphinx-doc__sphinx-8265_1784794357_781254",
+    "test_env": "RTSTest39_sphinx_ffae3ee1",
+    "tests_to_run": [
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_util_inspect.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 95,
+    "uninstrumentable_changes": [],
+    "version": "3.3"
+  },
+  {
+    "affected_functions_by_test": {},
+    "base_commit": "dd1615c59dc6fff633e27dbb3861f2d27e1fb976",
+    "dynamic_hit_tests": [],
+    "dynamic_hit_tests_all": [],
+    "elapsed_seconds": 1.79,
+    "failed_test_files": [
+      "tests/roots/test-inheritance/dummy/test_nested.py",
+      "tests/test_api_translator.py",
+      "tests/test_application.py",
+      "tests/test_build.py",
+      "tests/test_build_changes.py",
+      "tests/test_build_dirhtml.py",
+      "tests/test_build_epub.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_linkcheck.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_build_text.py",
+      "tests/test_builder.py",
+      "tests/test_catalogs.py",
+      "tests/test_config.py",
+      "tests/test_correct_year.py",
+      "tests/test_directive_code.py",
+      "tests/test_directive_only.py",
+      "tests/test_directive_other.py",
+      "tests/test_directive_patch.py",
+      "tests/test_docutilsconf.py",
+      "tests/test_domain_c.py",
+      "tests/test_domain_cpp.py",
+      "tests/test_domain_js.py",
+      "tests/test_domain_py.py",
+      "tests/test_domain_rst.py",
+      "tests/test_domain_std.py",
+      "tests/test_environment.py",
+      "tests/test_environment_indexentries.py",
+      "tests/test_environment_toctree.py",
+      "tests/test_errors.py",
+      "tests/test_events.py",
+      "tests/test_ext_apidoc.py",
+      "tests/test_ext_autodoc.py",
+      "tests/test_ext_autodoc_autoattribute.py",
+      "tests/test_ext_autodoc_autoclass.py",
+      "tests/test_ext_autodoc_autodata.py",
+      "tests/test_ext_autodoc_autofunction.py",
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_ext_autodoc_events.py",
+      "tests/test_ext_autodoc_mock.py",
+      "tests/test_ext_autodoc_private_members.py",
+      "tests/test_ext_autosectionlabel.py",
+      "tests/test_ext_autosummary.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_ext_doctest.py",
+      "tests/test_ext_duration.py",
+      "tests/test_ext_githubpages.py",
+      "tests/test_ext_graphviz.py",
+      "tests/test_ext_ifconfig.py",
+      "tests/test_ext_imgconverter.py",
+      "tests/test_ext_inheritance_diagram.py",
+      "tests/test_ext_intersphinx.py",
+      "tests/test_ext_math.py",
+      "tests/test_ext_napoleon.py",
+      "tests/test_ext_napoleon_docstring.py",
+      "tests/test_ext_napoleon_iterators.py",
+      "tests/test_ext_todo.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_highlighting.py",
+      "tests/test_intl.py",
+      "tests/test_locale.py",
+      "tests/test_markup.py",
+      "tests/test_metadata.py",
+      "tests/test_parser.py",
+      "tests/test_project.py",
+      "tests/test_pycode.py",
+      "tests/test_pycode_ast.py",
+      "tests/test_pycode_parser.py",
+      "tests/test_quickstart.py",
+      "tests/test_roles.py",
+      "tests/test_search.py",
+      "tests/test_setup_command.py",
+      "tests/test_smartquotes.py",
+      "tests/test_templating.py",
+      "tests/test_theming.py",
+      "tests/test_toctree.py",
+      "tests/test_transforms_post_transforms_code.py",
+      "tests/test_util.py",
+      "tests/test_util_docstrings.py",
+      "tests/test_util_docutils.py",
+      "tests/test_util_fileutil.py",
+      "tests/test_util_i18n.py",
+      "tests/test_util_images.py",
+      "tests/test_util_inspect.py",
+      "tests/test_util_inventory.py",
+      "tests/test_util_jsdump.py",
+      "tests/test_util_logging.py",
+      "tests/test_util_matching.py",
+      "tests/test_util_nodes.py",
+      "tests/test_util_pycompat.py",
+      "tests/test_util_rst.py",
+      "tests/test_util_template.py",
+      "tests/test_util_typing.py",
+      "tests/test_versioning.py",
+      "tests/test_writer_latex.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "sphinx-doc__sphinx-8548",
+    "modified_functions": [
+      {
+        "insertion_line": 1587,
+        "line": 1586,
+        "marker": "sphinx/ext/autodoc/__init__.py::ClassDocumenter.get_object_members",
+        "path": "sphinx/ext/autodoc/__init__.py",
+        "qualname": "ClassDocumenter.get_object_members"
+      },
+      {
+        "insertion_line": 257,
+        "line": 254,
+        "marker": "sphinx/ext/autodoc/importer.py::get_class_members",
+        "path": "sphinx/ext/autodoc/importer.py",
+        "qualname": "get_class_members"
+      }
+    ],
+    "passed_test_files": 0,
+    "patch_file": "dd1615c59dc6fff633e27dbb3861f2d27e1fb976/golden.patch",
+    "project": "sphinx-doc/sphinx",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/sphinx/ground_truth_runs/sphinx-doc__sphinx-8548_1784794446_781254",
+    "test_env": "RTSTest39_sphinx_c9104721",
+    "tests_to_run": [],
+    "timed_out_test_files": [],
+    "total_tests": 98,
+    "uninstrumentable_changes": [],
+    "version": "3.4"
+  },
+  {
+    "affected_functions_by_test": {
+      "tests/test_api_translator.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_application.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_build.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_build_changes.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_build_dirhtml.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_build_epub.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_build_gettext.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_build_html.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_build_latex.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_build_manpage.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_build_texinfo.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_build_text.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_builder.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_catalogs.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_config.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_correct_year.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_directive_code.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_directive_only.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_directive_other.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_directive_patch.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_docutilsconf.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_domain_c.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_domain_cpp.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_domain_js.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_domain_py.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_domain_rst.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_domain_std.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_environment.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_environment_indexentries.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_environment_toctree.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_apidoc.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_autodoc.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_autodoc_autoattribute.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_autodoc_autoclass.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_autodoc_autodata.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_autodoc_autofunction.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_autodoc_automodule.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_autodoc_configs.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_autodoc_events.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_autodoc_private_members.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_autosectionlabel.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_autosummary.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_coverage.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_doctest.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_duration.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_githubpages.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_graphviz.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_ifconfig.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_imgconverter.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_inheritance_diagram.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_intersphinx.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_math.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_napoleon_docstring.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_todo.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_ext_viewcode.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_highlighting.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_intl.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_locale.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_markup.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_metadata.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_parser.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_project.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_quickstart.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_search.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_setup_command.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_smartquotes.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_templating.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_theming.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_toctree.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_transforms_post_transforms_code.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_util.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_util_docutils.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_util_i18n.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_util_inspect.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_util_logging.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_util_nodes.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_util_pycompat.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_util_rst.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ],
+      "tests/test_versioning.py": [
+        "sphinx/builders/html/transforms.py::<module>"
+      ]
+    },
+    "base_commit": "21698c14461d27933864d73e6fba568a154e83b3",
+    "dynamic_hit_tests": [
+      "tests/test_api_translator.py",
+      "tests/test_build_changes.py",
+      "tests/test_build_dirhtml.py",
+      "tests/test_build_epub.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_text.py",
+      "tests/test_builder.py",
+      "tests/test_catalogs.py",
+      "tests/test_config.py",
+      "tests/test_correct_year.py",
+      "tests/test_directive_only.py",
+      "tests/test_directive_other.py",
+      "tests/test_directive_patch.py",
+      "tests/test_docutilsconf.py",
+      "tests/test_domain_c.py",
+      "tests/test_domain_js.py",
+      "tests/test_domain_py.py",
+      "tests/test_domain_rst.py",
+      "tests/test_environment.py",
+      "tests/test_environment_indexentries.py",
+      "tests/test_environment_toctree.py",
+      "tests/test_ext_apidoc.py",
+      "tests/test_ext_autodoc_autoattribute.py",
+      "tests/test_ext_autodoc_autoclass.py",
+      "tests/test_ext_autodoc_autodata.py",
+      "tests/test_ext_autodoc_autofunction.py",
+      "tests/test_ext_autodoc_automodule.py",
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_ext_autodoc_events.py",
+      "tests/test_ext_autodoc_private_members.py",
+      "tests/test_ext_autosectionlabel.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_ext_doctest.py",
+      "tests/test_ext_duration.py",
+      "tests/test_ext_githubpages.py",
+      "tests/test_ext_graphviz.py",
+      "tests/test_ext_ifconfig.py",
+      "tests/test_ext_inheritance_diagram.py",
+      "tests/test_ext_math.py",
+      "tests/test_ext_todo.py",
+      "tests/test_highlighting.py",
+      "tests/test_locale.py",
+      "tests/test_parser.py",
+      "tests/test_project.py",
+      "tests/test_setup_command.py",
+      "tests/test_templating.py",
+      "tests/test_theming.py",
+      "tests/test_toctree.py",
+      "tests/test_transforms_post_transforms_code.py",
+      "tests/test_util.py",
+      "tests/test_util_docutils.py",
+      "tests/test_util_inspect.py",
+      "tests/test_util_logging.py",
+      "tests/test_util_nodes.py",
+      "tests/test_util_pycompat.py",
+      "tests/test_util_rst.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "tests/test_api_translator.py",
+      "tests/test_application.py",
+      "tests/test_build.py",
+      "tests/test_build_changes.py",
+      "tests/test_build_dirhtml.py",
+      "tests/test_build_epub.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_build_text.py",
+      "tests/test_builder.py",
+      "tests/test_catalogs.py",
+      "tests/test_config.py",
+      "tests/test_correct_year.py",
+      "tests/test_directive_code.py",
+      "tests/test_directive_only.py",
+      "tests/test_directive_other.py",
+      "tests/test_directive_patch.py",
+      "tests/test_docutilsconf.py",
+      "tests/test_domain_c.py",
+      "tests/test_domain_cpp.py",
+      "tests/test_domain_js.py",
+      "tests/test_domain_py.py",
+      "tests/test_domain_rst.py",
+      "tests/test_domain_std.py",
+      "tests/test_environment.py",
+      "tests/test_environment_indexentries.py",
+      "tests/test_environment_toctree.py",
+      "tests/test_ext_apidoc.py",
+      "tests/test_ext_autodoc.py",
+      "tests/test_ext_autodoc_autoattribute.py",
+      "tests/test_ext_autodoc_autoclass.py",
+      "tests/test_ext_autodoc_autodata.py",
+      "tests/test_ext_autodoc_autofunction.py",
+      "tests/test_ext_autodoc_automodule.py",
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_ext_autodoc_events.py",
+      "tests/test_ext_autodoc_private_members.py",
+      "tests/test_ext_autosectionlabel.py",
+      "tests/test_ext_autosummary.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_ext_doctest.py",
+      "tests/test_ext_duration.py",
+      "tests/test_ext_githubpages.py",
+      "tests/test_ext_graphviz.py",
+      "tests/test_ext_ifconfig.py",
+      "tests/test_ext_imgconverter.py",
+      "tests/test_ext_inheritance_diagram.py",
+      "tests/test_ext_intersphinx.py",
+      "tests/test_ext_math.py",
+      "tests/test_ext_napoleon_docstring.py",
+      "tests/test_ext_todo.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_highlighting.py",
+      "tests/test_intl.py",
+      "tests/test_locale.py",
+      "tests/test_markup.py",
+      "tests/test_metadata.py",
+      "tests/test_parser.py",
+      "tests/test_project.py",
+      "tests/test_quickstart.py",
+      "tests/test_search.py",
+      "tests/test_setup_command.py",
+      "tests/test_smartquotes.py",
+      "tests/test_templating.py",
+      "tests/test_theming.py",
+      "tests/test_toctree.py",
+      "tests/test_transforms_post_transforms_code.py",
+      "tests/test_util.py",
+      "tests/test_util_docutils.py",
+      "tests/test_util_i18n.py",
+      "tests/test_util_inspect.py",
+      "tests/test_util_logging.py",
+      "tests/test_util_nodes.py",
+      "tests/test_util_pycompat.py",
+      "tests/test_util_rst.py",
+      "tests/test_versioning.py"
+    ],
+    "elapsed_seconds": 22.603,
+    "failed_test_files": [
+      "tests/roots/test-inheritance/dummy/test_nested.py",
+      "tests/test_application.py",
+      "tests/test_build.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_linkcheck.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_directive_code.py",
+      "tests/test_domain_cpp.py",
+      "tests/test_domain_std.py",
+      "tests/test_ext_autodoc.py",
+      "tests/test_ext_autosummary.py",
+      "tests/test_ext_imgconverter.py",
+      "tests/test_ext_intersphinx.py",
+      "tests/test_ext_napoleon_docstring.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_intl.py",
+      "tests/test_markup.py",
+      "tests/test_metadata.py",
+      "tests/test_quickstart.py",
+      "tests/test_search.py",
+      "tests/test_smartquotes.py",
+      "tests/test_util_i18n.py",
+      "tests/test_versioning.py"
+    ],
+    "in_test_hit_tests": [
+      "tests/test_api_translator.py",
+      "tests/test_build_changes.py",
+      "tests/test_build_dirhtml.py",
+      "tests/test_build_epub.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_text.py",
+      "tests/test_builder.py",
+      "tests/test_catalogs.py",
+      "tests/test_config.py",
+      "tests/test_correct_year.py",
+      "tests/test_directive_only.py",
+      "tests/test_directive_other.py",
+      "tests/test_directive_patch.py",
+      "tests/test_docutilsconf.py",
+      "tests/test_domain_c.py",
+      "tests/test_domain_js.py",
+      "tests/test_domain_py.py",
+      "tests/test_domain_rst.py",
+      "tests/test_environment.py",
+      "tests/test_environment_indexentries.py",
+      "tests/test_environment_toctree.py",
+      "tests/test_ext_apidoc.py",
+      "tests/test_ext_autodoc_autoattribute.py",
+      "tests/test_ext_autodoc_autoclass.py",
+      "tests/test_ext_autodoc_autodata.py",
+      "tests/test_ext_autodoc_autofunction.py",
+      "tests/test_ext_autodoc_automodule.py",
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_ext_autodoc_events.py",
+      "tests/test_ext_autodoc_private_members.py",
+      "tests/test_ext_autosectionlabel.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_ext_doctest.py",
+      "tests/test_ext_duration.py",
+      "tests/test_ext_githubpages.py",
+      "tests/test_ext_graphviz.py",
+      "tests/test_ext_ifconfig.py",
+      "tests/test_ext_inheritance_diagram.py",
+      "tests/test_ext_math.py",
+      "tests/test_ext_todo.py",
+      "tests/test_highlighting.py",
+      "tests/test_locale.py",
+      "tests/test_parser.py",
+      "tests/test_project.py",
+      "tests/test_setup_command.py",
+      "tests/test_templating.py",
+      "tests/test_theming.py",
+      "tests/test_toctree.py",
+      "tests/test_transforms_post_transforms_code.py",
+      "tests/test_util.py",
+      "tests/test_util_docutils.py",
+      "tests/test_util_inspect.py",
+      "tests/test_util_logging.py",
+      "tests/test_util_nodes.py",
+      "tests/test_util_pycompat.py",
+      "tests/test_util_rst.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-8621",
+    "modified_functions": [
+      {
+        "insertion_line": 11,
+        "line": 1,
+        "marker": "sphinx/builders/html/transforms.py::<module>",
+        "path": "sphinx/builders/html/transforms.py",
+        "qualname": "<module>"
+      }
+    ],
+    "passed_test_files": 74,
+    "patch_file": "21698c14461d27933864d73e6fba568a154e83b3/golden.patch",
+    "project": "sphinx-doc/sphinx",
+    "python": "Python 3.9.21",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/sphinx/ground_truth_runs/sphinx-doc__sphinx-8621_1784795370_827658",
+    "semantic_excluded_tests": [
+      "tests/test_api_translator.py",
+      "tests/test_build_changes.py",
+      "tests/test_build_dirhtml.py",
+      "tests/test_build_epub.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_text.py",
+      "tests/test_builder.py",
+      "tests/test_catalogs.py",
+      "tests/test_config.py",
+      "tests/test_correct_year.py",
+      "tests/test_directive_only.py",
+      "tests/test_directive_other.py",
+      "tests/test_directive_patch.py",
+      "tests/test_docutilsconf.py",
+      "tests/test_domain_c.py",
+      "tests/test_domain_js.py",
+      "tests/test_domain_py.py",
+      "tests/test_domain_rst.py",
+      "tests/test_environment.py",
+      "tests/test_environment_indexentries.py",
+      "tests/test_environment_toctree.py",
+      "tests/test_ext_apidoc.py",
+      "tests/test_ext_autodoc_autoattribute.py",
+      "tests/test_ext_autodoc_autoclass.py",
+      "tests/test_ext_autodoc_autodata.py",
+      "tests/test_ext_autodoc_autofunction.py",
+      "tests/test_ext_autodoc_automodule.py",
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_ext_autodoc_events.py",
+      "tests/test_ext_autodoc_private_members.py",
+      "tests/test_ext_autosectionlabel.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_ext_doctest.py",
+      "tests/test_ext_duration.py",
+      "tests/test_ext_githubpages.py",
+      "tests/test_ext_graphviz.py",
+      "tests/test_ext_ifconfig.py",
+      "tests/test_ext_inheritance_diagram.py",
+      "tests/test_ext_math.py",
+      "tests/test_ext_todo.py",
+      "tests/test_highlighting.py",
+      "tests/test_locale.py",
+      "tests/test_parser.py",
+      "tests/test_project.py",
+      "tests/test_setup_command.py",
+      "tests/test_templating.py",
+      "tests/test_theming.py",
+      "tests/test_toctree.py",
+      "tests/test_transforms_post_transforms_code.py",
+      "tests/test_util.py",
+      "tests/test_util_docutils.py",
+      "tests/test_util_inspect.py",
+      "tests/test_util_logging.py",
+      "tests/test_util_nodes.py",
+      "tests/test_util_pycompat.py",
+      "tests/test_util_rst.py"
+    ],
+    "semantic_review": {
+      "classification": "module-import-without-new-keyboard-boundary-case",
+      "evidence": {
+        "behavior_changing_pattern": "(?<=.)(-|\\+|\\^|\\s+)(?=.)",
+        "passing_dynamic_hits": 56,
+        "regression_case_file_status": "tests/test_markup.py is nonzero in this environment and is outside passing ground truth"
+      },
+      "exclude_all_dynamic_hits": true,
+      "instance_id": "sphinx-doc__sphinx-8621",
+      "python_version_related": false,
+      "reason": "The source change is a class-level regular expression, so the module probe over-approximated every passing importer. None of those files tests a separator at the beginning or end of a keyboard literal."
+    },
+    "test_env": "RTSTest39_sphinx_e3778fa7",
+    "tests_to_run": [],
+    "timed_out_test_files": [],
+    "total_tests": 99,
+    "uninstrumentable_changes": [],
+    "version": "3.5"
+  },
+  {
+    "affected_functions_by_test": {
+      "tests/test_api_translator.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_application.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_build.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_build_changes.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_build_dirhtml.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_build_epub.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_build_gettext.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_build_html.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_build_latex.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_build_manpage.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_build_texinfo.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_build_text.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_builder.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_catalogs.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_config.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_correct_year.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_directive_code.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_directive_only.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_directive_other.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_directive_patch.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_docutilsconf.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_domain_c.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_domain_cpp.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_domain_js.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_domain_py.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_domain_rst.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_domain_std.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_environment.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_environment_indexentries.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_environment_toctree.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_apidoc.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_autodoc.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_autodoc_autoattribute.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_autodoc_autoclass.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_autodoc_autodata.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_autodoc_autofunction.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_autodoc_automodule.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_autodoc_configs.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_autodoc_events.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_autodoc_private_members.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_autosectionlabel.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_autosummary.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_coverage.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_doctest.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_duration.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_githubpages.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_graphviz.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_ifconfig.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_imgconverter.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_inheritance_diagram.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_intersphinx.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_math.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_napoleon.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_napoleon_docstring.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_todo.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_ext_viewcode.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_highlighting.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_intl.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_locale.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_markup.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_metadata.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_parser.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_project.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_quickstart.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_search.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_setup_command.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_smartquotes.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_templating.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_theming.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_toctree.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_transforms_post_transforms_code.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_util.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_util_docutils.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_util_i18n.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_util_inspect.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_util_logging.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_util_nodes.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_util_rst.py": [
+        "sphinx/domains/python.py::<module>"
+      ],
+      "tests/test_versioning.py": [
+        "sphinx/domains/python.py::<module>"
+      ]
+    },
+    "base_commit": "4b452338f914d4f6b54704222d70ae8a746e3db5",
+    "dynamic_hit_tests": [
+      "tests/test_api_translator.py",
+      "tests/test_build_changes.py",
+      "tests/test_build_dirhtml.py",
+      "tests/test_build_epub.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_text.py",
+      "tests/test_builder.py",
+      "tests/test_catalogs.py",
+      "tests/test_config.py",
+      "tests/test_correct_year.py",
+      "tests/test_directive_only.py",
+      "tests/test_directive_other.py",
+      "tests/test_directive_patch.py",
+      "tests/test_docutilsconf.py",
+      "tests/test_domain_c.py",
+      "tests/test_domain_js.py",
+      "tests/test_domain_py.py",
+      "tests/test_domain_rst.py",
+      "tests/test_environment.py",
+      "tests/test_environment_indexentries.py",
+      "tests/test_environment_toctree.py",
+      "tests/test_ext_apidoc.py",
+      "tests/test_ext_autodoc_autoattribute.py",
+      "tests/test_ext_autodoc_autoclass.py",
+      "tests/test_ext_autodoc_autodata.py",
+      "tests/test_ext_autodoc_autofunction.py",
+      "tests/test_ext_autodoc_automodule.py",
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_ext_autodoc_events.py",
+      "tests/test_ext_autodoc_private_members.py",
+      "tests/test_ext_autosectionlabel.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_ext_doctest.py",
+      "tests/test_ext_duration.py",
+      "tests/test_ext_githubpages.py",
+      "tests/test_ext_graphviz.py",
+      "tests/test_ext_ifconfig.py",
+      "tests/test_ext_inheritance_diagram.py",
+      "tests/test_ext_math.py",
+      "tests/test_ext_napoleon.py",
+      "tests/test_ext_todo.py",
+      "tests/test_highlighting.py",
+      "tests/test_locale.py",
+      "tests/test_parser.py",
+      "tests/test_project.py",
+      "tests/test_setup_command.py",
+      "tests/test_templating.py",
+      "tests/test_theming.py",
+      "tests/test_toctree.py",
+      "tests/test_transforms_post_transforms_code.py",
+      "tests/test_util.py",
+      "tests/test_util_docutils.py",
+      "tests/test_util_inspect.py",
+      "tests/test_util_logging.py",
+      "tests/test_util_nodes.py",
+      "tests/test_util_rst.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "tests/test_api_translator.py",
+      "tests/test_application.py",
+      "tests/test_build.py",
+      "tests/test_build_changes.py",
+      "tests/test_build_dirhtml.py",
+      "tests/test_build_epub.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_build_text.py",
+      "tests/test_builder.py",
+      "tests/test_catalogs.py",
+      "tests/test_config.py",
+      "tests/test_correct_year.py",
+      "tests/test_directive_code.py",
+      "tests/test_directive_only.py",
+      "tests/test_directive_other.py",
+      "tests/test_directive_patch.py",
+      "tests/test_docutilsconf.py",
+      "tests/test_domain_c.py",
+      "tests/test_domain_cpp.py",
+      "tests/test_domain_js.py",
+      "tests/test_domain_py.py",
+      "tests/test_domain_rst.py",
+      "tests/test_domain_std.py",
+      "tests/test_environment.py",
+      "tests/test_environment_indexentries.py",
+      "tests/test_environment_toctree.py",
+      "tests/test_ext_apidoc.py",
+      "tests/test_ext_autodoc.py",
+      "tests/test_ext_autodoc_autoattribute.py",
+      "tests/test_ext_autodoc_autoclass.py",
+      "tests/test_ext_autodoc_autodata.py",
+      "tests/test_ext_autodoc_autofunction.py",
+      "tests/test_ext_autodoc_automodule.py",
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_ext_autodoc_events.py",
+      "tests/test_ext_autodoc_private_members.py",
+      "tests/test_ext_autosectionlabel.py",
+      "tests/test_ext_autosummary.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_ext_doctest.py",
+      "tests/test_ext_duration.py",
+      "tests/test_ext_githubpages.py",
+      "tests/test_ext_graphviz.py",
+      "tests/test_ext_ifconfig.py",
+      "tests/test_ext_imgconverter.py",
+      "tests/test_ext_inheritance_diagram.py",
+      "tests/test_ext_intersphinx.py",
+      "tests/test_ext_math.py",
+      "tests/test_ext_napoleon.py",
+      "tests/test_ext_napoleon_docstring.py",
+      "tests/test_ext_todo.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_highlighting.py",
+      "tests/test_intl.py",
+      "tests/test_locale.py",
+      "tests/test_markup.py",
+      "tests/test_metadata.py",
+      "tests/test_parser.py",
+      "tests/test_project.py",
+      "tests/test_quickstart.py",
+      "tests/test_search.py",
+      "tests/test_setup_command.py",
+      "tests/test_smartquotes.py",
+      "tests/test_templating.py",
+      "tests/test_theming.py",
+      "tests/test_toctree.py",
+      "tests/test_transforms_post_transforms_code.py",
+      "tests/test_util.py",
+      "tests/test_util_docutils.py",
+      "tests/test_util_i18n.py",
+      "tests/test_util_inspect.py",
+      "tests/test_util_logging.py",
+      "tests/test_util_nodes.py",
+      "tests/test_util_rst.py",
+      "tests/test_versioning.py"
+    ],
+    "elapsed_seconds": 21.827,
+    "failed_test_files": [
+      "tests/roots/test-inheritance/dummy/test_nested.py",
+      "tests/test_application.py",
+      "tests/test_build.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_linkcheck.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_directive_code.py",
+      "tests/test_domain_cpp.py",
+      "tests/test_domain_std.py",
+      "tests/test_ext_autodoc.py",
+      "tests/test_ext_autosummary.py",
+      "tests/test_ext_imgconverter.py",
+      "tests/test_ext_intersphinx.py",
+      "tests/test_ext_napoleon_docstring.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_intl.py",
+      "tests/test_markup.py",
+      "tests/test_metadata.py",
+      "tests/test_quickstart.py",
+      "tests/test_search.py",
+      "tests/test_smartquotes.py",
+      "tests/test_util_i18n.py",
+      "tests/test_versioning.py"
+    ],
+    "in_test_hit_tests": [
+      "tests/test_api_translator.py",
+      "tests/test_build_changes.py",
+      "tests/test_build_dirhtml.py",
+      "tests/test_build_epub.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_text.py",
+      "tests/test_builder.py",
+      "tests/test_catalogs.py",
+      "tests/test_config.py",
+      "tests/test_correct_year.py",
+      "tests/test_directive_only.py",
+      "tests/test_directive_other.py",
+      "tests/test_directive_patch.py",
+      "tests/test_docutilsconf.py",
+      "tests/test_domain_c.py",
+      "tests/test_domain_rst.py",
+      "tests/test_environment.py",
+      "tests/test_environment_indexentries.py",
+      "tests/test_environment_toctree.py",
+      "tests/test_ext_apidoc.py",
+      "tests/test_ext_autodoc_autoattribute.py",
+      "tests/test_ext_autodoc_autoclass.py",
+      "tests/test_ext_autodoc_autodata.py",
+      "tests/test_ext_autodoc_autofunction.py",
+      "tests/test_ext_autodoc_automodule.py",
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_ext_autodoc_events.py",
+      "tests/test_ext_autodoc_private_members.py",
+      "tests/test_ext_autosectionlabel.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_ext_doctest.py",
+      "tests/test_ext_duration.py",
+      "tests/test_ext_githubpages.py",
+      "tests/test_ext_graphviz.py",
+      "tests/test_ext_ifconfig.py",
+      "tests/test_ext_inheritance_diagram.py",
+      "tests/test_ext_math.py",
+      "tests/test_ext_napoleon.py",
+      "tests/test_ext_todo.py",
+      "tests/test_highlighting.py",
+      "tests/test_locale.py",
+      "tests/test_parser.py",
+      "tests/test_project.py",
+      "tests/test_setup_command.py",
+      "tests/test_templating.py",
+      "tests/test_theming.py",
+      "tests/test_toctree.py",
+      "tests/test_transforms_post_transforms_code.py",
+      "tests/test_util.py",
+      "tests/test_util_docutils.py",
+      "tests/test_util_inspect.py",
+      "tests/test_util_logging.py",
+      "tests/test_util_nodes.py",
+      "tests/test_util_rst.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-8638",
+    "modified_functions": [
+      {
+        "insertion_line": 11,
+        "line": 1,
+        "marker": "sphinx/domains/python.py::<module>",
+        "path": "sphinx/domains/python.py",
+        "qualname": "<module>"
+      }
+    ],
+    "passed_test_files": 73,
+    "patch_file": "4b452338f914d4f6b54704222d70ae8a746e3db5/golden.patch",
+    "project": "sphinx-doc/sphinx",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/sphinx/ground_truth_runs/sphinx-doc__sphinx-8638_1784795457_827658",
+    "semantic_excluded_tests": [
+      "tests/test_api_translator.py",
+      "tests/test_build_changes.py",
+      "tests/test_build_dirhtml.py",
+      "tests/test_build_epub.py",
+      "tests/test_build_text.py",
+      "tests/test_catalogs.py",
+      "tests/test_config.py",
+      "tests/test_correct_year.py",
+      "tests/test_directive_only.py",
+      "tests/test_directive_other.py",
+      "tests/test_directive_patch.py",
+      "tests/test_docutilsconf.py",
+      "tests/test_domain_c.py",
+      "tests/test_domain_js.py",
+      "tests/test_domain_py.py",
+      "tests/test_domain_rst.py",
+      "tests/test_environment.py",
+      "tests/test_environment_indexentries.py",
+      "tests/test_environment_toctree.py",
+      "tests/test_ext_apidoc.py",
+      "tests/test_ext_autodoc_autoattribute.py",
+      "tests/test_ext_autodoc_autoclass.py",
+      "tests/test_ext_autodoc_autodata.py",
+      "tests/test_ext_autodoc_autofunction.py",
+      "tests/test_ext_autodoc_automodule.py",
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_ext_autodoc_events.py",
+      "tests/test_ext_autodoc_private_members.py",
+      "tests/test_ext_autosectionlabel.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_ext_doctest.py",
+      "tests/test_ext_duration.py",
+      "tests/test_ext_githubpages.py",
+      "tests/test_ext_graphviz.py",
+      "tests/test_ext_ifconfig.py",
+      "tests/test_ext_inheritance_diagram.py",
+      "tests/test_ext_math.py",
+      "tests/test_ext_napoleon.py",
+      "tests/test_ext_todo.py",
+      "tests/test_highlighting.py",
+      "tests/test_locale.py",
+      "tests/test_parser.py",
+      "tests/test_project.py",
+      "tests/test_setup_command.py",
+      "tests/test_templating.py",
+      "tests/test_theming.py",
+      "tests/test_toctree.py",
+      "tests/test_transforms_post_transforms_code.py",
+      "tests/test_util.py",
+      "tests/test_util_docutils.py",
+      "tests/test_util_inspect.py",
+      "tests/test_util_logging.py",
+      "tests/test_util_nodes.py",
+      "tests/test_util_rst.py"
+    ],
+    "semantic_review": {
+      "classification": "module-configuration-with-observed-downstream-use",
+      "evidence": {
+        "downstream_function": "TypedField.make_field",
+        "observed_variable_field_nodes": 11,
+        "passing_hit_files": [
+          "tests/test_build_gettext.py",
+          "tests/test_builder.py"
+        ],
+        "trace_file": "runtime/python39/sphinx/semantic_reviews/sphinx-doc__sphinx-8638.json"
+      },
+      "instance_id": "sphinx-doc__sphinx-8638",
+      "python_version_related": false,
+      "reason": "Only two individually passing candidates actually render a Python variable field after the class-level rolename change. Other dynamic hits only import the module."
+    },
+    "test_env": "RTSTest39_sphinx_c9104721",
+    "tests_to_run": [
+      "tests/test_build_gettext.py",
+      "tests/test_builder.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 98,
+    "uninstrumentable_changes": [],
+    "version": "4.0"
+  },
+  {
+    "affected_functions_by_test": {},
+    "base_commit": "e05cef574b8f23ab1b57f57e7da6dee509a4e230",
+    "dynamic_hit_tests": [],
+    "dynamic_hit_tests_all": [],
+    "elapsed_seconds": 1.814,
+    "failed_test_files": [
+      "tests/roots/test-inheritance/dummy/test_nested.py",
+      "tests/test_api_translator.py",
+      "tests/test_application.py",
+      "tests/test_build.py",
+      "tests/test_build_changes.py",
+      "tests/test_build_dirhtml.py",
+      "tests/test_build_epub.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_linkcheck.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_build_text.py",
+      "tests/test_builder.py",
+      "tests/test_catalogs.py",
+      "tests/test_config.py",
+      "tests/test_correct_year.py",
+      "tests/test_directive_code.py",
+      "tests/test_directive_only.py",
+      "tests/test_directive_other.py",
+      "tests/test_directive_patch.py",
+      "tests/test_docutilsconf.py",
+      "tests/test_domain_c.py",
+      "tests/test_domain_cpp.py",
+      "tests/test_domain_js.py",
+      "tests/test_domain_py.py",
+      "tests/test_domain_rst.py",
+      "tests/test_domain_std.py",
+      "tests/test_environment.py",
+      "tests/test_environment_indexentries.py",
+      "tests/test_environment_toctree.py",
+      "tests/test_errors.py",
+      "tests/test_events.py",
+      "tests/test_ext_apidoc.py",
+      "tests/test_ext_autodoc.py",
+      "tests/test_ext_autodoc_autoattribute.py",
+      "tests/test_ext_autodoc_autoclass.py",
+      "tests/test_ext_autodoc_autodata.py",
+      "tests/test_ext_autodoc_autofunction.py",
+      "tests/test_ext_autodoc_automodule.py",
+      "tests/test_ext_autodoc_autoproperty.py",
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_ext_autodoc_events.py",
+      "tests/test_ext_autodoc_mock.py",
+      "tests/test_ext_autodoc_preserve_defaults.py",
+      "tests/test_ext_autodoc_private_members.py",
+      "tests/test_ext_autosectionlabel.py",
+      "tests/test_ext_autosummary.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_ext_doctest.py",
+      "tests/test_ext_duration.py",
+      "tests/test_ext_githubpages.py",
+      "tests/test_ext_graphviz.py",
+      "tests/test_ext_ifconfig.py",
+      "tests/test_ext_imgconverter.py",
+      "tests/test_ext_inheritance_diagram.py",
+      "tests/test_ext_intersphinx.py",
+      "tests/test_ext_math.py",
+      "tests/test_ext_napoleon.py",
+      "tests/test_ext_napoleon_docstring.py",
+      "tests/test_ext_napoleon_iterators.py",
+      "tests/test_ext_todo.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_highlighting.py",
+      "tests/test_intl.py",
+      "tests/test_locale.py",
+      "tests/test_markup.py",
+      "tests/test_metadata.py",
+      "tests/test_parser.py",
+      "tests/test_project.py",
+      "tests/test_pycode.py",
+      "tests/test_pycode_ast.py",
+      "tests/test_pycode_parser.py",
+      "tests/test_quickstart.py",
+      "tests/test_roles.py",
+      "tests/test_search.py",
+      "tests/test_setup_command.py",
+      "tests/test_smartquotes.py",
+      "tests/test_templating.py",
+      "tests/test_theming.py",
+      "tests/test_toctree.py",
+      "tests/test_transforms_post_transforms.py",
+      "tests/test_transforms_post_transforms_code.py",
+      "tests/test_util.py",
+      "tests/test_util_docstrings.py",
+      "tests/test_util_docutils.py",
+      "tests/test_util_fileutil.py",
+      "tests/test_util_i18n.py",
+      "tests/test_util_images.py",
+      "tests/test_util_inspect.py",
+      "tests/test_util_inventory.py",
+      "tests/test_util_jsdump.py",
+      "tests/test_util_logging.py",
+      "tests/test_util_matching.py",
+      "tests/test_util_nodes.py",
+      "tests/test_util_rst.py",
+      "tests/test_util_template.py",
+      "tests/test_util_typing.py",
+      "tests/test_versioning.py",
+      "tests/test_writer_latex.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "sphinx-doc__sphinx-9320",
+    "modified_functions": [
+      {
+        "insertion_line": 211,
+        "line": 191,
+        "marker": "sphinx/cmd/quickstart.py::ask_user",
+        "path": "sphinx/cmd/quickstart.py",
+        "qualname": "ask_user"
+      },
+      {
+        "insertion_line": 99,
+        "line": 98,
+        "marker": "sphinx/cmd/quickstart.py::is_path_or_empty",
+        "path": "sphinx/cmd/quickstart.py",
+        "qualname": "is_path_or_empty"
+      }
+    ],
+    "passed_test_files": 0,
+    "patch_file": "e05cef574b8f23ab1b57f57e7da6dee509a4e230/golden.patch",
+    "project": "sphinx-doc/sphinx",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/sphinx/ground_truth_runs/sphinx-doc__sphinx-9320_1784794532_781254",
+    "test_env": "RTSTest39_sphinx_0b8080eb",
+    "tests_to_run": [],
+    "timed_out_test_files": [],
+    "total_tests": 101,
+    "uninstrumentable_changes": [],
+    "version": "4.1"
+  },
+  {
+    "affected_functions_by_test": {
+      "tests/test_build.py": [
+        "sphinx/domains/python.py::PyProperty.handle_signature"
+      ],
+      "tests/test_build_gettext.py": [
+        "sphinx/domains/python.py::PyProperty.handle_signature"
+      ],
+      "tests/test_build_html.py": [
+        "sphinx/domains/python.py::PyProperty.handle_signature"
+      ],
+      "tests/test_build_latex.py": [
+        "sphinx/domains/python.py::PyProperty.handle_signature"
+      ],
+      "tests/test_build_manpage.py": [
+        "sphinx/domains/python.py::PyProperty.handle_signature"
+      ],
+      "tests/test_build_texinfo.py": [
+        "sphinx/domains/python.py::PyProperty.handle_signature"
+      ],
+      "tests/test_builder.py": [
+        "sphinx/domains/python.py::PyProperty.handle_signature"
+      ],
+      "tests/test_domain_py.py": [
+        "sphinx/domains/python.py::PyProperty.handle_signature"
+      ],
+      "tests/test_environment.py": [
+        "sphinx/domains/python.py::PyProperty.handle_signature"
+      ],
+      "tests/test_ext_coverage.py": [
+        "sphinx/domains/python.py::PyProperty.handle_signature"
+      ]
+    },
+    "base_commit": "9ed054279aeffd5b1d0642e2d24a8800389de29f",
+    "dynamic_hit_tests": [
+      "tests/test_build.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_builder.py",
+      "tests/test_environment.py",
+      "tests/test_ext_coverage.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "tests/test_build.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_builder.py",
+      "tests/test_domain_py.py",
+      "tests/test_environment.py",
+      "tests/test_ext_coverage.py"
+    ],
+    "elapsed_seconds": 54.425,
+    "failed_test_files": [
+      "tests/roots/test-inheritance/dummy/test_nested.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_linkcheck.py",
+      "tests/test_domain_py.py",
+      "tests/test_ext_imgconverter.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_intl.py",
+      "tests/test_util_i18n.py"
+    ],
+    "in_test_hit_tests": [
+      "tests/test_build.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_builder.py",
+      "tests/test_environment.py",
+      "tests/test_ext_coverage.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-9591",
+    "modified_functions": [
+      {
+        "insertion_line": 860,
+        "line": 859,
+        "marker": "sphinx/domains/python.py::PyProperty.handle_signature",
+        "path": "sphinx/domains/python.py",
+        "qualname": "PyProperty.handle_signature"
+      }
+    ],
+    "passed_test_files": 93,
+    "patch_file": "9ed054279aeffd5b1d0642e2d24a8800389de29f/golden.patch",
+    "project": "sphinx-doc/sphinx",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/sphinx/ground_truth_runs/sphinx-doc__sphinx-9591_1784794607_781254",
+    "semantic_excluded_tests": [
+      "tests/test_build.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_builder.py",
+      "tests/test_environment.py",
+      "tests/test_ext_coverage.py"
+    ],
+    "semantic_review": {
+      "classification": "handler-hit-without-type-option",
+      "evidence": {
+        "behavior_changing_branch": "PyProperty.handle_signature with a nonempty :type: option",
+        "candidate_files": 8,
+        "trace_file": "runtime/python39/sphinx/semantic_reviews/sphinx-doc__sphinx-9591.json"
+      },
+      "exclude_all_dynamic_hits": true,
+      "instance_id": "sphinx-doc__sphinx-9591",
+      "python_version_related": false,
+      "reason": "The passing candidates enter the property signature handler but never provide the nonempty type option required by the patched annotation-parsing branch."
+    },
+    "test_env": "RTSTest39_sphinx_0b8080eb",
+    "tests_to_run": [],
+    "timed_out_test_files": [],
+    "total_tests": 101,
+    "uninstrumentable_changes": [],
+    "version": "4.2"
+  },
+  {
+    "affected_functions_by_test": {
+      "tests/test_ext_autodoc_automodule.py": [
+        "sphinx/ext/autodoc/mock.py::_MockObject.__init__",
+        "sphinx/ext/autodoc/mock.py::_make_subclass"
+      ],
+      "tests/test_ext_autodoc_configs.py": [
+        "sphinx/ext/autodoc/mock.py::_MockObject.__init__",
+        "sphinx/ext/autodoc/mock.py::_make_subclass"
+      ],
+      "tests/test_ext_autodoc_mock.py": [
+        "sphinx/ext/autodoc/mock.py::_MockObject.__init__",
+        "sphinx/ext/autodoc/mock.py::_make_subclass"
+      ],
+      "tests/test_ext_autosummary.py": [
+        "sphinx/ext/autodoc/mock.py::_MockObject.__init__",
+        "sphinx/ext/autodoc/mock.py::_make_subclass"
+      ]
+    },
+    "base_commit": "232dbe41c5250eb7d559d40438c4743483e95f15",
+    "dynamic_hit_tests": [
+      "tests/test_ext_autodoc_automodule.py",
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_ext_autodoc_mock.py",
+      "tests/test_ext_autosummary.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "tests/test_ext_autodoc_automodule.py",
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_ext_autodoc_mock.py",
+      "tests/test_ext_autosummary.py"
+    ],
+    "elapsed_seconds": 23.561,
+    "failed_test_files": [
+      "tests/roots/test-inheritance/dummy/test_nested.py",
+      "tests/test_build_linkcheck.py",
+      "tests/test_ext_imgconverter.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_intl.py",
+      "tests/test_util_i18n.py"
+    ],
+    "in_test_hit_tests": [
+      "tests/test_ext_autodoc_automodule.py",
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_ext_autodoc_mock.py",
+      "tests/test_ext_autosummary.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-9658",
+    "modified_functions": [
+      {
+        "insertion_line": 44,
+        "line": 43,
+        "marker": "sphinx/ext/autodoc/mock.py::_MockObject.__init__",
+        "path": "sphinx/ext/autodoc/mock.py",
+        "qualname": "_MockObject.__init__"
+      },
+      {
+        "insertion_line": 75,
+        "line": 73,
+        "marker": "sphinx/ext/autodoc/mock.py::_make_subclass",
+        "path": "sphinx/ext/autodoc/mock.py",
+        "qualname": "_make_subclass"
+      }
+    ],
+    "passed_test_files": 95,
+    "patch_file": "232dbe41c5250eb7d559d40438c4743483e95f15/golden.patch",
+    "project": "sphinx-doc/sphinx",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/sphinx/ground_truth_runs/sphinx-doc__sphinx-9658_1784794729_781254",
+    "test_env": "RTSTest39_sphinx_0b8080eb",
+    "tests_to_run": [
+      "tests/test_ext_autodoc_automodule.py",
+      "tests/test_ext_autodoc_configs.py",
+      "tests/test_ext_autodoc_mock.py",
+      "tests/test_ext_autosummary.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 101,
+    "uninstrumentable_changes": [],
+    "version": "4.3"
+  }
+]

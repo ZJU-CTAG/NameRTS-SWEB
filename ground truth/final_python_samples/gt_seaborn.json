@@ -1,0 +1,93 @@
+[
+  {
+    "affected_functions_by_test": {
+      "tests/_core/test_plot.py": [
+        "seaborn/_core/plot.py::Plotter._finalize_figure",
+        "seaborn/_core/plot.py::Plotter._setup_scales"
+      ],
+      "tests/_marks/test_area.py": [
+        "seaborn/_core/plot.py::Plotter._setup_scales"
+      ],
+      "tests/_marks/test_bar.py": [
+        "seaborn/_core/plot.py::Plotter._setup_scales"
+      ],
+      "tests/_marks/test_dot.py": [
+        "seaborn/_core/plot.py::Plotter._setup_scales"
+      ],
+      "tests/_marks/test_line.py": [
+        "seaborn/_core/plot.py::Plotter._setup_scales"
+      ],
+      "tests/_marks/test_text.py": [
+        "seaborn/_core/plot.py::Plotter._setup_scales"
+      ]
+    },
+    "base_commit": "54cab15bdacfaa05a88fbc5502a5b322d99f148e",
+    "dynamic_hit_tests": [
+      "tests/_core/test_plot.py",
+      "tests/_marks/test_area.py",
+      "tests/_marks/test_bar.py",
+      "tests/_marks/test_dot.py",
+      "tests/_marks/test_line.py",
+      "tests/_marks/test_text.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "tests/_core/test_plot.py",
+      "tests/_marks/test_area.py",
+      "tests/_marks/test_bar.py",
+      "tests/_marks/test_dot.py",
+      "tests/_marks/test_line.py",
+      "tests/_marks/test_text.py"
+    ],
+    "elapsed_seconds": 365.846,
+    "failed_test_files": [
+      "tests/_core/test_plot.py",
+      "tests/_marks/test_area.py",
+      "tests/_marks/test_bar.py",
+      "tests/_marks/test_dot.py",
+      "tests/_marks/test_line.py",
+      "tests/_marks/test_text.py",
+      "tests/test_axisgrid.py",
+      "tests/test_categorical.py",
+      "tests/test_core.py",
+      "tests/test_distributions.py",
+      "tests/test_relational.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "mwaskom__seaborn-3069",
+    "modified_functions": [
+      {
+        "insertion_line": 1629,
+        "line": 1627,
+        "marker": "seaborn/_core/plot.py::Plotter._finalize_figure",
+        "path": "seaborn/_core/plot.py",
+        "qualname": "Plotter._finalize_figure"
+      },
+      {
+        "insertion_line": 1177,
+        "line": 1170,
+        "marker": "seaborn/_core/plot.py::Plotter._setup_scales",
+        "path": "seaborn/_core/plot.py",
+        "qualname": "Plotter._setup_scales"
+      }
+    ],
+    "passed_test_files": 23,
+    "passing_dynamic_hit_tests": [],
+    "patch_file": "54cab15bdacfaa05a88fbc5502a5b322d99f148e/golden.patch",
+    "project": "mwaskom/seaborn",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/final_python_samples/seaborn/ground_truth_runs/mwaskom__seaborn-3069_1784862222_956363",
+    "test_env": "RTSFinal39_seaborn_1352d6de",
+    "tests_to_run": [
+      "tests/_core/test_plot.py",
+      "tests/_marks/test_area.py",
+      "tests/_marks/test_bar.py",
+      "tests/_marks/test_dot.py",
+      "tests/_marks/test_line.py",
+      "tests/_marks/test_text.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 34,
+    "uninstrumentable_changes": [],
+    "version": "0.12"
+  }
+]

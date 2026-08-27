@@ -1,0 +1,129 @@
+[
+  {
+    "classification": "function-hit-without-patch-behavior",
+    "evidence": {
+      "command_scope": "nine dynamic-hit SymPy geometry test files",
+      "patch_branch_hits": 0,
+      "pytest_result": "36 passed",
+      "trace_file": "runtime/python39/sympy/semantic_reviews/sympy__sympy-11618.json"
+    },
+    "exclude_tests": [
+      "sympy/geometry/tests/test_curve.py",
+      "sympy/geometry/tests/test_ellipse.py",
+      "sympy/geometry/tests/test_entity.py",
+      "sympy/geometry/tests/test_line.py",
+      "sympy/geometry/tests/test_parabola.py",
+      "sympy/geometry/tests/test_plane.py",
+      "sympy/geometry/tests/test_point.py",
+      "sympy/geometry/tests/test_polygon.py",
+      "sympy/geometry/tests/test_util.py"
+    ],
+    "instance_id": "sympy__sympy-11618",
+    "python_version_related": false,
+    "reason": "All candidates call Point.distance, but none executes the only behavior-changing branch where the point types and dimensions differ."
+  },
+  {
+    "classification": "module-import-without-global-value-use",
+    "evidence": {
+      "direct_value_assertion_files": [
+        "tests/lint/unittest_lint.py"
+      ],
+      "direct_value_assertion_status": "nonzero and therefore outside passing ground truth",
+      "trace_file": "runtime/python39/pylint/semantic_reviews/pylint-dev__pylint-4661.json"
+    },
+    "exclude_all_dynamic_hits": true,
+    "instance_id": "pylint-dev__pylint-4661",
+    "python_version_related": false,
+    "reason": "Passing candidates only import pylint.config. The only test file that directly checks PYLINT_HOME fails against the patched behavior and is not part of passing ground truth."
+  },
+  {
+    "classification": "refactor-hit-without-new-ignore-branch",
+    "evidence": {
+      "behavior_changing_function": "PyLinter._discover_files",
+      "passing_tests_hitting_behavior_changing_function": 0,
+      "trace_file": "runtime/python39/pylint/semantic_reviews/pylint-dev__pylint-6528.json"
+    },
+    "exclude_all_dynamic_hits": true,
+    "instance_id": "pylint-dev__pylint-6528",
+    "python_version_related": false,
+    "reason": "Passing candidates hit only the behavior-preserving extraction of _is_ignored_file from expand_modules. The sole file hitting the changed _discover_files behavior exits nonzero."
+  },
+  {
+    "classification": "configuration-initialization-without-new-regexp-case",
+    "evidence": {
+      "in_test_function_hits": 0,
+      "observed_initial_values": [
+        "",
+        ""
+      ],
+      "trace_file": "runtime/python39/pylint/semantic_reviews/pylint-dev__pylint-8898.json"
+    },
+    "exclude_all_dynamic_hits": true,
+    "instance_id": "pylint-dev__pylint-8898",
+    "python_version_related": false,
+    "reason": "The patched regexp splitter is called only during initialization with empty defaults; no candidate invokes it during a test or supplies a comma-containing regexp quantifier."
+  },
+  {
+    "classification": "parser-helper-hit-without-new-literal-syntax",
+    "evidence": {
+      "behavior_exercising_tests": [
+        "tests/test_domain_c.py",
+        "tests/test_domain_cpp.py"
+      ],
+      "namerts_selected_both_behavior_exercising_tests": true
+    },
+    "exclude_tests": [
+      "tests/test_build_changes.py",
+      "tests/test_build_gettext.py",
+      "tests/test_builder.py",
+      "tests/test_environment.py",
+      "tests/test_ext_coverage.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-7590",
+    "python_version_related": false,
+    "reason": "The five excluded files enter generic C/C++ signature helpers but do not parse the newly supported numeric suffixes or C++ user-defined literals. The two domain test files that do exercise parser behavior were selected."
+  },
+  {
+    "classification": "module-import-without-new-keyboard-boundary-case",
+    "evidence": {
+      "behavior_changing_pattern": "(?<=.)(-|\\+|\\^|\\s+)(?=.)",
+      "passing_dynamic_hits": 56,
+      "regression_case_file_status": "tests/test_markup.py is nonzero in this environment and is outside passing ground truth"
+    },
+    "exclude_all_dynamic_hits": true,
+    "instance_id": "sphinx-doc__sphinx-8621",
+    "python_version_related": false,
+    "reason": "The source change is a class-level regular expression, so the module probe over-approximated every passing importer. None of those files tests a separator at the beginning or end of a keyboard literal."
+  },
+  {
+    "classification": "module-configuration-with-observed-downstream-use",
+    "evidence": {
+      "downstream_function": "TypedField.make_field",
+      "observed_variable_field_nodes": 11,
+      "passing_hit_files": [
+        "tests/test_build_gettext.py",
+        "tests/test_builder.py"
+      ],
+      "trace_file": "runtime/python39/sphinx/semantic_reviews/sphinx-doc__sphinx-8638.json"
+    },
+    "instance_id": "sphinx-doc__sphinx-8638",
+    "keep_tests": [
+      "tests/test_build_gettext.py",
+      "tests/test_builder.py"
+    ],
+    "python_version_related": false,
+    "reason": "Only two individually passing candidates actually render a Python variable field after the class-level rolename change. Other dynamic hits only import the module."
+  },
+  {
+    "classification": "handler-hit-without-type-option",
+    "evidence": {
+      "behavior_changing_branch": "PyProperty.handle_signature with a nonempty :type: option",
+      "candidate_files": 8,
+      "trace_file": "runtime/python39/sphinx/semantic_reviews/sphinx-doc__sphinx-9591.json"
+    },
+    "exclude_all_dynamic_hits": true,
+    "instance_id": "sphinx-doc__sphinx-9591",
+    "python_version_related": false,
+    "reason": "The passing candidates enter the property signature handler but never provide the nonempty type option required by the patched annotation-parsing branch."
+  }
+]

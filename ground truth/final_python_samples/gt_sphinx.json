@@ -1,0 +1,148 @@
+[
+  {
+    "affected_functions_by_test": {
+      "tests/test_build.py": [
+        "sphinx/directives/code.py::LiteralIncludeReader.read"
+      ],
+      "tests/test_build_gettext.py": [
+        "sphinx/directives/code.py::LiteralIncludeReader.read"
+      ],
+      "tests/test_build_html.py": [
+        "sphinx/directives/code.py::LiteralIncludeReader.read"
+      ],
+      "tests/test_build_latex.py": [
+        "sphinx/directives/code.py::LiteralIncludeReader.read"
+      ],
+      "tests/test_build_manpage.py": [
+        "sphinx/directives/code.py::LiteralIncludeReader.read"
+      ],
+      "tests/test_build_texinfo.py": [
+        "sphinx/directives/code.py::LiteralIncludeReader.read"
+      ],
+      "tests/test_builder.py": [
+        "sphinx/directives/code.py::LiteralIncludeReader.read"
+      ],
+      "tests/test_directive_code.py": [
+        "sphinx/directives/code.py::LiteralIncludeReader.read"
+      ],
+      "tests/test_environment.py": [
+        "sphinx/directives/code.py::LiteralIncludeReader.read"
+      ],
+      "tests/test_ext_coverage.py": [
+        "sphinx/directives/code.py::LiteralIncludeReader.read"
+      ],
+      "tests/test_ext_viewcode.py": [
+        "sphinx/directives/code.py::LiteralIncludeReader.read"
+      ],
+      "tests/test_intl.py": [
+        "sphinx/directives/code.py::LiteralIncludeReader.read"
+      ],
+      "tests/test_search.py": [
+        "sphinx/directives/code.py::LiteralIncludeReader.read"
+      ]
+    },
+    "base_commit": "31eba1a76dd485dc633cae48227b46879eda5df4",
+    "dynamic_hit_tests": [
+      "tests/test_build.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_builder.py",
+      "tests/test_directive_code.py",
+      "tests/test_environment.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_intl.py",
+      "tests/test_search.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "tests/test_build.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_builder.py",
+      "tests/test_directive_code.py",
+      "tests/test_environment.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_intl.py",
+      "tests/test_search.py"
+    ],
+    "elapsed_seconds": 22.257,
+    "failed_test_files": [
+      "tests/roots/test-inheritance/dummy/test_nested.py",
+      "tests/test_build_linkcheck.py",
+      "tests/test_config.py",
+      "tests/test_ext_imgconverter.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_intl.py",
+      "tests/test_theming.py",
+      "tests/test_util_i18n.py"
+    ],
+    "in_test_hit_tests": [
+      "tests/test_build.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_builder.py",
+      "tests/test_directive_code.py",
+      "tests/test_environment.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_search.py"
+    ],
+    "instance_id": "sphinx-doc__sphinx-10323",
+    "modified_functions": [
+      {
+        "insertion_line": 220,
+        "line": 219,
+        "marker": "sphinx/directives/code.py::LiteralIncludeReader.read",
+        "path": "sphinx/directives/code.py",
+        "qualname": "LiteralIncludeReader.read"
+      }
+    ],
+    "passed_test_files": 95,
+    "passing_dynamic_hit_tests": [
+      "tests/test_build.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_builder.py",
+      "tests/test_directive_code.py",
+      "tests/test_environment.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_search.py"
+    ],
+    "patch_file": "31eba1a76dd485dc633cae48227b46879eda5df4/golden.patch",
+    "project": "sphinx-doc/sphinx",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/final_python_samples/sphinx/ground_truth_runs/sphinx-doc__sphinx-10323_1784862608_1000386",
+    "test_env": "RTSFinal39_sphinx_42a48bbd",
+    "tests_to_run": [
+      "tests/test_build.py",
+      "tests/test_build_gettext.py",
+      "tests/test_build_html.py",
+      "tests/test_build_latex.py",
+      "tests/test_build_manpage.py",
+      "tests/test_build_texinfo.py",
+      "tests/test_builder.py",
+      "tests/test_directive_code.py",
+      "tests/test_environment.py",
+      "tests/test_ext_coverage.py",
+      "tests/test_ext_viewcode.py",
+      "tests/test_intl.py",
+      "tests/test_search.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 103,
+    "uninstrumentable_changes": [],
+    "version": "5.0"
+  }
+]

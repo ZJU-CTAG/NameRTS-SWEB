@@ -1,0 +1,2881 @@
+[
+  {
+    "affected_functions_by_test": {
+      "tests/admin_changelist/test_date_hierarchy.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/admin_changelist/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/admin_custom_urls/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/admin_docs/test_middleware.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/admin_docs/test_views.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/admin_filters/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/admin_inlines/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/admin_ordering/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/admin_scripts/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/admin_utils/test_logentry.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/admin_utils/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/admin_views/test_actions.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/admin_views/test_adminsite.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/admin_views/test_autocomplete_view.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/admin_views/test_forms.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/admin_views/test_history_view.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/admin_views/test_multidb.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/admin_views/test_templatetags.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/admin_views/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/admin_widgets/test_autocomplete_widget.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/admin_widgets/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/aggregation/test_filter_argument.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/aggregation/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/aggregation_regress/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/annotations/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/auth_tests/test_admin_multidb.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/auth_tests/test_auth_backends.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/auth_tests/test_basic.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/auth_tests/test_context_processors.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/auth_tests/test_decorators.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/auth_tests/test_forms.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/auth_tests/test_handlers.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/auth_tests/test_management.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/auth_tests/test_middleware.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/auth_tests/test_migrations.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/auth_tests/test_mixins.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/auth_tests/test_models.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/auth_tests/test_remote_user.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/auth_tests/test_remote_user_deprecation.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/auth_tests/test_signals.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/auth_tests/test_templates.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/auth_tests/test_tokens.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/auth_tests/test_validators.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/auth_tests/test_views.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/backends/base/test_base.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/backends/base/test_operations.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/backends/mysql/test_features.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/backends/mysql/test_schema.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/backends/mysql/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/backends/oracle/test_creation.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/backends/oracle/test_introspection.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/backends/oracle/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/backends/postgresql/test_introspection.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/backends/postgresql/test_server_side_cursors.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/backends/postgresql/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/backends/sqlite/test_introspection.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/backends/sqlite/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/backends/test_utils.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/backends/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/basic/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/bulk_create/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/cache/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/check_framework/test_database.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/check_framework/test_model_checks.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/constraints/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/contenttypes_tests/test_fields.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/contenttypes_tests/test_management.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/contenttypes_tests/test_models.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/contenttypes_tests/test_operations.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/contenttypes_tests/test_order_with_respect_to.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/contenttypes_tests/test_views.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/context_processors/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/custom_columns/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/custom_lookups/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/custom_managers/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/custom_methods/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/custom_pk/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/datatypes/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/dates/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/datetimes/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/comparison/test_cast.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/comparison/test_coalesce.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/comparison/test_greatest.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/comparison/test_least.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/comparison/test_nullif.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/datetime/test_extract_trunc.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/datetime/test_now.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_abs.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_acos.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_asin.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_atan.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_atan2.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_ceil.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_cos.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_cot.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_degrees.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_exp.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_floor.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_ln.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_log.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_mod.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_pi.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_power.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_radians.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_round.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_sign.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_sin.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_sqrt.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/math/test_tan.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/text/test_chr.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/text/test_concat.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/text/test_left.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/text/test_length.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/text/test_lower.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/text/test_md5.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/text/test_ord.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/text/test_pad.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/text/test_repeat.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/text/test_replace.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/text/test_reverse.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/text/test_right.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/text/test_sha1.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/text/test_sha224.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/text/test_sha256.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/text/test_sha384.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/text/test_sha512.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/text/test_strindex.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/text/test_substr.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/text/test_trim.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_functions/text/test_upper.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/db_utils/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/defer/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/defer_regress/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/delete/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/delete_regress/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/distinct_on_fields/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/empty/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/expressions/test_queryset_values.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/expressions/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/expressions_case/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/expressions_window/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/extra_regress/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/field_defaults/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/file_storage/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/file_uploads/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/filtered_relation/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/fixtures/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/fixtures_model_package/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/fixtures_regress/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/flatpages_tests/test_csrf.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/flatpages_tests/test_forms.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/flatpages_tests/test_middleware.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/flatpages_tests/test_sitemaps.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/flatpages_tests/test_templatetags.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/flatpages_tests/test_views.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/force_insert_update/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/foreign_object/test_agnostic_order_trimjoin.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/foreign_object/test_empty_join.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/foreign_object/test_forms.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/foreign_object/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/forms_tests/tests/test_error_messages.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/forms_tests/tests/test_widgets.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/forms_tests/tests/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/from_db_value/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/generic_inline_admin/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/generic_relations/test_forms.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/generic_relations/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/generic_relations_regress/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/generic_views/test_dates.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/generic_views/test_detail.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/generic_views/test_edit.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/generic_views/test_list.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/get_earliest_or_latest/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/get_object_or_404/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/get_or_create/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/handlers/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/i18n/contenttypes/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/i18n/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/indexes/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/inline_formsets/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/inspectdb/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/introspection/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/invalid_models_tests/test_ordinary_fields.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/known_related_objects/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/lookup/test_decimalfield.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/lookup/test_timefield.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/lookup/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/m2m_and_m2o/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/m2m_intermediary/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/m2m_multiple/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/m2m_recursive/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/m2m_regress/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/m2m_signals/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/m2m_through/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/m2m_through_regress/test_multitable.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/m2m_through_regress/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/m2o_recursive/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/managers_regress/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/many_to_many/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/many_to_one/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/many_to_one_null/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/max_lengths/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/messages_tests/test_session.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/migrate_signals/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/migration_test_data_persistence/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/migrations/test_autodetector.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/migrations/test_commands.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/migrations/test_deprecated_fields.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/migrations/test_executor.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/migrations/test_loader.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/migrations/test_multidb.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/migrations/test_operations.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_fields/test_binaryfield.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_fields/test_booleanfield.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_fields/test_charfield.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_fields/test_datetimefield.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_fields/test_decimalfield.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_fields/test_durationfield.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_fields/test_filefield.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_fields/test_floatfield.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_fields/test_foreignkey.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_fields/test_genericipaddressfield.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_fields/test_imagefield.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_fields/test_integerfield.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_fields/test_manytomanyfield.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_fields/test_slugfield.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_fields/test_textfield.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_fields/test_uuid.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_fields/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_forms/test_modelchoicefield.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_forms/test_uuid.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_forms/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_formsets/test_uuid.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_formsets/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_formsets_regress/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_indexes/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_inheritance/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_inheritance_regress/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_options/test_default_related_name.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_options/test_tablespaces.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_package/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/model_regress/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/modeladmin/test_actions.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/modeladmin/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/multiple_database/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/mutually_referential/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/nested_foreign_keys/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/null_fk/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/null_fk_ordering/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/null_queries/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/one_to_one/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/or_lookups/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/order_with_respect_to/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/ordering/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/pagination/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/postgres_tests/test_aggregates.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/postgres_tests/test_apps.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/postgres_tests/test_array.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/postgres_tests/test_bulk_update.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/postgres_tests/test_citext.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/postgres_tests/test_constraints.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/postgres_tests/test_functions.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/postgres_tests/test_hstore.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/postgres_tests/test_indexes.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/postgres_tests/test_introspection.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/postgres_tests/test_json.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/postgres_tests/test_ranges.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/postgres_tests/test_search.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/postgres_tests/test_signals.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/postgres_tests/test_trigram.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/postgres_tests/test_unaccent.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/prefetch_related/test_prefetch_related_objects.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/prefetch_related/test_uuid.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/prefetch_related/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/properties/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/proxy_model_inheritance/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/proxy_models/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/queries/test_bulk_update.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/queries/test_explain.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/queries/test_iterator.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/queries/test_qs_combinators.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/queries/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/queryset_pickle/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/raw_query/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/redirects_tests/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/reserved_names/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/reverse_lookup/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/save_delete_hooks/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/schema/test_logging.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/schema/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/select_for_update/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/select_related/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/select_related_onetoone/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/select_related_regress/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/serializers/test_data.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/serializers/test_json.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/serializers/test_natural.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/serializers/test_xml.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/serializers/test_yaml.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/servers/test_liveserverthread.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/servers/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/sessions_tests/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/settings_tests/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/signals/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/sitemaps_tests/test_generic.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/sitemaps_tests/test_http.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/sitemaps_tests/test_https.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/sitemaps_tests/test_management.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/sitemaps_tests/test_utils.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/sites_framework/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/sites_tests/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/staticfiles_tests/test_liveserver.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/str/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/string_lookup/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/swappable_models/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/syndication_tests/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/test_client/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/test_client_regress/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/test_runner/test_debug_sql.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/test_runner/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/test_runner_apps/databases/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/test_runner_apps/simple/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/test_utils/test_testcase.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/test_utils/test_transactiontestcase.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/test_utils/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/timezones/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/transaction_hooks/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/transactions/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/unmanaged_models/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/update/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/update_only_fields/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/urlpatterns_reverse/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/utils_tests/test_simplelazyobject.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/validation/test_unique.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/validation/tests.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/view_tests/tests/test_debug.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/view_tests/tests/test_defaults.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ],
+      "tests/view_tests/tests/test_i18n.py": [
+        "django/db/models/sql/compiler.py::SQLCompiler.get_order_by"
+      ]
+    },
+    "base_commit": "14d026cccb144c6877294ba4cd4e03ebf0842498",
+    "dynamic_hit_tests": [
+      "tests/admin_changelist/test_date_hierarchy.py",
+      "tests/admin_changelist/tests.py",
+      "tests/admin_custom_urls/tests.py",
+      "tests/admin_docs/test_middleware.py",
+      "tests/admin_docs/test_views.py",
+      "tests/admin_filters/tests.py",
+      "tests/admin_inlines/tests.py",
+      "tests/admin_ordering/tests.py",
+      "tests/admin_scripts/tests.py",
+      "tests/admin_utils/test_logentry.py",
+      "tests/admin_utils/tests.py",
+      "tests/admin_views/test_actions.py",
+      "tests/admin_views/test_adminsite.py",
+      "tests/admin_views/test_autocomplete_view.py",
+      "tests/admin_views/test_forms.py",
+      "tests/admin_views/test_history_view.py",
+      "tests/admin_views/test_multidb.py",
+      "tests/admin_views/test_templatetags.py",
+      "tests/admin_views/tests.py",
+      "tests/admin_widgets/test_autocomplete_widget.py",
+      "tests/admin_widgets/tests.py",
+      "tests/aggregation/test_filter_argument.py",
+      "tests/aggregation/tests.py",
+      "tests/aggregation_regress/tests.py",
+      "tests/annotations/tests.py",
+      "tests/auth_tests/test_admin_multidb.py",
+      "tests/auth_tests/test_auth_backends.py",
+      "tests/auth_tests/test_basic.py",
+      "tests/auth_tests/test_context_processors.py",
+      "tests/auth_tests/test_decorators.py",
+      "tests/auth_tests/test_forms.py",
+      "tests/auth_tests/test_handlers.py",
+      "tests/auth_tests/test_management.py",
+      "tests/auth_tests/test_middleware.py",
+      "tests/auth_tests/test_migrations.py",
+      "tests/auth_tests/test_mixins.py",
+      "tests/auth_tests/test_models.py",
+      "tests/auth_tests/test_remote_user.py",
+      "tests/auth_tests/test_remote_user_deprecation.py",
+      "tests/auth_tests/test_signals.py",
+      "tests/auth_tests/test_templates.py",
+      "tests/auth_tests/test_tokens.py",
+      "tests/auth_tests/test_validators.py",
+      "tests/auth_tests/test_views.py",
+      "tests/backends/base/test_base.py",
+      "tests/backends/base/test_operations.py",
+      "tests/backends/mysql/test_features.py",
+      "tests/backends/mysql/test_schema.py",
+      "tests/backends/mysql/tests.py",
+      "tests/backends/oracle/test_creation.py",
+      "tests/backends/oracle/test_introspection.py",
+      "tests/backends/oracle/tests.py",
+      "tests/backends/postgresql/test_introspection.py",
+      "tests/backends/postgresql/test_server_side_cursors.py",
+      "tests/backends/postgresql/tests.py",
+      "tests/backends/sqlite/test_introspection.py",
+      "tests/backends/sqlite/tests.py",
+      "tests/backends/test_utils.py",
+      "tests/backends/tests.py",
+      "tests/basic/tests.py",
+      "tests/bulk_create/tests.py",
+      "tests/cache/tests.py",
+      "tests/check_framework/test_database.py",
+      "tests/check_framework/test_model_checks.py",
+      "tests/constraints/tests.py",
+      "tests/contenttypes_tests/test_fields.py",
+      "tests/contenttypes_tests/test_management.py",
+      "tests/contenttypes_tests/test_models.py",
+      "tests/contenttypes_tests/test_operations.py",
+      "tests/contenttypes_tests/test_order_with_respect_to.py",
+      "tests/contenttypes_tests/test_views.py",
+      "tests/context_processors/tests.py",
+      "tests/custom_columns/tests.py",
+      "tests/custom_lookups/tests.py",
+      "tests/custom_managers/tests.py",
+      "tests/custom_methods/tests.py",
+      "tests/custom_pk/tests.py",
+      "tests/datatypes/tests.py",
+      "tests/dates/tests.py",
+      "tests/datetimes/tests.py",
+      "tests/db_functions/comparison/test_cast.py",
+      "tests/db_functions/comparison/test_coalesce.py",
+      "tests/db_functions/comparison/test_greatest.py",
+      "tests/db_functions/comparison/test_least.py",
+      "tests/db_functions/comparison/test_nullif.py",
+      "tests/db_functions/datetime/test_extract_trunc.py",
+      "tests/db_functions/datetime/test_now.py",
+      "tests/db_functions/math/test_abs.py",
+      "tests/db_functions/math/test_acos.py",
+      "tests/db_functions/math/test_asin.py",
+      "tests/db_functions/math/test_atan.py",
+      "tests/db_functions/math/test_atan2.py",
+      "tests/db_functions/math/test_ceil.py",
+      "tests/db_functions/math/test_cos.py",
+      "tests/db_functions/math/test_cot.py",
+      "tests/db_functions/math/test_degrees.py",
+      "tests/db_functions/math/test_exp.py",
+      "tests/db_functions/math/test_floor.py",
+      "tests/db_functions/math/test_ln.py",
+      "tests/db_functions/math/test_log.py",
+      "tests/db_functions/math/test_mod.py",
+      "tests/db_functions/math/test_pi.py",
+      "tests/db_functions/math/test_power.py",
+      "tests/db_functions/math/test_radians.py",
+      "tests/db_functions/math/test_round.py",
+      "tests/db_functions/math/test_sign.py",
+      "tests/db_functions/math/test_sin.py",
+      "tests/db_functions/math/test_sqrt.py",
+      "tests/db_functions/math/test_tan.py",
+      "tests/db_functions/tests.py",
+      "tests/db_functions/text/test_chr.py",
+      "tests/db_functions/text/test_concat.py",
+      "tests/db_functions/text/test_left.py",
+      "tests/db_functions/text/test_length.py",
+      "tests/db_functions/text/test_lower.py",
+      "tests/db_functions/text/test_md5.py",
+      "tests/db_functions/text/test_ord.py",
+      "tests/db_functions/text/test_pad.py",
+      "tests/db_functions/text/test_repeat.py",
+      "tests/db_functions/text/test_replace.py",
+      "tests/db_functions/text/test_reverse.py",
+      "tests/db_functions/text/test_right.py",
+      "tests/db_functions/text/test_sha1.py",
+      "tests/db_functions/text/test_sha224.py",
+      "tests/db_functions/text/test_sha256.py",
+      "tests/db_functions/text/test_sha384.py",
+      "tests/db_functions/text/test_sha512.py",
+      "tests/db_functions/text/test_strindex.py",
+      "tests/db_functions/text/test_substr.py",
+      "tests/db_functions/text/test_trim.py",
+      "tests/db_functions/text/test_upper.py",
+      "tests/db_utils/tests.py",
+      "tests/defer/tests.py",
+      "tests/defer_regress/tests.py",
+      "tests/delete/tests.py",
+      "tests/delete_regress/tests.py",
+      "tests/distinct_on_fields/tests.py",
+      "tests/empty/tests.py",
+      "tests/expressions/test_queryset_values.py",
+      "tests/expressions/tests.py",
+      "tests/expressions_case/tests.py",
+      "tests/expressions_window/tests.py",
+      "tests/extra_regress/tests.py",
+      "tests/field_defaults/tests.py",
+      "tests/file_storage/tests.py",
+      "tests/file_uploads/tests.py",
+      "tests/filtered_relation/tests.py",
+      "tests/fixtures/tests.py",
+      "tests/fixtures_model_package/tests.py",
+      "tests/fixtures_regress/tests.py",
+      "tests/flatpages_tests/test_csrf.py",
+      "tests/flatpages_tests/test_forms.py",
+      "tests/flatpages_tests/test_middleware.py",
+      "tests/flatpages_tests/test_sitemaps.py",
+      "tests/flatpages_tests/test_templatetags.py",
+      "tests/flatpages_tests/test_views.py",
+      "tests/force_insert_update/tests.py",
+      "tests/foreign_object/test_agnostic_order_trimjoin.py",
+      "tests/foreign_object/test_empty_join.py",
+      "tests/foreign_object/test_forms.py",
+      "tests/foreign_object/tests.py",
+      "tests/forms_tests/tests/test_error_messages.py",
+      "tests/forms_tests/tests/test_widgets.py",
+      "tests/forms_tests/tests/tests.py",
+      "tests/from_db_value/tests.py",
+      "tests/generic_inline_admin/tests.py",
+      "tests/generic_relations/test_forms.py",
+      "tests/generic_relations/tests.py",
+      "tests/generic_relations_regress/tests.py",
+      "tests/generic_views/test_dates.py",
+      "tests/generic_views/test_detail.py",
+      "tests/generic_views/test_edit.py",
+      "tests/generic_views/test_list.py",
+      "tests/get_earliest_or_latest/tests.py",
+      "tests/get_object_or_404/tests.py",
+      "tests/get_or_create/tests.py",
+      "tests/handlers/tests.py",
+      "tests/i18n/contenttypes/tests.py",
+      "tests/i18n/tests.py",
+      "tests/indexes/tests.py",
+      "tests/inline_formsets/tests.py",
+      "tests/inspectdb/tests.py",
+      "tests/introspection/tests.py",
+      "tests/invalid_models_tests/test_ordinary_fields.py",
+      "tests/known_related_objects/tests.py",
+      "tests/lookup/test_decimalfield.py",
+      "tests/lookup/test_timefield.py",
+      "tests/lookup/tests.py",
+      "tests/m2m_and_m2o/tests.py",
+      "tests/m2m_intermediary/tests.py",
+      "tests/m2m_multiple/tests.py",
+      "tests/m2m_recursive/tests.py",
+      "tests/m2m_regress/tests.py",
+      "tests/m2m_signals/tests.py",
+      "tests/m2m_through/tests.py",
+      "tests/m2m_through_regress/test_multitable.py",
+      "tests/m2m_through_regress/tests.py",
+      "tests/m2o_recursive/tests.py",
+      "tests/managers_regress/tests.py",
+      "tests/many_to_many/tests.py",
+      "tests/many_to_one/tests.py",
+      "tests/many_to_one_null/tests.py",
+      "tests/max_lengths/tests.py",
+      "tests/messages_tests/test_session.py",
+      "tests/migrate_signals/tests.py",
+      "tests/migration_test_data_persistence/tests.py",
+      "tests/migrations/test_autodetector.py",
+      "tests/migrations/test_commands.py",
+      "tests/migrations/test_deprecated_fields.py",
+      "tests/migrations/test_executor.py",
+      "tests/migrations/test_loader.py",
+      "tests/migrations/test_multidb.py",
+      "tests/migrations/test_operations.py",
+      "tests/model_fields/test_binaryfield.py",
+      "tests/model_fields/test_booleanfield.py",
+      "tests/model_fields/test_charfield.py",
+      "tests/model_fields/test_datetimefield.py",
+      "tests/model_fields/test_decimalfield.py",
+      "tests/model_fields/test_durationfield.py",
+      "tests/model_fields/test_filefield.py",
+      "tests/model_fields/test_floatfield.py",
+      "tests/model_fields/test_foreignkey.py",
+      "tests/model_fields/test_genericipaddressfield.py",
+      "tests/model_fields/test_imagefield.py",
+      "tests/model_fields/test_integerfield.py",
+      "tests/model_fields/test_manytomanyfield.py",
+      "tests/model_fields/test_slugfield.py",
+      "tests/model_fields/test_textfield.py",
+      "tests/model_fields/test_uuid.py",
+      "tests/model_fields/tests.py",
+      "tests/model_forms/test_modelchoicefield.py",
+      "tests/model_forms/test_uuid.py",
+      "tests/model_forms/tests.py",
+      "tests/model_formsets/test_uuid.py",
+      "tests/model_formsets/tests.py",
+      "tests/model_formsets_regress/tests.py",
+      "tests/model_indexes/tests.py",
+      "tests/model_inheritance/tests.py",
+      "tests/model_inheritance_regress/tests.py",
+      "tests/model_options/test_default_related_name.py",
+      "tests/model_options/test_tablespaces.py",
+      "tests/model_package/tests.py",
+      "tests/model_regress/tests.py",
+      "tests/modeladmin/test_actions.py",
+      "tests/modeladmin/tests.py",
+      "tests/multiple_database/tests.py",
+      "tests/mutually_referential/tests.py",
+      "tests/nested_foreign_keys/tests.py",
+      "tests/null_fk/tests.py",
+      "tests/null_fk_ordering/tests.py",
+      "tests/null_queries/tests.py",
+      "tests/one_to_one/tests.py",
+      "tests/or_lookups/tests.py",
+      "tests/order_with_respect_to/tests.py",
+      "tests/ordering/tests.py",
+      "tests/pagination/tests.py",
+      "tests/postgres_tests/test_aggregates.py",
+      "tests/postgres_tests/test_apps.py",
+      "tests/postgres_tests/test_array.py",
+      "tests/postgres_tests/test_bulk_update.py",
+      "tests/postgres_tests/test_citext.py",
+      "tests/postgres_tests/test_constraints.py",
+      "tests/postgres_tests/test_functions.py",
+      "tests/postgres_tests/test_hstore.py",
+      "tests/postgres_tests/test_indexes.py",
+      "tests/postgres_tests/test_introspection.py",
+      "tests/postgres_tests/test_json.py",
+      "tests/postgres_tests/test_ranges.py",
+      "tests/postgres_tests/test_search.py",
+      "tests/postgres_tests/test_signals.py",
+      "tests/postgres_tests/test_trigram.py",
+      "tests/postgres_tests/test_unaccent.py",
+      "tests/prefetch_related/test_prefetch_related_objects.py",
+      "tests/prefetch_related/test_uuid.py",
+      "tests/prefetch_related/tests.py",
+      "tests/properties/tests.py",
+      "tests/proxy_model_inheritance/tests.py",
+      "tests/proxy_models/tests.py",
+      "tests/queries/test_bulk_update.py",
+      "tests/queries/test_explain.py",
+      "tests/queries/test_iterator.py",
+      "tests/queries/test_qs_combinators.py",
+      "tests/queries/tests.py",
+      "tests/queryset_pickle/tests.py",
+      "tests/raw_query/tests.py",
+      "tests/redirects_tests/tests.py",
+      "tests/reserved_names/tests.py",
+      "tests/reverse_lookup/tests.py",
+      "tests/save_delete_hooks/tests.py",
+      "tests/schema/test_logging.py",
+      "tests/schema/tests.py",
+      "tests/select_for_update/tests.py",
+      "tests/select_related/tests.py",
+      "tests/select_related_onetoone/tests.py",
+      "tests/select_related_regress/tests.py",
+      "tests/serializers/test_data.py",
+      "tests/serializers/test_json.py",
+      "tests/serializers/test_natural.py",
+      "tests/serializers/test_xml.py",
+      "tests/serializers/test_yaml.py",
+      "tests/servers/test_liveserverthread.py",
+      "tests/servers/tests.py",
+      "tests/sessions_tests/tests.py",
+      "tests/settings_tests/tests.py",
+      "tests/signals/tests.py",
+      "tests/sitemaps_tests/test_generic.py",
+      "tests/sitemaps_tests/test_http.py",
+      "tests/sitemaps_tests/test_https.py",
+      "tests/sitemaps_tests/test_management.py",
+      "tests/sitemaps_tests/test_utils.py",
+      "tests/sites_framework/tests.py",
+      "tests/sites_tests/tests.py",
+      "tests/staticfiles_tests/test_liveserver.py",
+      "tests/str/tests.py",
+      "tests/string_lookup/tests.py",
+      "tests/swappable_models/tests.py",
+      "tests/syndication_tests/tests.py",
+      "tests/test_client/tests.py",
+      "tests/test_client_regress/tests.py",
+      "tests/test_runner/test_debug_sql.py",
+      "tests/test_runner/tests.py",
+      "tests/test_runner_apps/databases/tests.py",
+      "tests/test_runner_apps/simple/tests.py",
+      "tests/test_utils/test_testcase.py",
+      "tests/test_utils/test_transactiontestcase.py",
+      "tests/test_utils/tests.py",
+      "tests/timezones/tests.py",
+      "tests/transaction_hooks/tests.py",
+      "tests/transactions/tests.py",
+      "tests/unmanaged_models/tests.py",
+      "tests/update/tests.py",
+      "tests/update_only_fields/tests.py",
+      "tests/urlpatterns_reverse/tests.py",
+      "tests/utils_tests/test_simplelazyobject.py",
+      "tests/validation/test_unique.py",
+      "tests/validation/tests.py",
+      "tests/view_tests/tests/test_debug.py",
+      "tests/view_tests/tests/test_defaults.py",
+      "tests/view_tests/tests/test_i18n.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "tests/admin_changelist/test_date_hierarchy.py",
+      "tests/admin_changelist/tests.py",
+      "tests/admin_custom_urls/tests.py",
+      "tests/admin_docs/test_middleware.py",
+      "tests/admin_docs/test_views.py",
+      "tests/admin_filters/tests.py",
+      "tests/admin_inlines/tests.py",
+      "tests/admin_ordering/tests.py",
+      "tests/admin_scripts/tests.py",
+      "tests/admin_utils/test_logentry.py",
+      "tests/admin_utils/tests.py",
+      "tests/admin_views/test_actions.py",
+      "tests/admin_views/test_adminsite.py",
+      "tests/admin_views/test_autocomplete_view.py",
+      "tests/admin_views/test_forms.py",
+      "tests/admin_views/test_history_view.py",
+      "tests/admin_views/test_multidb.py",
+      "tests/admin_views/test_templatetags.py",
+      "tests/admin_views/tests.py",
+      "tests/admin_widgets/test_autocomplete_widget.py",
+      "tests/admin_widgets/tests.py",
+      "tests/aggregation/test_filter_argument.py",
+      "tests/aggregation/tests.py",
+      "tests/aggregation_regress/tests.py",
+      "tests/annotations/tests.py",
+      "tests/auth_tests/test_admin_multidb.py",
+      "tests/auth_tests/test_auth_backends.py",
+      "tests/auth_tests/test_basic.py",
+      "tests/auth_tests/test_context_processors.py",
+      "tests/auth_tests/test_decorators.py",
+      "tests/auth_tests/test_forms.py",
+      "tests/auth_tests/test_handlers.py",
+      "tests/auth_tests/test_management.py",
+      "tests/auth_tests/test_middleware.py",
+      "tests/auth_tests/test_migrations.py",
+      "tests/auth_tests/test_mixins.py",
+      "tests/auth_tests/test_models.py",
+      "tests/auth_tests/test_remote_user.py",
+      "tests/auth_tests/test_remote_user_deprecation.py",
+      "tests/auth_tests/test_signals.py",
+      "tests/auth_tests/test_templates.py",
+      "tests/auth_tests/test_tokens.py",
+      "tests/auth_tests/test_validators.py",
+      "tests/auth_tests/test_views.py",
+      "tests/backends/base/test_base.py",
+      "tests/backends/base/test_operations.py",
+      "tests/backends/mysql/test_features.py",
+      "tests/backends/mysql/test_schema.py",
+      "tests/backends/mysql/tests.py",
+      "tests/backends/oracle/test_creation.py",
+      "tests/backends/oracle/test_introspection.py",
+      "tests/backends/oracle/tests.py",
+      "tests/backends/postgresql/test_introspection.py",
+      "tests/backends/postgresql/test_server_side_cursors.py",
+      "tests/backends/postgresql/tests.py",
+      "tests/backends/sqlite/test_introspection.py",
+      "tests/backends/sqlite/tests.py",
+      "tests/backends/test_utils.py",
+      "tests/backends/tests.py",
+      "tests/basic/tests.py",
+      "tests/bulk_create/tests.py",
+      "tests/cache/tests.py",
+      "tests/check_framework/test_database.py",
+      "tests/check_framework/test_model_checks.py",
+      "tests/constraints/tests.py",
+      "tests/contenttypes_tests/test_fields.py",
+      "tests/contenttypes_tests/test_management.py",
+      "tests/contenttypes_tests/test_models.py",
+      "tests/contenttypes_tests/test_operations.py",
+      "tests/contenttypes_tests/test_order_with_respect_to.py",
+      "tests/contenttypes_tests/test_views.py",
+      "tests/context_processors/tests.py",
+      "tests/custom_columns/tests.py",
+      "tests/custom_lookups/tests.py",
+      "tests/custom_managers/tests.py",
+      "tests/custom_methods/tests.py",
+      "tests/custom_pk/tests.py",
+      "tests/datatypes/tests.py",
+      "tests/dates/tests.py",
+      "tests/datetimes/tests.py",
+      "tests/db_functions/comparison/test_cast.py",
+      "tests/db_functions/comparison/test_coalesce.py",
+      "tests/db_functions/comparison/test_greatest.py",
+      "tests/db_functions/comparison/test_least.py",
+      "tests/db_functions/comparison/test_nullif.py",
+      "tests/db_functions/datetime/test_extract_trunc.py",
+      "tests/db_functions/datetime/test_now.py",
+      "tests/db_functions/math/test_abs.py",
+      "tests/db_functions/math/test_acos.py",
+      "tests/db_functions/math/test_asin.py",
+      "tests/db_functions/math/test_atan.py",
+      "tests/db_functions/math/test_atan2.py",
+      "tests/db_functions/math/test_ceil.py",
+      "tests/db_functions/math/test_cos.py",
+      "tests/db_functions/math/test_cot.py",
+      "tests/db_functions/math/test_degrees.py",
+      "tests/db_functions/math/test_exp.py",
+      "tests/db_functions/math/test_floor.py",
+      "tests/db_functions/math/test_ln.py",
+      "tests/db_functions/math/test_log.py",
+      "tests/db_functions/math/test_mod.py",
+      "tests/db_functions/math/test_pi.py",
+      "tests/db_functions/math/test_power.py",
+      "tests/db_functions/math/test_radians.py",
+      "tests/db_functions/math/test_round.py",
+      "tests/db_functions/math/test_sign.py",
+      "tests/db_functions/math/test_sin.py",
+      "tests/db_functions/math/test_sqrt.py",
+      "tests/db_functions/math/test_tan.py",
+      "tests/db_functions/tests.py",
+      "tests/db_functions/text/test_chr.py",
+      "tests/db_functions/text/test_concat.py",
+      "tests/db_functions/text/test_left.py",
+      "tests/db_functions/text/test_length.py",
+      "tests/db_functions/text/test_lower.py",
+      "tests/db_functions/text/test_md5.py",
+      "tests/db_functions/text/test_ord.py",
+      "tests/db_functions/text/test_pad.py",
+      "tests/db_functions/text/test_repeat.py",
+      "tests/db_functions/text/test_replace.py",
+      "tests/db_functions/text/test_reverse.py",
+      "tests/db_functions/text/test_right.py",
+      "tests/db_functions/text/test_sha1.py",
+      "tests/db_functions/text/test_sha224.py",
+      "tests/db_functions/text/test_sha256.py",
+      "tests/db_functions/text/test_sha384.py",
+      "tests/db_functions/text/test_sha512.py",
+      "tests/db_functions/text/test_strindex.py",
+      "tests/db_functions/text/test_substr.py",
+      "tests/db_functions/text/test_trim.py",
+      "tests/db_functions/text/test_upper.py",
+      "tests/db_utils/tests.py",
+      "tests/defer/tests.py",
+      "tests/defer_regress/tests.py",
+      "tests/delete/tests.py",
+      "tests/delete_regress/tests.py",
+      "tests/distinct_on_fields/tests.py",
+      "tests/empty/tests.py",
+      "tests/expressions/test_queryset_values.py",
+      "tests/expressions/tests.py",
+      "tests/expressions_case/tests.py",
+      "tests/expressions_window/tests.py",
+      "tests/extra_regress/tests.py",
+      "tests/field_defaults/tests.py",
+      "tests/file_storage/tests.py",
+      "tests/file_uploads/tests.py",
+      "tests/filtered_relation/tests.py",
+      "tests/fixtures/tests.py",
+      "tests/fixtures_model_package/tests.py",
+      "tests/fixtures_regress/tests.py",
+      "tests/flatpages_tests/test_csrf.py",
+      "tests/flatpages_tests/test_forms.py",
+      "tests/flatpages_tests/test_middleware.py",
+      "tests/flatpages_tests/test_sitemaps.py",
+      "tests/flatpages_tests/test_templatetags.py",
+      "tests/flatpages_tests/test_views.py",
+      "tests/force_insert_update/tests.py",
+      "tests/foreign_object/test_agnostic_order_trimjoin.py",
+      "tests/foreign_object/test_empty_join.py",
+      "tests/foreign_object/test_forms.py",
+      "tests/foreign_object/tests.py",
+      "tests/forms_tests/tests/test_error_messages.py",
+      "tests/forms_tests/tests/test_widgets.py",
+      "tests/forms_tests/tests/tests.py",
+      "tests/from_db_value/tests.py",
+      "tests/generic_inline_admin/tests.py",
+      "tests/generic_relations/test_forms.py",
+      "tests/generic_relations/tests.py",
+      "tests/generic_relations_regress/tests.py",
+      "tests/generic_views/test_dates.py",
+      "tests/generic_views/test_detail.py",
+      "tests/generic_views/test_edit.py",
+      "tests/generic_views/test_list.py",
+      "tests/get_earliest_or_latest/tests.py",
+      "tests/get_object_or_404/tests.py",
+      "tests/get_or_create/tests.py",
+      "tests/handlers/tests.py",
+      "tests/i18n/contenttypes/tests.py",
+      "tests/i18n/tests.py",
+      "tests/indexes/tests.py",
+      "tests/inline_formsets/tests.py",
+      "tests/inspectdb/tests.py",
+      "tests/introspection/tests.py",
+      "tests/invalid_models_tests/test_ordinary_fields.py",
+      "tests/known_related_objects/tests.py",
+      "tests/lookup/test_decimalfield.py",
+      "tests/lookup/test_timefield.py",
+      "tests/lookup/tests.py",
+      "tests/m2m_and_m2o/tests.py",
+      "tests/m2m_intermediary/tests.py",
+      "tests/m2m_multiple/tests.py",
+      "tests/m2m_recursive/tests.py",
+      "tests/m2m_regress/tests.py",
+      "tests/m2m_signals/tests.py",
+      "tests/m2m_through/tests.py",
+      "tests/m2m_through_regress/test_multitable.py",
+      "tests/m2m_through_regress/tests.py",
+      "tests/m2o_recursive/tests.py",
+      "tests/managers_regress/tests.py",
+      "tests/many_to_many/tests.py",
+      "tests/many_to_one/tests.py",
+      "tests/many_to_one_null/tests.py",
+      "tests/max_lengths/tests.py",
+      "tests/messages_tests/test_session.py",
+      "tests/migrate_signals/tests.py",
+      "tests/migration_test_data_persistence/tests.py",
+      "tests/migrations/test_autodetector.py",
+      "tests/migrations/test_commands.py",
+      "tests/migrations/test_deprecated_fields.py",
+      "tests/migrations/test_executor.py",
+      "tests/migrations/test_loader.py",
+      "tests/migrations/test_multidb.py",
+      "tests/migrations/test_operations.py",
+      "tests/model_fields/test_binaryfield.py",
+      "tests/model_fields/test_booleanfield.py",
+      "tests/model_fields/test_charfield.py",
+      "tests/model_fields/test_datetimefield.py",
+      "tests/model_fields/test_decimalfield.py",
+      "tests/model_fields/test_durationfield.py",
+      "tests/model_fields/test_filefield.py",
+      "tests/model_fields/test_floatfield.py",
+      "tests/model_fields/test_foreignkey.py",
+      "tests/model_fields/test_genericipaddressfield.py",
+      "tests/model_fields/test_imagefield.py",
+      "tests/model_fields/test_integerfield.py",
+      "tests/model_fields/test_manytomanyfield.py",
+      "tests/model_fields/test_slugfield.py",
+      "tests/model_fields/test_textfield.py",
+      "tests/model_fields/test_uuid.py",
+      "tests/model_fields/tests.py",
+      "tests/model_forms/test_modelchoicefield.py",
+      "tests/model_forms/test_uuid.py",
+      "tests/model_forms/tests.py",
+      "tests/model_formsets/test_uuid.py",
+      "tests/model_formsets/tests.py",
+      "tests/model_formsets_regress/tests.py",
+      "tests/model_indexes/tests.py",
+      "tests/model_inheritance/tests.py",
+      "tests/model_inheritance_regress/tests.py",
+      "tests/model_options/test_default_related_name.py",
+      "tests/model_options/test_tablespaces.py",
+      "tests/model_package/tests.py",
+      "tests/model_regress/tests.py",
+      "tests/modeladmin/test_actions.py",
+      "tests/modeladmin/tests.py",
+      "tests/multiple_database/tests.py",
+      "tests/mutually_referential/tests.py",
+      "tests/nested_foreign_keys/tests.py",
+      "tests/null_fk/tests.py",
+      "tests/null_fk_ordering/tests.py",
+      "tests/null_queries/tests.py",
+      "tests/one_to_one/tests.py",
+      "tests/or_lookups/tests.py",
+      "tests/order_with_respect_to/tests.py",
+      "tests/ordering/tests.py",
+      "tests/pagination/tests.py",
+      "tests/postgres_tests/test_aggregates.py",
+      "tests/postgres_tests/test_apps.py",
+      "tests/postgres_tests/test_array.py",
+      "tests/postgres_tests/test_bulk_update.py",
+      "tests/postgres_tests/test_citext.py",
+      "tests/postgres_tests/test_constraints.py",
+      "tests/postgres_tests/test_functions.py",
+      "tests/postgres_tests/test_hstore.py",
+      "tests/postgres_tests/test_indexes.py",
+      "tests/postgres_tests/test_introspection.py",
+      "tests/postgres_tests/test_json.py",
+      "tests/postgres_tests/test_ranges.py",
+      "tests/postgres_tests/test_search.py",
+      "tests/postgres_tests/test_signals.py",
+      "tests/postgres_tests/test_trigram.py",
+      "tests/postgres_tests/test_unaccent.py",
+      "tests/prefetch_related/test_prefetch_related_objects.py",
+      "tests/prefetch_related/test_uuid.py",
+      "tests/prefetch_related/tests.py",
+      "tests/properties/tests.py",
+      "tests/proxy_model_inheritance/tests.py",
+      "tests/proxy_models/tests.py",
+      "tests/queries/test_bulk_update.py",
+      "tests/queries/test_explain.py",
+      "tests/queries/test_iterator.py",
+      "tests/queries/test_qs_combinators.py",
+      "tests/queries/tests.py",
+      "tests/queryset_pickle/tests.py",
+      "tests/raw_query/tests.py",
+      "tests/redirects_tests/tests.py",
+      "tests/reserved_names/tests.py",
+      "tests/reverse_lookup/tests.py",
+      "tests/save_delete_hooks/tests.py",
+      "tests/schema/test_logging.py",
+      "tests/schema/tests.py",
+      "tests/select_for_update/tests.py",
+      "tests/select_related/tests.py",
+      "tests/select_related_onetoone/tests.py",
+      "tests/select_related_regress/tests.py",
+      "tests/serializers/test_data.py",
+      "tests/serializers/test_json.py",
+      "tests/serializers/test_natural.py",
+      "tests/serializers/test_xml.py",
+      "tests/serializers/test_yaml.py",
+      "tests/servers/test_liveserverthread.py",
+      "tests/servers/tests.py",
+      "tests/sessions_tests/tests.py",
+      "tests/settings_tests/tests.py",
+      "tests/signals/tests.py",
+      "tests/sitemaps_tests/test_generic.py",
+      "tests/sitemaps_tests/test_http.py",
+      "tests/sitemaps_tests/test_https.py",
+      "tests/sitemaps_tests/test_management.py",
+      "tests/sitemaps_tests/test_utils.py",
+      "tests/sites_framework/tests.py",
+      "tests/sites_tests/tests.py",
+      "tests/staticfiles_tests/test_liveserver.py",
+      "tests/str/tests.py",
+      "tests/string_lookup/tests.py",
+      "tests/swappable_models/tests.py",
+      "tests/syndication_tests/tests.py",
+      "tests/test_client/tests.py",
+      "tests/test_client_regress/tests.py",
+      "tests/test_runner/test_debug_sql.py",
+      "tests/test_runner/tests.py",
+      "tests/test_runner_apps/databases/tests.py",
+      "tests/test_runner_apps/simple/tests.py",
+      "tests/test_utils/test_testcase.py",
+      "tests/test_utils/test_transactiontestcase.py",
+      "tests/test_utils/tests.py",
+      "tests/timezones/tests.py",
+      "tests/transaction_hooks/tests.py",
+      "tests/transactions/tests.py",
+      "tests/unmanaged_models/tests.py",
+      "tests/update/tests.py",
+      "tests/update_only_fields/tests.py",
+      "tests/urlpatterns_reverse/tests.py",
+      "tests/utils_tests/test_simplelazyobject.py",
+      "tests/validation/test_unique.py",
+      "tests/validation/tests.py",
+      "tests/view_tests/tests/test_debug.py",
+      "tests/view_tests/tests/test_defaults.py",
+      "tests/view_tests/tests/test_i18n.py"
+    ],
+    "elapsed_seconds": 62.223,
+    "failed_test_files": [
+      "tests/admin_filters/tests.py",
+      "tests/auth_tests/test_remote_user_deprecation.py",
+      "tests/file_uploads/tests.py",
+      "tests/fixtures/tests.py",
+      "tests/gis_tests/distapp/tests.py",
+      "tests/gis_tests/gdal_tests/test_driver.py",
+      "tests/gis_tests/gdal_tests/test_ds.py",
+      "tests/gis_tests/gdal_tests/test_envelope.py",
+      "tests/gis_tests/gdal_tests/test_geom.py",
+      "tests/gis_tests/gdal_tests/test_raster.py",
+      "tests/gis_tests/gdal_tests/test_srs.py",
+      "tests/gis_tests/geo3d/tests.py",
+      "tests/gis_tests/geoadmin/tests.py",
+      "tests/gis_tests/geoapp/test_expressions.py",
+      "tests/gis_tests/geoapp/test_feeds.py",
+      "tests/gis_tests/geoapp/test_functions.py",
+      "tests/gis_tests/geoapp/test_regress.py",
+      "tests/gis_tests/geoapp/test_serializers.py",
+      "tests/gis_tests/geoapp/test_sitemaps.py",
+      "tests/gis_tests/geoapp/tests.py",
+      "tests/gis_tests/geogapp/tests.py",
+      "tests/gis_tests/geos_tests/test_coordseq.py",
+      "tests/gis_tests/geos_tests/test_geos.py",
+      "tests/gis_tests/geos_tests/test_geos_mutation.py",
+      "tests/gis_tests/geos_tests/test_io.py",
+      "tests/gis_tests/geos_tests/test_mutable_list.py",
+      "tests/gis_tests/gis_migrations/test_commands.py",
+      "tests/gis_tests/gis_migrations/test_operations.py",
+      "tests/gis_tests/inspectapp/tests.py",
+      "tests/gis_tests/layermap/tests.py",
+      "tests/gis_tests/rasterapp/test_rasterfield.py",
+      "tests/gis_tests/relatedapp/tests.py",
+      "tests/gis_tests/test_data.py",
+      "tests/gis_tests/test_fields.py",
+      "tests/gis_tests/test_geoforms.py",
+      "tests/gis_tests/test_geoip2.py",
+      "tests/gis_tests/test_gis_tests_utils.py",
+      "tests/gis_tests/test_measure.py",
+      "tests/gis_tests/test_ptr.py",
+      "tests/gis_tests/test_spatialrefsys.py",
+      "tests/gis_tests/tests.py",
+      "tests/inspectdb/tests.py",
+      "tests/mail/tests.py",
+      "tests/servers/test_basehttp.py",
+      "tests/settings_tests/tests.py",
+      "tests/template_tests/filter_tests/test_timeuntil.py",
+      "tests/template_tests/test_loaders.py",
+      "tests/timezones/tests.py",
+      "tests/utils_tests/test_dateformat.py",
+      "tests/utils_tests/test_lazyobject.py",
+      "tests/utils_tests/test_timesince.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "django__django-10554",
+    "modified_functions": [
+      {
+        "insertion_line": 263,
+        "line": 254,
+        "marker": "django/db/models/sql/compiler.py::SQLCompiler.get_order_by",
+        "path": "django/db/models/sql/compiler.py",
+        "qualname": "SQLCompiler.get_order_by"
+      },
+      {
+        "insertion_line": 1778,
+        "line": 1777,
+        "marker": "django/db/models/sql/query.py::Query.add_select_col",
+        "path": "django/db/models/sql/query.py",
+        "qualname": "Query.add_select_col"
+      }
+    ],
+    "passed_test_files": 681,
+    "passing_dynamic_hit_tests": [
+      "tests/admin_changelist/test_date_hierarchy.py",
+      "tests/admin_changelist/tests.py",
+      "tests/admin_custom_urls/tests.py",
+      "tests/admin_docs/test_middleware.py",
+      "tests/admin_docs/test_views.py",
+      "tests/admin_inlines/tests.py",
+      "tests/admin_ordering/tests.py",
+      "tests/admin_scripts/tests.py",
+      "tests/admin_utils/test_logentry.py",
+      "tests/admin_utils/tests.py",
+      "tests/admin_views/test_actions.py",
+      "tests/admin_views/test_adminsite.py",
+      "tests/admin_views/test_autocomplete_view.py",
+      "tests/admin_views/test_forms.py",
+      "tests/admin_views/test_history_view.py",
+      "tests/admin_views/test_multidb.py",
+      "tests/admin_views/test_templatetags.py",
+      "tests/admin_views/tests.py",
+      "tests/admin_widgets/test_autocomplete_widget.py",
+      "tests/admin_widgets/tests.py",
+      "tests/aggregation/test_filter_argument.py",
+      "tests/aggregation/tests.py",
+      "tests/aggregation_regress/tests.py",
+      "tests/annotations/tests.py",
+      "tests/auth_tests/test_admin_multidb.py",
+      "tests/auth_tests/test_auth_backends.py",
+      "tests/auth_tests/test_basic.py",
+      "tests/auth_tests/test_context_processors.py",
+      "tests/auth_tests/test_decorators.py",
+      "tests/auth_tests/test_forms.py",
+      "tests/auth_tests/test_handlers.py",
+      "tests/auth_tests/test_management.py",
+      "tests/auth_tests/test_middleware.py",
+      "tests/auth_tests/test_migrations.py",
+      "tests/auth_tests/test_mixins.py",
+      "tests/auth_tests/test_models.py",
+      "tests/auth_tests/test_remote_user.py",
+      "tests/auth_tests/test_signals.py",
+      "tests/auth_tests/test_templates.py",
+      "tests/auth_tests/test_tokens.py",
+      "tests/auth_tests/test_validators.py",
+      "tests/auth_tests/test_views.py",
+      "tests/backends/base/test_base.py",
+      "tests/backends/base/test_operations.py",
+      "tests/backends/mysql/test_features.py",
+      "tests/backends/mysql/test_schema.py",
+      "tests/backends/mysql/tests.py",
+      "tests/backends/oracle/test_creation.py",
+      "tests/backends/oracle/test_introspection.py",
+      "tests/backends/oracle/tests.py",
+      "tests/backends/postgresql/test_introspection.py",
+      "tests/backends/postgresql/test_server_side_cursors.py",
+      "tests/backends/postgresql/tests.py",
+      "tests/backends/sqlite/test_introspection.py",
+      "tests/backends/sqlite/tests.py",
+      "tests/backends/test_utils.py",
+      "tests/backends/tests.py",
+      "tests/basic/tests.py",
+      "tests/bulk_create/tests.py",
+      "tests/cache/tests.py",
+      "tests/check_framework/test_database.py",
+      "tests/check_framework/test_model_checks.py",
+      "tests/constraints/tests.py",
+      "tests/contenttypes_tests/test_fields.py",
+      "tests/contenttypes_tests/test_management.py",
+      "tests/contenttypes_tests/test_models.py",
+      "tests/contenttypes_tests/test_operations.py",
+      "tests/contenttypes_tests/test_order_with_respect_to.py",
+      "tests/contenttypes_tests/test_views.py",
+      "tests/context_processors/tests.py",
+      "tests/custom_columns/tests.py",
+      "tests/custom_lookups/tests.py",
+      "tests/custom_managers/tests.py",
+      "tests/custom_methods/tests.py",
+      "tests/custom_pk/tests.py",
+      "tests/datatypes/tests.py",
+      "tests/dates/tests.py",
+      "tests/datetimes/tests.py",
+      "tests/db_functions/comparison/test_cast.py",
+      "tests/db_functions/comparison/test_coalesce.py",
+      "tests/db_functions/comparison/test_greatest.py",
+      "tests/db_functions/comparison/test_least.py",
+      "tests/db_functions/comparison/test_nullif.py",
+      "tests/db_functions/datetime/test_extract_trunc.py",
+      "tests/db_functions/datetime/test_now.py",
+      "tests/db_functions/math/test_abs.py",
+      "tests/db_functions/math/test_acos.py",
+      "tests/db_functions/math/test_asin.py",
+      "tests/db_functions/math/test_atan.py",
+      "tests/db_functions/math/test_atan2.py",
+      "tests/db_functions/math/test_ceil.py",
+      "tests/db_functions/math/test_cos.py",
+      "tests/db_functions/math/test_cot.py",
+      "tests/db_functions/math/test_degrees.py",
+      "tests/db_functions/math/test_exp.py",
+      "tests/db_functions/math/test_floor.py",
+      "tests/db_functions/math/test_ln.py",
+      "tests/db_functions/math/test_log.py",
+      "tests/db_functions/math/test_mod.py",
+      "tests/db_functions/math/test_pi.py",
+      "tests/db_functions/math/test_power.py",
+      "tests/db_functions/math/test_radians.py",
+      "tests/db_functions/math/test_round.py",
+      "tests/db_functions/math/test_sign.py",
+      "tests/db_functions/math/test_sin.py",
+      "tests/db_functions/math/test_sqrt.py",
+      "tests/db_functions/math/test_tan.py",
+      "tests/db_functions/tests.py",
+      "tests/db_functions/text/test_chr.py",
+      "tests/db_functions/text/test_concat.py",
+      "tests/db_functions/text/test_left.py",
+      "tests/db_functions/text/test_length.py",
+      "tests/db_functions/text/test_lower.py",
+      "tests/db_functions/text/test_md5.py",
+      "tests/db_functions/text/test_ord.py",
+      "tests/db_functions/text/test_pad.py",
+      "tests/db_functions/text/test_repeat.py",
+      "tests/db_functions/text/test_replace.py",
+      "tests/db_functions/text/test_reverse.py",
+      "tests/db_functions/text/test_right.py",
+      "tests/db_functions/text/test_sha1.py",
+      "tests/db_functions/text/test_sha224.py",
+      "tests/db_functions/text/test_sha256.py",
+      "tests/db_functions/text/test_sha384.py",
+      "tests/db_functions/text/test_sha512.py",
+      "tests/db_functions/text/test_strindex.py",
+      "tests/db_functions/text/test_substr.py",
+      "tests/db_functions/text/test_trim.py",
+      "tests/db_functions/text/test_upper.py",
+      "tests/db_utils/tests.py",
+      "tests/defer/tests.py",
+      "tests/defer_regress/tests.py",
+      "tests/delete/tests.py",
+      "tests/delete_regress/tests.py",
+      "tests/distinct_on_fields/tests.py",
+      "tests/empty/tests.py",
+      "tests/expressions/test_queryset_values.py",
+      "tests/expressions/tests.py",
+      "tests/expressions_case/tests.py",
+      "tests/expressions_window/tests.py",
+      "tests/extra_regress/tests.py",
+      "tests/field_defaults/tests.py",
+      "tests/file_storage/tests.py",
+      "tests/filtered_relation/tests.py",
+      "tests/fixtures_model_package/tests.py",
+      "tests/fixtures_regress/tests.py",
+      "tests/flatpages_tests/test_csrf.py",
+      "tests/flatpages_tests/test_forms.py",
+      "tests/flatpages_tests/test_middleware.py",
+      "tests/flatpages_tests/test_sitemaps.py",
+      "tests/flatpages_tests/test_templatetags.py",
+      "tests/flatpages_tests/test_views.py",
+      "tests/force_insert_update/tests.py",
+      "tests/foreign_object/test_agnostic_order_trimjoin.py",
+      "tests/foreign_object/test_empty_join.py",
+      "tests/foreign_object/test_forms.py",
+      "tests/foreign_object/tests.py",
+      "tests/forms_tests/tests/test_error_messages.py",
+      "tests/forms_tests/tests/test_widgets.py",
+      "tests/forms_tests/tests/tests.py",
+      "tests/from_db_value/tests.py",
+      "tests/generic_inline_admin/tests.py",
+      "tests/generic_relations/test_forms.py",
+      "tests/generic_relations/tests.py",
+      "tests/generic_relations_regress/tests.py",
+      "tests/generic_views/test_dates.py",
+      "tests/generic_views/test_detail.py",
+      "tests/generic_views/test_edit.py",
+      "tests/generic_views/test_list.py",
+      "tests/get_earliest_or_latest/tests.py",
+      "tests/get_object_or_404/tests.py",
+      "tests/get_or_create/tests.py",
+      "tests/handlers/tests.py",
+      "tests/i18n/contenttypes/tests.py",
+      "tests/i18n/tests.py",
+      "tests/indexes/tests.py",
+      "tests/inline_formsets/tests.py",
+      "tests/introspection/tests.py",
+      "tests/invalid_models_tests/test_ordinary_fields.py",
+      "tests/known_related_objects/tests.py",
+      "tests/lookup/test_decimalfield.py",
+      "tests/lookup/test_timefield.py",
+      "tests/lookup/tests.py",
+      "tests/m2m_and_m2o/tests.py",
+      "tests/m2m_intermediary/tests.py",
+      "tests/m2m_multiple/tests.py",
+      "tests/m2m_recursive/tests.py",
+      "tests/m2m_regress/tests.py",
+      "tests/m2m_signals/tests.py",
+      "tests/m2m_through/tests.py",
+      "tests/m2m_through_regress/test_multitable.py",
+      "tests/m2m_through_regress/tests.py",
+      "tests/m2o_recursive/tests.py",
+      "tests/managers_regress/tests.py",
+      "tests/many_to_many/tests.py",
+      "tests/many_to_one/tests.py",
+      "tests/many_to_one_null/tests.py",
+      "tests/max_lengths/tests.py",
+      "tests/messages_tests/test_session.py",
+      "tests/migrate_signals/tests.py",
+      "tests/migration_test_data_persistence/tests.py",
+      "tests/migrations/test_autodetector.py",
+      "tests/migrations/test_commands.py",
+      "tests/migrations/test_deprecated_fields.py",
+      "tests/migrations/test_executor.py",
+      "tests/migrations/test_loader.py",
+      "tests/migrations/test_multidb.py",
+      "tests/migrations/test_operations.py",
+      "tests/model_fields/test_binaryfield.py",
+      "tests/model_fields/test_booleanfield.py",
+      "tests/model_fields/test_charfield.py",
+      "tests/model_fields/test_datetimefield.py",
+      "tests/model_fields/test_decimalfield.py",
+      "tests/model_fields/test_durationfield.py",
+      "tests/model_fields/test_filefield.py",
+      "tests/model_fields/test_floatfield.py",
+      "tests/model_fields/test_foreignkey.py",
+      "tests/model_fields/test_genericipaddressfield.py",
+      "tests/model_fields/test_imagefield.py",
+      "tests/model_fields/test_integerfield.py",
+      "tests/model_fields/test_manytomanyfield.py",
+      "tests/model_fields/test_slugfield.py",
+      "tests/model_fields/test_textfield.py",
+      "tests/model_fields/test_uuid.py",
+      "tests/model_fields/tests.py",
+      "tests/model_forms/test_modelchoicefield.py",
+      "tests/model_forms/test_uuid.py",
+      "tests/model_forms/tests.py",
+      "tests/model_formsets/test_uuid.py",
+      "tests/model_formsets/tests.py",
+      "tests/model_formsets_regress/tests.py",
+      "tests/model_indexes/tests.py",
+      "tests/model_inheritance/tests.py",
+      "tests/model_inheritance_regress/tests.py",
+      "tests/model_options/test_default_related_name.py",
+      "tests/model_options/test_tablespaces.py",
+      "tests/model_package/tests.py",
+      "tests/model_regress/tests.py",
+      "tests/modeladmin/test_actions.py",
+      "tests/modeladmin/tests.py",
+      "tests/multiple_database/tests.py",
+      "tests/mutually_referential/tests.py",
+      "tests/nested_foreign_keys/tests.py",
+      "tests/null_fk/tests.py",
+      "tests/null_fk_ordering/tests.py",
+      "tests/null_queries/tests.py",
+      "tests/one_to_one/tests.py",
+      "tests/or_lookups/tests.py",
+      "tests/order_with_respect_to/tests.py",
+      "tests/ordering/tests.py",
+      "tests/pagination/tests.py",
+      "tests/postgres_tests/test_aggregates.py",
+      "tests/postgres_tests/test_apps.py",
+      "tests/postgres_tests/test_array.py",
+      "tests/postgres_tests/test_bulk_update.py",
+      "tests/postgres_tests/test_citext.py",
+      "tests/postgres_tests/test_constraints.py",
+      "tests/postgres_tests/test_functions.py",
+      "tests/postgres_tests/test_hstore.py",
+      "tests/postgres_tests/test_indexes.py",
+      "tests/postgres_tests/test_introspection.py",
+      "tests/postgres_tests/test_json.py",
+      "tests/postgres_tests/test_ranges.py",
+      "tests/postgres_tests/test_search.py",
+      "tests/postgres_tests/test_signals.py",
+      "tests/postgres_tests/test_trigram.py",
+      "tests/postgres_tests/test_unaccent.py",
+      "tests/prefetch_related/test_prefetch_related_objects.py",
+      "tests/prefetch_related/test_uuid.py",
+      "tests/prefetch_related/tests.py",
+      "tests/properties/tests.py",
+      "tests/proxy_model_inheritance/tests.py",
+      "tests/proxy_models/tests.py",
+      "tests/queries/test_bulk_update.py",
+      "tests/queries/test_explain.py",
+      "tests/queries/test_iterator.py",
+      "tests/queries/test_qs_combinators.py",
+      "tests/queries/tests.py",
+      "tests/queryset_pickle/tests.py",
+      "tests/raw_query/tests.py",
+      "tests/redirects_tests/tests.py",
+      "tests/reserved_names/tests.py",
+      "tests/reverse_lookup/tests.py",
+      "tests/save_delete_hooks/tests.py",
+      "tests/schema/test_logging.py",
+      "tests/schema/tests.py",
+      "tests/select_for_update/tests.py",
+      "tests/select_related/tests.py",
+      "tests/select_related_onetoone/tests.py",
+      "tests/select_related_regress/tests.py",
+      "tests/serializers/test_data.py",
+      "tests/serializers/test_json.py",
+      "tests/serializers/test_natural.py",
+      "tests/serializers/test_xml.py",
+      "tests/serializers/test_yaml.py",
+      "tests/servers/test_liveserverthread.py",
+      "tests/servers/tests.py",
+      "tests/sessions_tests/tests.py",
+      "tests/signals/tests.py",
+      "tests/sitemaps_tests/test_generic.py",
+      "tests/sitemaps_tests/test_http.py",
+      "tests/sitemaps_tests/test_https.py",
+      "tests/sitemaps_tests/test_management.py",
+      "tests/sitemaps_tests/test_utils.py",
+      "tests/sites_framework/tests.py",
+      "tests/sites_tests/tests.py",
+      "tests/staticfiles_tests/test_liveserver.py",
+      "tests/str/tests.py",
+      "tests/string_lookup/tests.py",
+      "tests/swappable_models/tests.py",
+      "tests/syndication_tests/tests.py",
+      "tests/test_client/tests.py",
+      "tests/test_client_regress/tests.py",
+      "tests/test_runner/test_debug_sql.py",
+      "tests/test_runner/tests.py",
+      "tests/test_runner_apps/databases/tests.py",
+      "tests/test_runner_apps/simple/tests.py",
+      "tests/test_utils/test_testcase.py",
+      "tests/test_utils/test_transactiontestcase.py",
+      "tests/test_utils/tests.py",
+      "tests/transaction_hooks/tests.py",
+      "tests/transactions/tests.py",
+      "tests/unmanaged_models/tests.py",
+      "tests/update/tests.py",
+      "tests/update_only_fields/tests.py",
+      "tests/urlpatterns_reverse/tests.py",
+      "tests/utils_tests/test_simplelazyobject.py",
+      "tests/validation/test_unique.py",
+      "tests/validation/tests.py",
+      "tests/view_tests/tests/test_debug.py",
+      "tests/view_tests/tests/test_defaults.py",
+      "tests/view_tests/tests/test_i18n.py"
+    ],
+    "patch_file": "14d026cccb144c6877294ba4cd4e03ebf0842498/golden.patch",
+    "project": "django/django",
+    "python": "",
+    "run_dir": "/shared_dir/projects/namerts/runtime/final_python_samples/django/ground_truth_runs/django__django-10554_1784862312_967093",
+    "test_env": "RTSFinal36_django_0e2cf1ac",
+    "tests_to_run": [
+      "tests/admin_changelist/test_date_hierarchy.py",
+      "tests/admin_changelist/tests.py",
+      "tests/admin_custom_urls/tests.py",
+      "tests/admin_docs/test_middleware.py",
+      "tests/admin_docs/test_views.py",
+      "tests/admin_filters/tests.py",
+      "tests/admin_inlines/tests.py",
+      "tests/admin_ordering/tests.py",
+      "tests/admin_scripts/tests.py",
+      "tests/admin_utils/test_logentry.py",
+      "tests/admin_utils/tests.py",
+      "tests/admin_views/test_actions.py",
+      "tests/admin_views/test_adminsite.py",
+      "tests/admin_views/test_autocomplete_view.py",
+      "tests/admin_views/test_forms.py",
+      "tests/admin_views/test_history_view.py",
+      "tests/admin_views/test_multidb.py",
+      "tests/admin_views/test_templatetags.py",
+      "tests/admin_views/tests.py",
+      "tests/admin_widgets/test_autocomplete_widget.py",
+      "tests/admin_widgets/tests.py",
+      "tests/aggregation/test_filter_argument.py",
+      "tests/aggregation/tests.py",
+      "tests/aggregation_regress/tests.py",
+      "tests/annotations/tests.py",
+      "tests/auth_tests/test_admin_multidb.py",
+      "tests/auth_tests/test_auth_backends.py",
+      "tests/auth_tests/test_basic.py",
+      "tests/auth_tests/test_context_processors.py",
+      "tests/auth_tests/test_decorators.py",
+      "tests/auth_tests/test_forms.py",
+      "tests/auth_tests/test_handlers.py",
+      "tests/auth_tests/test_management.py",
+      "tests/auth_tests/test_middleware.py",
+      "tests/auth_tests/test_migrations.py",
+      "tests/auth_tests/test_mixins.py",
+      "tests/auth_tests/test_models.py",
+      "tests/auth_tests/test_remote_user.py",
+      "tests/auth_tests/test_remote_user_deprecation.py",
+      "tests/auth_tests/test_signals.py",
+      "tests/auth_tests/test_templates.py",
+      "tests/auth_tests/test_tokens.py",
+      "tests/auth_tests/test_validators.py",
+      "tests/auth_tests/test_views.py",
+      "tests/backends/base/test_base.py",
+      "tests/backends/base/test_operations.py",
+      "tests/backends/mysql/test_features.py",
+      "tests/backends/mysql/test_schema.py",
+      "tests/backends/mysql/tests.py",
+      "tests/backends/oracle/test_creation.py",
+      "tests/backends/oracle/test_introspection.py",
+      "tests/backends/oracle/tests.py",
+      "tests/backends/postgresql/test_introspection.py",
+      "tests/backends/postgresql/test_server_side_cursors.py",
+      "tests/backends/postgresql/tests.py",
+      "tests/backends/sqlite/test_introspection.py",
+      "tests/backends/sqlite/tests.py",
+      "tests/backends/test_utils.py",
+      "tests/backends/tests.py",
+      "tests/basic/tests.py",
+      "tests/bulk_create/tests.py",
+      "tests/cache/tests.py",
+      "tests/check_framework/test_database.py",
+      "tests/check_framework/test_model_checks.py",
+      "tests/constraints/tests.py",
+      "tests/contenttypes_tests/test_fields.py",
+      "tests/contenttypes_tests/test_management.py",
+      "tests/contenttypes_tests/test_models.py",
+      "tests/contenttypes_tests/test_operations.py",
+      "tests/contenttypes_tests/test_order_with_respect_to.py",
+      "tests/contenttypes_tests/test_views.py",
+      "tests/context_processors/tests.py",
+      "tests/custom_columns/tests.py",
+      "tests/custom_lookups/tests.py",
+      "tests/custom_managers/tests.py",
+      "tests/custom_methods/tests.py",
+      "tests/custom_pk/tests.py",
+      "tests/datatypes/tests.py",
+      "tests/dates/tests.py",
+      "tests/datetimes/tests.py",
+      "tests/db_functions/comparison/test_cast.py",
+      "tests/db_functions/comparison/test_coalesce.py",
+      "tests/db_functions/comparison/test_greatest.py",
+      "tests/db_functions/comparison/test_least.py",
+      "tests/db_functions/comparison/test_nullif.py",
+      "tests/db_functions/datetime/test_extract_trunc.py",
+      "tests/db_functions/datetime/test_now.py",
+      "tests/db_functions/math/test_abs.py",
+      "tests/db_functions/math/test_acos.py",
+      "tests/db_functions/math/test_asin.py",
+      "tests/db_functions/math/test_atan.py",
+      "tests/db_functions/math/test_atan2.py",
+      "tests/db_functions/math/test_ceil.py",
+      "tests/db_functions/math/test_cos.py",
+      "tests/db_functions/math/test_cot.py",
+      "tests/db_functions/math/test_degrees.py",
+      "tests/db_functions/math/test_exp.py",
+      "tests/db_functions/math/test_floor.py",
+      "tests/db_functions/math/test_ln.py",
+      "tests/db_functions/math/test_log.py",
+      "tests/db_functions/math/test_mod.py",
+      "tests/db_functions/math/test_pi.py",
+      "tests/db_functions/math/test_power.py",
+      "tests/db_functions/math/test_radians.py",
+      "tests/db_functions/math/test_round.py",
+      "tests/db_functions/math/test_sign.py",
+      "tests/db_functions/math/test_sin.py",
+      "tests/db_functions/math/test_sqrt.py",
+      "tests/db_functions/math/test_tan.py",
+      "tests/db_functions/tests.py",
+      "tests/db_functions/text/test_chr.py",
+      "tests/db_functions/text/test_concat.py",
+      "tests/db_functions/text/test_left.py",
+      "tests/db_functions/text/test_length.py",
+      "tests/db_functions/text/test_lower.py",
+      "tests/db_functions/text/test_md5.py",
+      "tests/db_functions/text/test_ord.py",
+      "tests/db_functions/text/test_pad.py",
+      "tests/db_functions/text/test_repeat.py",
+      "tests/db_functions/text/test_replace.py",
+      "tests/db_functions/text/test_reverse.py",
+      "tests/db_functions/text/test_right.py",
+      "tests/db_functions/text/test_sha1.py",
+      "tests/db_functions/text/test_sha224.py",
+      "tests/db_functions/text/test_sha256.py",
+      "tests/db_functions/text/test_sha384.py",
+      "tests/db_functions/text/test_sha512.py",
+      "tests/db_functions/text/test_strindex.py",
+      "tests/db_functions/text/test_substr.py",
+      "tests/db_functions/text/test_trim.py",
+      "tests/db_functions/text/test_upper.py",
+      "tests/db_utils/tests.py",
+      "tests/defer/tests.py",
+      "tests/defer_regress/tests.py",
+      "tests/delete/tests.py",
+      "tests/delete_regress/tests.py",
+      "tests/distinct_on_fields/tests.py",
+      "tests/empty/tests.py",
+      "tests/expressions/test_queryset_values.py",
+      "tests/expressions/tests.py",
+      "tests/expressions_case/tests.py",
+      "tests/expressions_window/tests.py",
+      "tests/extra_regress/tests.py",
+      "tests/field_defaults/tests.py",
+      "tests/file_storage/tests.py",
+      "tests/file_uploads/tests.py",
+      "tests/filtered_relation/tests.py",
+      "tests/fixtures/tests.py",
+      "tests/fixtures_model_package/tests.py",
+      "tests/fixtures_regress/tests.py",
+      "tests/flatpages_tests/test_csrf.py",
+      "tests/flatpages_tests/test_forms.py",
+      "tests/flatpages_tests/test_middleware.py",
+      "tests/flatpages_tests/test_sitemaps.py",
+      "tests/flatpages_tests/test_templatetags.py",
+      "tests/flatpages_tests/test_views.py",
+      "tests/force_insert_update/tests.py",
+      "tests/foreign_object/test_agnostic_order_trimjoin.py",
+      "tests/foreign_object/test_empty_join.py",
+      "tests/foreign_object/test_forms.py",
+      "tests/foreign_object/tests.py",
+      "tests/forms_tests/tests/test_error_messages.py",
+      "tests/forms_tests/tests/test_widgets.py",
+      "tests/forms_tests/tests/tests.py",
+      "tests/from_db_value/tests.py",
+      "tests/generic_inline_admin/tests.py",
+      "tests/generic_relations/test_forms.py",
+      "tests/generic_relations/tests.py",
+      "tests/generic_relations_regress/tests.py",
+      "tests/generic_views/test_dates.py",
+      "tests/generic_views/test_detail.py",
+      "tests/generic_views/test_edit.py",
+      "tests/generic_views/test_list.py",
+      "tests/get_earliest_or_latest/tests.py",
+      "tests/get_object_or_404/tests.py",
+      "tests/get_or_create/tests.py",
+      "tests/handlers/tests.py",
+      "tests/i18n/contenttypes/tests.py",
+      "tests/i18n/tests.py",
+      "tests/indexes/tests.py",
+      "tests/inline_formsets/tests.py",
+      "tests/inspectdb/tests.py",
+      "tests/introspection/tests.py",
+      "tests/invalid_models_tests/test_ordinary_fields.py",
+      "tests/known_related_objects/tests.py",
+      "tests/lookup/test_decimalfield.py",
+      "tests/lookup/test_timefield.py",
+      "tests/lookup/tests.py",
+      "tests/m2m_and_m2o/tests.py",
+      "tests/m2m_intermediary/tests.py",
+      "tests/m2m_multiple/tests.py",
+      "tests/m2m_recursive/tests.py",
+      "tests/m2m_regress/tests.py",
+      "tests/m2m_signals/tests.py",
+      "tests/m2m_through/tests.py",
+      "tests/m2m_through_regress/test_multitable.py",
+      "tests/m2m_through_regress/tests.py",
+      "tests/m2o_recursive/tests.py",
+      "tests/managers_regress/tests.py",
+      "tests/many_to_many/tests.py",
+      "tests/many_to_one/tests.py",
+      "tests/many_to_one_null/tests.py",
+      "tests/max_lengths/tests.py",
+      "tests/messages_tests/test_session.py",
+      "tests/migrate_signals/tests.py",
+      "tests/migration_test_data_persistence/tests.py",
+      "tests/migrations/test_autodetector.py",
+      "tests/migrations/test_commands.py",
+      "tests/migrations/test_deprecated_fields.py",
+      "tests/migrations/test_executor.py",
+      "tests/migrations/test_loader.py",
+      "tests/migrations/test_multidb.py",
+      "tests/migrations/test_operations.py",
+      "tests/model_fields/test_binaryfield.py",
+      "tests/model_fields/test_booleanfield.py",
+      "tests/model_fields/test_charfield.py",
+      "tests/model_fields/test_datetimefield.py",
+      "tests/model_fields/test_decimalfield.py",
+      "tests/model_fields/test_durationfield.py",
+      "tests/model_fields/test_filefield.py",
+      "tests/model_fields/test_floatfield.py",
+      "tests/model_fields/test_foreignkey.py",
+      "tests/model_fields/test_genericipaddressfield.py",
+      "tests/model_fields/test_imagefield.py",
+      "tests/model_fields/test_integerfield.py",
+      "tests/model_fields/test_manytomanyfield.py",
+      "tests/model_fields/test_slugfield.py",
+      "tests/model_fields/test_textfield.py",
+      "tests/model_fields/test_uuid.py",
+      "tests/model_fields/tests.py",
+      "tests/model_forms/test_modelchoicefield.py",
+      "tests/model_forms/test_uuid.py",
+      "tests/model_forms/tests.py",
+      "tests/model_formsets/test_uuid.py",
+      "tests/model_formsets/tests.py",
+      "tests/model_formsets_regress/tests.py",
+      "tests/model_indexes/tests.py",
+      "tests/model_inheritance/tests.py",
+      "tests/model_inheritance_regress/tests.py",
+      "tests/model_options/test_default_related_name.py",
+      "tests/model_options/test_tablespaces.py",
+      "tests/model_package/tests.py",
+      "tests/model_regress/tests.py",
+      "tests/modeladmin/test_actions.py",
+      "tests/modeladmin/tests.py",
+      "tests/multiple_database/tests.py",
+      "tests/mutually_referential/tests.py",
+      "tests/nested_foreign_keys/tests.py",
+      "tests/null_fk/tests.py",
+      "tests/null_fk_ordering/tests.py",
+      "tests/null_queries/tests.py",
+      "tests/one_to_one/tests.py",
+      "tests/or_lookups/tests.py",
+      "tests/order_with_respect_to/tests.py",
+      "tests/ordering/tests.py",
+      "tests/pagination/tests.py",
+      "tests/postgres_tests/test_aggregates.py",
+      "tests/postgres_tests/test_apps.py",
+      "tests/postgres_tests/test_array.py",
+      "tests/postgres_tests/test_bulk_update.py",
+      "tests/postgres_tests/test_citext.py",
+      "tests/postgres_tests/test_constraints.py",
+      "tests/postgres_tests/test_functions.py",
+      "tests/postgres_tests/test_hstore.py",
+      "tests/postgres_tests/test_indexes.py",
+      "tests/postgres_tests/test_introspection.py",
+      "tests/postgres_tests/test_json.py",
+      "tests/postgres_tests/test_ranges.py",
+      "tests/postgres_tests/test_search.py",
+      "tests/postgres_tests/test_signals.py",
+      "tests/postgres_tests/test_trigram.py",
+      "tests/postgres_tests/test_unaccent.py",
+      "tests/prefetch_related/test_prefetch_related_objects.py",
+      "tests/prefetch_related/test_uuid.py",
+      "tests/prefetch_related/tests.py",
+      "tests/properties/tests.py",
+      "tests/proxy_model_inheritance/tests.py",
+      "tests/proxy_models/tests.py",
+      "tests/queries/test_bulk_update.py",
+      "tests/queries/test_explain.py",
+      "tests/queries/test_iterator.py",
+      "tests/queries/test_qs_combinators.py",
+      "tests/queries/tests.py",
+      "tests/queryset_pickle/tests.py",
+      "tests/raw_query/tests.py",
+      "tests/redirects_tests/tests.py",
+      "tests/reserved_names/tests.py",
+      "tests/reverse_lookup/tests.py",
+      "tests/save_delete_hooks/tests.py",
+      "tests/schema/test_logging.py",
+      "tests/schema/tests.py",
+      "tests/select_for_update/tests.py",
+      "tests/select_related/tests.py",
+      "tests/select_related_onetoone/tests.py",
+      "tests/select_related_regress/tests.py",
+      "tests/serializers/test_data.py",
+      "tests/serializers/test_json.py",
+      "tests/serializers/test_natural.py",
+      "tests/serializers/test_xml.py",
+      "tests/serializers/test_yaml.py",
+      "tests/servers/test_liveserverthread.py",
+      "tests/servers/tests.py",
+      "tests/sessions_tests/tests.py",
+      "tests/settings_tests/tests.py",
+      "tests/signals/tests.py",
+      "tests/sitemaps_tests/test_generic.py",
+      "tests/sitemaps_tests/test_http.py",
+      "tests/sitemaps_tests/test_https.py",
+      "tests/sitemaps_tests/test_management.py",
+      "tests/sitemaps_tests/test_utils.py",
+      "tests/sites_framework/tests.py",
+      "tests/sites_tests/tests.py",
+      "tests/staticfiles_tests/test_liveserver.py",
+      "tests/str/tests.py",
+      "tests/string_lookup/tests.py",
+      "tests/swappable_models/tests.py",
+      "tests/syndication_tests/tests.py",
+      "tests/test_client/tests.py",
+      "tests/test_client_regress/tests.py",
+      "tests/test_runner/test_debug_sql.py",
+      "tests/test_runner/tests.py",
+      "tests/test_runner_apps/databases/tests.py",
+      "tests/test_runner_apps/simple/tests.py",
+      "tests/test_utils/test_testcase.py",
+      "tests/test_utils/test_transactiontestcase.py",
+      "tests/test_utils/tests.py",
+      "tests/timezones/tests.py",
+      "tests/transaction_hooks/tests.py",
+      "tests/transactions/tests.py",
+      "tests/unmanaged_models/tests.py",
+      "tests/update/tests.py",
+      "tests/update_only_fields/tests.py",
+      "tests/urlpatterns_reverse/tests.py",
+      "tests/utils_tests/test_simplelazyobject.py",
+      "tests/validation/test_unique.py",
+      "tests/validation/tests.py",
+      "tests/view_tests/tests/test_debug.py",
+      "tests/view_tests/tests/test_defaults.py",
+      "tests/view_tests/tests/test_i18n.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 732,
+    "uninstrumentable_changes": [],
+    "version": "3.0"
+  },
+  {
+    "affected_functions_by_test": {
+      "tests/admin_scripts/tests.py": [
+        "django/core/management/commands/runserver.py::Command.add_arguments"
+      ]
+    },
+    "base_commit": "bef6f7584280f1cc80e5e2d80b7ad073a93d26ec",
+    "dynamic_hit_tests": [
+      "tests/admin_scripts/tests.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "tests/admin_scripts/tests.py"
+    ],
+    "elapsed_seconds": 78.518,
+    "failed_test_files": [
+      "tests/admin_filters/tests.py",
+      "tests/asgi/tests.py",
+      "tests/file_uploads/tests.py",
+      "tests/gis_tests/distapp/tests.py",
+      "tests/gis_tests/gdal_tests/test_driver.py",
+      "tests/gis_tests/gdal_tests/test_ds.py",
+      "tests/gis_tests/gdal_tests/test_envelope.py",
+      "tests/gis_tests/gdal_tests/test_geom.py",
+      "tests/gis_tests/gdal_tests/test_raster.py",
+      "tests/gis_tests/gdal_tests/test_srs.py",
+      "tests/gis_tests/gdal_tests/tests.py",
+      "tests/gis_tests/geo3d/tests.py",
+      "tests/gis_tests/geoadmin/tests.py",
+      "tests/gis_tests/geoapp/test_expressions.py",
+      "tests/gis_tests/geoapp/test_feeds.py",
+      "tests/gis_tests/geoapp/test_functions.py",
+      "tests/gis_tests/geoapp/test_indexes.py",
+      "tests/gis_tests/geoapp/test_regress.py",
+      "tests/gis_tests/geoapp/test_serializers.py",
+      "tests/gis_tests/geoapp/test_sitemaps.py",
+      "tests/gis_tests/geoapp/tests.py",
+      "tests/gis_tests/geogapp/tests.py",
+      "tests/gis_tests/geos_tests/test_coordseq.py",
+      "tests/gis_tests/geos_tests/test_geos.py",
+      "tests/gis_tests/geos_tests/test_geos_mutation.py",
+      "tests/gis_tests/geos_tests/test_io.py",
+      "tests/gis_tests/geos_tests/test_mutable_list.py",
+      "tests/gis_tests/gis_migrations/test_commands.py",
+      "tests/gis_tests/gis_migrations/test_operations.py",
+      "tests/gis_tests/inspectapp/tests.py",
+      "tests/gis_tests/layermap/tests.py",
+      "tests/gis_tests/rasterapp/test_rasterfield.py",
+      "tests/gis_tests/relatedapp/tests.py",
+      "tests/gis_tests/test_data.py",
+      "tests/gis_tests/test_fields.py",
+      "tests/gis_tests/test_geoforms.py",
+      "tests/gis_tests/test_geoip2.py",
+      "tests/gis_tests/test_gis_tests_utils.py",
+      "tests/gis_tests/test_measure.py",
+      "tests/gis_tests/test_ptr.py",
+      "tests/gis_tests/test_spatialrefsys.py",
+      "tests/gis_tests/tests.py",
+      "tests/inspectdb/tests.py",
+      "tests/mail/tests.py",
+      "tests/requests/test_data_upload_settings.py",
+      "tests/servers/test_basehttp.py",
+      "tests/settings_tests/tests.py",
+      "tests/template_tests/filter_tests/test_timeuntil.py",
+      "tests/template_tests/test_loaders.py",
+      "tests/utils_tests/test_dateformat.py",
+      "tests/utils_tests/test_lazyobject.py",
+      "tests/utils_tests/test_timesince.py",
+      "tests/validators/tests.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "django__django-13809",
+    "modified_functions": [
+      {
+        "insertion_line": 38,
+        "line": 37,
+        "marker": "django/core/management/commands/runserver.py::Command.add_arguments",
+        "path": "django/core/management/commands/runserver.py",
+        "qualname": "Command.add_arguments"
+      },
+      {
+        "insertion_line": 114,
+        "line": 111,
+        "marker": "django/core/management/commands/runserver.py::Command.inner_run",
+        "path": "django/core/management/commands/runserver.py",
+        "qualname": "Command.inner_run"
+      }
+    ],
+    "passed_test_files": 707,
+    "passing_dynamic_hit_tests": [
+      "tests/admin_scripts/tests.py"
+    ],
+    "patch_file": "bef6f7584280f1cc80e5e2d80b7ad073a93d26ec/golden.patch",
+    "project": "django/django",
+    "python": "Python 3.8.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/final_python_samples/django/ground_truth_runs/django__django-13809_1784862382_976325",
+    "test_env": "RTSFinal38_django_0a852e3c",
+    "tests_to_run": [
+      "tests/admin_scripts/tests.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 760,
+    "uninstrumentable_changes": [],
+    "version": "4.0"
+  },
+  {
+    "affected_functions_by_test": {
+      "tests/admin_changelist/tests.py": [
+        "django/forms/models.py::modelformset_factory"
+      ],
+      "tests/admin_inlines/tests.py": [
+        "django/forms/models.py::BaseModelFormSet.save",
+        "django/forms/models.py::inlineformset_factory",
+        "django/forms/models.py::modelformset_factory"
+      ],
+      "tests/admin_utils/test_logentry.py": [
+        "django/forms/models.py::BaseModelFormSet.save",
+        "django/forms/models.py::inlineformset_factory",
+        "django/forms/models.py::modelformset_factory"
+      ],
+      "tests/admin_views/test_history_view.py": [
+        "django/forms/models.py::BaseModelFormSet.save",
+        "django/forms/models.py::inlineformset_factory",
+        "django/forms/models.py::modelformset_factory"
+      ],
+      "tests/admin_views/test_templatetags.py": [
+        "django/forms/models.py::modelformset_factory"
+      ],
+      "tests/admin_views/tests.py": [
+        "django/forms/models.py::BaseModelFormSet.save",
+        "django/forms/models.py::inlineformset_factory",
+        "django/forms/models.py::modelformset_factory"
+      ],
+      "tests/admin_widgets/tests.py": [
+        "django/forms/models.py::modelformset_factory"
+      ],
+      "tests/generic_inline_admin/tests.py": [
+        "django/forms/models.py::BaseModelFormSet.save",
+        "django/forms/models.py::modelformset_factory"
+      ],
+      "tests/generic_relations/test_forms.py": [
+        "django/forms/models.py::BaseModelFormSet.save",
+        "django/forms/models.py::modelformset_factory"
+      ],
+      "tests/inline_formsets/tests.py": [
+        "django/forms/models.py::BaseModelFormSet.save",
+        "django/forms/models.py::inlineformset_factory",
+        "django/forms/models.py::modelformset_factory"
+      ],
+      "tests/model_formsets/test_uuid.py": [
+        "django/forms/models.py::inlineformset_factory",
+        "django/forms/models.py::modelformset_factory"
+      ],
+      "tests/model_formsets/tests.py": [
+        "django/forms/models.py::BaseModelFormSet.save",
+        "django/forms/models.py::inlineformset_factory",
+        "django/forms/models.py::modelformset_factory"
+      ],
+      "tests/model_formsets_regress/tests.py": [
+        "django/forms/models.py::BaseModelFormSet.save",
+        "django/forms/models.py::inlineformset_factory",
+        "django/forms/models.py::modelformset_factory"
+      ],
+      "tests/modeladmin/tests.py": [
+        "django/forms/models.py::inlineformset_factory",
+        "django/forms/models.py::modelformset_factory"
+      ]
+    },
+    "base_commit": "0af9a5fc7d765aa05ea784e2c3237675f3bb4b49",
+    "dynamic_hit_tests": [
+      "tests/admin_changelist/tests.py",
+      "tests/admin_inlines/tests.py",
+      "tests/admin_utils/test_logentry.py",
+      "tests/admin_views/test_history_view.py",
+      "tests/admin_views/test_templatetags.py",
+      "tests/admin_views/tests.py",
+      "tests/admin_widgets/tests.py",
+      "tests/generic_inline_admin/tests.py",
+      "tests/generic_relations/test_forms.py",
+      "tests/inline_formsets/tests.py",
+      "tests/model_formsets/test_uuid.py",
+      "tests/model_formsets/tests.py",
+      "tests/model_formsets_regress/tests.py",
+      "tests/modeladmin/tests.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "tests/admin_changelist/tests.py",
+      "tests/admin_inlines/tests.py",
+      "tests/admin_utils/test_logentry.py",
+      "tests/admin_views/test_history_view.py",
+      "tests/admin_views/test_templatetags.py",
+      "tests/admin_views/tests.py",
+      "tests/admin_widgets/tests.py",
+      "tests/generic_inline_admin/tests.py",
+      "tests/generic_relations/test_forms.py",
+      "tests/inline_formsets/tests.py",
+      "tests/model_formsets/test_uuid.py",
+      "tests/model_formsets/tests.py",
+      "tests/model_formsets_regress/tests.py",
+      "tests/modeladmin/tests.py"
+    ],
+    "elapsed_seconds": 78.321,
+    "failed_test_files": [
+      "tests/admin_filters/tests.py",
+      "tests/file_uploads/tests.py",
+      "tests/gis_tests/distapp/tests.py",
+      "tests/gis_tests/gdal_tests/test_driver.py",
+      "tests/gis_tests/gdal_tests/test_ds.py",
+      "tests/gis_tests/gdal_tests/test_envelope.py",
+      "tests/gis_tests/gdal_tests/test_geom.py",
+      "tests/gis_tests/gdal_tests/test_raster.py",
+      "tests/gis_tests/gdal_tests/test_srs.py",
+      "tests/gis_tests/gdal_tests/tests.py",
+      "tests/gis_tests/geo3d/tests.py",
+      "tests/gis_tests/geoadmin/tests.py",
+      "tests/gis_tests/geoadmin_deprecated/tests.py",
+      "tests/gis_tests/geoapp/test_expressions.py",
+      "tests/gis_tests/geoapp/test_feeds.py",
+      "tests/gis_tests/geoapp/test_functions.py",
+      "tests/gis_tests/geoapp/test_indexes.py",
+      "tests/gis_tests/geoapp/test_regress.py",
+      "tests/gis_tests/geoapp/test_serializers.py",
+      "tests/gis_tests/geoapp/test_sitemaps.py",
+      "tests/gis_tests/geoapp/tests.py",
+      "tests/gis_tests/geogapp/tests.py",
+      "tests/gis_tests/geos_tests/test_coordseq.py",
+      "tests/gis_tests/geos_tests/test_geos.py",
+      "tests/gis_tests/geos_tests/test_geos_mutation.py",
+      "tests/gis_tests/geos_tests/test_io.py",
+      "tests/gis_tests/geos_tests/test_mutable_list.py",
+      "tests/gis_tests/gis_migrations/test_commands.py",
+      "tests/gis_tests/gis_migrations/test_operations.py",
+      "tests/gis_tests/inspectapp/tests.py",
+      "tests/gis_tests/layermap/tests.py",
+      "tests/gis_tests/rasterapp/test_rasterfield.py",
+      "tests/gis_tests/relatedapp/tests.py",
+      "tests/gis_tests/test_data.py",
+      "tests/gis_tests/test_fields.py",
+      "tests/gis_tests/test_geoforms.py",
+      "tests/gis_tests/test_geoip2.py",
+      "tests/gis_tests/test_gis_tests_utils.py",
+      "tests/gis_tests/test_measure.py",
+      "tests/gis_tests/test_ptr.py",
+      "tests/gis_tests/test_spatialrefsys.py",
+      "tests/gis_tests/tests.py",
+      "tests/i18n/tests.py",
+      "tests/mail/tests.py",
+      "tests/servers/test_basehttp.py",
+      "tests/sessions_tests/tests.py",
+      "tests/settings_tests/tests.py",
+      "tests/template_tests/filter_tests/test_timeuntil.py",
+      "tests/template_tests/test_loaders.py",
+      "tests/test_client/tests.py",
+      "tests/utils_tests/test_dateformat.py",
+      "tests/utils_tests/test_lazyobject.py",
+      "tests/utils_tests/test_timesince.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "django__django-14725",
+    "modified_functions": [
+      {
+        "insertion_line": 672,
+        "line": 667,
+        "marker": "django/forms/models.py::BaseModelFormSet.save",
+        "path": "django/forms/models.py",
+        "qualname": "BaseModelFormSet.save"
+      },
+      {
+        "insertion_line": 1092,
+        "line": 1077,
+        "marker": "django/forms/models.py::inlineformset_factory",
+        "path": "django/forms/models.py",
+        "qualname": "inlineformset_factory"
+      },
+      {
+        "insertion_line": 884,
+        "line": 875,
+        "marker": "django/forms/models.py::modelformset_factory",
+        "path": "django/forms/models.py",
+        "qualname": "modelformset_factory"
+      }
+    ],
+    "passed_test_files": 720,
+    "passing_dynamic_hit_tests": [
+      "tests/admin_changelist/tests.py",
+      "tests/admin_inlines/tests.py",
+      "tests/admin_utils/test_logentry.py",
+      "tests/admin_views/test_history_view.py",
+      "tests/admin_views/test_templatetags.py",
+      "tests/admin_views/tests.py",
+      "tests/admin_widgets/tests.py",
+      "tests/generic_inline_admin/tests.py",
+      "tests/generic_relations/test_forms.py",
+      "tests/inline_formsets/tests.py",
+      "tests/model_formsets/test_uuid.py",
+      "tests/model_formsets/tests.py",
+      "tests/model_formsets_regress/tests.py",
+      "tests/modeladmin/tests.py"
+    ],
+    "patch_file": "0af9a5fc7d765aa05ea784e2c3237675f3bb4b49/golden.patch",
+    "project": "django/django",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/final_python_samples/django/ground_truth_runs/django__django-14725_1784862471_984303",
+    "test_env": "RTSFinal39_django_26bcaf92",
+    "tests_to_run": [
+      "tests/admin_changelist/tests.py",
+      "tests/admin_inlines/tests.py",
+      "tests/admin_utils/test_logentry.py",
+      "tests/admin_views/test_history_view.py",
+      "tests/admin_views/test_templatetags.py",
+      "tests/admin_views/tests.py",
+      "tests/admin_widgets/tests.py",
+      "tests/generic_inline_admin/tests.py",
+      "tests/generic_relations/test_forms.py",
+      "tests/inline_formsets/tests.py",
+      "tests/model_formsets/test_uuid.py",
+      "tests/model_formsets/tests.py",
+      "tests/model_formsets_regress/tests.py",
+      "tests/modeladmin/tests.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 773,
+    "uninstrumentable_changes": [],
+    "version": "4.1"
+  },
+  {
+    "affected_functions_by_test": {
+      "tests/user_commands/tests.py": [
+        "django/core/management/base.py::CommandParser.add_subparsers"
+      ]
+    },
+    "base_commit": "1250483ebf73f7a82ff820b94092c63ce4238264",
+    "dynamic_hit_tests": [
+      "tests/user_commands/tests.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "tests/user_commands/tests.py"
+    ],
+    "elapsed_seconds": 78.628,
+    "failed_test_files": [
+      "tests/admin_filters/tests.py",
+      "tests/backends/sqlite/test_creation.py",
+      "tests/file_uploads/tests.py",
+      "tests/gis_tests/distapp/tests.py",
+      "tests/gis_tests/gdal_tests/test_driver.py",
+      "tests/gis_tests/gdal_tests/test_ds.py",
+      "tests/gis_tests/gdal_tests/test_envelope.py",
+      "tests/gis_tests/gdal_tests/test_geom.py",
+      "tests/gis_tests/gdal_tests/test_raster.py",
+      "tests/gis_tests/gdal_tests/test_srs.py",
+      "tests/gis_tests/gdal_tests/tests.py",
+      "tests/gis_tests/geo3d/tests.py",
+      "tests/gis_tests/geoadmin/tests.py",
+      "tests/gis_tests/geoapp/test_expressions.py",
+      "tests/gis_tests/geoapp/test_feeds.py",
+      "tests/gis_tests/geoapp/test_functions.py",
+      "tests/gis_tests/geoapp/test_indexes.py",
+      "tests/gis_tests/geoapp/test_regress.py",
+      "tests/gis_tests/geoapp/test_serializers.py",
+      "tests/gis_tests/geoapp/test_sitemaps.py",
+      "tests/gis_tests/geoapp/tests.py",
+      "tests/gis_tests/geogapp/tests.py",
+      "tests/gis_tests/geos_tests/test_coordseq.py",
+      "tests/gis_tests/geos_tests/test_geos.py",
+      "tests/gis_tests/geos_tests/test_geos_mutation.py",
+      "tests/gis_tests/geos_tests/test_io.py",
+      "tests/gis_tests/geos_tests/test_mutable_list.py",
+      "tests/gis_tests/gis_migrations/test_commands.py",
+      "tests/gis_tests/gis_migrations/test_operations.py",
+      "tests/gis_tests/inspectapp/tests.py",
+      "tests/gis_tests/layermap/tests.py",
+      "tests/gis_tests/rasterapp/test_rasterfield.py",
+      "tests/gis_tests/relatedapp/tests.py",
+      "tests/gis_tests/test_data.py",
+      "tests/gis_tests/test_fields.py",
+      "tests/gis_tests/test_geoforms.py",
+      "tests/gis_tests/test_geoip2.py",
+      "tests/gis_tests/test_gis_tests_utils.py",
+      "tests/gis_tests/test_measure.py",
+      "tests/gis_tests/test_ptr.py",
+      "tests/gis_tests/test_spatialrefsys.py",
+      "tests/gis_tests/tests.py",
+      "tests/mail/tests.py",
+      "tests/servers/test_basehttp.py",
+      "tests/settings_tests/tests.py",
+      "tests/template_tests/filter_tests/test_timeuntil.py",
+      "tests/template_tests/test_loaders.py",
+      "tests/utils_tests/test_dateformat.py",
+      "tests/utils_tests/test_lazyobject.py",
+      "tests/utils_tests/test_timesince.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "django__django-16454",
+    "modified_functions": [
+      {
+        "insertion_line": 76,
+        "line": 75,
+        "marker": "django/core/management/base.py::CommandParser.add_subparsers",
+        "path": "django/core/management/base.py",
+        "qualname": "CommandParser.add_subparsers"
+      }
+    ],
+    "passed_test_files": 727,
+    "passing_dynamic_hit_tests": [
+      "tests/user_commands/tests.py"
+    ],
+    "patch_file": "1250483ebf73f7a82ff820b94092c63ce4238264/golden.patch",
+    "project": "django/django",
+    "python": "Python 3.11.10",
+    "run_dir": "/shared_dir/projects/namerts/runtime/final_python_samples/django/ground_truth_runs/django__django-16454_1784862223_956366",
+    "test_env": "RTSFinal311_django_44023de7",
+    "tests_to_run": [
+      "tests/user_commands/tests.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 777,
+    "uninstrumentable_changes": [],
+    "version": "5.0"
+  }
+]

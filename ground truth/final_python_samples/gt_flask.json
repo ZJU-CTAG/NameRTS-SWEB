@@ -1,0 +1,93 @@
+[
+  {
+    "affected_functions_by_test": {
+      "tests/test_async.py": [
+        "src/flask/blueprints.py::Blueprint.__init__"
+      ],
+      "tests/test_basic.py": [
+        "src/flask/blueprints.py::Blueprint.__init__"
+      ],
+      "tests/test_blueprints.py": [
+        "src/flask/blueprints.py::Blueprint.__init__"
+      ],
+      "tests/test_cli.py": [
+        "src/flask/blueprints.py::Blueprint.__init__"
+      ],
+      "tests/test_templating.py": [
+        "src/flask/blueprints.py::Blueprint.__init__"
+      ],
+      "tests/test_testing.py": [
+        "src/flask/blueprints.py::Blueprint.__init__"
+      ],
+      "tests/test_user_error_handler.py": [
+        "src/flask/blueprints.py::Blueprint.__init__"
+      ]
+    },
+    "base_commit": "7ee9ceb71e868944a46e1ff00b506772a53a4f1d",
+    "dynamic_hit_tests": [
+      "tests/test_async.py",
+      "tests/test_basic.py",
+      "tests/test_blueprints.py",
+      "tests/test_cli.py",
+      "tests/test_templating.py",
+      "tests/test_testing.py",
+      "tests/test_user_error_handler.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "tests/test_async.py",
+      "tests/test_basic.py",
+      "tests/test_blueprints.py",
+      "tests/test_cli.py",
+      "tests/test_templating.py",
+      "tests/test_testing.py",
+      "tests/test_user_error_handler.py"
+    ],
+    "elapsed_seconds": 1.908,
+    "failed_test_files": [
+      "examples/javascript/tests/test_js_example.py",
+      "examples/tutorial/tests/test_auth.py",
+      "examples/tutorial/tests/test_blog.py",
+      "examples/tutorial/tests/test_db.py",
+      "examples/tutorial/tests/test_factory.py",
+      "tests/test_async.py",
+      "tests/test_basic.py",
+      "tests/test_blueprints.py",
+      "tests/test_cli.py",
+      "tests/test_json.py",
+      "tests/test_templating.py",
+      "tests/test_testing.py",
+      "tests/test_user_error_handler.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "pallets__flask-5014",
+    "modified_functions": [
+      {
+        "insertion_line": 185,
+        "line": 172,
+        "marker": "src/flask/blueprints.py::Blueprint.__init__",
+        "path": "src/flask/blueprints.py",
+        "qualname": "Blueprint.__init__"
+      }
+    ],
+    "passed_test_files": 13,
+    "passing_dynamic_hit_tests": [],
+    "patch_file": "7ee9ceb71e868944a46e1ff00b506772a53a4f1d/golden.patch",
+    "project": "pallets/flask",
+    "python": "Python 3.11.10",
+    "run_dir": "/shared_dir/projects/namerts/runtime/final_python_samples/flask/ground_truth_runs/pallets__flask-5014_1784862534_992247",
+    "test_env": "RTSFinal311_flask_a2eaf87d",
+    "tests_to_run": [
+      "tests/test_async.py",
+      "tests/test_basic.py",
+      "tests/test_blueprints.py",
+      "tests/test_cli.py",
+      "tests/test_templating.py",
+      "tests/test_testing.py",
+      "tests/test_user_error_handler.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 26,
+    "uninstrumentable_changes": [],
+    "version": "2.3"
+  }
+]

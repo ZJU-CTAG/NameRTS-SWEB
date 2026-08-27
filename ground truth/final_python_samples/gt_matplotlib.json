@@ -1,0 +1,818 @@
+[
+  {
+    "affected_functions_by_test": {
+      "lib/matplotlib/tests/test_axes.py": [
+        "lib/matplotlib/axes/_axes.py::Axes.hist"
+      ],
+      "lib/matplotlib/tests/test_legend.py": [
+        "lib/matplotlib/axes/_axes.py::Axes.hist"
+      ],
+      "lib/matplotlib/tests/test_scale.py": [
+        "lib/matplotlib/axes/_axes.py::Axes.hist"
+      ],
+      "lib/mpl_toolkits/tests/test_axes_grid1.py": [
+        "lib/matplotlib/axes/_axes.py::Axes.hist"
+      ]
+    },
+    "base_commit": "a3e2897bfaf9eaac1d6649da535c4e721c89fa69",
+    "dynamic_hit_tests": [
+      "lib/matplotlib/tests/test_axes.py",
+      "lib/matplotlib/tests/test_legend.py",
+      "lib/matplotlib/tests/test_scale.py",
+      "lib/mpl_toolkits/tests/test_axes_grid1.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "lib/matplotlib/tests/test_axes.py",
+      "lib/matplotlib/tests/test_legend.py",
+      "lib/matplotlib/tests/test_scale.py",
+      "lib/mpl_toolkits/tests/test_axes_grid1.py"
+    ],
+    "elapsed_seconds": 40.778,
+    "failed_test_files": [
+      "lib/matplotlib/tests/test_agg.py",
+      "lib/matplotlib/tests/test_agg_filter.py",
+      "lib/matplotlib/tests/test_arrow_patches.py",
+      "lib/matplotlib/tests/test_artist.py",
+      "lib/matplotlib/tests/test_axes.py",
+      "lib/matplotlib/tests/test_backend_nbagg.py",
+      "lib/matplotlib/tests/test_backend_svg.py",
+      "lib/matplotlib/tests/test_backends_interactive.py",
+      "lib/matplotlib/tests/test_bbox_tight.py",
+      "lib/matplotlib/tests/test_collections.py",
+      "lib/matplotlib/tests/test_colorbar.py",
+      "lib/matplotlib/tests/test_colors.py",
+      "lib/matplotlib/tests/test_constrainedlayout.py",
+      "lib/matplotlib/tests/test_contour.py",
+      "lib/matplotlib/tests/test_cycles.py",
+      "lib/matplotlib/tests/test_dates.py",
+      "lib/matplotlib/tests/test_figure.py",
+      "lib/matplotlib/tests/test_image.py",
+      "lib/matplotlib/tests/test_legend.py",
+      "lib/matplotlib/tests/test_lines.py",
+      "lib/matplotlib/tests/test_mathtext.py",
+      "lib/matplotlib/tests/test_offsetbox.py",
+      "lib/matplotlib/tests/test_patches.py",
+      "lib/matplotlib/tests/test_path.py",
+      "lib/matplotlib/tests/test_patheffects.py",
+      "lib/matplotlib/tests/test_pickle.py",
+      "lib/matplotlib/tests/test_png.py",
+      "lib/matplotlib/tests/test_quiver.py",
+      "lib/matplotlib/tests/test_scale.py",
+      "lib/matplotlib/tests/test_simplification.py",
+      "lib/matplotlib/tests/test_skew.py",
+      "lib/matplotlib/tests/test_sphinxext.py",
+      "lib/matplotlib/tests/test_spines.py",
+      "lib/matplotlib/tests/test_streamplot.py",
+      "lib/matplotlib/tests/test_subplots.py",
+      "lib/matplotlib/tests/test_table.py",
+      "lib/matplotlib/tests/test_text.py",
+      "lib/matplotlib/tests/test_tightlayout.py",
+      "lib/matplotlib/tests/test_transforms.py",
+      "lib/matplotlib/tests/test_triangulation.py",
+      "lib/matplotlib/tests/test_units.py",
+      "lib/matplotlib/tests/test_widgets.py",
+      "lib/mpl_toolkits/tests/test_axes_grid.py",
+      "lib/mpl_toolkits/tests/test_axes_grid1.py",
+      "lib/mpl_toolkits/tests/test_axisartist_axis_artist.py",
+      "lib/mpl_toolkits/tests/test_axisartist_axislines.py",
+      "lib/mpl_toolkits/tests/test_axisartist_clip_path.py",
+      "lib/mpl_toolkits/tests/test_axisartist_floating_axes.py",
+      "lib/mpl_toolkits/tests/test_axisartist_grid_helper_curvelinear.py",
+      "lib/mpl_toolkits/tests/test_mplot3d.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "matplotlib__matplotlib-13989",
+    "modified_functions": [
+      {
+        "insertion_line": 6588,
+        "line": 6365,
+        "marker": "lib/matplotlib/axes/_axes.py::Axes.hist",
+        "path": "lib/matplotlib/axes/_axes.py",
+        "qualname": "Axes.hist"
+      }
+    ],
+    "passed_test_files": 32,
+    "passing_dynamic_hit_tests": [],
+    "patch_file": "a3e2897bfaf9eaac1d6649da535c4e721c89fa69/golden.patch",
+    "project": "matplotlib/matplotlib",
+    "python": "Python 3.7.16",
+    "run_dir": "/shared_dir/projects/namerts/runtime/final_python_samples/matplotlib/ground_truth_runs/matplotlib__matplotlib-13989_1784862418_974602",
+    "test_env": "RTSFinal37_matplotlib_36651940",
+    "tests_to_run": [
+      "lib/matplotlib/tests/test_axes.py",
+      "lib/matplotlib/tests/test_legend.py",
+      "lib/matplotlib/tests/test_scale.py",
+      "lib/mpl_toolkits/tests/test_axes_grid1.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 82,
+    "uninstrumentable_changes": [],
+    "version": "3.0"
+  },
+  {
+    "affected_functions_by_test": {
+      "lib/matplotlib/tests/test_agg.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_agg_filter.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_animation.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_arrow_patches.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_artist.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_axes.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_backend_bases.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_backend_pdf.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_backend_ps.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_backend_svg.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_backends_interactive.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_bbox_tight.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_category.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_collections.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular",
+        "lib/mpl_toolkits/mplot3d/axes3d.py::Axes3D.set_xlim3d",
+        "lib/mpl_toolkits/mplot3d/axes3d.py::Axes3D.set_ylim3d",
+        "lib/mpl_toolkits/mplot3d/axes3d.py::Axes3D.set_zlim3d"
+      ],
+      "lib/matplotlib/tests/test_colorbar.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_colors.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_constrainedlayout.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_container.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_contour.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_cycles.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_dates.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_figure.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_font_manager.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_image.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_legend.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_lines.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_mathtext.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_offsetbox.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_patches.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_path.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_patheffects.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_pickle.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_png.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_pyplot.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_quiver.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_rcparams.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_sankey.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_scale.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_simplification.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_skew.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_spines.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_streamplot.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_subplots.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_table.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_text.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_ticker.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_tightlayout.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_transforms.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_triangulation.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_units.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/matplotlib/tests/test_widgets.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/mpl_toolkits/tests/test_axes_grid.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/mpl_toolkits/tests/test_axes_grid1.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/mpl_toolkits/tests/test_axisartist_axis_artist.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/mpl_toolkits/tests/test_axisartist_axislines.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/mpl_toolkits/tests/test_axisartist_clip_path.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/mpl_toolkits/tests/test_axisartist_floating_axes.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/mpl_toolkits/tests/test_axisartist_grid_helper_curvelinear.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular"
+      ],
+      "lib/mpl_toolkits/tests/test_mplot3d.py": [
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "lib/matplotlib/ticker.py::Locator.nonsingular",
+        "lib/mpl_toolkits/mplot3d/axes3d.py::Axes3D.set_xlim3d",
+        "lib/mpl_toolkits/mplot3d/axes3d.py::Axes3D.set_ylim3d",
+        "lib/mpl_toolkits/mplot3d/axes3d.py::Axes3D.set_zlim3d"
+      ]
+    },
+    "base_commit": "d65c9ca20ddf81ef91199e6d819f9d3506ef477c",
+    "dynamic_hit_tests": [
+      "lib/matplotlib/tests/test_agg.py",
+      "lib/matplotlib/tests/test_agg_filter.py",
+      "lib/matplotlib/tests/test_animation.py",
+      "lib/matplotlib/tests/test_arrow_patches.py",
+      "lib/matplotlib/tests/test_artist.py",
+      "lib/matplotlib/tests/test_axes.py",
+      "lib/matplotlib/tests/test_backend_bases.py",
+      "lib/matplotlib/tests/test_backend_pdf.py",
+      "lib/matplotlib/tests/test_backend_ps.py",
+      "lib/matplotlib/tests/test_backend_svg.py",
+      "lib/matplotlib/tests/test_backends_interactive.py",
+      "lib/matplotlib/tests/test_bbox_tight.py",
+      "lib/matplotlib/tests/test_category.py",
+      "lib/matplotlib/tests/test_collections.py",
+      "lib/matplotlib/tests/test_colorbar.py",
+      "lib/matplotlib/tests/test_colors.py",
+      "lib/matplotlib/tests/test_constrainedlayout.py",
+      "lib/matplotlib/tests/test_container.py",
+      "lib/matplotlib/tests/test_contour.py",
+      "lib/matplotlib/tests/test_cycles.py",
+      "lib/matplotlib/tests/test_dates.py",
+      "lib/matplotlib/tests/test_figure.py",
+      "lib/matplotlib/tests/test_font_manager.py",
+      "lib/matplotlib/tests/test_image.py",
+      "lib/matplotlib/tests/test_legend.py",
+      "lib/matplotlib/tests/test_lines.py",
+      "lib/matplotlib/tests/test_mathtext.py",
+      "lib/matplotlib/tests/test_offsetbox.py",
+      "lib/matplotlib/tests/test_patches.py",
+      "lib/matplotlib/tests/test_path.py",
+      "lib/matplotlib/tests/test_patheffects.py",
+      "lib/matplotlib/tests/test_pickle.py",
+      "lib/matplotlib/tests/test_png.py",
+      "lib/matplotlib/tests/test_pyplot.py",
+      "lib/matplotlib/tests/test_quiver.py",
+      "lib/matplotlib/tests/test_rcparams.py",
+      "lib/matplotlib/tests/test_sankey.py",
+      "lib/matplotlib/tests/test_scale.py",
+      "lib/matplotlib/tests/test_simplification.py",
+      "lib/matplotlib/tests/test_skew.py",
+      "lib/matplotlib/tests/test_spines.py",
+      "lib/matplotlib/tests/test_streamplot.py",
+      "lib/matplotlib/tests/test_subplots.py",
+      "lib/matplotlib/tests/test_table.py",
+      "lib/matplotlib/tests/test_text.py",
+      "lib/matplotlib/tests/test_ticker.py",
+      "lib/matplotlib/tests/test_tightlayout.py",
+      "lib/matplotlib/tests/test_transforms.py",
+      "lib/matplotlib/tests/test_triangulation.py",
+      "lib/matplotlib/tests/test_units.py",
+      "lib/matplotlib/tests/test_widgets.py",
+      "lib/mpl_toolkits/tests/test_axes_grid.py",
+      "lib/mpl_toolkits/tests/test_axes_grid1.py",
+      "lib/mpl_toolkits/tests/test_axisartist_axis_artist.py",
+      "lib/mpl_toolkits/tests/test_axisartist_axislines.py",
+      "lib/mpl_toolkits/tests/test_axisartist_clip_path.py",
+      "lib/mpl_toolkits/tests/test_axisartist_floating_axes.py",
+      "lib/mpl_toolkits/tests/test_axisartist_grid_helper_curvelinear.py",
+      "lib/mpl_toolkits/tests/test_mplot3d.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "lib/matplotlib/tests/test_agg.py",
+      "lib/matplotlib/tests/test_agg_filter.py",
+      "lib/matplotlib/tests/test_animation.py",
+      "lib/matplotlib/tests/test_arrow_patches.py",
+      "lib/matplotlib/tests/test_artist.py",
+      "lib/matplotlib/tests/test_axes.py",
+      "lib/matplotlib/tests/test_backend_bases.py",
+      "lib/matplotlib/tests/test_backend_pdf.py",
+      "lib/matplotlib/tests/test_backend_ps.py",
+      "lib/matplotlib/tests/test_backend_svg.py",
+      "lib/matplotlib/tests/test_backends_interactive.py",
+      "lib/matplotlib/tests/test_bbox_tight.py",
+      "lib/matplotlib/tests/test_category.py",
+      "lib/matplotlib/tests/test_collections.py",
+      "lib/matplotlib/tests/test_colorbar.py",
+      "lib/matplotlib/tests/test_colors.py",
+      "lib/matplotlib/tests/test_constrainedlayout.py",
+      "lib/matplotlib/tests/test_container.py",
+      "lib/matplotlib/tests/test_contour.py",
+      "lib/matplotlib/tests/test_cycles.py",
+      "lib/matplotlib/tests/test_dates.py",
+      "lib/matplotlib/tests/test_figure.py",
+      "lib/matplotlib/tests/test_font_manager.py",
+      "lib/matplotlib/tests/test_image.py",
+      "lib/matplotlib/tests/test_legend.py",
+      "lib/matplotlib/tests/test_lines.py",
+      "lib/matplotlib/tests/test_mathtext.py",
+      "lib/matplotlib/tests/test_offsetbox.py",
+      "lib/matplotlib/tests/test_patches.py",
+      "lib/matplotlib/tests/test_path.py",
+      "lib/matplotlib/tests/test_patheffects.py",
+      "lib/matplotlib/tests/test_pickle.py",
+      "lib/matplotlib/tests/test_png.py",
+      "lib/matplotlib/tests/test_pyplot.py",
+      "lib/matplotlib/tests/test_quiver.py",
+      "lib/matplotlib/tests/test_rcparams.py",
+      "lib/matplotlib/tests/test_sankey.py",
+      "lib/matplotlib/tests/test_scale.py",
+      "lib/matplotlib/tests/test_simplification.py",
+      "lib/matplotlib/tests/test_skew.py",
+      "lib/matplotlib/tests/test_spines.py",
+      "lib/matplotlib/tests/test_streamplot.py",
+      "lib/matplotlib/tests/test_subplots.py",
+      "lib/matplotlib/tests/test_table.py",
+      "lib/matplotlib/tests/test_text.py",
+      "lib/matplotlib/tests/test_ticker.py",
+      "lib/matplotlib/tests/test_tightlayout.py",
+      "lib/matplotlib/tests/test_transforms.py",
+      "lib/matplotlib/tests/test_triangulation.py",
+      "lib/matplotlib/tests/test_units.py",
+      "lib/matplotlib/tests/test_widgets.py",
+      "lib/mpl_toolkits/tests/test_axes_grid.py",
+      "lib/mpl_toolkits/tests/test_axes_grid1.py",
+      "lib/mpl_toolkits/tests/test_axisartist_axis_artist.py",
+      "lib/mpl_toolkits/tests/test_axisartist_axislines.py",
+      "lib/mpl_toolkits/tests/test_axisartist_clip_path.py",
+      "lib/mpl_toolkits/tests/test_axisartist_floating_axes.py",
+      "lib/mpl_toolkits/tests/test_axisartist_grid_helper_curvelinear.py",
+      "lib/mpl_toolkits/tests/test_mplot3d.py"
+    ],
+    "elapsed_seconds": 48.083,
+    "failed_test_files": [
+      "lib/matplotlib/sphinxext/tests/test_tinypages.py",
+      "lib/matplotlib/tests/test_agg.py",
+      "lib/matplotlib/tests/test_agg_filter.py",
+      "lib/matplotlib/tests/test_arrow_patches.py",
+      "lib/matplotlib/tests/test_artist.py",
+      "lib/matplotlib/tests/test_axes.py",
+      "lib/matplotlib/tests/test_backend_nbagg.py",
+      "lib/matplotlib/tests/test_backend_svg.py",
+      "lib/matplotlib/tests/test_backends_interactive.py",
+      "lib/matplotlib/tests/test_basic.py",
+      "lib/matplotlib/tests/test_bbox_tight.py",
+      "lib/matplotlib/tests/test_cbook.py",
+      "lib/matplotlib/tests/test_collections.py",
+      "lib/matplotlib/tests/test_colorbar.py",
+      "lib/matplotlib/tests/test_colors.py",
+      "lib/matplotlib/tests/test_constrainedlayout.py",
+      "lib/matplotlib/tests/test_contour.py",
+      "lib/matplotlib/tests/test_cycles.py",
+      "lib/matplotlib/tests/test_dates.py",
+      "lib/matplotlib/tests/test_figure.py",
+      "lib/matplotlib/tests/test_image.py",
+      "lib/matplotlib/tests/test_legend.py",
+      "lib/matplotlib/tests/test_lines.py",
+      "lib/matplotlib/tests/test_mathtext.py",
+      "lib/matplotlib/tests/test_mlab.py",
+      "lib/matplotlib/tests/test_offsetbox.py",
+      "lib/matplotlib/tests/test_patches.py",
+      "lib/matplotlib/tests/test_path.py",
+      "lib/matplotlib/tests/test_patheffects.py",
+      "lib/matplotlib/tests/test_pickle.py",
+      "lib/matplotlib/tests/test_png.py",
+      "lib/matplotlib/tests/test_quiver.py",
+      "lib/matplotlib/tests/test_rcparams.py",
+      "lib/matplotlib/tests/test_scale.py",
+      "lib/matplotlib/tests/test_simplification.py",
+      "lib/matplotlib/tests/test_skew.py",
+      "lib/matplotlib/tests/test_spines.py",
+      "lib/matplotlib/tests/test_streamplot.py",
+      "lib/matplotlib/tests/test_subplots.py",
+      "lib/matplotlib/tests/test_table.py",
+      "lib/matplotlib/tests/test_text.py",
+      "lib/matplotlib/tests/test_tightlayout.py",
+      "lib/matplotlib/tests/test_transforms.py",
+      "lib/matplotlib/tests/test_triangulation.py",
+      "lib/matplotlib/tests/test_units.py",
+      "lib/matplotlib/tests/test_widgets.py",
+      "lib/mpl_toolkits/tests/test_axes_grid.py",
+      "lib/mpl_toolkits/tests/test_axes_grid1.py",
+      "lib/mpl_toolkits/tests/test_axisartist_axis_artist.py",
+      "lib/mpl_toolkits/tests/test_axisartist_axislines.py",
+      "lib/mpl_toolkits/tests/test_axisartist_clip_path.py",
+      "lib/mpl_toolkits/tests/test_axisartist_floating_axes.py",
+      "lib/mpl_toolkits/tests/test_axisartist_grid_helper_curvelinear.py",
+      "lib/mpl_toolkits/tests/test_mplot3d.py"
+    ],
+    "in_test_hit_tests": [
+      "lib/matplotlib/tests/test_animation.py",
+      "lib/matplotlib/tests/test_backend_bases.py",
+      "lib/matplotlib/tests/test_backend_pdf.py",
+      "lib/matplotlib/tests/test_backend_ps.py",
+      "lib/matplotlib/tests/test_category.py",
+      "lib/matplotlib/tests/test_container.py",
+      "lib/matplotlib/tests/test_font_manager.py",
+      "lib/matplotlib/tests/test_pyplot.py",
+      "lib/matplotlib/tests/test_sankey.py",
+      "lib/matplotlib/tests/test_ticker.py"
+    ],
+    "instance_id": "matplotlib__matplotlib-14623",
+    "modified_functions": [
+      {
+        "insertion_line": 3229,
+        "line": 3161,
+        "marker": "lib/matplotlib/axes/_base.py::_AxesBase.set_xlim",
+        "path": "lib/matplotlib/axes/_base.py",
+        "qualname": "_AxesBase.set_xlim"
+      },
+      {
+        "insertion_line": 3610,
+        "line": 3543,
+        "marker": "lib/matplotlib/axes/_base.py::_AxesBase.set_ylim",
+        "path": "lib/matplotlib/axes/_base.py",
+        "qualname": "_AxesBase.set_ylim"
+      },
+      {
+        "insertion_line": 1525,
+        "line": 1523,
+        "marker": "lib/matplotlib/ticker.py::Locator.nonsingular",
+        "path": "lib/matplotlib/ticker.py",
+        "qualname": "Locator.nonsingular"
+      },
+      {
+        "insertion_line": 597,
+        "line": 589,
+        "marker": "lib/mpl_toolkits/mplot3d/axes3d.py::Axes3D.set_xlim3d",
+        "path": "lib/mpl_toolkits/mplot3d/axes3d.py",
+        "qualname": "Axes3D.set_xlim3d"
+      },
+      {
+        "insertion_line": 657,
+        "line": 649,
+        "marker": "lib/mpl_toolkits/mplot3d/axes3d.py::Axes3D.set_ylim3d",
+        "path": "lib/mpl_toolkits/mplot3d/axes3d.py",
+        "qualname": "Axes3D.set_ylim3d"
+      },
+      {
+        "insertion_line": 718,
+        "line": 710,
+        "marker": "lib/mpl_toolkits/mplot3d/axes3d.py::Axes3D.set_zlim3d",
+        "path": "lib/mpl_toolkits/mplot3d/axes3d.py",
+        "qualname": "Axes3D.set_zlim3d"
+      }
+    ],
+    "passed_test_files": 28,
+    "passing_dynamic_hit_tests": [
+      "lib/matplotlib/tests/test_animation.py",
+      "lib/matplotlib/tests/test_backend_bases.py",
+      "lib/matplotlib/tests/test_backend_pdf.py",
+      "lib/matplotlib/tests/test_backend_ps.py",
+      "lib/matplotlib/tests/test_category.py",
+      "lib/matplotlib/tests/test_container.py",
+      "lib/matplotlib/tests/test_font_manager.py",
+      "lib/matplotlib/tests/test_pyplot.py",
+      "lib/matplotlib/tests/test_sankey.py",
+      "lib/matplotlib/tests/test_ticker.py"
+    ],
+    "patch_file": "d65c9ca20ddf81ef91199e6d819f9d3506ef477c/golden.patch",
+    "project": "matplotlib/matplotlib",
+    "python": "Python 3.8.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/final_python_samples/matplotlib/ground_truth_runs/matplotlib__matplotlib-14623_1784862530_984146",
+    "test_env": "RTSFinal38_matplotlib_857bada1",
+    "tests_to_run": [
+      "lib/matplotlib/tests/test_agg.py",
+      "lib/matplotlib/tests/test_agg_filter.py",
+      "lib/matplotlib/tests/test_animation.py",
+      "lib/matplotlib/tests/test_arrow_patches.py",
+      "lib/matplotlib/tests/test_artist.py",
+      "lib/matplotlib/tests/test_axes.py",
+      "lib/matplotlib/tests/test_backend_bases.py",
+      "lib/matplotlib/tests/test_backend_pdf.py",
+      "lib/matplotlib/tests/test_backend_ps.py",
+      "lib/matplotlib/tests/test_backend_svg.py",
+      "lib/matplotlib/tests/test_backends_interactive.py",
+      "lib/matplotlib/tests/test_bbox_tight.py",
+      "lib/matplotlib/tests/test_category.py",
+      "lib/matplotlib/tests/test_collections.py",
+      "lib/matplotlib/tests/test_colorbar.py",
+      "lib/matplotlib/tests/test_colors.py",
+      "lib/matplotlib/tests/test_constrainedlayout.py",
+      "lib/matplotlib/tests/test_container.py",
+      "lib/matplotlib/tests/test_contour.py",
+      "lib/matplotlib/tests/test_cycles.py",
+      "lib/matplotlib/tests/test_dates.py",
+      "lib/matplotlib/tests/test_figure.py",
+      "lib/matplotlib/tests/test_font_manager.py",
+      "lib/matplotlib/tests/test_image.py",
+      "lib/matplotlib/tests/test_legend.py",
+      "lib/matplotlib/tests/test_lines.py",
+      "lib/matplotlib/tests/test_mathtext.py",
+      "lib/matplotlib/tests/test_offsetbox.py",
+      "lib/matplotlib/tests/test_patches.py",
+      "lib/matplotlib/tests/test_path.py",
+      "lib/matplotlib/tests/test_patheffects.py",
+      "lib/matplotlib/tests/test_pickle.py",
+      "lib/matplotlib/tests/test_png.py",
+      "lib/matplotlib/tests/test_pyplot.py",
+      "lib/matplotlib/tests/test_quiver.py",
+      "lib/matplotlib/tests/test_rcparams.py",
+      "lib/matplotlib/tests/test_sankey.py",
+      "lib/matplotlib/tests/test_scale.py",
+      "lib/matplotlib/tests/test_simplification.py",
+      "lib/matplotlib/tests/test_skew.py",
+      "lib/matplotlib/tests/test_spines.py",
+      "lib/matplotlib/tests/test_streamplot.py",
+      "lib/matplotlib/tests/test_subplots.py",
+      "lib/matplotlib/tests/test_table.py",
+      "lib/matplotlib/tests/test_text.py",
+      "lib/matplotlib/tests/test_ticker.py",
+      "lib/matplotlib/tests/test_tightlayout.py",
+      "lib/matplotlib/tests/test_transforms.py",
+      "lib/matplotlib/tests/test_triangulation.py",
+      "lib/matplotlib/tests/test_units.py",
+      "lib/matplotlib/tests/test_widgets.py",
+      "lib/mpl_toolkits/tests/test_axes_grid.py",
+      "lib/mpl_toolkits/tests/test_axes_grid1.py",
+      "lib/mpl_toolkits/tests/test_axisartist_axis_artist.py",
+      "lib/mpl_toolkits/tests/test_axisartist_axislines.py",
+      "lib/mpl_toolkits/tests/test_axisartist_clip_path.py",
+      "lib/mpl_toolkits/tests/test_axisartist_floating_axes.py",
+      "lib/mpl_toolkits/tests/test_axisartist_grid_helper_curvelinear.py",
+      "lib/mpl_toolkits/tests/test_mplot3d.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 82,
+    "uninstrumentable_changes": [],
+    "version": "3.1"
+  },
+  {
+    "affected_functions_by_test": {
+      "lib/matplotlib/tests/test_category.py": [
+        "lib/matplotlib/category.py::StrCategoryConverter.convert",
+        "lib/matplotlib/category.py::UnitData.update"
+      ],
+      "lib/matplotlib/tests/test_text.py": [
+        "lib/matplotlib/category.py::StrCategoryConverter.convert",
+        "lib/matplotlib/category.py::UnitData.update"
+      ],
+      "lib/matplotlib/tests/test_units.py": [
+        "lib/matplotlib/category.py::StrCategoryConverter.convert",
+        "lib/matplotlib/category.py::UnitData.update"
+      ]
+    },
+    "base_commit": "a2a1b0a11b993fe5f8fab64b6161e99243a6393c",
+    "dynamic_hit_tests": [
+      "lib/matplotlib/tests/test_category.py",
+      "lib/matplotlib/tests/test_text.py",
+      "lib/matplotlib/tests/test_units.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "lib/matplotlib/tests/test_category.py",
+      "lib/matplotlib/tests/test_text.py",
+      "lib/matplotlib/tests/test_units.py"
+    ],
+    "elapsed_seconds": 61.101,
+    "failed_test_files": [
+      "lib/matplotlib/tests/test_backend_gtk3.py",
+      "lib/matplotlib/tests/test_backend_macosx.py",
+      "lib/matplotlib/tests/test_backend_nbagg.py",
+      "lib/matplotlib/tests/test_backend_qt.py",
+      "lib/matplotlib/tests/test_category.py",
+      "lib/matplotlib/tests/test_cbook.py",
+      "lib/matplotlib/tests/test_contour.py",
+      "lib/matplotlib/tests/test_font_manager.py",
+      "lib/matplotlib/tests/test_getattr.py",
+      "lib/matplotlib/tests/test_image.py",
+      "lib/matplotlib/tests/test_mlab.py",
+      "lib/matplotlib/tests/test_rcparams.py",
+      "lib/matplotlib/tests/test_streamplot.py",
+      "lib/matplotlib/tests/test_text.py",
+      "lib/matplotlib/tests/test_ticker.py",
+      "lib/matplotlib/tests/test_units.py",
+      "lib/matplotlib/tests/test_widgets.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "matplotlib__matplotlib-22719",
+    "modified_functions": [
+      {
+        "insertion_line": 48,
+        "line": 28,
+        "marker": "lib/matplotlib/category.py::StrCategoryConverter.convert",
+        "path": "lib/matplotlib/category.py",
+        "qualname": "StrCategoryConverter.convert"
+      },
+      {
+        "insertion_line": 222,
+        "line": 209,
+        "marker": "lib/matplotlib/category.py::UnitData.update",
+        "path": "lib/matplotlib/category.py",
+        "qualname": "UnitData.update"
+      }
+    ],
+    "passed_test_files": 76,
+    "passing_dynamic_hit_tests": [],
+    "patch_file": "a2a1b0a11b993fe5f8fab64b6161e99243a6393c/golden.patch",
+    "project": "matplotlib/matplotlib",
+    "python": "Python 3.11.10",
+    "run_dir": "/shared_dir/projects/namerts/runtime/final_python_samples/matplotlib/ground_truth_runs/matplotlib__matplotlib-22719_1784862288_956364",
+    "test_env": "RTSFinal311_matplotlib_f53f6c95",
+    "tests_to_run": [
+      "lib/matplotlib/tests/test_category.py",
+      "lib/matplotlib/tests/test_text.py",
+      "lib/matplotlib/tests/test_units.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 93,
+    "uninstrumentable_changes": [],
+    "version": "3.5"
+  }
+]

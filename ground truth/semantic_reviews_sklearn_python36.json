@@ -1,0 +1,23 @@
+[
+  {
+    "decision": "exclude",
+    "evidence": "runtime/sklearn_python36/trace_scikit-learn__scikit-learn-13142_1784780951_736523/trace.json",
+    "instance_id": "scikit-learn__scikit-learn-13142",
+    "reason": "Common estimator checks call fit(), which indirectly enters fit_predict(), but discard its returned labels. The patch only moves the final E-step so fit_predict returns labels for the restored best parameters; fit() already restores the same best model state before and after the patch.",
+    "test_file": "sklearn/tests/test_common.py"
+  },
+  {
+    "decision": "retain",
+    "evidence": "runtime/sklearn_python36/trace_scikit-learn__scikit-learn-13496_1784781112_737177/trace.json",
+    "instance_id": "scikit-learn__scikit-learn-13496",
+    "reason": "The patch adds warm_start to IsolationForest.__init__. Common checks observe the constructor parameter through get_params(), iterate and set it in check_set_params, and take the warm_start branch in check_fit_idempotent. The patch therefore changes values and control flow consumed by this test file.",
+    "test_file": "sklearn/tests/test_common.py"
+  },
+  {
+    "decision": "exclude",
+    "evidence": "ground truth/gt_sklearn_python36.json affected_functions_by_test",
+    "instance_id": "scikit-learn__scikit-learn-14629",
+    "reason": "The common test only hits _BaseChain.fit, whose golden-patch change is indentation-only. It never hits the newly added MultiOutputClassifier.fit implementation that carries the behavioral fix.",
+    "test_file": "sklearn/tests/test_common.py"
+  }
+]

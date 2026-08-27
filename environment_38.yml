@@ -1,0 +1,17 @@
+name: NameRTS38
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.20
+  - pip=24.0
+  - setuptools=75.1.0
+  - wheel=0.44.0
+  - numpy=1.24.4
+  - pandas=2.0.3
+  - networkx=3.1
+  - pip:
+      - detect-indent==1.0.0
+      - tree-sitter==0.20.4
+      - tree-sitter-languages==1.10.2
+      - xxhash==3.5.0

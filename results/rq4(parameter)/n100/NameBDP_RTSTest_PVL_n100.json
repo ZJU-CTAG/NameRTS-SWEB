@@ -1,0 +1,660 @@
+[
+    {
+        "current": "b4916e11dd9a5cc3296ac8d6b7a8cbef5962bf02",
+        "direct_parent": "4b113ab852b31df67db5f830833111e1159f4a51",
+        "true_parent": "4b113ab852b31df67db5f830833111e1159f4a51",
+        "tests_to_run": [
+            "tests/test_modelchain.py"
+        ],
+        "init_time": "0:01:16.460000",
+        "test_time": "0:00:06",
+        "select_time": "0:00:02.450000"
+    },
+    {
+        "current": "4b25801587251e75f6d759adeba90e62df3ef732",
+        "direct_parent": "b4916e11dd9a5cc3296ac8d6b7a8cbef5962bf02",
+        "true_parent": "b4916e11dd9a5cc3296ac8d6b7a8cbef5962bf02",
+        "tests_to_run": [
+            "tests/test_snow.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:03.330000",
+        "select_time": "0:00:01.880000"
+    },
+    {
+        "current": "40a213b7417400e6c974c17115636d1a0312dbfd",
+        "direct_parent": "4b25801587251e75f6d759adeba90e62df3ef732",
+        "true_parent": "4b25801587251e75f6d759adeba90e62df3ef732",
+        "tests_to_run": [
+            "tests/iotools/test_pvgis.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:03.860000",
+        "select_time": "0:00:02.010000"
+    },
+    {
+        "current": "ae7de9738e9714c5a87faece94f5f202486499ce",
+        "direct_parent": "40a213b7417400e6c974c17115636d1a0312dbfd",
+        "true_parent": "40a213b7417400e6c974c17115636d1a0312dbfd",
+        "tests_to_run": [
+            "tests/test_atmosphere.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:03.320000",
+        "select_time": "0:00:01.900000"
+    },
+    {
+        "current": "432c3b32bb7ff542af7fe77cb9ddb25476fdff10",
+        "direct_parent": "ae7de9738e9714c5a87faece94f5f202486499ce",
+        "true_parent": "ae7de9738e9714c5a87faece94f5f202486499ce",
+        "tests_to_run": [
+            "tests/iotools/test_tmy.py",
+            "tests/test_soiling.py",
+            "tests/test_location.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:05.970000",
+        "select_time": "0:00:01.910000"
+    },
+    {
+        "current": "9f5ac3f19d81bf6553b168601c195998baadb50f",
+        "direct_parent": "432c3b32bb7ff542af7fe77cb9ddb25476fdff10",
+        "true_parent": "432c3b32bb7ff542af7fe77cb9ddb25476fdff10",
+        "tests_to_run": [
+            "tests/spectrum/test_irradiance.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:03.310000",
+        "select_time": "0:00:01.840000"
+    },
+    {
+        "current": "c18c79670528172194608ca60f84e517350fb94e",
+        "direct_parent": "9f5ac3f19d81bf6553b168601c195998baadb50f",
+        "true_parent": "9f5ac3f19d81bf6553b168601c195998baadb50f",
+        "tests_to_run": [
+            "tests/test_pvsystem.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:04.380000",
+        "select_time": "0:00:02.280000"
+    },
+    {
+        "current": "0b6e1690a6007313a56f2963c03a615d97a9627e",
+        "direct_parent": "c18c79670528172194608ca60f84e517350fb94e",
+        "true_parent": "c18c79670528172194608ca60f84e517350fb94e",
+        "tests_to_run": [
+            "tests/test_location.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:04.370000",
+        "select_time": "0:00:01.890000"
+    },
+    {
+        "current": "56911eea990535a2fdfa9055c0cb63f1db7e59bc",
+        "direct_parent": "922cc96c4eb581f8a517f7b7c514957aedf61019",
+        "true_parent": "0b6e1690a6007313a56f2963c03a615d97a9627e",
+        "tests_to_run": [
+            "tests/spectrum/test_irradiance.py",
+            "tests/ivtools/sdm/test__fit_desoto_pvsyst_sandia.py",
+            "tests/ivtools/sdm/test_cec.py",
+            "tests/ivtools/sdm/test_desoto.py",
+            "tests/ivtools/sdm/test_pvsyst.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:27.810000",
+        "select_time": "0:00:02.040000"
+    },
+    {
+        "current": "7e34a320c4504e69b47499cc72a022559ada0b3a",
+        "direct_parent": "56911eea990535a2fdfa9055c0cb63f1db7e59bc",
+        "true_parent": "56911eea990535a2fdfa9055c0cb63f1db7e59bc",
+        "tests_to_run": [
+            "tests/test_pvsystem.py",
+            "tests/test_modelchain.py",
+            "tests/test_singlediode.py",
+            "tests/ivtools/sdm/test_desoto.py",
+            "tests/ivtools/sdm/test_pvsyst.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:32.090000",
+        "select_time": "0:00:02.090000"
+    },
+    {
+        "current": "7fb818b43f975a8ab072a76da71a011116643df2",
+        "direct_parent": "4707664425e344aabe02c7893d9ce9b4d266366f",
+        "true_parent": "7e34a320c4504e69b47499cc72a022559ada0b3a",
+        "tests_to_run": [],
+        "init_time": "0:00:00",
+        "test_time": "0:00:00",
+        "select_time": "0:00:01.790000",
+        "tests_time": 0.0
+    },
+    {
+        "current": "665a076ca7a9e854aa519d5edf8e7d915dae44da",
+        "direct_parent": "7fb818b43f975a8ab072a76da71a011116643df2",
+        "true_parent": "7fb818b43f975a8ab072a76da71a011116643df2",
+        "tests_to_run": [
+            "tests/ivtools/sdm/test_pvsyst.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:24.470000",
+        "select_time": "0:00:01.930000"
+    },
+    {
+        "current": "496b5681997792f736a75a62713021e7db62f444",
+        "direct_parent": "580037ab1a16085625d1cbc9d0886fc75a4b1062",
+        "true_parent": "665a076ca7a9e854aa519d5edf8e7d915dae44da",
+        "tests_to_run": [
+            "tests/iotools/test_solaranywhere.py",
+            "tests/test_pvsystem.py",
+            "tests/test_modelchain.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:07.340000",
+        "select_time": "0:00:02.030000"
+    },
+    {
+        "current": "1428b6b33b6554a00d131237879235da0dab44da",
+        "direct_parent": "56811e66a705e144a8658b4284a1c93aa0a01814",
+        "true_parent": "496b5681997792f736a75a62713021e7db62f444",
+        "tests_to_run": [
+            "tests/iotools/test_psm3.py",
+            "tests/iotools/test_psm4.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:03.930000",
+        "select_time": "0:00:02.140000"
+    },
+    {
+        "current": "47b8df2ad5fc2e54c1e5d6bc6e667a30deb2eabd",
+        "direct_parent": "8a7927ad725659da5fba68647aed1983f375b68b",
+        "true_parent": "1428b6b33b6554a00d131237879235da0dab44da",
+        "tests_to_run": [
+            "tests/test_pvsystem.py",
+            "tests/test_modelchain.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:07.050000",
+        "select_time": "0:00:02.890000"
+    },
+    {
+        "current": "cb8be876664c40bdb7365da767a4c92ec0535621",
+        "direct_parent": "216386ef2f2fcdcaf1b3ecb5913abdf54e9eabaf",
+        "true_parent": "47b8df2ad5fc2e54c1e5d6bc6e667a30deb2eabd",
+        "tests_to_run": [
+            "tests/bifacial/test_infinite_sheds.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:03.390000",
+        "select_time": "0:00:02.340000"
+    },
+    {
+        "current": "2093264f6f5e0460a4231eb0e917d0894d76df8e",
+        "direct_parent": "cb8be876664c40bdb7365da767a4c92ec0535621",
+        "true_parent": "cb8be876664c40bdb7365da767a4c92ec0535621",
+        "tests_to_run": [
+            "tests/iotools/test_psm4.py",
+            "tests/test_tools.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:03.780000",
+        "select_time": "0:00:02.350000"
+    },
+    {
+        "current": "a89e3c46ca273afdb59ef1bc87395a1d883a9526",
+        "direct_parent": "2093264f6f5e0460a4231eb0e917d0894d76df8e",
+        "true_parent": "2093264f6f5e0460a4231eb0e917d0894d76df8e",
+        "tests_to_run": [
+            "tests/test_pvsystem.py",
+            "tests/test_modelchain.py",
+            "tests/test_temperature.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:07.350000",
+        "select_time": "0:00:02.510000"
+    },
+    {
+        "current": "bedd9e13e3964b54abea350897804519ab84ce3a",
+        "direct_parent": "d4dbe55fe57dd4a64c48374cd9280857b0c18860",
+        "true_parent": "a89e3c46ca273afdb59ef1bc87395a1d883a9526",
+        "tests_to_run": [
+            "tests/iotools/test_pvgis.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:03.870000",
+        "select_time": "0:00:02.040000"
+    },
+    {
+        "current": "f33be832ec4620c1802d35bf553a8a5029e52d90",
+        "direct_parent": "0cf6c8ac66ae953bcc896adb5d2f91307d41d1a0",
+        "true_parent": "bedd9e13e3964b54abea350897804519ab84ce3a",
+        "tests_to_run": [
+            "tests/iotools/test_psm3.py",
+            "tests/iotools/test_sodapro.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:03.650000",
+        "select_time": "0:00:02.040000"
+    },
+    {
+        "current": "3b352617b673568dbb745ba8bd5e24f94e7b6e54",
+        "direct_parent": "f33be832ec4620c1802d35bf553a8a5029e52d90",
+        "true_parent": "f33be832ec4620c1802d35bf553a8a5029e52d90",
+        "tests_to_run": [
+            "tests/iotools/test_sodapro.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:03.350000",
+        "select_time": "0:00:02.040000"
+    },
+    {
+        "current": "904faee333fd26049fcd35b1ced18e9ffe900c76",
+        "direct_parent": "cb40b8167e9b229c03771ec4bb6f70dfe01f71ad",
+        "true_parent": "3b352617b673568dbb745ba8bd5e24f94e7b6e54",
+        "tests_to_run": [],
+        "init_time": "0:00:00",
+        "test_time": "0:00:00",
+        "select_time": "0:00:02.110000",
+        "tests_time": 0.0
+    },
+    {
+        "current": "e711e9e78da0fffebac54e94dbe049d63674d9ca",
+        "direct_parent": "904faee333fd26049fcd35b1ced18e9ffe900c76",
+        "true_parent": "904faee333fd26049fcd35b1ced18e9ffe900c76",
+        "tests_to_run": [
+            "tests/test_pvsystem.py",
+            "tests/iotools/test_solargis.py",
+            "tests/bifacial/test_pvfactors.py",
+            "tests/test_conftest.py",
+            "tests/test_modelchain.py",
+            "tests/test_inverter.py",
+            "tests/iotools/test_crn.py",
+            "tests/bifacial/test_utils.py",
+            "tests/iotools/test_midc.py",
+            "tests/spectrum/test_spectrl2.py",
+            "tests/iotools/test_tmy.py",
+            "tests/test_singlediode.py",
+            "tests/iotools/test_solcast.py",
+            "tests/iotools/test_panond.py",
+            "tests/spectrum/test_irradiance.py",
+            "tests/test_temperature.py",
+            "tests/iotools/test_solrad.py",
+            "tests/iotools/test_psm3.py",
+            "tests/test_albedo.py",
+            "tests/ivtools/sdm/test__fit_desoto_pvsyst_sandia.py",
+            "tests/test_tracking.py",
+            "tests/test_soiling.py",
+            "tests/iotools/test_psm4.py",
+            "tests/iotools/test_bsrn.py",
+            "tests/test_iam.py",
+            "tests/test_shading.py",
+            "tests/ivtools/test_sde.py",
+            "tests/test_clearsky.py",
+            "tests/test_numerical_precision.py",
+            "tests/test_spa.py",
+            "tests/iotools/test_srml.py",
+            "tests/test_scaling.py",
+            "tests/spectrum/test_mismatch.py",
+            "tests/test_transformer.py",
+            "tests/test_pvarray.py",
+            "tests/ivtools/test_utils.py",
+            "tests/test_location.py",
+            "tests/ivtools/sdm/test_cec.py",
+            "tests/bifacial/test_infinite_sheds.py",
+            "tests/iotools/test_acis.py",
+            "tests/bifacial/test_losses_models.py",
+            "tests/iotools/test_sodapro.py",
+            "tests/test_irradiance.py",
+            "tests/ivtools/sdm/test_desoto.py",
+            "tests/iotools/test_surfrad.py",
+            "tests/test_snow.py",
+            "tests/test_solarposition.py",
+            "tests/ivtools/sdm/test_pvsyst.py",
+            "tests/test__deprecation.py",
+            "tests/test_atmosphere.py",
+            "tests/iotools/test_pvgis.py",
+            "tests/spectrum/test_response.py",
+            "tests/test_tools.py",
+            "tests/iotools/test_solaranywhere.py",
+            "tests/iotools/test_epw.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:01:07.460000",
+        "select_time": "0:00:02.670000"
+    },
+    {
+        "current": "7b7e3c7b25c96121bdca74bf2e61fc2e11ed9b4e",
+        "direct_parent": "e711e9e78da0fffebac54e94dbe049d63674d9ca",
+        "true_parent": "e711e9e78da0fffebac54e94dbe049d63674d9ca",
+        "tests_to_run": [
+            "tests/iotools/test_pvgis.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:03.970000",
+        "select_time": "0:00:02.510000"
+    },
+    {
+        "current": "5be6b7f7a02f6cff8125b6b49bc5f8eef654f939",
+        "direct_parent": "7b7e3c7b25c96121bdca74bf2e61fc2e11ed9b4e",
+        "true_parent": "7b7e3c7b25c96121bdca74bf2e61fc2e11ed9b4e",
+        "tests_to_run": [
+            "tests/iotools/test_pvgis.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:03.750000",
+        "select_time": "0:00:02.320000"
+    },
+    {
+        "current": "15d09111e2191c94216341674d44aaa0a4413f64",
+        "direct_parent": "389e3d1ad239c11890825873a29e8317c7b44bbd",
+        "true_parent": "5be6b7f7a02f6cff8125b6b49bc5f8eef654f939",
+        "tests_to_run": [
+            "tests/iotools/test_bsrn.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:08.040000",
+        "select_time": "0:00:02.240000"
+    },
+    {
+        "current": "3bc67a23898fbf93d5a72adb5ac344ac2168935c",
+        "direct_parent": "15d09111e2191c94216341674d44aaa0a4413f64",
+        "true_parent": "15d09111e2191c94216341674d44aaa0a4413f64",
+        "tests_to_run": [
+            "tests/test_pvsystem.py",
+            "tests/test_modelchain.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:07.060000",
+        "select_time": "0:00:02.100000"
+    },
+    {
+        "current": "49528aa33d2b63d0ed366ee76a23358ac6d51852",
+        "direct_parent": "3bc67a23898fbf93d5a72adb5ac344ac2168935c",
+        "true_parent": "3bc67a23898fbf93d5a72adb5ac344ac2168935c",
+        "tests_to_run": [
+            "tests/iotools/test_epw.py",
+            "tests/test_location.py",
+            "tests/iotools/test_pvgis.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:05.230000",
+        "select_time": "0:00:01.960000"
+    },
+    {
+        "current": "6e6a71bd32d59c48ed440874c67921c294e4f821",
+        "direct_parent": "49528aa33d2b63d0ed366ee76a23358ac6d51852",
+        "true_parent": "49528aa33d2b63d0ed366ee76a23358ac6d51852",
+        "tests_to_run": [],
+        "init_time": "0:00:00",
+        "test_time": "0:00:00",
+        "select_time": "0:00:01.760000",
+        "tests_time": 0.0
+    },
+    {
+        "current": "d7023536c4143563c6c32e898b4562c8c7337e9f",
+        "direct_parent": "6e6a71bd32d59c48ed440874c67921c294e4f821",
+        "true_parent": "6e6a71bd32d59c48ed440874c67921c294e4f821",
+        "tests_to_run": [
+            "tests/iotools/test_pvgis.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:03.760000",
+        "select_time": "0:00:02.010000"
+    },
+    {
+        "current": "e4d3aa4f3065fbeb87915cf38a71c53147546582",
+        "direct_parent": "d7023536c4143563c6c32e898b4562c8c7337e9f",
+        "true_parent": "d7023536c4143563c6c32e898b4562c8c7337e9f",
+        "tests_to_run": [
+            "tests/iotools/test_psm4.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:03.450000",
+        "select_time": "0:00:01.950000"
+    },
+    {
+        "current": "4ef281386778e45ac358d84ac0050880a2521740",
+        "direct_parent": "e4d3aa4f3065fbeb87915cf38a71c53147546582",
+        "true_parent": "e4d3aa4f3065fbeb87915cf38a71c53147546582",
+        "tests_to_run": [
+            "tests/iotools/test_pvgis.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:03.760000",
+        "select_time": "0:00:01.980000"
+    },
+    {
+        "current": "62535f8cf5cc4ab02ce142beff13ade6242cf8fe",
+        "direct_parent": "4ef281386778e45ac358d84ac0050880a2521740",
+        "true_parent": "4ef281386778e45ac358d84ac0050880a2521740",
+        "tests_to_run": [
+            "tests/test_clearsky.py",
+            "tests/iotools/test_bsrn.py",
+            "tests/iotools/test_srml.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:08.860000",
+        "select_time": "0:00:02.050000"
+    },
+    {
+        "current": "b8c56c5e725ed12f15342c5336f71d52ec8008ce",
+        "direct_parent": "54f61ecea73328c2587655cbfb99638b555e3663",
+        "true_parent": "62535f8cf5cc4ab02ce142beff13ade6242cf8fe",
+        "tests_to_run": [
+            "tests/test_irradiance.py",
+            "tests/test_modelchain.py",
+            "tests/iotools/test_psm3.py",
+            "tests/iotools/test_sodapro.py",
+            "tests/iotools/test_pvgis.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:11.740000",
+        "select_time": "0:00:02.270000"
+    },
+    {
+        "current": "c1633dfcc4b42f7f82e72b46dfb53cc6466f2e83",
+        "direct_parent": "7caf4eb232c5b1ced9902f3002a43bf8ffeea98b",
+        "true_parent": "b8c56c5e725ed12f15342c5336f71d52ec8008ce",
+        "tests_to_run": [
+            "tests/ivtools/sdm/test__fit_desoto_pvsyst_sandia.py",
+            "tests/test_pvsystem.py",
+            "tests/test_modelchain.py",
+            "tests/test_singlediode.py",
+            "tests/ivtools/test_sde.py",
+            "tests/ivtools/sdm/test_desoto.py",
+            "tests/ivtools/sdm/test_pvsyst.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:31.990000",
+        "select_time": "0:00:02.100000"
+    },
+    {
+        "current": "908d3da1f898c8caf50954a356ed4310e4a57062",
+        "direct_parent": "c1633dfcc4b42f7f82e72b46dfb53cc6466f2e83",
+        "true_parent": "c1633dfcc4b42f7f82e72b46dfb53cc6466f2e83",
+        "tests_to_run": [
+            "tests/test_pvsystem.py",
+            "tests/test_tracking.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:04.440000",
+        "select_time": "0:00:01.980000"
+    },
+    {
+        "current": "59d2e8ed7d7a079427f96e11f4d258b627cab8bc",
+        "direct_parent": "62eed1f2f0899ad9277a72f5c7526f970c16ac9c",
+        "true_parent": "908d3da1f898c8caf50954a356ed4310e4a57062",
+        "tests_to_run": [
+            "tests/iotools/test_nasa_power.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:03.370000",
+        "select_time": "0:00:01.960000"
+    },
+    {
+        "current": "ded286719f3e3b5be6b473a2b8536af8e8329387",
+        "direct_parent": "59d2e8ed7d7a079427f96e11f4d258b627cab8bc",
+        "true_parent": "59d2e8ed7d7a079427f96e11f4d258b627cab8bc",
+        "tests_to_run": [
+            "tests/spectrum/test_mismatch.py",
+            "tests/test_pvsystem.py",
+            "tests/test_modelchain.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:07.220000",
+        "select_time": "0:00:02.030000"
+    },
+    {
+        "current": "39867da0c6d3738cf2d83f230961d59458c68e33",
+        "direct_parent": "6dfeaf8ee97db6a7a8f3c8109eed8b5d285c4e41",
+        "true_parent": "ded286719f3e3b5be6b473a2b8536af8e8329387",
+        "tests_to_run": [
+            "tests/test_modelchain.py",
+            "tests/iotools/test_meteonorm.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:05.990000",
+        "select_time": "0:00:02.440000"
+    },
+    {
+        "current": "2aa17b4f0bfdd454e7edd1166f6825d14758219f",
+        "direct_parent": "816104e094d722a2b8f8c495d2635233ab254460",
+        "true_parent": "39867da0c6d3738cf2d83f230961d59458c68e33",
+        "tests_to_run": [
+            "tests/iotools/test_tmy.py",
+            "tests/iotools/test_psm3.py",
+            "tests/test_soiling.py",
+            "tests/iotools/test_psm4.py",
+            "tests/iotools/test_bsrn.py",
+            "tests/test_location.py",
+            "tests/iotools/test_sodapro.py",
+            "tests/iotools/test_pvgis.py",
+            "tests/test_tools.py",
+            "tests/iotools/test_epw.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:14.200000",
+        "select_time": "0:00:01.990000"
+    },
+    {
+        "current": "73b828da980fc5f154d1d2d92c6dfdccc7ca31d4",
+        "direct_parent": "2aa17b4f0bfdd454e7edd1166f6825d14758219f",
+        "true_parent": "2aa17b4f0bfdd454e7edd1166f6825d14758219f",
+        "tests_to_run": [
+            "tests/test_temperature.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:03.420000",
+        "select_time": "0:00:02.100000"
+    },
+    {
+        "current": "41d6022c27792ea68a4e725c063f161506d79458",
+        "direct_parent": "5bb2871f58ba9b6a4b53581de19e6cd03c73b81c",
+        "true_parent": "73b828da980fc5f154d1d2d92c6dfdccc7ca31d4",
+        "tests_to_run": [
+            "tests/test_tracking.py",
+            "tests/test_clearsky.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:03.900000",
+        "select_time": "0:00:02.240000"
+    },
+    {
+        "current": "a994fb7e633ee225be7a844bdae7e5b2649dd554",
+        "direct_parent": "3e8bd1f4e07f3dc9a7ef309b0138b0b68a879c13",
+        "true_parent": "41d6022c27792ea68a4e725c063f161506d79458",
+        "tests_to_run": [
+            "tests/test_pvarray.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:03.450000",
+        "select_time": "0:00:01.910000"
+    },
+    {
+        "current": "72404a872a288a8e9e742b3afbd9569f7e9b0fa5",
+        "direct_parent": "4d21d99c2fc6868ca8460a789cbfca4d13917349",
+        "true_parent": "a994fb7e633ee225be7a844bdae7e5b2649dd554",
+        "tests_to_run": [
+            "tests/iotools/test_meteonorm.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:03.220000",
+        "select_time": "0:00:01.980000"
+    },
+    {
+        "current": "74ded020440f0dca38648d95132a7389e1f6a2ab",
+        "direct_parent": "4089dd92446f43be0d29e7d2aad50aa065dad2d3",
+        "true_parent": "72404a872a288a8e9e742b3afbd9569f7e9b0fa5",
+        "tests_to_run": [
+            "tests/test_pvsystem.py",
+            "tests/test_singlediode.py",
+            "tests/test_numerical_precision.py",
+            "tests/ivtools/sdm/test_pvsyst.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:27.530000",
+        "select_time": "0:00:02.470000"
+    },
+    {
+        "current": "bc67019578db0795f8487d7947a8ca3708e9d9e4",
+        "direct_parent": "c5301951944aade2155872e1ff22bb16ca4512f2",
+        "true_parent": "74ded020440f0dca38648d95132a7389e1f6a2ab",
+        "tests_to_run": [],
+        "init_time": "0:00:00",
+        "test_time": "0:00:00",
+        "select_time": "0:00:01.770000",
+        "tests_time": 0.0
+    },
+    {
+        "current": "258f78f61c3c47dbf2ed8b12d997f0c08d3fedb6",
+        "direct_parent": "6553710e8e87f0931846eba2abc6f21c19ebdadf",
+        "true_parent": "bc67019578db0795f8487d7947a8ca3708e9d9e4",
+        "tests_to_run": [
+            "tests/test_modelchain.py",
+            "tests/iotools/test_meteonorm.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:06.240000",
+        "select_time": "0:00:02.310000"
+    },
+    {
+        "current": "5953f82f30df3d33d536fff2b16ca3674fe53a54",
+        "direct_parent": "258f78f61c3c47dbf2ed8b12d997f0c08d3fedb6",
+        "true_parent": "258f78f61c3c47dbf2ed8b12d997f0c08d3fedb6",
+        "tests_to_run": [
+            "tests/test_modelchain.py",
+            "tests/test_singlediode.py",
+            "tests/test_pvsystem.py",
+            "tests/ivtools/test_sde.py",
+            "tests/ivtools/sdm/test_desoto.py",
+            "tests/ivtools/sdm/test_pvsyst.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:32.650000",
+        "select_time": "0:00:02.330000"
+    },
+    {
+        "current": "90af1f286f6ece75e391e01a1673923c39cb6d54",
+        "direct_parent": "5953f82f30df3d33d536fff2b16ca3674fe53a54",
+        "true_parent": "5953f82f30df3d33d536fff2b16ca3674fe53a54",
+        "tests_to_run": [
+            "tests/test_singlediode.py",
+            "tests/test_pvarray.py",
+            "tests/ivtools/sdm/test_desoto.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:07.560000",
+        "select_time": "0:00:02.130000"
+    },
+    {
+        "current": "b70fb0f70d0a1a7cb03c38dc32c97b8cb05823ab",
+        "direct_parent": "90af1f286f6ece75e391e01a1673923c39cb6d54",
+        "true_parent": "90af1f286f6ece75e391e01a1673923c39cb6d54",
+        "tests_to_run": [
+            "tests/iotools/test_era5.py"
+        ],
+        "init_time": "0:00:00",
+        "test_time": "0:00:03.430000",
+        "select_time": "0:00:01.990000"
+    }
+]

@@ -1,0 +1,1529 @@
+[
+  {
+    "affected_functions_by_test": {
+      "tests/unittest_pyreverse_diadefs.py": [
+        "pylint/pyreverse/diagrams.py::ClassDiagram.class_names",
+        "pylint/pyreverse/inspector.py::Linker.handle_assignattr_type",
+        "pylint/pyreverse/inspector.py::Linker.visit_assignname",
+        "pylint/pyreverse/utils.py::get_annotation",
+        "pylint/pyreverse/utils.py::get_annotation_label",
+        "pylint/pyreverse/utils.py::infer_node"
+      ],
+      "tests/unittest_pyreverse_inspector.py": [
+        "pylint/pyreverse/inspector.py::Linker.handle_assignattr_type",
+        "pylint/pyreverse/inspector.py::Linker.visit_assignname",
+        "pylint/pyreverse/utils.py::get_annotation",
+        "pylint/pyreverse/utils.py::get_annotation_label",
+        "pylint/pyreverse/utils.py::infer_node"
+      ],
+      "tests/unittest_pyreverse_writer.py": [
+        "pylint/pyreverse/diagrams.py::ClassDiagram.class_names",
+        "pylint/pyreverse/inspector.py::Linker.handle_assignattr_type",
+        "pylint/pyreverse/inspector.py::Linker.visit_assignname",
+        "pylint/pyreverse/utils.py::get_annotation",
+        "pylint/pyreverse/utils.py::get_annotation_label",
+        "pylint/pyreverse/utils.py::infer_node",
+        "pylint/pyreverse/writer.py::DotWriter.get_values"
+      ]
+    },
+    "base_commit": "99589b08de8c5a2c6cc61e13a37420a868c80599",
+    "dynamic_hit_tests": [
+      "tests/unittest_pyreverse_diadefs.py",
+      "tests/unittest_pyreverse_inspector.py",
+      "tests/unittest_pyreverse_writer.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "tests/unittest_pyreverse_diadefs.py",
+      "tests/unittest_pyreverse_inspector.py",
+      "tests/unittest_pyreverse_writer.py"
+    ],
+    "elapsed_seconds": 53.904,
+    "failed_test_files": [
+      "tests/acceptance/test_stdlib.py",
+      "tests/checkers/unittest_imports.py",
+      "tests/functional/t/test_compile.py",
+      "tests/regrtest_data/test_pylintrc_comments.py",
+      "tests/test_functional.py"
+    ],
+    "in_test_hit_tests": [
+      "tests/unittest_pyreverse_diadefs.py",
+      "tests/unittest_pyreverse_inspector.py",
+      "tests/unittest_pyreverse_writer.py"
+    ],
+    "instance_id": "pylint-dev__pylint-4551",
+    "modified_functions": [
+      {
+        "insertion_line": 120,
+        "line": 118,
+        "marker": "pylint/pyreverse/diagrams.py::ClassDiagram.class_names",
+        "path": "pylint/pyreverse/diagrams.py",
+        "qualname": "ClassDiagram.class_names"
+      },
+      {
+        "insertion_line": 228,
+        "line": 223,
+        "marker": "pylint/pyreverse/inspector.py::Linker.handle_assignattr_type",
+        "path": "pylint/pyreverse/inspector.py",
+        "qualname": "Linker.handle_assignattr_type"
+      },
+      {
+        "insertion_line": 199,
+        "line": 192,
+        "marker": "pylint/pyreverse/inspector.py::Linker.visit_assignname",
+        "path": "pylint/pyreverse/inspector.py",
+        "qualname": "Linker.visit_assignname"
+      },
+      {
+        "insertion_line": 234,
+        "line": 230,
+        "marker": "pylint/pyreverse/utils.py::get_annotation",
+        "path": "pylint/pyreverse/utils.py",
+        "qualname": "get_annotation"
+      },
+      {
+        "insertion_line": 222,
+        "line": 221,
+        "marker": "pylint/pyreverse/utils.py::get_annotation_label",
+        "path": "pylint/pyreverse/utils.py",
+        "qualname": "get_annotation_label"
+      },
+      {
+        "insertion_line": 269,
+        "line": 265,
+        "marker": "pylint/pyreverse/utils.py::infer_node",
+        "path": "pylint/pyreverse/utils.py",
+        "qualname": "infer_node"
+      },
+      {
+        "insertion_line": 131,
+        "line": 126,
+        "marker": "pylint/pyreverse/writer.py::DotWriter.get_values",
+        "path": "pylint/pyreverse/writer.py",
+        "qualname": "DotWriter.get_values"
+      }
+    ],
+    "passed_test_files": 59,
+    "patch_file": "99589b08de8c5a2c6cc61e13a37420a868c80599/golden.patch",
+    "project": "pylint-dev/pylint",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/pylint/ground_truth_runs/pylint-dev__pylint-4551_1784792199_755480",
+    "test_env": "RTSTest39_pylint_7d52f971",
+    "tests_to_run": [
+      "tests/unittest_pyreverse_diadefs.py",
+      "tests/unittest_pyreverse_inspector.py",
+      "tests/unittest_pyreverse_writer.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 64,
+    "uninstrumentable_changes": [],
+    "version": "2.9"
+  },
+  {
+    "affected_functions_by_test": {
+      "tests/acceptance/test_stdlib.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/benchmark/test_baseline_benchmarks.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/checkers/unittest_base.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/checkers/unittest_classes.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/checkers/unittest_deprecated.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/checkers/unittest_exceptions.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/checkers/unittest_format.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/checkers/unittest_imports.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/checkers/unittest_logging.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/checkers/unittest_misc.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/checkers/unittest_python3.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/checkers/unittest_refactoring.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/checkers/unittest_similar.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/checkers/unittest_spelling.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/checkers/unittest_stdlib.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/checkers/unittest_strings.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/checkers/unittest_typecheck.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/checkers/unittest_utils.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/checkers/unittest_variables.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/extensions/test_bad_builtin.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/extensions/test_broad_try_clause.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/extensions/test_check_docs.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/extensions/test_check_docs_utils.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/extensions/test_check_mccabe.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/extensions/test_check_raise_docs.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/extensions/test_check_return_docs.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/extensions/test_check_yields_docs.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/extensions/test_comparetozero.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/extensions/test_confusing_elif.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/extensions/test_docstyle.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/extensions/test_elseif_used.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/extensions/test_empty_comment.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/extensions/test_emptystring.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/extensions/test_overlapping_exceptions.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/extensions/test_redefined.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/functional/t/test_compile.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/lint/unittest_expand_modules.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/lint/unittest_lint.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/message/unittest_message.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/message/unittest_message_definition.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/message/unittest_message_definition_store.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/message/unittest_message_id_store.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/profile/test_profile_against_externals.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/regrtest_data/test_pylintrc_comments.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/test_check_parallel.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/test_config.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/test_epylint.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/test_func.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/test_functional.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/test_import_graph.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/test_numversion.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/test_pragma_parser.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/test_pylint_runners.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/test_regr.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/test_self.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/testutils/test_output_line.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/unittest_config.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/unittest_pyreverse_diadefs.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/unittest_pyreverse_inspector.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/unittest_pyreverse_writer.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/unittest_reporters_json.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/unittest_reporting.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/utils/unittest_ast_walker.py": [
+        "pylint/config/__init__.py::<module>"
+      ],
+      "tests/utils/unittest_utils.py": [
+        "pylint/config/__init__.py::<module>"
+      ]
+    },
+    "base_commit": "1d1619ef913b99b06647d2030bddff4800abdf63",
+    "dynamic_hit_tests": [
+      "tests/benchmark/test_baseline_benchmarks.py",
+      "tests/checkers/unittest_base.py",
+      "tests/checkers/unittest_classes.py",
+      "tests/checkers/unittest_deprecated.py",
+      "tests/checkers/unittest_exceptions.py",
+      "tests/checkers/unittest_format.py",
+      "tests/checkers/unittest_logging.py",
+      "tests/checkers/unittest_misc.py",
+      "tests/checkers/unittest_python3.py",
+      "tests/checkers/unittest_refactoring.py",
+      "tests/checkers/unittest_similar.py",
+      "tests/checkers/unittest_spelling.py",
+      "tests/checkers/unittest_stdlib.py",
+      "tests/checkers/unittest_strings.py",
+      "tests/checkers/unittest_typecheck.py",
+      "tests/checkers/unittest_utils.py",
+      "tests/checkers/unittest_variables.py",
+      "tests/extensions/test_bad_builtin.py",
+      "tests/extensions/test_broad_try_clause.py",
+      "tests/extensions/test_check_docs.py",
+      "tests/extensions/test_check_docs_utils.py",
+      "tests/extensions/test_check_mccabe.py",
+      "tests/extensions/test_check_raise_docs.py",
+      "tests/extensions/test_check_return_docs.py",
+      "tests/extensions/test_check_yields_docs.py",
+      "tests/extensions/test_comparetozero.py",
+      "tests/extensions/test_confusing_elif.py",
+      "tests/extensions/test_docstyle.py",
+      "tests/extensions/test_elseif_used.py",
+      "tests/extensions/test_empty_comment.py",
+      "tests/extensions/test_emptystring.py",
+      "tests/extensions/test_overlapping_exceptions.py",
+      "tests/extensions/test_redefined.py",
+      "tests/lint/unittest_expand_modules.py",
+      "tests/message/unittest_message.py",
+      "tests/message/unittest_message_definition.py",
+      "tests/message/unittest_message_definition_store.py",
+      "tests/message/unittest_message_id_store.py",
+      "tests/profile/test_profile_against_externals.py",
+      "tests/test_check_parallel.py",
+      "tests/test_config.py",
+      "tests/test_func.py",
+      "tests/test_import_graph.py",
+      "tests/test_numversion.py",
+      "tests/test_pragma_parser.py",
+      "tests/test_pylint_runners.py",
+      "tests/test_regr.py",
+      "tests/test_self.py",
+      "tests/testutils/test_output_line.py",
+      "tests/unittest_config.py",
+      "tests/unittest_pyreverse_diadefs.py",
+      "tests/unittest_pyreverse_inspector.py",
+      "tests/unittest_pyreverse_writer.py",
+      "tests/unittest_reporters_json.py",
+      "tests/unittest_reporting.py",
+      "tests/utils/unittest_ast_walker.py",
+      "tests/utils/unittest_utils.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "tests/acceptance/test_stdlib.py",
+      "tests/benchmark/test_baseline_benchmarks.py",
+      "tests/checkers/unittest_base.py",
+      "tests/checkers/unittest_classes.py",
+      "tests/checkers/unittest_deprecated.py",
+      "tests/checkers/unittest_exceptions.py",
+      "tests/checkers/unittest_format.py",
+      "tests/checkers/unittest_imports.py",
+      "tests/checkers/unittest_logging.py",
+      "tests/checkers/unittest_misc.py",
+      "tests/checkers/unittest_python3.py",
+      "tests/checkers/unittest_refactoring.py",
+      "tests/checkers/unittest_similar.py",
+      "tests/checkers/unittest_spelling.py",
+      "tests/checkers/unittest_stdlib.py",
+      "tests/checkers/unittest_strings.py",
+      "tests/checkers/unittest_typecheck.py",
+      "tests/checkers/unittest_utils.py",
+      "tests/checkers/unittest_variables.py",
+      "tests/extensions/test_bad_builtin.py",
+      "tests/extensions/test_broad_try_clause.py",
+      "tests/extensions/test_check_docs.py",
+      "tests/extensions/test_check_docs_utils.py",
+      "tests/extensions/test_check_mccabe.py",
+      "tests/extensions/test_check_raise_docs.py",
+      "tests/extensions/test_check_return_docs.py",
+      "tests/extensions/test_check_yields_docs.py",
+      "tests/extensions/test_comparetozero.py",
+      "tests/extensions/test_confusing_elif.py",
+      "tests/extensions/test_docstyle.py",
+      "tests/extensions/test_elseif_used.py",
+      "tests/extensions/test_empty_comment.py",
+      "tests/extensions/test_emptystring.py",
+      "tests/extensions/test_overlapping_exceptions.py",
+      "tests/extensions/test_redefined.py",
+      "tests/functional/t/test_compile.py",
+      "tests/lint/unittest_expand_modules.py",
+      "tests/lint/unittest_lint.py",
+      "tests/message/unittest_message.py",
+      "tests/message/unittest_message_definition.py",
+      "tests/message/unittest_message_definition_store.py",
+      "tests/message/unittest_message_id_store.py",
+      "tests/profile/test_profile_against_externals.py",
+      "tests/regrtest_data/test_pylintrc_comments.py",
+      "tests/test_check_parallel.py",
+      "tests/test_config.py",
+      "tests/test_epylint.py",
+      "tests/test_func.py",
+      "tests/test_functional.py",
+      "tests/test_import_graph.py",
+      "tests/test_numversion.py",
+      "tests/test_pragma_parser.py",
+      "tests/test_pylint_runners.py",
+      "tests/test_regr.py",
+      "tests/test_self.py",
+      "tests/testutils/test_output_line.py",
+      "tests/unittest_config.py",
+      "tests/unittest_pyreverse_diadefs.py",
+      "tests/unittest_pyreverse_inspector.py",
+      "tests/unittest_pyreverse_writer.py",
+      "tests/unittest_reporters_json.py",
+      "tests/unittest_reporting.py",
+      "tests/utils/unittest_ast_walker.py",
+      "tests/utils/unittest_utils.py"
+    ],
+    "elapsed_seconds": 57.534,
+    "failed_test_files": [
+      "tests/acceptance/test_stdlib.py",
+      "tests/checkers/unittest_imports.py",
+      "tests/functional/t/test_compile.py",
+      "tests/lint/unittest_lint.py",
+      "tests/regrtest_data/test_pylintrc_comments.py",
+      "tests/test_epylint.py",
+      "tests/test_functional.py"
+    ],
+    "in_test_hit_tests": [
+      "tests/test_pylint_runners.py",
+      "tests/test_self.py"
+    ],
+    "instance_id": "pylint-dev__pylint-4661",
+    "modified_functions": [
+      {
+        "insertion_line": 35,
+        "line": 1,
+        "marker": "pylint/config/__init__.py::<module>",
+        "path": "pylint/config/__init__.py",
+        "qualname": "<module>"
+      }
+    ],
+    "passed_test_files": 57,
+    "patch_file": "1d1619ef913b99b06647d2030bddff4800abdf63/golden.patch",
+    "project": "pylint-dev/pylint",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/pylint/ground_truth_runs/pylint-dev__pylint-4661_1784795224_818845",
+    "semantic_excluded_tests": [
+      "tests/benchmark/test_baseline_benchmarks.py",
+      "tests/checkers/unittest_base.py",
+      "tests/checkers/unittest_classes.py",
+      "tests/checkers/unittest_deprecated.py",
+      "tests/checkers/unittest_exceptions.py",
+      "tests/checkers/unittest_format.py",
+      "tests/checkers/unittest_logging.py",
+      "tests/checkers/unittest_misc.py",
+      "tests/checkers/unittest_python3.py",
+      "tests/checkers/unittest_refactoring.py",
+      "tests/checkers/unittest_similar.py",
+      "tests/checkers/unittest_spelling.py",
+      "tests/checkers/unittest_stdlib.py",
+      "tests/checkers/unittest_strings.py",
+      "tests/checkers/unittest_typecheck.py",
+      "tests/checkers/unittest_utils.py",
+      "tests/checkers/unittest_variables.py",
+      "tests/extensions/test_bad_builtin.py",
+      "tests/extensions/test_broad_try_clause.py",
+      "tests/extensions/test_check_docs.py",
+      "tests/extensions/test_check_docs_utils.py",
+      "tests/extensions/test_check_mccabe.py",
+      "tests/extensions/test_check_raise_docs.py",
+      "tests/extensions/test_check_return_docs.py",
+      "tests/extensions/test_check_yields_docs.py",
+      "tests/extensions/test_comparetozero.py",
+      "tests/extensions/test_confusing_elif.py",
+      "tests/extensions/test_docstyle.py",
+      "tests/extensions/test_elseif_used.py",
+      "tests/extensions/test_empty_comment.py",
+      "tests/extensions/test_emptystring.py",
+      "tests/extensions/test_overlapping_exceptions.py",
+      "tests/extensions/test_redefined.py",
+      "tests/lint/unittest_expand_modules.py",
+      "tests/message/unittest_message.py",
+      "tests/message/unittest_message_definition.py",
+      "tests/message/unittest_message_definition_store.py",
+      "tests/message/unittest_message_id_store.py",
+      "tests/profile/test_profile_against_externals.py",
+      "tests/test_check_parallel.py",
+      "tests/test_config.py",
+      "tests/test_func.py",
+      "tests/test_import_graph.py",
+      "tests/test_numversion.py",
+      "tests/test_pragma_parser.py",
+      "tests/test_pylint_runners.py",
+      "tests/test_regr.py",
+      "tests/test_self.py",
+      "tests/testutils/test_output_line.py",
+      "tests/unittest_config.py",
+      "tests/unittest_pyreverse_diadefs.py",
+      "tests/unittest_pyreverse_inspector.py",
+      "tests/unittest_pyreverse_writer.py",
+      "tests/unittest_reporters_json.py",
+      "tests/unittest_reporting.py",
+      "tests/utils/unittest_ast_walker.py",
+      "tests/utils/unittest_utils.py"
+    ],
+    "semantic_review": {
+      "classification": "module-import-without-global-value-use",
+      "evidence": {
+        "direct_value_assertion_files": [
+          "tests/lint/unittest_lint.py"
+        ],
+        "direct_value_assertion_status": "nonzero and therefore outside passing ground truth",
+        "trace_file": "runtime/python39/pylint/semantic_reviews/pylint-dev__pylint-4661.json"
+      },
+      "exclude_all_dynamic_hits": true,
+      "instance_id": "pylint-dev__pylint-4661",
+      "python_version_related": false,
+      "reason": "Passing candidates only import pylint.config. The only test file that directly checks PYLINT_HOME fails against the patched behavior and is not part of passing ground truth."
+    },
+    "test_env": "RTSTest39_pylint_925b100c",
+    "tests_to_run": [],
+    "timed_out_test_files": [],
+    "total_tests": 64,
+    "uninstrumentable_changes": [],
+    "version": "2.10"
+  },
+  {
+    "affected_functions_by_test": {
+      "tests/benchmark/test_baseline_benchmarks.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ],
+      "tests/checkers/unittest_format.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ],
+      "tests/checkers/unittest_imports.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ],
+      "tests/checkers/unittest_refactoring.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ],
+      "tests/checkers/unittest_variables.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ],
+      "tests/config/test_argparse_config.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ],
+      "tests/config/test_config.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ],
+      "tests/config/test_functional_config_loading.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ],
+      "tests/lint/test_pylinter.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ],
+      "tests/lint/test_utils.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ],
+      "tests/lint/unittest_expand_modules.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ],
+      "tests/lint/unittest_lint.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ],
+      "tests/message/unittest_message_id_store.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ],
+      "tests/test_check_parallel.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ],
+      "tests/test_epylint.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ],
+      "tests/test_func.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ],
+      "tests/test_functional.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ],
+      "tests/test_import_graph.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ],
+      "tests/test_pylint_runners.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ],
+      "tests/test_regr.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ],
+      "tests/test_self.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules",
+        "pylint/lint/pylinter.py::PyLinter._discover_files"
+      ],
+      "tests/test_similar.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ],
+      "tests/testutils/test_lint_module_output_update.py": [
+        "pylint/lint/expand_modules.py::_is_ignored_file",
+        "pylint/lint/expand_modules.py::expand_modules"
+      ]
+    },
+    "base_commit": "273a8b25620467c1e5686aa8d2a1dbb8c02c78d0",
+    "dynamic_hit_tests": [
+      "tests/benchmark/test_baseline_benchmarks.py",
+      "tests/checkers/unittest_format.py",
+      "tests/checkers/unittest_refactoring.py",
+      "tests/checkers/unittest_variables.py",
+      "tests/config/test_argparse_config.py",
+      "tests/config/test_config.py",
+      "tests/config/test_functional_config_loading.py",
+      "tests/lint/test_pylinter.py",
+      "tests/lint/test_utils.py",
+      "tests/lint/unittest_expand_modules.py",
+      "tests/lint/unittest_lint.py",
+      "tests/message/unittest_message_id_store.py",
+      "tests/test_check_parallel.py",
+      "tests/test_epylint.py",
+      "tests/test_func.py",
+      "tests/test_import_graph.py",
+      "tests/test_pylint_runners.py",
+      "tests/test_regr.py",
+      "tests/test_similar.py",
+      "tests/testutils/test_lint_module_output_update.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "tests/benchmark/test_baseline_benchmarks.py",
+      "tests/checkers/unittest_format.py",
+      "tests/checkers/unittest_imports.py",
+      "tests/checkers/unittest_refactoring.py",
+      "tests/checkers/unittest_variables.py",
+      "tests/config/test_argparse_config.py",
+      "tests/config/test_config.py",
+      "tests/config/test_functional_config_loading.py",
+      "tests/lint/test_pylinter.py",
+      "tests/lint/test_utils.py",
+      "tests/lint/unittest_expand_modules.py",
+      "tests/lint/unittest_lint.py",
+      "tests/message/unittest_message_id_store.py",
+      "tests/test_check_parallel.py",
+      "tests/test_epylint.py",
+      "tests/test_func.py",
+      "tests/test_functional.py",
+      "tests/test_import_graph.py",
+      "tests/test_pylint_runners.py",
+      "tests/test_regr.py",
+      "tests/test_self.py",
+      "tests/test_similar.py",
+      "tests/testutils/test_lint_module_output_update.py"
+    ],
+    "elapsed_seconds": 66.635,
+    "failed_test_files": [
+      "tests/checkers/unittest_imports.py",
+      "tests/functional/t/test_compile.py",
+      "tests/primer/test_primer_external.py",
+      "tests/regrtest_data/test_pylintrc_comments.py",
+      "tests/test_functional.py",
+      "tests/test_self.py",
+      "tests/testutils/test_package_to_lint.py"
+    ],
+    "in_test_hit_tests": [
+      "tests/benchmark/test_baseline_benchmarks.py",
+      "tests/checkers/unittest_format.py",
+      "tests/checkers/unittest_refactoring.py",
+      "tests/checkers/unittest_variables.py",
+      "tests/config/test_argparse_config.py",
+      "tests/config/test_config.py",
+      "tests/config/test_functional_config_loading.py",
+      "tests/lint/test_pylinter.py",
+      "tests/lint/test_utils.py",
+      "tests/lint/unittest_expand_modules.py",
+      "tests/lint/unittest_lint.py",
+      "tests/message/unittest_message_id_store.py",
+      "tests/test_check_parallel.py",
+      "tests/test_epylint.py",
+      "tests/test_func.py",
+      "tests/test_import_graph.py",
+      "tests/test_pylint_runners.py",
+      "tests/test_regr.py",
+      "tests/test_similar.py",
+      "tests/testutils/test_lint_module_output_update.py"
+    ],
+    "instance_id": "pylint-dev__pylint-6528",
+    "modified_functions": [
+      {
+        "insertion_line": 55,
+        "line": 49,
+        "marker": "pylint/lint/expand_modules.py::_is_ignored_file",
+        "path": "pylint/lint/expand_modules.py",
+        "qualname": "_is_ignored_file"
+      },
+      {
+        "insertion_line": 72,
+        "line": 63,
+        "marker": "pylint/lint/expand_modules.py::expand_modules",
+        "path": "pylint/lint/expand_modules.py",
+        "qualname": "expand_modules"
+      },
+      {
+        "insertion_line": 572,
+        "line": 567,
+        "marker": "pylint/lint/pylinter.py::PyLinter._discover_files",
+        "path": "pylint/lint/pylinter.py",
+        "qualname": "PyLinter._discover_files"
+      }
+    ],
+    "passed_test_files": 70,
+    "patch_file": "273a8b25620467c1e5686aa8d2a1dbb8c02c78d0/golden.patch",
+    "project": "pylint-dev/pylint",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/pylint/ground_truth_runs/pylint-dev__pylint-6528_1784795289_824122",
+    "semantic_excluded_tests": [
+      "tests/benchmark/test_baseline_benchmarks.py",
+      "tests/checkers/unittest_format.py",
+      "tests/checkers/unittest_refactoring.py",
+      "tests/checkers/unittest_variables.py",
+      "tests/config/test_argparse_config.py",
+      "tests/config/test_config.py",
+      "tests/config/test_functional_config_loading.py",
+      "tests/lint/test_pylinter.py",
+      "tests/lint/test_utils.py",
+      "tests/lint/unittest_expand_modules.py",
+      "tests/lint/unittest_lint.py",
+      "tests/message/unittest_message_id_store.py",
+      "tests/test_check_parallel.py",
+      "tests/test_epylint.py",
+      "tests/test_func.py",
+      "tests/test_import_graph.py",
+      "tests/test_pylint_runners.py",
+      "tests/test_regr.py",
+      "tests/test_similar.py",
+      "tests/testutils/test_lint_module_output_update.py"
+    ],
+    "semantic_review": {
+      "classification": "refactor-hit-without-new-ignore-branch",
+      "evidence": {
+        "behavior_changing_function": "PyLinter._discover_files",
+        "passing_tests_hitting_behavior_changing_function": 0,
+        "trace_file": "runtime/python39/pylint/semantic_reviews/pylint-dev__pylint-6528.json"
+      },
+      "exclude_all_dynamic_hits": true,
+      "instance_id": "pylint-dev__pylint-6528",
+      "python_version_related": false,
+      "reason": "Passing candidates hit only the behavior-preserving extraction of _is_ignored_file from expand_modules. The sole file hitting the changed _discover_files behavior exits nonzero."
+    },
+    "test_env": "RTSTest39_pylint_3a088cf4",
+    "tests_to_run": [],
+    "timed_out_test_files": [],
+    "total_tests": 77,
+    "uninstrumentable_changes": [],
+    "version": "2.14"
+  },
+  {
+    "affected_functions_by_test": {
+      "tests/test_self.py": [
+        "pylint/__init__.py::modify_sys_path"
+      ]
+    },
+    "base_commit": "684a1d6aa0a6791e20078bc524f97c8906332390",
+    "dynamic_hit_tests": [],
+    "dynamic_hit_tests_all": [
+      "tests/test_self.py"
+    ],
+    "elapsed_seconds": 64.704,
+    "failed_test_files": [
+      "tests/checkers/unittest_imports.py",
+      "tests/config/pylint_config/test_pylint_config_generate.py",
+      "tests/functional/t/test_compile.py",
+      "tests/primer/test_primer_external.py",
+      "tests/regrtest_data/test_pylintrc_comments.py",
+      "tests/test_functional.py",
+      "tests/test_self.py",
+      "tests/testutils/_primer/test_package_to_lint.py",
+      "tests/testutils/_primer/test_primer.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "pylint-dev__pylint-7277",
+    "modified_functions": [
+      {
+        "insertion_line": 99,
+        "line": 80,
+        "marker": "pylint/__init__.py::modify_sys_path",
+        "path": "pylint/__init__.py",
+        "qualname": "modify_sys_path"
+      }
+    ],
+    "passed_test_files": 76,
+    "patch_file": "684a1d6aa0a6791e20078bc524f97c8906332390/golden.patch",
+    "project": "pylint-dev/pylint",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/pylint/ground_truth_runs/pylint-dev__pylint-7277_1784794829_796664",
+    "test_env": "RTSTest39_pylint_15b402f8",
+    "tests_to_run": [],
+    "timed_out_test_files": [],
+    "total_tests": 85,
+    "uninstrumentable_changes": [],
+    "version": "2.15"
+  },
+  {
+    "affected_functions_by_test": {
+      "tests/benchmark/test_baseline_benchmarks.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/base/unittest_base.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/base/unittest_multi_naming_style.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/base/unittest_name_preset.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/unittest_base_checker.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/unittest_deprecated.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/unittest_design.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/unittest_format.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/unittest_imports.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/unittest_misc.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/unittest_non_ascii_name.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/unittest_refactoring.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/unittest_similar.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/unittest_spelling.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/unittest_stdlib.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/unittest_strings.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/unittest_typecheck.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/unittest_unicode/unittest_bad_chars.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/unittest_unicode/unittest_bidirectional_unicode.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/unittest_unicode/unittest_functions.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/unittest_unicode/unittest_invalid_encoding.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/unittest_utils.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/checkers/unittest_variables.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/config/pylint_config/test_pylint_config_generate.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/config/pylint_config/test_pylint_config_help.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/config/pylint_config/test_pylint_config_utils.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/config/pylint_config/test_run_pylint_config.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/config/test_argparse_config.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/config/test_config.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/config/test_find_default_config_files.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/config/test_functional_config_loading.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/config/test_per_directory_config.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/extensions/test_check_docs_utils.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/extensions/test_private_import.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/functional/t/test_compile.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/lint/test_caching.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/lint/test_pylinter.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/lint/test_run_pylint.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/lint/test_utils.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/lint/unittest_expand_modules.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/lint/unittest_lint.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/message/test_no_removed_msgid_or_symbol_used.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/message/unittest_message.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/message/unittest_message_definition.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/message/unittest_message_definition_store.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/message/unittest_message_id_store.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/primer/test_primer_stdlib.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/profile/test_profile_against_externals.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/pyreverse/test_diadefs.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/pyreverse/test_diagrams.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/pyreverse/test_inspector.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/pyreverse/test_main.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/pyreverse/test_printer.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/pyreverse/test_printer_factory.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/pyreverse/test_pyreverse_functional.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/pyreverse/test_utils.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/pyreverse/test_writer.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/regrtest_data/test_no_name_in_module.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/regrtest_data/test_pylintrc_comments.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/reporters/unittest_json_reporter.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/reporters/unittest_reporting.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/test_check_parallel.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/test_func.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/test_functional.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/test_functional_directories.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/test_import_graph.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/test_numversion.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/test_pragma_parser.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/test_pylint_runners.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/test_regr.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/test_self.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/test_similar.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/testutils/_primer/test_package_to_lint.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/testutils/_primer/test_primer.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/testutils/test_configuration_test.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/testutils/test_functional_testutils.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/testutils/test_lint_module_output_update.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/testutils/test_output_line.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/testutils/test_pyreverse_testutils.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/testutils/test_testutils_utils.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/utils/unittest_ast_walker.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ],
+      "tests/utils/unittest_utils.py": [
+        "pylint/config/argument.py::_regexp_csv_transfomer",
+        "pylint/utils/__init__.py::<module>",
+        "pylint/utils/utils.py::_check_regexp_csv"
+      ]
+    },
+    "base_commit": "1f8c4d9eb185c16a2c1d881c054f015e1c2eb334",
+    "dynamic_hit_tests": [
+      "tests/checkers/base/unittest_base.py",
+      "tests/checkers/base/unittest_name_preset.py",
+      "tests/checkers/unittest_base_checker.py",
+      "tests/checkers/unittest_deprecated.py",
+      "tests/checkers/unittest_format.py",
+      "tests/checkers/unittest_misc.py",
+      "tests/checkers/unittest_non_ascii_name.py",
+      "tests/checkers/unittest_similar.py",
+      "tests/checkers/unittest_spelling.py",
+      "tests/checkers/unittest_stdlib.py",
+      "tests/checkers/unittest_strings.py",
+      "tests/checkers/unittest_typecheck.py",
+      "tests/checkers/unittest_unicode/unittest_bad_chars.py",
+      "tests/checkers/unittest_unicode/unittest_bidirectional_unicode.py",
+      "tests/checkers/unittest_unicode/unittest_functions.py",
+      "tests/checkers/unittest_unicode/unittest_invalid_encoding.py",
+      "tests/checkers/unittest_utils.py",
+      "tests/checkers/unittest_variables.py",
+      "tests/config/pylint_config/test_pylint_config_utils.py",
+      "tests/extensions/test_check_docs_utils.py",
+      "tests/extensions/test_private_import.py",
+      "tests/lint/test_caching.py",
+      "tests/lint/unittest_expand_modules.py",
+      "tests/message/unittest_message.py",
+      "tests/message/unittest_message_definition.py",
+      "tests/message/unittest_message_definition_store.py",
+      "tests/primer/test_primer_stdlib.py",
+      "tests/pyreverse/test_diadefs.py",
+      "tests/pyreverse/test_diagrams.py",
+      "tests/pyreverse/test_inspector.py",
+      "tests/pyreverse/test_main.py",
+      "tests/pyreverse/test_printer.py",
+      "tests/pyreverse/test_printer_factory.py",
+      "tests/pyreverse/test_pyreverse_functional.py",
+      "tests/pyreverse/test_utils.py",
+      "tests/pyreverse/test_writer.py",
+      "tests/test_check_parallel.py",
+      "tests/test_func.py",
+      "tests/test_functional_directories.py",
+      "tests/test_numversion.py",
+      "tests/test_pragma_parser.py",
+      "tests/testutils/test_configuration_test.py",
+      "tests/testutils/test_output_line.py",
+      "tests/testutils/test_pyreverse_testutils.py",
+      "tests/testutils/test_testutils_utils.py",
+      "tests/utils/unittest_ast_walker.py",
+      "tests/utils/unittest_utils.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "tests/benchmark/test_baseline_benchmarks.py",
+      "tests/checkers/base/unittest_base.py",
+      "tests/checkers/base/unittest_multi_naming_style.py",
+      "tests/checkers/base/unittest_name_preset.py",
+      "tests/checkers/unittest_base_checker.py",
+      "tests/checkers/unittest_deprecated.py",
+      "tests/checkers/unittest_design.py",
+      "tests/checkers/unittest_format.py",
+      "tests/checkers/unittest_imports.py",
+      "tests/checkers/unittest_misc.py",
+      "tests/checkers/unittest_non_ascii_name.py",
+      "tests/checkers/unittest_refactoring.py",
+      "tests/checkers/unittest_similar.py",
+      "tests/checkers/unittest_spelling.py",
+      "tests/checkers/unittest_stdlib.py",
+      "tests/checkers/unittest_strings.py",
+      "tests/checkers/unittest_typecheck.py",
+      "tests/checkers/unittest_unicode/unittest_bad_chars.py",
+      "tests/checkers/unittest_unicode/unittest_bidirectional_unicode.py",
+      "tests/checkers/unittest_unicode/unittest_functions.py",
+      "tests/checkers/unittest_unicode/unittest_invalid_encoding.py",
+      "tests/checkers/unittest_utils.py",
+      "tests/checkers/unittest_variables.py",
+      "tests/config/pylint_config/test_pylint_config_generate.py",
+      "tests/config/pylint_config/test_pylint_config_help.py",
+      "tests/config/pylint_config/test_pylint_config_utils.py",
+      "tests/config/pylint_config/test_run_pylint_config.py",
+      "tests/config/test_argparse_config.py",
+      "tests/config/test_config.py",
+      "tests/config/test_find_default_config_files.py",
+      "tests/config/test_functional_config_loading.py",
+      "tests/config/test_per_directory_config.py",
+      "tests/extensions/test_check_docs_utils.py",
+      "tests/extensions/test_private_import.py",
+      "tests/functional/t/test_compile.py",
+      "tests/lint/test_caching.py",
+      "tests/lint/test_pylinter.py",
+      "tests/lint/test_run_pylint.py",
+      "tests/lint/test_utils.py",
+      "tests/lint/unittest_expand_modules.py",
+      "tests/lint/unittest_lint.py",
+      "tests/message/test_no_removed_msgid_or_symbol_used.py",
+      "tests/message/unittest_message.py",
+      "tests/message/unittest_message_definition.py",
+      "tests/message/unittest_message_definition_store.py",
+      "tests/message/unittest_message_id_store.py",
+      "tests/primer/test_primer_stdlib.py",
+      "tests/profile/test_profile_against_externals.py",
+      "tests/pyreverse/test_diadefs.py",
+      "tests/pyreverse/test_diagrams.py",
+      "tests/pyreverse/test_inspector.py",
+      "tests/pyreverse/test_main.py",
+      "tests/pyreverse/test_printer.py",
+      "tests/pyreverse/test_printer_factory.py",
+      "tests/pyreverse/test_pyreverse_functional.py",
+      "tests/pyreverse/test_utils.py",
+      "tests/pyreverse/test_writer.py",
+      "tests/regrtest_data/test_no_name_in_module.py",
+      "tests/regrtest_data/test_pylintrc_comments.py",
+      "tests/reporters/unittest_json_reporter.py",
+      "tests/reporters/unittest_reporting.py",
+      "tests/test_check_parallel.py",
+      "tests/test_func.py",
+      "tests/test_functional.py",
+      "tests/test_functional_directories.py",
+      "tests/test_import_graph.py",
+      "tests/test_numversion.py",
+      "tests/test_pragma_parser.py",
+      "tests/test_pylint_runners.py",
+      "tests/test_regr.py",
+      "tests/test_self.py",
+      "tests/test_similar.py",
+      "tests/testutils/_primer/test_package_to_lint.py",
+      "tests/testutils/_primer/test_primer.py",
+      "tests/testutils/test_configuration_test.py",
+      "tests/testutils/test_functional_testutils.py",
+      "tests/testutils/test_lint_module_output_update.py",
+      "tests/testutils/test_output_line.py",
+      "tests/testutils/test_pyreverse_testutils.py",
+      "tests/testutils/test_testutils_utils.py",
+      "tests/utils/unittest_ast_walker.py",
+      "tests/utils/unittest_utils.py"
+    ],
+    "elapsed_seconds": 85.769,
+    "failed_test_files": [
+      "tests/benchmark/test_baseline_benchmarks.py",
+      "tests/checkers/base/unittest_multi_naming_style.py",
+      "tests/checkers/unittest_design.py",
+      "tests/checkers/unittest_imports.py",
+      "tests/checkers/unittest_refactoring.py",
+      "tests/config/pylint_config/test_pylint_config_generate.py",
+      "tests/config/pylint_config/test_pylint_config_help.py",
+      "tests/config/pylint_config/test_run_pylint_config.py",
+      "tests/config/test_argparse_config.py",
+      "tests/config/test_config.py",
+      "tests/config/test_find_default_config_files.py",
+      "tests/config/test_functional_config_loading.py",
+      "tests/config/test_per_directory_config.py",
+      "tests/functional/t/test_compile.py",
+      "tests/lint/test_pylinter.py",
+      "tests/lint/test_run_pylint.py",
+      "tests/lint/test_utils.py",
+      "tests/lint/unittest_lint.py",
+      "tests/message/test_no_removed_msgid_or_symbol_used.py",
+      "tests/message/unittest_message_id_store.py",
+      "tests/profile/test_profile_against_externals.py",
+      "tests/regrtest_data/test_no_name_in_module.py",
+      "tests/regrtest_data/test_pylintrc_comments.py",
+      "tests/reporters/unittest_json_reporter.py",
+      "tests/reporters/unittest_reporting.py",
+      "tests/test_functional.py",
+      "tests/test_import_graph.py",
+      "tests/test_pylint_runners.py",
+      "tests/test_regr.py",
+      "tests/test_self.py",
+      "tests/test_similar.py",
+      "tests/testutils/_primer/test_package_to_lint.py",
+      "tests/testutils/_primer/test_primer.py",
+      "tests/testutils/test_functional_testutils.py",
+      "tests/testutils/test_lint_module_output_update.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "pylint-dev__pylint-8898",
+    "modified_functions": [
+      {
+        "insertion_line": 116,
+        "line": 114,
+        "marker": "pylint/config/argument.py::_regexp_csv_transfomer",
+        "path": "pylint/config/argument.py",
+        "qualname": "_regexp_csv_transfomer"
+      },
+      {
+        "insertion_line": 9,
+        "line": 1,
+        "marker": "pylint/utils/__init__.py::<module>",
+        "path": "pylint/utils/__init__.py",
+        "qualname": "<module>"
+      },
+      {
+        "insertion_line": 260,
+        "line": 257,
+        "marker": "pylint/utils/utils.py::_check_regexp_csv",
+        "path": "pylint/utils/utils.py",
+        "qualname": "_check_regexp_csv"
+      }
+    ],
+    "passed_test_files": 47,
+    "patch_file": "1f8c4d9eb185c16a2c1d881c054f015e1c2eb334/golden.patch",
+    "project": "pylint-dev/pylint",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/pylint/ground_truth_runs/pylint-dev__pylint-8898_1784795364_827201",
+    "semantic_excluded_tests": [
+      "tests/checkers/base/unittest_base.py",
+      "tests/checkers/base/unittest_name_preset.py",
+      "tests/checkers/unittest_base_checker.py",
+      "tests/checkers/unittest_deprecated.py",
+      "tests/checkers/unittest_format.py",
+      "tests/checkers/unittest_misc.py",
+      "tests/checkers/unittest_non_ascii_name.py",
+      "tests/checkers/unittest_similar.py",
+      "tests/checkers/unittest_spelling.py",
+      "tests/checkers/unittest_stdlib.py",
+      "tests/checkers/unittest_strings.py",
+      "tests/checkers/unittest_typecheck.py",
+      "tests/checkers/unittest_unicode/unittest_bad_chars.py",
+      "tests/checkers/unittest_unicode/unittest_bidirectional_unicode.py",
+      "tests/checkers/unittest_unicode/unittest_functions.py",
+      "tests/checkers/unittest_unicode/unittest_invalid_encoding.py",
+      "tests/checkers/unittest_utils.py",
+      "tests/checkers/unittest_variables.py",
+      "tests/config/pylint_config/test_pylint_config_utils.py",
+      "tests/extensions/test_check_docs_utils.py",
+      "tests/extensions/test_private_import.py",
+      "tests/lint/test_caching.py",
+      "tests/lint/unittest_expand_modules.py",
+      "tests/message/unittest_message.py",
+      "tests/message/unittest_message_definition.py",
+      "tests/message/unittest_message_definition_store.py",
+      "tests/primer/test_primer_stdlib.py",
+      "tests/pyreverse/test_diadefs.py",
+      "tests/pyreverse/test_diagrams.py",
+      "tests/pyreverse/test_inspector.py",
+      "tests/pyreverse/test_main.py",
+      "tests/pyreverse/test_printer.py",
+      "tests/pyreverse/test_printer_factory.py",
+      "tests/pyreverse/test_pyreverse_functional.py",
+      "tests/pyreverse/test_utils.py",
+      "tests/pyreverse/test_writer.py",
+      "tests/test_check_parallel.py",
+      "tests/test_func.py",
+      "tests/test_functional_directories.py",
+      "tests/test_numversion.py",
+      "tests/test_pragma_parser.py",
+      "tests/testutils/test_configuration_test.py",
+      "tests/testutils/test_output_line.py",
+      "tests/testutils/test_pyreverse_testutils.py",
+      "tests/testutils/test_testutils_utils.py",
+      "tests/utils/unittest_ast_walker.py",
+      "tests/utils/unittest_utils.py"
+    ],
+    "semantic_review": {
+      "classification": "configuration-initialization-without-new-regexp-case",
+      "evidence": {
+        "in_test_function_hits": 0,
+        "observed_initial_values": [
+          "",
+          ""
+        ],
+        "trace_file": "runtime/python39/pylint/semantic_reviews/pylint-dev__pylint-8898.json"
+      },
+      "exclude_all_dynamic_hits": true,
+      "instance_id": "pylint-dev__pylint-8898",
+      "python_version_related": false,
+      "reason": "The patched regexp splitter is called only during initialization with empty defaults; no candidate invokes it during a test or supplies a comma-containing regexp quantifier."
+    },
+    "test_env": "RTSTest39_pylint_fcef61d0",
+    "tests_to_run": [],
+    "timed_out_test_files": [],
+    "total_tests": 82,
+    "uninstrumentable_changes": [],
+    "version": "3.0"
+  }
+]

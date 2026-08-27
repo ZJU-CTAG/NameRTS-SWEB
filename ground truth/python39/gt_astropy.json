@@ -1,0 +1,2703 @@
+[
+  {
+    "affected_functions_by_test": {
+      "astropy/table/tests/test_operations.py": [
+        "astropy/timeseries/core.py::BaseTimeSeries._check_required_columns"
+      ],
+      "astropy/timeseries/tests/test_binned.py": [
+        "astropy/timeseries/core.py::BaseTimeSeries._check_required_columns",
+        "astropy/timeseries/core.py::BaseTimeSeries._check_required_columns.as_scalar_or_list_str"
+      ],
+      "astropy/timeseries/tests/test_common.py": [
+        "astropy/timeseries/core.py::BaseTimeSeries._check_required_columns"
+      ],
+      "astropy/timeseries/tests/test_downsample.py": [
+        "astropy/timeseries/core.py::BaseTimeSeries._check_required_columns"
+      ],
+      "astropy/timeseries/tests/test_sampled.py": [
+        "astropy/timeseries/core.py::BaseTimeSeries._check_required_columns",
+        "astropy/timeseries/core.py::BaseTimeSeries._check_required_columns.as_scalar_or_list_str"
+      ]
+    },
+    "base_commit": "298ccb478e6bf092953bca67a3d29dc6c35f6752",
+    "dynamic_hit_tests": [],
+    "dynamic_hit_tests_all": [
+      "astropy/table/tests/test_operations.py",
+      "astropy/timeseries/tests/test_binned.py",
+      "astropy/timeseries/tests/test_common.py",
+      "astropy/timeseries/tests/test_downsample.py",
+      "astropy/timeseries/tests/test_sampled.py"
+    ],
+    "elapsed_seconds": 68.115,
+    "failed_test_files": [
+      "astropy/convolution/tests/test_convolve.py",
+      "astropy/convolution/tests/test_convolve_fft.py",
+      "astropy/convolution/tests/test_convolve_kernels.py",
+      "astropy/convolution/tests/test_convolve_models.py",
+      "astropy/convolution/tests/test_convolve_nddata.py",
+      "astropy/convolution/tests/test_convolve_speeds.py",
+      "astropy/convolution/tests/test_discretize.py",
+      "astropy/convolution/tests/test_kernel_class.py",
+      "astropy/coordinates/tests/accuracy/test_altaz_icrs.py",
+      "astropy/coordinates/tests/accuracy/test_ecliptic.py",
+      "astropy/coordinates/tests/accuracy/test_fk4_no_e_fk4.py",
+      "astropy/coordinates/tests/accuracy/test_galactic_fk4.py",
+      "astropy/coordinates/tests/test_angular_separation.py",
+      "astropy/coordinates/tests/test_api_ape5.py",
+      "astropy/coordinates/tests/test_arrays.py",
+      "astropy/coordinates/tests/test_atc_replacements.py",
+      "astropy/coordinates/tests/test_celestial_transformations.py",
+      "astropy/coordinates/tests/test_distance.py",
+      "astropy/coordinates/tests/test_earth.py",
+      "astropy/coordinates/tests/test_erfa_astrom.py",
+      "astropy/coordinates/tests/test_finite_difference_velocities.py",
+      "astropy/coordinates/tests/test_frames.py",
+      "astropy/coordinates/tests/test_frames_with_velocity.py",
+      "astropy/coordinates/tests/test_funcs.py",
+      "astropy/coordinates/tests/test_geodetic_representations.py",
+      "astropy/coordinates/tests/test_icrs_observed_transformations.py",
+      "astropy/coordinates/tests/test_intermediate_transformations.py",
+      "astropy/coordinates/tests/test_regression.py",
+      "astropy/coordinates/tests/test_representation.py",
+      "astropy/coordinates/tests/test_representation_arithmetic.py",
+      "astropy/coordinates/tests/test_shape_manipulation.py",
+      "astropy/coordinates/tests/test_sky_coord.py",
+      "astropy/coordinates/tests/test_sky_coord_velocities.py",
+      "astropy/coordinates/tests/test_skyoffset_transformations.py",
+      "astropy/coordinates/tests/test_solar_system.py",
+      "astropy/coordinates/tests/test_spectral_coordinate.py",
+      "astropy/coordinates/tests/test_spectral_quantity.py",
+      "astropy/coordinates/tests/test_transformations.py",
+      "astropy/coordinates/tests/test_utils.py",
+      "astropy/coordinates/tests/test_velocity_corrs.py",
+      "astropy/io/ascii/tests/test_c_reader.py",
+      "astropy/io/ascii/tests/test_cds.py",
+      "astropy/io/ascii/tests/test_ecsv.py",
+      "astropy/io/ascii/tests/test_read.py",
+      "astropy/io/fits/tests/test_checksum.py",
+      "astropy/io/fits/tests/test_compression_failures.py",
+      "astropy/io/fits/tests/test_connect.py",
+      "astropy/io/fits/tests/test_convenience.py",
+      "astropy/io/fits/tests/test_core.py",
+      "astropy/io/fits/tests/test_diff.py",
+      "astropy/io/fits/tests/test_division.py",
+      "astropy/io/fits/tests/test_fitscheck.py",
+      "astropy/io/fits/tests/test_fitsdiff.py",
+      "astropy/io/fits/tests/test_fitsheader.py",
+      "astropy/io/fits/tests/test_fitsinfo.py",
+      "astropy/io/fits/tests/test_fitstime.py",
+      "astropy/io/fits/tests/test_groups.py",
+      "astropy/io/fits/tests/test_hdulist.py",
+      "astropy/io/fits/tests/test_header.py",
+      "astropy/io/fits/tests/test_image.py",
+      "astropy/io/fits/tests/test_image_dask.py",
+      "astropy/io/fits/tests/test_nonstandard.py",
+      "astropy/io/fits/tests/test_structured.py",
+      "astropy/io/fits/tests/test_table.py",
+      "astropy/io/fits/tests/test_uint.py",
+      "astropy/io/fits/tests/test_util.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_angle.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_earthlocation.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_frames.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_representation.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_skycoord.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_spectralcoord.py",
+      "astropy/io/misc/asdf/tags/fits/tests/test_fits.py",
+      "astropy/io/misc/asdf/tags/table/tests/test_table.py",
+      "astropy/io/misc/asdf/tags/time/tests/test_time.py",
+      "astropy/io/misc/asdf/tags/time/tests/test_timedelta.py",
+      "astropy/io/misc/asdf/tags/transform/tests/test_transform.py",
+      "astropy/io/misc/asdf/tags/transform/tests/test_units_mapping.py",
+      "astropy/io/misc/asdf/tags/unit/tests/test_equivalency.py",
+      "astropy/io/misc/asdf/tags/unit/tests/test_quantity.py",
+      "astropy/io/misc/asdf/tags/unit/tests/test_unit.py",
+      "astropy/io/misc/asdf/tests/test_io.py",
+      "astropy/io/misc/tests/test_pandas.py",
+      "astropy/io/misc/tests/test_parquet.py",
+      "astropy/modeling/tests/test_bounding_box.py",
+      "astropy/modeling/tests/test_compound.py",
+      "astropy/modeling/tests/test_functional_models.py",
+      "astropy/modeling/tests/test_mappings.py",
+      "astropy/modeling/tests/test_models.py",
+      "astropy/modeling/tests/test_models_quantities.py",
+      "astropy/modeling/tests/test_parameters.py",
+      "astropy/modeling/tests/test_polynomial.py",
+      "astropy/modeling/tests/test_quantities_rotations.py",
+      "astropy/modeling/tests/test_rotations.py",
+      "astropy/modeling/tests/test_utils.py",
+      "astropy/samp/tests/test_helpers.py",
+      "astropy/stats/tests/test_biweight.py",
+      "astropy/table/mixins/tests/test_dask.py",
+      "astropy/table/tests/test_column.py",
+      "astropy/table/tests/test_groups.py",
+      "astropy/table/tests/test_init_table.py",
+      "astropy/table/tests/test_mixin.py",
+      "astropy/table/tests/test_operations.py",
+      "astropy/table/tests/test_table.py",
+      "astropy/time/tests/test_basic.py",
+      "astropy/time/tests/test_comparisons.py",
+      "astropy/time/tests/test_corrs.py",
+      "astropy/time/tests/test_delta.py",
+      "astropy/time/tests/test_mask.py",
+      "astropy/time/tests/test_methods.py",
+      "astropy/time/tests/test_precision.py",
+      "astropy/time/tests/test_quantity_interaction.py",
+      "astropy/time/tests/test_sidereal.py",
+      "astropy/time/tests/test_update_leap_seconds.py",
+      "astropy/time/tests/test_ut1.py",
+      "astropy/timeseries/periodograms/bls/tests/test_bls.py",
+      "astropy/timeseries/periodograms/lombscargle/tests/test_lombscargle.py",
+      "astropy/timeseries/tests/test_binned.py",
+      "astropy/timeseries/tests/test_common.py",
+      "astropy/timeseries/tests/test_downsample.py",
+      "astropy/timeseries/tests/test_sampled.py",
+      "astropy/uncertainty/tests/test_distribution.py",
+      "astropy/units/tests/test_logarithmic.py",
+      "astropy/units/tests/test_quantity.py",
+      "astropy/units/tests/test_quantity_array_methods.py",
+      "astropy/units/tests/test_quantity_non_ufuncs.py",
+      "astropy/units/tests/test_quantity_ufuncs.py",
+      "astropy/units/tests/test_structured.py",
+      "astropy/utils/iers/tests/test_iers.py",
+      "astropy/utils/iers/tests/test_leap_second.py",
+      "astropy/utils/masked/tests/test_containers.py",
+      "astropy/utils/masked/tests/test_function_helpers.py",
+      "astropy/utils/masked/tests/test_functions.py",
+      "astropy/utils/masked/tests/test_masked.py",
+      "astropy/utils/tests/test_progress_bar_func.py",
+      "astropy/visualization/tests/test_lupton_rgb.py",
+      "astropy/visualization/tests/test_time.py",
+      "astropy/visualization/wcsaxes/tests/test_coordinate_helpers.py",
+      "astropy/visualization/wcsaxes/tests/test_display_world_coordinates.py",
+      "astropy/visualization/wcsaxes/tests/test_formatter_locator.py",
+      "astropy/visualization/wcsaxes/tests/test_frame.py",
+      "astropy/visualization/wcsaxes/tests/test_grid_paths.py",
+      "astropy/visualization/wcsaxes/tests/test_images.py",
+      "astropy/visualization/wcsaxes/tests/test_misc.py",
+      "astropy/visualization/wcsaxes/tests/test_transform_coord_meta.py",
+      "astropy/visualization/wcsaxes/tests/test_transforms.py",
+      "astropy/visualization/wcsaxes/tests/test_utils.py",
+      "astropy/visualization/wcsaxes/tests/test_wcsapi.py",
+      "astropy/wcs/tests/test_utils.py",
+      "astropy/wcs/tests/test_wcs.py",
+      "astropy/wcs/wcsapi/tests/test_fitswcs.py",
+      "astropy/wcs/wcsapi/wrappers/tests/test_sliced_wcs.py",
+      "astropy_helpers/astropy_helpers/tests/test_ah_bootstrap.py",
+      "astropy_helpers/astropy_helpers/tests/test_git_helpers.py",
+      "astropy_helpers/astropy_helpers/tests/test_openmp_helpers.py",
+      "astropy_helpers/astropy_helpers/tests/test_setup_helpers.py",
+      "astropy_helpers/astropy_helpers/tests/test_utils.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "astropy__astropy-13033",
+    "modified_functions": [
+      {
+        "insertion_line": 58,
+        "line": 57,
+        "marker": "astropy/timeseries/core.py::BaseTimeSeries._check_required_columns",
+        "path": "astropy/timeseries/core.py",
+        "qualname": "BaseTimeSeries._check_required_columns"
+      },
+      {
+        "insertion_line": 59,
+        "line": 58,
+        "marker": "astropy/timeseries/core.py::BaseTimeSeries._check_required_columns.as_scalar_or_list_str",
+        "path": "astropy/timeseries/core.py",
+        "qualname": "BaseTimeSeries._check_required_columns.as_scalar_or_list_str"
+      }
+    ],
+    "passed_test_files": 179,
+    "patch_file": "298ccb478e6bf092953bca67a3d29dc6c35f6752/golden.patch",
+    "project": "astropy/astropy",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/astropy/ground_truth_runs/astropy__astropy-13033_1784794258_781252",
+    "test_env": "RTSTest39_astropy_c2590b2a",
+    "tests_to_run": [],
+    "timed_out_test_files": [],
+    "total_tests": 336,
+    "uninstrumentable_changes": [],
+    "version": "4.3"
+  },
+  {
+    "affected_functions_by_test": {
+      "astropy/io/ascii/tests/test_connect.py": [
+        "astropy/io/ascii/html.py::HTML.write"
+      ],
+      "astropy/io/ascii/tests/test_html.py": [
+        "astropy/io/ascii/html.py::HTML.write"
+      ],
+      "astropy/io/ascii/tests/test_write.py": [
+        "astropy/io/ascii/html.py::HTML.write"
+      ],
+      "astropy/table/tests/test_jsviewer.py": [
+        "astropy/io/ascii/html.py::HTML.write"
+      ],
+      "astropy/table/tests/test_mixin.py": [
+        "astropy/io/ascii/html.py::HTML.write"
+      ]
+    },
+    "base_commit": "19cc80471739bcb67b7e8099246b391c355023ee",
+    "dynamic_hit_tests": [],
+    "dynamic_hit_tests_all": [
+      "astropy/io/ascii/tests/test_connect.py",
+      "astropy/io/ascii/tests/test_html.py",
+      "astropy/io/ascii/tests/test_write.py",
+      "astropy/table/tests/test_jsviewer.py",
+      "astropy/table/tests/test_mixin.py"
+    ],
+    "elapsed_seconds": 62.653,
+    "failed_test_files": [
+      "astropy/convolution/tests/test_convolve.py",
+      "astropy/convolution/tests/test_convolve_fft.py",
+      "astropy/convolution/tests/test_convolve_kernels.py",
+      "astropy/convolution/tests/test_convolve_models.py",
+      "astropy/convolution/tests/test_convolve_nddata.py",
+      "astropy/convolution/tests/test_convolve_speeds.py",
+      "astropy/convolution/tests/test_discretize.py",
+      "astropy/convolution/tests/test_kernel_class.py",
+      "astropy/coordinates/tests/accuracy/test_altaz_icrs.py",
+      "astropy/coordinates/tests/accuracy/test_ecliptic.py",
+      "astropy/coordinates/tests/test_arrays.py",
+      "astropy/coordinates/tests/test_atc_replacements.py",
+      "astropy/coordinates/tests/test_celestial_transformations.py",
+      "astropy/coordinates/tests/test_earth.py",
+      "astropy/coordinates/tests/test_erfa_astrom.py",
+      "astropy/coordinates/tests/test_finite_difference_velocities.py",
+      "astropy/coordinates/tests/test_frames.py",
+      "astropy/coordinates/tests/test_frames_with_velocity.py",
+      "astropy/coordinates/tests/test_funcs.py",
+      "astropy/coordinates/tests/test_icrs_observed_transformations.py",
+      "astropy/coordinates/tests/test_intermediate_transformations.py",
+      "astropy/coordinates/tests/test_regression.py",
+      "astropy/coordinates/tests/test_representation_arithmetic.py",
+      "astropy/coordinates/tests/test_shape_manipulation.py",
+      "astropy/coordinates/tests/test_sky_coord.py",
+      "astropy/coordinates/tests/test_skyoffset_transformations.py",
+      "astropy/coordinates/tests/test_solar_system.py",
+      "astropy/coordinates/tests/test_spectral_coordinate.py",
+      "astropy/coordinates/tests/test_spectral_quantity.py",
+      "astropy/coordinates/tests/test_transformations.py",
+      "astropy/coordinates/tests/test_utils.py",
+      "astropy/coordinates/tests/test_velocity_corrs.py",
+      "astropy/cosmology/flrw/tests/test_lambdacdm.py",
+      "astropy/io/ascii/tests/test_c_reader.py",
+      "astropy/io/ascii/tests/test_connect.py",
+      "astropy/io/ascii/tests/test_html.py",
+      "astropy/io/ascii/tests/test_read.py",
+      "astropy/io/ascii/tests/test_write.py",
+      "astropy/io/fits/tests/test_checksum.py",
+      "astropy/io/fits/tests/test_compression_failures.py",
+      "astropy/io/fits/tests/test_convenience.py",
+      "astropy/io/fits/tests/test_core.py",
+      "astropy/io/fits/tests/test_diff.py",
+      "astropy/io/fits/tests/test_division.py",
+      "astropy/io/fits/tests/test_fitscheck.py",
+      "astropy/io/fits/tests/test_fitsdiff.py",
+      "astropy/io/fits/tests/test_fitsheader.py",
+      "astropy/io/fits/tests/test_fitsinfo.py",
+      "astropy/io/fits/tests/test_fitstime.py",
+      "astropy/io/fits/tests/test_groups.py",
+      "astropy/io/fits/tests/test_hdulist.py",
+      "astropy/io/fits/tests/test_header.py",
+      "astropy/io/fits/tests/test_image.py",
+      "astropy/io/fits/tests/test_image_dask.py",
+      "astropy/io/fits/tests/test_nonstandard.py",
+      "astropy/io/fits/tests/test_structured.py",
+      "astropy/io/fits/tests/test_table.py",
+      "astropy/io/fits/tests/test_uint.py",
+      "astropy/io/fits/tests/test_util.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_angle.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_earthlocation.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_frames.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_representation.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_skycoord.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_spectralcoord.py",
+      "astropy/io/misc/asdf/tags/fits/tests/test_fits.py",
+      "astropy/io/misc/asdf/tags/table/tests/test_table.py",
+      "astropy/io/misc/asdf/tags/time/tests/test_time.py",
+      "astropy/io/misc/asdf/tags/time/tests/test_timedelta.py",
+      "astropy/io/misc/asdf/tags/transform/tests/test_transform.py",
+      "astropy/io/misc/asdf/tags/transform/tests/test_units_mapping.py",
+      "astropy/io/misc/asdf/tags/unit/tests/test_equivalency.py",
+      "astropy/io/misc/asdf/tags/unit/tests/test_quantity.py",
+      "astropy/io/misc/asdf/tags/unit/tests/test_unit.py",
+      "astropy/io/misc/asdf/tests/test_io.py",
+      "astropy/io/misc/tests/test_pandas.py",
+      "astropy/io/misc/tests/test_parquet.py",
+      "astropy/modeling/tests/test_bounding_box.py",
+      "astropy/modeling/tests/test_compound.py",
+      "astropy/modeling/tests/test_functional_models.py",
+      "astropy/modeling/tests/test_mappings.py",
+      "astropy/modeling/tests/test_models.py",
+      "astropy/modeling/tests/test_parameters.py",
+      "astropy/modeling/tests/test_polynomial.py",
+      "astropy/modeling/tests/test_quantities_rotations.py",
+      "astropy/modeling/tests/test_rotations.py",
+      "astropy/modeling/tests/test_utils.py",
+      "astropy/samp/tests/test_helpers.py",
+      "astropy/stats/tests/test_biweight.py",
+      "astropy/table/mixins/tests/test_dask.py",
+      "astropy/table/tests/test_groups.py",
+      "astropy/table/tests/test_jsviewer.py",
+      "astropy/table/tests/test_mixin.py",
+      "astropy/table/tests/test_operations.py",
+      "astropy/table/tests/test_table.py",
+      "astropy/time/tests/test_basic.py",
+      "astropy/time/tests/test_comparisons.py",
+      "astropy/time/tests/test_corrs.py",
+      "astropy/time/tests/test_delta.py",
+      "astropy/time/tests/test_mask.py",
+      "astropy/time/tests/test_methods.py",
+      "astropy/time/tests/test_precision.py",
+      "astropy/time/tests/test_quantity_interaction.py",
+      "astropy/time/tests/test_sidereal.py",
+      "astropy/time/tests/test_update_leap_seconds.py",
+      "astropy/time/tests/test_ut1.py",
+      "astropy/timeseries/periodograms/bls/tests/test_bls.py",
+      "astropy/timeseries/periodograms/lombscargle/tests/test_lombscargle.py",
+      "astropy/timeseries/tests/test_binned.py",
+      "astropy/timeseries/tests/test_common.py",
+      "astropy/timeseries/tests/test_downsample.py",
+      "astropy/timeseries/tests/test_sampled.py",
+      "astropy/uncertainty/tests/test_distribution.py",
+      "astropy/units/tests/test_logarithmic.py",
+      "astropy/units/tests/test_quantity.py",
+      "astropy/units/tests/test_quantity_array_methods.py",
+      "astropy/units/tests/test_quantity_non_ufuncs.py",
+      "astropy/units/tests/test_quantity_ufuncs.py",
+      "astropy/utils/iers/tests/test_iers.py",
+      "astropy/utils/iers/tests/test_leap_second.py",
+      "astropy/utils/masked/tests/test_containers.py",
+      "astropy/utils/masked/tests/test_function_helpers.py",
+      "astropy/utils/tests/test_progress_bar_func.py",
+      "astropy/visualization/tests/test_lupton_rgb.py",
+      "astropy/visualization/tests/test_time.py",
+      "astropy/visualization/wcsaxes/tests/test_coordinate_helpers.py",
+      "astropy/visualization/wcsaxes/tests/test_display_world_coordinates.py",
+      "astropy/visualization/wcsaxes/tests/test_formatter_locator.py",
+      "astropy/visualization/wcsaxes/tests/test_frame.py",
+      "astropy/visualization/wcsaxes/tests/test_grid_paths.py",
+      "astropy/visualization/wcsaxes/tests/test_images.py",
+      "astropy/visualization/wcsaxes/tests/test_misc.py",
+      "astropy/visualization/wcsaxes/tests/test_transform_coord_meta.py",
+      "astropy/visualization/wcsaxes/tests/test_transforms.py",
+      "astropy/visualization/wcsaxes/tests/test_utils.py",
+      "astropy/visualization/wcsaxes/tests/test_wcsapi.py",
+      "astropy/wcs/tests/test_utils.py",
+      "astropy/wcs/tests/test_wcs.py",
+      "astropy/wcs/wcsapi/tests/test_fitswcs.py",
+      "astropy_helpers/astropy_helpers/tests/test_ah_bootstrap.py",
+      "astropy_helpers/astropy_helpers/tests/test_git_helpers.py",
+      "astropy_helpers/astropy_helpers/tests/test_openmp_helpers.py",
+      "astropy_helpers/astropy_helpers/tests/test_setup_helpers.py",
+      "astropy_helpers/astropy_helpers/tests/test_utils.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "astropy__astropy-13453",
+    "modified_functions": [
+      {
+        "insertion_line": 347,
+        "line": 342,
+        "marker": "astropy/io/ascii/html.py::HTML.write",
+        "path": "astropy/io/ascii/html.py",
+        "qualname": "HTML.write"
+      }
+    ],
+    "passed_test_files": 195,
+    "patch_file": "19cc80471739bcb67b7e8099246b391c355023ee/golden.patch",
+    "project": "astropy/astropy",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/astropy/ground_truth_runs/astropy__astropy-13453_1784794609_781252",
+    "test_env": "RTSTest39_astropy_3367b191",
+    "tests_to_run": [],
+    "timed_out_test_files": [],
+    "total_tests": 339,
+    "uninstrumentable_changes": [],
+    "version": "5.0"
+  },
+  {
+    "affected_functions_by_test": {
+      "astropy/cosmology/flrw/tests/test_base.py": [
+        "astropy/io/fits/connect.py::is_fits"
+      ],
+      "astropy/cosmology/flrw/tests/test_lambdacdm.py": [
+        "astropy/io/fits/connect.py::is_fits"
+      ],
+      "astropy/cosmology/flrw/tests/test_w0cdm.py": [
+        "astropy/io/fits/connect.py::is_fits"
+      ],
+      "astropy/cosmology/flrw/tests/test_w0wacdm.py": [
+        "astropy/io/fits/connect.py::is_fits"
+      ],
+      "astropy/cosmology/flrw/tests/test_w0wzcdm.py": [
+        "astropy/io/fits/connect.py::is_fits"
+      ],
+      "astropy/cosmology/flrw/tests/test_wpwazpcdm.py": [
+        "astropy/io/fits/connect.py::is_fits"
+      ],
+      "astropy/cosmology/io/tests/test_ecsv.py": [
+        "astropy/io/fits/connect.py::is_fits"
+      ],
+      "astropy/cosmology/tests/test_connect.py": [
+        "astropy/io/fits/connect.py::is_fits"
+      ],
+      "astropy/cosmology/tests/test_core.py": [
+        "astropy/io/fits/connect.py::is_fits"
+      ],
+      "astropy/io/ascii/tests/test_connect.py": [
+        "astropy/io/fits/connect.py::is_fits"
+      ],
+      "astropy/io/ascii/tests/test_ecsv.py": [
+        "astropy/io/fits/connect.py::is_fits"
+      ],
+      "astropy/io/ascii/tests/test_qdp.py": [
+        "astropy/io/fits/connect.py::is_fits"
+      ],
+      "astropy/io/fits/tests/test_connect.py": [
+        "astropy/io/fits/connect.py::is_fits"
+      ],
+      "astropy/io/fits/tests/test_fitstime.py": [
+        "astropy/io/fits/connect.py::is_fits"
+      ],
+      "astropy/io/fits/tests/test_table.py": [
+        "astropy/io/fits/connect.py::is_fits"
+      ],
+      "astropy/io/registry/tests/test_registries.py": [
+        "astropy/io/fits/connect.py::is_fits"
+      ],
+      "astropy/nddata/tests/test_ccddata.py": [
+        "astropy/io/fits/connect.py::is_fits"
+      ],
+      "astropy/table/tests/test_showtable.py": [
+        "astropy/io/fits/connect.py::is_fits"
+      ],
+      "astropy/table/tests/test_table.py": [
+        "astropy/io/fits/connect.py::is_fits"
+      ],
+      "astropy/time/tests/test_mask.py": [
+        "astropy/io/fits/connect.py::is_fits"
+      ],
+      "astropy/utils/masked/tests/test_table.py": [
+        "astropy/io/fits/connect.py::is_fits"
+      ]
+    },
+    "base_commit": "cdb66059a2feb44ee49021874605ba90801f9986",
+    "dynamic_hit_tests": [],
+    "dynamic_hit_tests_all": [
+      "astropy/cosmology/flrw/tests/test_base.py",
+      "astropy/cosmology/flrw/tests/test_lambdacdm.py",
+      "astropy/cosmology/flrw/tests/test_w0cdm.py",
+      "astropy/cosmology/flrw/tests/test_w0wacdm.py",
+      "astropy/cosmology/flrw/tests/test_w0wzcdm.py",
+      "astropy/cosmology/flrw/tests/test_wpwazpcdm.py",
+      "astropy/cosmology/io/tests/test_ecsv.py",
+      "astropy/cosmology/tests/test_connect.py",
+      "astropy/cosmology/tests/test_core.py",
+      "astropy/io/ascii/tests/test_connect.py",
+      "astropy/io/ascii/tests/test_ecsv.py",
+      "astropy/io/ascii/tests/test_qdp.py",
+      "astropy/io/fits/tests/test_connect.py",
+      "astropy/io/fits/tests/test_fitstime.py",
+      "astropy/io/fits/tests/test_table.py",
+      "astropy/io/registry/tests/test_registries.py",
+      "astropy/nddata/tests/test_ccddata.py",
+      "astropy/table/tests/test_showtable.py",
+      "astropy/table/tests/test_table.py",
+      "astropy/time/tests/test_mask.py",
+      "astropy/utils/masked/tests/test_table.py"
+    ],
+    "elapsed_seconds": 41.912,
+    "failed_test_files": [
+      "astropy/convolution/tests/test_convolve.py",
+      "astropy/convolution/tests/test_convolve_fft.py",
+      "astropy/convolution/tests/test_convolve_kernels.py",
+      "astropy/convolution/tests/test_convolve_models.py",
+      "astropy/convolution/tests/test_convolve_nddata.py",
+      "astropy/convolution/tests/test_convolve_speeds.py",
+      "astropy/convolution/tests/test_discretize.py",
+      "astropy/convolution/tests/test_kernel_class.py",
+      "astropy/coordinates/tests/accuracy/test_altaz_icrs.py",
+      "astropy/coordinates/tests/accuracy/test_ecliptic.py",
+      "astropy/coordinates/tests/test_atc_replacements.py",
+      "astropy/coordinates/tests/test_celestial_transformations.py",
+      "astropy/coordinates/tests/test_earth.py",
+      "astropy/coordinates/tests/test_erfa_astrom.py",
+      "astropy/coordinates/tests/test_finite_difference_velocities.py",
+      "astropy/coordinates/tests/test_frames.py",
+      "astropy/coordinates/tests/test_frames_with_velocity.py",
+      "astropy/coordinates/tests/test_funcs.py",
+      "astropy/coordinates/tests/test_icrs_observed_transformations.py",
+      "astropy/coordinates/tests/test_intermediate_transformations.py",
+      "astropy/coordinates/tests/test_regression.py",
+      "astropy/coordinates/tests/test_shape_manipulation.py",
+      "astropy/coordinates/tests/test_sky_coord.py",
+      "astropy/coordinates/tests/test_skyoffset_transformations.py",
+      "astropy/coordinates/tests/test_solar_system.py",
+      "astropy/coordinates/tests/test_spectral_coordinate.py",
+      "astropy/coordinates/tests/test_spectral_quantity.py",
+      "astropy/coordinates/tests/test_transformations.py",
+      "astropy/coordinates/tests/test_utils.py",
+      "astropy/coordinates/tests/test_velocity_corrs.py",
+      "astropy/cosmology/flrw/tests/test_base.py",
+      "astropy/cosmology/flrw/tests/test_lambdacdm.py",
+      "astropy/cosmology/flrw/tests/test_w0cdm.py",
+      "astropy/cosmology/flrw/tests/test_w0wacdm.py",
+      "astropy/cosmology/flrw/tests/test_w0wzcdm.py",
+      "astropy/cosmology/flrw/tests/test_wpwazpcdm.py",
+      "astropy/cosmology/io/tests/test_ecsv.py",
+      "astropy/cosmology/tests/test_connect.py",
+      "astropy/cosmology/tests/test_core.py",
+      "astropy/io/ascii/tests/test_connect.py",
+      "astropy/io/ascii/tests/test_ecsv.py",
+      "astropy/io/ascii/tests/test_qdp.py",
+      "astropy/io/fits/_tiled_compression/tests/test_fitsio.py",
+      "astropy/io/fits/_tiled_compression/tests/test_tiled_compression.py",
+      "astropy/io/fits/tests/test_checksum.py",
+      "astropy/io/fits/tests/test_connect.py",
+      "astropy/io/fits/tests/test_diff.py",
+      "astropy/io/fits/tests/test_fitstime.py",
+      "astropy/io/fits/tests/test_hdulist.py",
+      "astropy/io/fits/tests/test_header.py",
+      "astropy/io/fits/tests/test_image.py",
+      "astropy/io/fits/tests/test_image_dask.py",
+      "astropy/io/fits/tests/test_table.py",
+      "astropy/io/fits/tests/test_tilde_path.py",
+      "astropy/io/fits/tests/test_uint.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_angle.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_earthlocation.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_frames.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_representation.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_skycoord.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_spectralcoord.py",
+      "astropy/io/misc/asdf/tags/fits/tests/test_fits.py",
+      "astropy/io/misc/asdf/tags/table/tests/test_table.py",
+      "astropy/io/misc/asdf/tags/time/tests/test_time.py",
+      "astropy/io/misc/asdf/tags/time/tests/test_timedelta.py",
+      "astropy/io/misc/asdf/tags/transform/tests/test_transform.py",
+      "astropy/io/misc/asdf/tags/transform/tests/test_units_mapping.py",
+      "astropy/io/misc/asdf/tags/unit/tests/test_equivalency.py",
+      "astropy/io/misc/asdf/tags/unit/tests/test_quantity.py",
+      "astropy/io/misc/asdf/tags/unit/tests/test_unit.py",
+      "astropy/io/misc/asdf/tests/test_io.py",
+      "astropy/io/misc/tests/test_pandas.py",
+      "astropy/io/misc/tests/test_parquet.py",
+      "astropy/io/registry/tests/test_registries.py",
+      "astropy/modeling/tests/test_compound.py",
+      "astropy/modeling/tests/test_functional_models.py",
+      "astropy/modeling/tests/test_mappings.py",
+      "astropy/modeling/tests/test_models.py",
+      "astropy/modeling/tests/test_parameters.py",
+      "astropy/modeling/tests/test_polynomial.py",
+      "astropy/modeling/tests/test_quantities_rotations.py",
+      "astropy/modeling/tests/test_rotations.py",
+      "astropy/nddata/tests/test_ccddata.py",
+      "astropy/samp/tests/test_helpers.py",
+      "astropy/table/mixins/tests/test_dask.py",
+      "astropy/table/tests/test_groups.py",
+      "astropy/table/tests/test_operations.py",
+      "astropy/table/tests/test_showtable.py",
+      "astropy/table/tests/test_table.py",
+      "astropy/time/tests/test_basic.py",
+      "astropy/time/tests/test_comparisons.py",
+      "astropy/time/tests/test_corrs.py",
+      "astropy/time/tests/test_delta.py",
+      "astropy/time/tests/test_mask.py",
+      "astropy/time/tests/test_methods.py",
+      "astropy/time/tests/test_precision.py",
+      "astropy/time/tests/test_quantity_interaction.py",
+      "astropy/time/tests/test_sidereal.py",
+      "astropy/time/tests/test_update_leap_seconds.py",
+      "astropy/time/tests/test_ut1.py",
+      "astropy/timeseries/periodograms/bls/tests/test_bls.py",
+      "astropy/timeseries/periodograms/lombscargle/tests/test_lombscargle.py",
+      "astropy/timeseries/tests/test_binned.py",
+      "astropy/timeseries/tests/test_common.py",
+      "astropy/timeseries/tests/test_downsample.py",
+      "astropy/timeseries/tests/test_sampled.py",
+      "astropy/uncertainty/tests/test_distribution.py",
+      "astropy/units/tests/test_quantity_array_methods.py",
+      "astropy/units/tests/test_quantity_non_ufuncs.py",
+      "astropy/utils/iers/tests/test_iers.py",
+      "astropy/utils/iers/tests/test_leap_second.py",
+      "astropy/utils/masked/tests/test_containers.py",
+      "astropy/utils/masked/tests/test_function_helpers.py",
+      "astropy/utils/masked/tests/test_table.py",
+      "astropy/utils/tests/test_progress_bar_func.py",
+      "astropy/visualization/tests/test_lupton_rgb.py",
+      "astropy/visualization/tests/test_time.py",
+      "astropy/visualization/wcsaxes/tests/test_coordinate_helpers.py",
+      "astropy/visualization/wcsaxes/tests/test_display_world_coordinates.py",
+      "astropy/visualization/wcsaxes/tests/test_formatter_locator.py",
+      "astropy/visualization/wcsaxes/tests/test_frame.py",
+      "astropy/visualization/wcsaxes/tests/test_grid_paths.py",
+      "astropy/visualization/wcsaxes/tests/test_images.py",
+      "astropy/visualization/wcsaxes/tests/test_misc.py",
+      "astropy/visualization/wcsaxes/tests/test_transform_coord_meta.py",
+      "astropy/visualization/wcsaxes/tests/test_transforms.py",
+      "astropy/visualization/wcsaxes/tests/test_utils.py",
+      "astropy/visualization/wcsaxes/tests/test_wcsapi.py",
+      "astropy/wcs/tests/test_utils.py",
+      "astropy/wcs/wcsapi/tests/test_fitswcs.py",
+      "astropy_helpers/astropy_helpers/tests/test_ah_bootstrap.py",
+      "astropy_helpers/astropy_helpers/tests/test_git_helpers.py",
+      "astropy_helpers/astropy_helpers/tests/test_openmp_helpers.py",
+      "astropy_helpers/astropy_helpers/tests/test_setup_helpers.py",
+      "astropy_helpers/astropy_helpers/tests/test_utils.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "astropy__astropy-14309",
+    "modified_functions": [
+      {
+        "insertion_line": 62,
+        "line": 48,
+        "marker": "astropy/io/fits/connect.py::is_fits",
+        "path": "astropy/io/fits/connect.py",
+        "qualname": "is_fits"
+      }
+    ],
+    "passed_test_files": 211,
+    "patch_file": "cdb66059a2feb44ee49021874605ba90801f9986/golden.patch",
+    "project": "astropy/astropy",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/astropy/ground_truth_runs/astropy__astropy-14309_1784794963_781252",
+    "test_env": "RTSTest39_astropy_c2590b2a",
+    "tests_to_run": [],
+    "timed_out_test_files": [],
+    "total_tests": 346,
+    "uninstrumentable_changes": [],
+    "version": "5.1"
+  },
+  {
+    "affected_functions_by_test": {
+      "astropy/coordinates/tests/test_sky_coord.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/fits/_tiled_compression/tests/test_tiled_compression.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/fits/tests/test_checksum.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/fits/tests/test_connect.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/fits/tests/test_convenience.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/fits/tests/test_core.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/fits/tests/test_diff.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/fits/tests/test_division.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/fits/tests/test_fitscheck.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/fits/tests/test_fitsdiff.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/fits/tests/test_fitsheader.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/fits/tests/test_fitsinfo.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/fits/tests/test_fitstime.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/fits/tests/test_groups.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/fits/tests/test_hdulist.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/fits/tests/test_header.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/fits/tests/test_image.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/fits/tests/test_nonstandard.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/fits/tests/test_structured.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/fits/tests/test_table.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/fits/tests/test_tilde_path.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/fits/tests/test_uint.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/io/registry/tests/test_registries.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/modeling/tests/test_polynomial.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/modeling/tests/test_projections.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/nddata/tests/test_ccddata.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/table/tests/test_mixin.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/table/tests/test_showtable.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/table/tests/test_table.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/time/tests/test_basic.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/time/tests/test_mask.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/utils/masked/tests/test_table.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/utils/tests/test_misc.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/wcs/tests/test_auxprm.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/wcs/tests/test_pickle.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/wcs/tests/test_profiling.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/wcs/tests/test_tab.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/wcs/tests/test_tabprm.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/wcs/tests/test_utils.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/wcs/tests/test_wcs.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/wcs/tests/test_wcsprm.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/wcs/tests/test_wtbarr.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/wcs/wcsapi/tests/test_fitswcs.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ],
+      "astropy/wcs/wcsapi/wrappers/tests/test_sliced_wcs.py": [
+        "astropy/io/fits/card.py::Card._split"
+      ]
+    },
+    "base_commit": "80c3854a5f4f4a6ab86c03d9db7854767fcd83c1",
+    "dynamic_hit_tests": [],
+    "dynamic_hit_tests_all": [
+      "astropy/coordinates/tests/test_sky_coord.py",
+      "astropy/io/fits/_tiled_compression/tests/test_tiled_compression.py",
+      "astropy/io/fits/tests/test_checksum.py",
+      "astropy/io/fits/tests/test_connect.py",
+      "astropy/io/fits/tests/test_convenience.py",
+      "astropy/io/fits/tests/test_core.py",
+      "astropy/io/fits/tests/test_diff.py",
+      "astropy/io/fits/tests/test_division.py",
+      "astropy/io/fits/tests/test_fitscheck.py",
+      "astropy/io/fits/tests/test_fitsdiff.py",
+      "astropy/io/fits/tests/test_fitsheader.py",
+      "astropy/io/fits/tests/test_fitsinfo.py",
+      "astropy/io/fits/tests/test_fitstime.py",
+      "astropy/io/fits/tests/test_groups.py",
+      "astropy/io/fits/tests/test_hdulist.py",
+      "astropy/io/fits/tests/test_header.py",
+      "astropy/io/fits/tests/test_image.py",
+      "astropy/io/fits/tests/test_nonstandard.py",
+      "astropy/io/fits/tests/test_structured.py",
+      "astropy/io/fits/tests/test_table.py",
+      "astropy/io/fits/tests/test_tilde_path.py",
+      "astropy/io/fits/tests/test_uint.py",
+      "astropy/io/registry/tests/test_registries.py",
+      "astropy/modeling/tests/test_polynomial.py",
+      "astropy/modeling/tests/test_projections.py",
+      "astropy/nddata/tests/test_ccddata.py",
+      "astropy/table/tests/test_mixin.py",
+      "astropy/table/tests/test_showtable.py",
+      "astropy/table/tests/test_table.py",
+      "astropy/time/tests/test_basic.py",
+      "astropy/time/tests/test_mask.py",
+      "astropy/utils/masked/tests/test_table.py",
+      "astropy/utils/tests/test_misc.py",
+      "astropy/wcs/tests/test_auxprm.py",
+      "astropy/wcs/tests/test_pickle.py",
+      "astropy/wcs/tests/test_profiling.py",
+      "astropy/wcs/tests/test_tab.py",
+      "astropy/wcs/tests/test_tabprm.py",
+      "astropy/wcs/tests/test_utils.py",
+      "astropy/wcs/tests/test_wcs.py",
+      "astropy/wcs/tests/test_wcsprm.py",
+      "astropy/wcs/tests/test_wtbarr.py",
+      "astropy/wcs/wcsapi/tests/test_fitswcs.py",
+      "astropy/wcs/wcsapi/wrappers/tests/test_sliced_wcs.py"
+    ],
+    "elapsed_seconds": 41.609,
+    "failed_test_files": [
+      "astropy/convolution/tests/test_convolve.py",
+      "astropy/convolution/tests/test_convolve_kernels.py",
+      "astropy/convolution/tests/test_convolve_nddata.py",
+      "astropy/convolution/tests/test_convolve_speeds.py",
+      "astropy/convolution/tests/test_discretize.py",
+      "astropy/convolution/tests/test_kernel_class.py",
+      "astropy/coordinates/tests/accuracy/test_altaz_icrs.py",
+      "astropy/coordinates/tests/accuracy/test_ecliptic.py",
+      "astropy/coordinates/tests/test_atc_replacements.py",
+      "astropy/coordinates/tests/test_celestial_transformations.py",
+      "astropy/coordinates/tests/test_earth.py",
+      "astropy/coordinates/tests/test_erfa_astrom.py",
+      "astropy/coordinates/tests/test_finite_difference_velocities.py",
+      "astropy/coordinates/tests/test_frames.py",
+      "astropy/coordinates/tests/test_frames_with_velocity.py",
+      "astropy/coordinates/tests/test_funcs.py",
+      "astropy/coordinates/tests/test_icrs_observed_transformations.py",
+      "astropy/coordinates/tests/test_intermediate_transformations.py",
+      "astropy/coordinates/tests/test_regression.py",
+      "astropy/coordinates/tests/test_shape_manipulation.py",
+      "astropy/coordinates/tests/test_sky_coord.py",
+      "astropy/coordinates/tests/test_skyoffset_transformations.py",
+      "astropy/coordinates/tests/test_solar_system.py",
+      "astropy/coordinates/tests/test_spectral_coordinate.py",
+      "astropy/coordinates/tests/test_transformations.py",
+      "astropy/coordinates/tests/test_utils.py",
+      "astropy/coordinates/tests/test_velocity_corrs.py",
+      "astropy/io/fits/_tiled_compression/tests/test_fitsio.py",
+      "astropy/io/fits/_tiled_compression/tests/test_tiled_compression.py",
+      "astropy/io/fits/tests/test_checksum.py",
+      "astropy/io/fits/tests/test_connect.py",
+      "astropy/io/fits/tests/test_convenience.py",
+      "astropy/io/fits/tests/test_core.py",
+      "astropy/io/fits/tests/test_diff.py",
+      "astropy/io/fits/tests/test_division.py",
+      "astropy/io/fits/tests/test_fitscheck.py",
+      "astropy/io/fits/tests/test_fitsdiff.py",
+      "astropy/io/fits/tests/test_fitsheader.py",
+      "astropy/io/fits/tests/test_fitsinfo.py",
+      "astropy/io/fits/tests/test_fitstime.py",
+      "astropy/io/fits/tests/test_groups.py",
+      "astropy/io/fits/tests/test_hdulist.py",
+      "astropy/io/fits/tests/test_header.py",
+      "astropy/io/fits/tests/test_image.py",
+      "astropy/io/fits/tests/test_image_dask.py",
+      "astropy/io/fits/tests/test_nonstandard.py",
+      "astropy/io/fits/tests/test_structured.py",
+      "astropy/io/fits/tests/test_table.py",
+      "astropy/io/fits/tests/test_tilde_path.py",
+      "astropy/io/fits/tests/test_uint.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_angle.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_earthlocation.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_frames.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_representation.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_skycoord.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_spectralcoord.py",
+      "astropy/io/misc/asdf/tags/fits/tests/test_fits.py",
+      "astropy/io/misc/asdf/tags/table/tests/test_table.py",
+      "astropy/io/misc/asdf/tags/time/tests/test_time.py",
+      "astropy/io/misc/asdf/tags/time/tests/test_timedelta.py",
+      "astropy/io/misc/asdf/tags/transform/tests/test_transform.py",
+      "astropy/io/misc/asdf/tags/transform/tests/test_units_mapping.py",
+      "astropy/io/misc/asdf/tags/unit/tests/test_equivalency.py",
+      "astropy/io/misc/asdf/tags/unit/tests/test_quantity.py",
+      "astropy/io/misc/asdf/tags/unit/tests/test_unit.py",
+      "astropy/io/misc/asdf/tests/test_io.py",
+      "astropy/io/misc/tests/test_pandas.py",
+      "astropy/io/misc/tests/test_parquet.py",
+      "astropy/io/registry/tests/test_registries.py",
+      "astropy/modeling/tests/test_compound.py",
+      "astropy/modeling/tests/test_functional_models.py",
+      "astropy/modeling/tests/test_mappings.py",
+      "astropy/modeling/tests/test_models.py",
+      "astropy/modeling/tests/test_parameters.py",
+      "astropy/modeling/tests/test_polynomial.py",
+      "astropy/modeling/tests/test_projections.py",
+      "astropy/modeling/tests/test_quantities_rotations.py",
+      "astropy/modeling/tests/test_rotations.py",
+      "astropy/nddata/tests/test_ccddata.py",
+      "astropy/samp/tests/test_helpers.py",
+      "astropy/table/mixins/tests/test_dask.py",
+      "astropy/table/tests/test_groups.py",
+      "astropy/table/tests/test_mixin.py",
+      "astropy/table/tests/test_operations.py",
+      "astropy/table/tests/test_showtable.py",
+      "astropy/table/tests/test_table.py",
+      "astropy/time/tests/test_basic.py",
+      "astropy/time/tests/test_comparisons.py",
+      "astropy/time/tests/test_corrs.py",
+      "astropy/time/tests/test_delta.py",
+      "astropy/time/tests/test_mask.py",
+      "astropy/time/tests/test_methods.py",
+      "astropy/time/tests/test_precision.py",
+      "astropy/time/tests/test_quantity_interaction.py",
+      "astropy/time/tests/test_sidereal.py",
+      "astropy/time/tests/test_update_leap_seconds.py",
+      "astropy/time/tests/test_ut1.py",
+      "astropy/timeseries/periodograms/bls/tests/test_bls.py",
+      "astropy/timeseries/periodograms/lombscargle/tests/test_lombscargle.py",
+      "astropy/timeseries/tests/test_binned.py",
+      "astropy/timeseries/tests/test_common.py",
+      "astropy/timeseries/tests/test_downsample.py",
+      "astropy/timeseries/tests/test_sampled.py",
+      "astropy/units/tests/test_quantity_non_ufuncs.py",
+      "astropy/utils/iers/tests/test_iers.py",
+      "astropy/utils/iers/tests/test_leap_second.py",
+      "astropy/utils/masked/tests/test_containers.py",
+      "astropy/utils/masked/tests/test_table.py",
+      "astropy/utils/tests/test_misc.py",
+      "astropy/utils/tests/test_progress_bar_func.py",
+      "astropy/visualization/tests/test_lupton_rgb.py",
+      "astropy/visualization/tests/test_time.py",
+      "astropy/visualization/wcsaxes/tests/test_coordinate_helpers.py",
+      "astropy/visualization/wcsaxes/tests/test_display_world_coordinates.py",
+      "astropy/visualization/wcsaxes/tests/test_formatter_locator.py",
+      "astropy/visualization/wcsaxes/tests/test_frame.py",
+      "astropy/visualization/wcsaxes/tests/test_grid_paths.py",
+      "astropy/visualization/wcsaxes/tests/test_images.py",
+      "astropy/visualization/wcsaxes/tests/test_misc.py",
+      "astropy/visualization/wcsaxes/tests/test_transform_coord_meta.py",
+      "astropy/visualization/wcsaxes/tests/test_transforms.py",
+      "astropy/visualization/wcsaxes/tests/test_utils.py",
+      "astropy/visualization/wcsaxes/tests/test_wcsapi.py",
+      "astropy/wcs/tests/test_auxprm.py",
+      "astropy/wcs/tests/test_pickle.py",
+      "astropy/wcs/tests/test_profiling.py",
+      "astropy/wcs/tests/test_tab.py",
+      "astropy/wcs/tests/test_tabprm.py",
+      "astropy/wcs/tests/test_utils.py",
+      "astropy/wcs/tests/test_wcs.py",
+      "astropy/wcs/tests/test_wcsprm.py",
+      "astropy/wcs/tests/test_wtbarr.py",
+      "astropy/wcs/wcsapi/tests/test_fitswcs.py",
+      "astropy/wcs/wcsapi/wrappers/tests/test_sliced_wcs.py",
+      "astropy_helpers/astropy_helpers/tests/test_ah_bootstrap.py",
+      "astropy_helpers/astropy_helpers/tests/test_git_helpers.py",
+      "astropy_helpers/astropy_helpers/tests/test_openmp_helpers.py",
+      "astropy_helpers/astropy_helpers/tests/test_setup_helpers.py",
+      "astropy_helpers/astropy_helpers/tests/test_utils.py"
+    ],
+    "in_test_hit_tests": [],
+    "instance_id": "astropy__astropy-14598",
+    "modified_functions": [
+      {
+        "insertion_line": 833,
+        "line": 829,
+        "marker": "astropy/io/fits/card.py::Card._split",
+        "path": "astropy/io/fits/card.py",
+        "qualname": "Card._split"
+      }
+    ],
+    "passed_test_files": 208,
+    "patch_file": "80c3854a5f4f4a6ab86c03d9db7854767fcd83c1/golden.patch",
+    "project": "astropy/astropy",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/astropy/ground_truth_runs/astropy__astropy-14598_1784795831_831947",
+    "test_env": "RTSTest39_astropy_c2590b2a",
+    "tests_to_run": [],
+    "timed_out_test_files": [],
+    "total_tests": 347,
+    "uninstrumentable_changes": [],
+    "version": "5.2"
+  },
+  {
+    "affected_functions_by_test": {
+      "astropy/_erfa/tests/test_erfa.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/config/tests/test_configs.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/constants/tests/test_constant.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/constants/tests/test_pickle.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/constants/tests/test_prior_version.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/constants/tests/test_sciencestate.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/convolution/tests/test_convolve.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/convolution/tests/test_convolve_fft.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/convolution/tests/test_convolve_kernels.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/convolution/tests/test_convolve_models.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/convolution/tests/test_convolve_nddata.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/convolution/tests/test_convolve_speeds.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/convolution/tests/test_discretize.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/convolution/tests/test_kernel_class.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/convolution/tests/test_pickle.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/accuracy/test_altaz_icrs.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/accuracy/test_ecliptic.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/accuracy/test_fk4_no_e_fk4.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/accuracy/test_fk4_no_e_fk5.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/accuracy/test_galactic_fk4.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/accuracy/test_icrs_fk5.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_angles.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_angular_separation.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_api_ape5.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_arrays.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_atc_replacements.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_celestial_transformations.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_distance.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_earth.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_finite_difference_velocities.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_formatting.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_frames.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_frames_with_velocity.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_funcs.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_iau_fullstack.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_intermediate_transformations.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_matching.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_matrix_utilities.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_name_resolve.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_pickle.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_regression.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_representation.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_representation_arithmetic.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_representation_methods.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_shape_manipulation.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_sites.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_sky_coord.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_sky_coord_velocities.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_skyoffset_transformations.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_solar_system.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_transformations.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_unit_representation.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/coordinates/tests/test_velocity_corrs.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/cosmology/tests/test_cosmology.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/cosmology/tests/test_pickle.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/ascii/tests/test_c_reader.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/ascii/tests/test_cds_header_from_readme.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/ascii/tests/test_compressed.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/ascii/tests/test_connect.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/ascii/tests/test_ecsv.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/ascii/tests/test_fixedwidth.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/ascii/tests/test_html.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/ascii/tests/test_ipac_definitions.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/ascii/tests/test_read.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/ascii/tests/test_rst.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/ascii/tests/test_types.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/ascii/tests/test_write.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/fits/tests/test_checksum.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/fits/tests/test_compression_failures.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/fits/tests/test_connect.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/fits/tests/test_convenience.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/fits/tests/test_core.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/fits/tests/test_diff.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/fits/tests/test_division.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/fits/tests/test_fitscheck.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/fits/tests/test_fitsdiff.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/fits/tests/test_fitsheader.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/fits/tests/test_fitsinfo.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/fits/tests/test_fitstime.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/fits/tests/test_groups.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/fits/tests/test_hdulist.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/fits/tests/test_header.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/fits/tests/test_image.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/fits/tests/test_nonstandard.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/fits/tests/test_structured.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/fits/tests/test_table.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/fits/tests/test_uint.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/fits/tests/test_util.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_angle.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_earthlocation.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_frames.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_representation.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_skycoord.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/misc/asdf/tags/fits/tests/test_fits.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/misc/asdf/tags/table/tests/test_table.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/misc/asdf/tags/time/tests/test_time.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/misc/asdf/tags/time/tests/test_timedelta.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/misc/asdf/tags/transform/tests/test_transform.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/misc/asdf/tags/unit/tests/test_equivalency.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/misc/asdf/tags/unit/tests/test_quantity.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/misc/asdf/tags/unit/tests/test_unit.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/misc/asdf/tests/test_io.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/misc/tests/test_hdf5.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/misc/tests/test_pandas.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/misc/tests/test_pickle_helpers.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/misc/tests/test_yaml.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/tests/test_registry.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/io/tests/test_registry_help.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_blackbody.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_compound.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_constraints.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_core.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_fitters.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_functional_models.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_input.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_mappings.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_model_sets.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_models.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_models_quantities.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_parameters.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_polynomial.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_projections.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_quantities_evaluation.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_quantities_fitting.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_quantities_model.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_quantities_parameters.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_quantities_rotations.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_rotations.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_separable.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/modeling/tests/test_utils.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/nddata/mixins/tests/test_ndarithmetic.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/nddata/mixins/tests/test_ndio.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/nddata/mixins/tests/test_ndslicing.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/nddata/tests/test_bitmask.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/nddata/tests/test_ccddata.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/nddata/tests/test_compat.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/nddata/tests/test_decorators.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/nddata/tests/test_flag_collection.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/nddata/tests/test_nddata.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/nddata/tests/test_nddata_base.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/nddata/tests/test_nduncertainty.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/nddata/tests/test_utils.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/samp/tests/test_client.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/samp/tests/test_errors.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/samp/tests/test_helpers.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/samp/tests/test_hub.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/samp/tests/test_hub_proxy.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/samp/tests/test_hub_script.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/samp/tests/test_standard_profile.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/samp/tests/test_web_profile.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/stats/tests/test_bayesian_blocks.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/stats/tests/test_biweight.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/stats/tests/test_circstats.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/stats/tests/test_funcs.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/stats/tests/test_histogram.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/stats/tests/test_info_theory.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/stats/tests/test_jackknife.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/stats/tests/test_sigma_clipping.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/stats/tests/test_spatial.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/table/tests/test_array.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/table/tests/test_bst.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/table/tests/test_column.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/table/tests/test_groups.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/table/tests/test_index.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/table/tests/test_info.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/table/tests/test_init_table.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/table/tests/test_item_access.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/table/tests/test_jsviewer.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/table/tests/test_masked.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/table/tests/test_mixin.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/table/tests/test_np_utils.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/table/tests/test_operations.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/table/tests/test_pickle.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/table/tests/test_pprint.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/table/tests/test_row.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/table/tests/test_showtable.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/table/tests/test_subclass.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/table/tests/test_table.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/tests/test_logger.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/tests/tests/test_imports.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/tests/tests/test_quantity_helpers.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/tests/tests/test_run_tests.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/tests/tests/test_runner.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/time/tests/test_basic.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/time/tests/test_comparisons.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/time/tests/test_corrs.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/time/tests/test_delta.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/time/tests/test_guess.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/time/tests/test_mask.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/time/tests/test_methods.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/time/tests/test_pickle.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/time/tests/test_precision.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/time/tests/test_quantity_interaction.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/time/tests/test_sidereal.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/time/tests/test_ut1.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/timeseries/io/tests/test_kepler.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/timeseries/periodograms/bls/tests/test_bls.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/timeseries/periodograms/lombscargle/implementations/tests/test_mle.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/timeseries/periodograms/lombscargle/implementations/tests/test_utils.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/timeseries/periodograms/lombscargle/tests/test_lombscargle.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/timeseries/periodograms/lombscargle/tests/test_statistics.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/timeseries/periodograms/lombscargle/tests/test_utils.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/timeseries/tests/test_binned.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/timeseries/tests/test_common.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/timeseries/tests/test_downsample.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/timeseries/tests/test_sampled.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/uncertainty/tests/test_distribution.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/units/tests/test_deprecated.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/units/tests/test_equivalencies.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/units/tests/test_format.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/units/tests/test_logarithmic.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/units/tests/test_photometric.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/units/tests/test_physical.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/units/tests/test_quantity.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/units/tests/test_quantity_annotations.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/units/tests/test_quantity_array_methods.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/units/tests/test_quantity_decorator.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/units/tests/test_quantity_helpers.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/units/tests/test_quantity_non_ufuncs.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/units/tests/test_quantity_ufuncs.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/units/tests/test_units.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/units/tests/test_utils.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/utils/iers/tests/test_iers.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/utils/tests/test_codegen.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/utils/tests/test_collections.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/utils/tests/test_console.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/utils/tests/test_data.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/utils/tests/test_data_info.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/utils/tests/test_decorators.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/utils/tests/test_diff.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/utils/tests/test_introspection.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/utils/tests/test_metadata.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/utils/tests/test_misc.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/utils/tests/test_progress_bar_func.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/utils/tests/test_timer.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/utils/tests/test_xml.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/utils/xml/tests/test_iterparse.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/visualization/scripts/tests/test_fits2bitmap.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/visualization/tests/test_histogram.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/visualization/tests/test_interval.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/visualization/tests/test_lupton_rgb.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/visualization/tests/test_norm.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/visualization/tests/test_stretch.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/visualization/tests/test_time.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/visualization/tests/test_units.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/visualization/wcsaxes/tests/test_coordinate_helpers.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/visualization/wcsaxes/tests/test_display_world_coordinates.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/visualization/wcsaxes/tests/test_formatter_locator.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/visualization/wcsaxes/tests/test_frame.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/visualization/wcsaxes/tests/test_images.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/visualization/wcsaxes/tests/test_misc.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/visualization/wcsaxes/tests/test_transform_coord_meta.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/visualization/wcsaxes/tests/test_transforms.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/visualization/wcsaxes/tests/test_utils.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/wcs/tests/extension/test_extension.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/wcs/tests/test_pickle.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/wcs/tests/test_profiling.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/wcs/tests/test_utils.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/wcs/tests/test_wcs.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/wcs/tests/test_wcsprm.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/wcs/wcsapi/tests/test_fitswcs.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/wcs/wcsapi/tests/test_high_level_api.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/wcs/wcsapi/tests/test_high_level_wcs_wrapper.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/wcs/wcsapi/tests/test_low_level_api.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/wcs/wcsapi/tests/test_sliced_low_level_wcs.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ],
+      "astropy/wcs/wcsapi/tests/test_utils.py": [
+        "astropy/units/quantity.py::Quantity.__new__"
+      ]
+    },
+    "base_commit": "b750a0e6ee76fb6b8a099a4d16ec51977be46bf6",
+    "dynamic_hit_tests": [
+      "astropy/_erfa/tests/test_erfa.py",
+      "astropy/config/tests/test_configs.py",
+      "astropy/constants/tests/test_constant.py",
+      "astropy/constants/tests/test_pickle.py",
+      "astropy/constants/tests/test_prior_version.py",
+      "astropy/constants/tests/test_sciencestate.py",
+      "astropy/convolution/tests/test_convolve.py",
+      "astropy/convolution/tests/test_convolve_fft.py",
+      "astropy/convolution/tests/test_convolve_kernels.py",
+      "astropy/convolution/tests/test_convolve_models.py",
+      "astropy/convolution/tests/test_convolve_nddata.py",
+      "astropy/convolution/tests/test_discretize.py",
+      "astropy/convolution/tests/test_kernel_class.py",
+      "astropy/convolution/tests/test_pickle.py",
+      "astropy/coordinates/tests/accuracy/test_altaz_icrs.py",
+      "astropy/coordinates/tests/accuracy/test_ecliptic.py",
+      "astropy/coordinates/tests/accuracy/test_fk4_no_e_fk4.py",
+      "astropy/coordinates/tests/accuracy/test_fk4_no_e_fk5.py",
+      "astropy/coordinates/tests/accuracy/test_galactic_fk4.py",
+      "astropy/coordinates/tests/accuracy/test_icrs_fk5.py",
+      "astropy/coordinates/tests/test_angles.py",
+      "astropy/coordinates/tests/test_arrays.py",
+      "astropy/coordinates/tests/test_atc_replacements.py",
+      "astropy/coordinates/tests/test_celestial_transformations.py",
+      "astropy/coordinates/tests/test_distance.py",
+      "astropy/coordinates/tests/test_earth.py",
+      "astropy/coordinates/tests/test_finite_difference_velocities.py",
+      "astropy/coordinates/tests/test_formatting.py",
+      "astropy/coordinates/tests/test_frames_with_velocity.py",
+      "astropy/coordinates/tests/test_iau_fullstack.py",
+      "astropy/coordinates/tests/test_intermediate_transformations.py",
+      "astropy/coordinates/tests/test_matching.py",
+      "astropy/coordinates/tests/test_matrix_utilities.py",
+      "astropy/coordinates/tests/test_name_resolve.py",
+      "astropy/coordinates/tests/test_pickle.py",
+      "astropy/coordinates/tests/test_representation_arithmetic.py",
+      "astropy/coordinates/tests/test_representation_methods.py",
+      "astropy/coordinates/tests/test_shape_manipulation.py",
+      "astropy/coordinates/tests/test_sites.py",
+      "astropy/coordinates/tests/test_sky_coord.py",
+      "astropy/coordinates/tests/test_sky_coord_velocities.py",
+      "astropy/coordinates/tests/test_skyoffset_transformations.py",
+      "astropy/coordinates/tests/test_solar_system.py",
+      "astropy/coordinates/tests/test_unit_representation.py",
+      "astropy/coordinates/tests/test_velocity_corrs.py",
+      "astropy/cosmology/tests/test_cosmology.py",
+      "astropy/cosmology/tests/test_pickle.py",
+      "astropy/io/ascii/tests/test_cds_header_from_readme.py",
+      "astropy/io/ascii/tests/test_compressed.py",
+      "astropy/io/ascii/tests/test_connect.py",
+      "astropy/io/ascii/tests/test_ecsv.py",
+      "astropy/io/ascii/tests/test_fixedwidth.py",
+      "astropy/io/ascii/tests/test_html.py",
+      "astropy/io/ascii/tests/test_ipac_definitions.py",
+      "astropy/io/ascii/tests/test_rst.py",
+      "astropy/io/ascii/tests/test_types.py",
+      "astropy/io/fits/tests/test_checksum.py",
+      "astropy/io/fits/tests/test_compression_failures.py",
+      "astropy/io/fits/tests/test_fitsheader.py",
+      "astropy/io/fits/tests/test_fitsinfo.py",
+      "astropy/io/fits/tests/test_groups.py",
+      "astropy/io/fits/tests/test_nonstandard.py",
+      "astropy/io/fits/tests/test_structured.py",
+      "astropy/io/misc/tests/test_hdf5.py",
+      "astropy/io/misc/tests/test_pickle_helpers.py",
+      "astropy/io/misc/tests/test_yaml.py",
+      "astropy/io/tests/test_registry.py",
+      "astropy/io/tests/test_registry_help.py",
+      "astropy/modeling/tests/test_blackbody.py",
+      "astropy/modeling/tests/test_compound.py",
+      "astropy/modeling/tests/test_constraints.py",
+      "astropy/modeling/tests/test_core.py",
+      "astropy/modeling/tests/test_fitters.py",
+      "astropy/modeling/tests/test_functional_models.py",
+      "astropy/modeling/tests/test_input.py",
+      "astropy/modeling/tests/test_mappings.py",
+      "astropy/modeling/tests/test_model_sets.py",
+      "astropy/modeling/tests/test_models.py",
+      "astropy/modeling/tests/test_models_quantities.py",
+      "astropy/modeling/tests/test_parameters.py",
+      "astropy/modeling/tests/test_polynomial.py",
+      "astropy/modeling/tests/test_projections.py",
+      "astropy/modeling/tests/test_quantities_evaluation.py",
+      "astropy/modeling/tests/test_quantities_fitting.py",
+      "astropy/modeling/tests/test_quantities_model.py",
+      "astropy/modeling/tests/test_quantities_parameters.py",
+      "astropy/modeling/tests/test_quantities_rotations.py",
+      "astropy/modeling/tests/test_rotations.py",
+      "astropy/modeling/tests/test_separable.py",
+      "astropy/modeling/tests/test_utils.py",
+      "astropy/nddata/mixins/tests/test_ndarithmetic.py",
+      "astropy/nddata/mixins/tests/test_ndio.py",
+      "astropy/nddata/mixins/tests/test_ndslicing.py",
+      "astropy/nddata/tests/test_bitmask.py",
+      "astropy/nddata/tests/test_ccddata.py",
+      "astropy/nddata/tests/test_compat.py",
+      "astropy/nddata/tests/test_decorators.py",
+      "astropy/nddata/tests/test_flag_collection.py",
+      "astropy/nddata/tests/test_nddata.py",
+      "astropy/nddata/tests/test_nddata_base.py",
+      "astropy/nddata/tests/test_nduncertainty.py",
+      "astropy/samp/tests/test_client.py",
+      "astropy/samp/tests/test_errors.py",
+      "astropy/samp/tests/test_hub.py",
+      "astropy/samp/tests/test_hub_proxy.py",
+      "astropy/samp/tests/test_hub_script.py",
+      "astropy/samp/tests/test_standard_profile.py",
+      "astropy/samp/tests/test_web_profile.py",
+      "astropy/stats/tests/test_bayesian_blocks.py",
+      "astropy/stats/tests/test_biweight.py",
+      "astropy/stats/tests/test_circstats.py",
+      "astropy/stats/tests/test_funcs.py",
+      "astropy/stats/tests/test_histogram.py",
+      "astropy/stats/tests/test_info_theory.py",
+      "astropy/stats/tests/test_jackknife.py",
+      "astropy/stats/tests/test_sigma_clipping.py",
+      "astropy/stats/tests/test_spatial.py",
+      "astropy/table/tests/test_array.py",
+      "astropy/table/tests/test_bst.py",
+      "astropy/table/tests/test_column.py",
+      "astropy/table/tests/test_index.py",
+      "astropy/table/tests/test_info.py",
+      "astropy/table/tests/test_init_table.py",
+      "astropy/table/tests/test_jsviewer.py",
+      "astropy/table/tests/test_masked.py",
+      "astropy/table/tests/test_mixin.py",
+      "astropy/table/tests/test_np_utils.py",
+      "astropy/table/tests/test_pickle.py",
+      "astropy/table/tests/test_pprint.py",
+      "astropy/table/tests/test_showtable.py",
+      "astropy/table/tests/test_subclass.py",
+      "astropy/tests/test_logger.py",
+      "astropy/tests/tests/test_imports.py",
+      "astropy/tests/tests/test_quantity_helpers.py",
+      "astropy/tests/tests/test_run_tests.py",
+      "astropy/tests/tests/test_runner.py",
+      "astropy/time/tests/test_comparisons.py",
+      "astropy/time/tests/test_corrs.py",
+      "astropy/time/tests/test_delta.py",
+      "astropy/time/tests/test_guess.py",
+      "astropy/time/tests/test_mask.py",
+      "astropy/time/tests/test_methods.py",
+      "astropy/time/tests/test_pickle.py",
+      "astropy/time/tests/test_precision.py",
+      "astropy/time/tests/test_quantity_interaction.py",
+      "astropy/time/tests/test_sidereal.py",
+      "astropy/time/tests/test_ut1.py",
+      "astropy/timeseries/io/tests/test_kepler.py",
+      "astropy/timeseries/periodograms/bls/tests/test_bls.py",
+      "astropy/timeseries/periodograms/lombscargle/implementations/tests/test_mle.py",
+      "astropy/timeseries/periodograms/lombscargle/implementations/tests/test_utils.py",
+      "astropy/timeseries/periodograms/lombscargle/tests/test_lombscargle.py",
+      "astropy/timeseries/periodograms/lombscargle/tests/test_statistics.py",
+      "astropy/timeseries/periodograms/lombscargle/tests/test_utils.py",
+      "astropy/timeseries/tests/test_binned.py",
+      "astropy/timeseries/tests/test_common.py",
+      "astropy/timeseries/tests/test_downsample.py",
+      "astropy/timeseries/tests/test_sampled.py",
+      "astropy/uncertainty/tests/test_distribution.py",
+      "astropy/units/tests/test_deprecated.py",
+      "astropy/units/tests/test_format.py",
+      "astropy/units/tests/test_logarithmic.py",
+      "astropy/units/tests/test_photometric.py",
+      "astropy/units/tests/test_physical.py",
+      "astropy/units/tests/test_quantity_annotations.py",
+      "astropy/units/tests/test_quantity_array_methods.py",
+      "astropy/units/tests/test_quantity_decorator.py",
+      "astropy/units/tests/test_quantity_helpers.py",
+      "astropy/units/tests/test_quantity_non_ufuncs.py",
+      "astropy/units/tests/test_quantity_ufuncs.py",
+      "astropy/units/tests/test_units.py",
+      "astropy/units/tests/test_utils.py",
+      "astropy/utils/iers/tests/test_iers.py",
+      "astropy/utils/tests/test_codegen.py",
+      "astropy/utils/tests/test_collections.py",
+      "astropy/utils/tests/test_data.py",
+      "astropy/utils/tests/test_data_info.py",
+      "astropy/utils/tests/test_decorators.py",
+      "astropy/utils/tests/test_diff.py",
+      "astropy/utils/tests/test_introspection.py",
+      "astropy/utils/tests/test_metadata.py",
+      "astropy/utils/tests/test_misc.py",
+      "astropy/utils/tests/test_timer.py",
+      "astropy/utils/tests/test_xml.py",
+      "astropy/utils/xml/tests/test_iterparse.py",
+      "astropy/visualization/tests/test_histogram.py",
+      "astropy/visualization/tests/test_interval.py",
+      "astropy/visualization/tests/test_lupton_rgb.py",
+      "astropy/visualization/tests/test_stretch.py",
+      "astropy/visualization/tests/test_time.py",
+      "astropy/visualization/wcsaxes/tests/test_formatter_locator.py",
+      "astropy/visualization/wcsaxes/tests/test_frame.py",
+      "astropy/visualization/wcsaxes/tests/test_images.py",
+      "astropy/visualization/wcsaxes/tests/test_transform_coord_meta.py",
+      "astropy/visualization/wcsaxes/tests/test_transforms.py",
+      "astropy/visualization/wcsaxes/tests/test_utils.py",
+      "astropy/wcs/tests/test_pickle.py",
+      "astropy/wcs/tests/test_profiling.py",
+      "astropy/wcs/tests/test_utils.py",
+      "astropy/wcs/wcsapi/tests/test_fitswcs.py",
+      "astropy/wcs/wcsapi/tests/test_high_level_api.py",
+      "astropy/wcs/wcsapi/tests/test_high_level_wcs_wrapper.py",
+      "astropy/wcs/wcsapi/tests/test_low_level_api.py",
+      "astropy/wcs/wcsapi/tests/test_sliced_low_level_wcs.py",
+      "astropy/wcs/wcsapi/tests/test_utils.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "astropy/_erfa/tests/test_erfa.py",
+      "astropy/config/tests/test_configs.py",
+      "astropy/constants/tests/test_constant.py",
+      "astropy/constants/tests/test_pickle.py",
+      "astropy/constants/tests/test_prior_version.py",
+      "astropy/constants/tests/test_sciencestate.py",
+      "astropy/convolution/tests/test_convolve.py",
+      "astropy/convolution/tests/test_convolve_fft.py",
+      "astropy/convolution/tests/test_convolve_kernels.py",
+      "astropy/convolution/tests/test_convolve_models.py",
+      "astropy/convolution/tests/test_convolve_nddata.py",
+      "astropy/convolution/tests/test_convolve_speeds.py",
+      "astropy/convolution/tests/test_discretize.py",
+      "astropy/convolution/tests/test_kernel_class.py",
+      "astropy/convolution/tests/test_pickle.py",
+      "astropy/coordinates/tests/accuracy/test_altaz_icrs.py",
+      "astropy/coordinates/tests/accuracy/test_ecliptic.py",
+      "astropy/coordinates/tests/accuracy/test_fk4_no_e_fk4.py",
+      "astropy/coordinates/tests/accuracy/test_fk4_no_e_fk5.py",
+      "astropy/coordinates/tests/accuracy/test_galactic_fk4.py",
+      "astropy/coordinates/tests/accuracy/test_icrs_fk5.py",
+      "astropy/coordinates/tests/test_angles.py",
+      "astropy/coordinates/tests/test_angular_separation.py",
+      "astropy/coordinates/tests/test_api_ape5.py",
+      "astropy/coordinates/tests/test_arrays.py",
+      "astropy/coordinates/tests/test_atc_replacements.py",
+      "astropy/coordinates/tests/test_celestial_transformations.py",
+      "astropy/coordinates/tests/test_distance.py",
+      "astropy/coordinates/tests/test_earth.py",
+      "astropy/coordinates/tests/test_finite_difference_velocities.py",
+      "astropy/coordinates/tests/test_formatting.py",
+      "astropy/coordinates/tests/test_frames.py",
+      "astropy/coordinates/tests/test_frames_with_velocity.py",
+      "astropy/coordinates/tests/test_funcs.py",
+      "astropy/coordinates/tests/test_iau_fullstack.py",
+      "astropy/coordinates/tests/test_intermediate_transformations.py",
+      "astropy/coordinates/tests/test_matching.py",
+      "astropy/coordinates/tests/test_matrix_utilities.py",
+      "astropy/coordinates/tests/test_name_resolve.py",
+      "astropy/coordinates/tests/test_pickle.py",
+      "astropy/coordinates/tests/test_regression.py",
+      "astropy/coordinates/tests/test_representation.py",
+      "astropy/coordinates/tests/test_representation_arithmetic.py",
+      "astropy/coordinates/tests/test_representation_methods.py",
+      "astropy/coordinates/tests/test_shape_manipulation.py",
+      "astropy/coordinates/tests/test_sites.py",
+      "astropy/coordinates/tests/test_sky_coord.py",
+      "astropy/coordinates/tests/test_sky_coord_velocities.py",
+      "astropy/coordinates/tests/test_skyoffset_transformations.py",
+      "astropy/coordinates/tests/test_solar_system.py",
+      "astropy/coordinates/tests/test_transformations.py",
+      "astropy/coordinates/tests/test_unit_representation.py",
+      "astropy/coordinates/tests/test_velocity_corrs.py",
+      "astropy/cosmology/tests/test_cosmology.py",
+      "astropy/cosmology/tests/test_pickle.py",
+      "astropy/io/ascii/tests/test_c_reader.py",
+      "astropy/io/ascii/tests/test_cds_header_from_readme.py",
+      "astropy/io/ascii/tests/test_compressed.py",
+      "astropy/io/ascii/tests/test_connect.py",
+      "astropy/io/ascii/tests/test_ecsv.py",
+      "astropy/io/ascii/tests/test_fixedwidth.py",
+      "astropy/io/ascii/tests/test_html.py",
+      "astropy/io/ascii/tests/test_ipac_definitions.py",
+      "astropy/io/ascii/tests/test_read.py",
+      "astropy/io/ascii/tests/test_rst.py",
+      "astropy/io/ascii/tests/test_types.py",
+      "astropy/io/ascii/tests/test_write.py",
+      "astropy/io/fits/tests/test_checksum.py",
+      "astropy/io/fits/tests/test_compression_failures.py",
+      "astropy/io/fits/tests/test_connect.py",
+      "astropy/io/fits/tests/test_convenience.py",
+      "astropy/io/fits/tests/test_core.py",
+      "astropy/io/fits/tests/test_diff.py",
+      "astropy/io/fits/tests/test_division.py",
+      "astropy/io/fits/tests/test_fitscheck.py",
+      "astropy/io/fits/tests/test_fitsdiff.py",
+      "astropy/io/fits/tests/test_fitsheader.py",
+      "astropy/io/fits/tests/test_fitsinfo.py",
+      "astropy/io/fits/tests/test_fitstime.py",
+      "astropy/io/fits/tests/test_groups.py",
+      "astropy/io/fits/tests/test_hdulist.py",
+      "astropy/io/fits/tests/test_header.py",
+      "astropy/io/fits/tests/test_image.py",
+      "astropy/io/fits/tests/test_nonstandard.py",
+      "astropy/io/fits/tests/test_structured.py",
+      "astropy/io/fits/tests/test_table.py",
+      "astropy/io/fits/tests/test_uint.py",
+      "astropy/io/fits/tests/test_util.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_angle.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_earthlocation.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_frames.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_representation.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_skycoord.py",
+      "astropy/io/misc/asdf/tags/fits/tests/test_fits.py",
+      "astropy/io/misc/asdf/tags/table/tests/test_table.py",
+      "astropy/io/misc/asdf/tags/time/tests/test_time.py",
+      "astropy/io/misc/asdf/tags/time/tests/test_timedelta.py",
+      "astropy/io/misc/asdf/tags/transform/tests/test_transform.py",
+      "astropy/io/misc/asdf/tags/unit/tests/test_equivalency.py",
+      "astropy/io/misc/asdf/tags/unit/tests/test_quantity.py",
+      "astropy/io/misc/asdf/tags/unit/tests/test_unit.py",
+      "astropy/io/misc/asdf/tests/test_io.py",
+      "astropy/io/misc/tests/test_hdf5.py",
+      "astropy/io/misc/tests/test_pandas.py",
+      "astropy/io/misc/tests/test_pickle_helpers.py",
+      "astropy/io/misc/tests/test_yaml.py",
+      "astropy/io/tests/test_registry.py",
+      "astropy/io/tests/test_registry_help.py",
+      "astropy/modeling/tests/test_blackbody.py",
+      "astropy/modeling/tests/test_compound.py",
+      "astropy/modeling/tests/test_constraints.py",
+      "astropy/modeling/tests/test_core.py",
+      "astropy/modeling/tests/test_fitters.py",
+      "astropy/modeling/tests/test_functional_models.py",
+      "astropy/modeling/tests/test_input.py",
+      "astropy/modeling/tests/test_mappings.py",
+      "astropy/modeling/tests/test_model_sets.py",
+      "astropy/modeling/tests/test_models.py",
+      "astropy/modeling/tests/test_models_quantities.py",
+      "astropy/modeling/tests/test_parameters.py",
+      "astropy/modeling/tests/test_polynomial.py",
+      "astropy/modeling/tests/test_projections.py",
+      "astropy/modeling/tests/test_quantities_evaluation.py",
+      "astropy/modeling/tests/test_quantities_fitting.py",
+      "astropy/modeling/tests/test_quantities_model.py",
+      "astropy/modeling/tests/test_quantities_parameters.py",
+      "astropy/modeling/tests/test_quantities_rotations.py",
+      "astropy/modeling/tests/test_rotations.py",
+      "astropy/modeling/tests/test_separable.py",
+      "astropy/modeling/tests/test_utils.py",
+      "astropy/nddata/mixins/tests/test_ndarithmetic.py",
+      "astropy/nddata/mixins/tests/test_ndio.py",
+      "astropy/nddata/mixins/tests/test_ndslicing.py",
+      "astropy/nddata/tests/test_bitmask.py",
+      "astropy/nddata/tests/test_ccddata.py",
+      "astropy/nddata/tests/test_compat.py",
+      "astropy/nddata/tests/test_decorators.py",
+      "astropy/nddata/tests/test_flag_collection.py",
+      "astropy/nddata/tests/test_nddata.py",
+      "astropy/nddata/tests/test_nddata_base.py",
+      "astropy/nddata/tests/test_nduncertainty.py",
+      "astropy/nddata/tests/test_utils.py",
+      "astropy/samp/tests/test_client.py",
+      "astropy/samp/tests/test_errors.py",
+      "astropy/samp/tests/test_helpers.py",
+      "astropy/samp/tests/test_hub.py",
+      "astropy/samp/tests/test_hub_proxy.py",
+      "astropy/samp/tests/test_hub_script.py",
+      "astropy/samp/tests/test_standard_profile.py",
+      "astropy/samp/tests/test_web_profile.py",
+      "astropy/stats/tests/test_bayesian_blocks.py",
+      "astropy/stats/tests/test_biweight.py",
+      "astropy/stats/tests/test_circstats.py",
+      "astropy/stats/tests/test_funcs.py",
+      "astropy/stats/tests/test_histogram.py",
+      "astropy/stats/tests/test_info_theory.py",
+      "astropy/stats/tests/test_jackknife.py",
+      "astropy/stats/tests/test_sigma_clipping.py",
+      "astropy/stats/tests/test_spatial.py",
+      "astropy/table/tests/test_array.py",
+      "astropy/table/tests/test_bst.py",
+      "astropy/table/tests/test_column.py",
+      "astropy/table/tests/test_groups.py",
+      "astropy/table/tests/test_index.py",
+      "astropy/table/tests/test_info.py",
+      "astropy/table/tests/test_init_table.py",
+      "astropy/table/tests/test_item_access.py",
+      "astropy/table/tests/test_jsviewer.py",
+      "astropy/table/tests/test_masked.py",
+      "astropy/table/tests/test_mixin.py",
+      "astropy/table/tests/test_np_utils.py",
+      "astropy/table/tests/test_operations.py",
+      "astropy/table/tests/test_pickle.py",
+      "astropy/table/tests/test_pprint.py",
+      "astropy/table/tests/test_row.py",
+      "astropy/table/tests/test_showtable.py",
+      "astropy/table/tests/test_subclass.py",
+      "astropy/table/tests/test_table.py",
+      "astropy/tests/test_logger.py",
+      "astropy/tests/tests/test_imports.py",
+      "astropy/tests/tests/test_quantity_helpers.py",
+      "astropy/tests/tests/test_run_tests.py",
+      "astropy/tests/tests/test_runner.py",
+      "astropy/time/tests/test_basic.py",
+      "astropy/time/tests/test_comparisons.py",
+      "astropy/time/tests/test_corrs.py",
+      "astropy/time/tests/test_delta.py",
+      "astropy/time/tests/test_guess.py",
+      "astropy/time/tests/test_mask.py",
+      "astropy/time/tests/test_methods.py",
+      "astropy/time/tests/test_pickle.py",
+      "astropy/time/tests/test_precision.py",
+      "astropy/time/tests/test_quantity_interaction.py",
+      "astropy/time/tests/test_sidereal.py",
+      "astropy/time/tests/test_ut1.py",
+      "astropy/timeseries/io/tests/test_kepler.py",
+      "astropy/timeseries/periodograms/bls/tests/test_bls.py",
+      "astropy/timeseries/periodograms/lombscargle/implementations/tests/test_mle.py",
+      "astropy/timeseries/periodograms/lombscargle/implementations/tests/test_utils.py",
+      "astropy/timeseries/periodograms/lombscargle/tests/test_lombscargle.py",
+      "astropy/timeseries/periodograms/lombscargle/tests/test_statistics.py",
+      "astropy/timeseries/periodograms/lombscargle/tests/test_utils.py",
+      "astropy/timeseries/tests/test_binned.py",
+      "astropy/timeseries/tests/test_common.py",
+      "astropy/timeseries/tests/test_downsample.py",
+      "astropy/timeseries/tests/test_sampled.py",
+      "astropy/uncertainty/tests/test_distribution.py",
+      "astropy/units/tests/test_deprecated.py",
+      "astropy/units/tests/test_equivalencies.py",
+      "astropy/units/tests/test_format.py",
+      "astropy/units/tests/test_logarithmic.py",
+      "astropy/units/tests/test_photometric.py",
+      "astropy/units/tests/test_physical.py",
+      "astropy/units/tests/test_quantity.py",
+      "astropy/units/tests/test_quantity_annotations.py",
+      "astropy/units/tests/test_quantity_array_methods.py",
+      "astropy/units/tests/test_quantity_decorator.py",
+      "astropy/units/tests/test_quantity_helpers.py",
+      "astropy/units/tests/test_quantity_non_ufuncs.py",
+      "astropy/units/tests/test_quantity_ufuncs.py",
+      "astropy/units/tests/test_units.py",
+      "astropy/units/tests/test_utils.py",
+      "astropy/utils/iers/tests/test_iers.py",
+      "astropy/utils/tests/test_codegen.py",
+      "astropy/utils/tests/test_collections.py",
+      "astropy/utils/tests/test_console.py",
+      "astropy/utils/tests/test_data.py",
+      "astropy/utils/tests/test_data_info.py",
+      "astropy/utils/tests/test_decorators.py",
+      "astropy/utils/tests/test_diff.py",
+      "astropy/utils/tests/test_introspection.py",
+      "astropy/utils/tests/test_metadata.py",
+      "astropy/utils/tests/test_misc.py",
+      "astropy/utils/tests/test_progress_bar_func.py",
+      "astropy/utils/tests/test_timer.py",
+      "astropy/utils/tests/test_xml.py",
+      "astropy/utils/xml/tests/test_iterparse.py",
+      "astropy/visualization/scripts/tests/test_fits2bitmap.py",
+      "astropy/visualization/tests/test_histogram.py",
+      "astropy/visualization/tests/test_interval.py",
+      "astropy/visualization/tests/test_lupton_rgb.py",
+      "astropy/visualization/tests/test_norm.py",
+      "astropy/visualization/tests/test_stretch.py",
+      "astropy/visualization/tests/test_time.py",
+      "astropy/visualization/tests/test_units.py",
+      "astropy/visualization/wcsaxes/tests/test_coordinate_helpers.py",
+      "astropy/visualization/wcsaxes/tests/test_display_world_coordinates.py",
+      "astropy/visualization/wcsaxes/tests/test_formatter_locator.py",
+      "astropy/visualization/wcsaxes/tests/test_frame.py",
+      "astropy/visualization/wcsaxes/tests/test_images.py",
+      "astropy/visualization/wcsaxes/tests/test_misc.py",
+      "astropy/visualization/wcsaxes/tests/test_transform_coord_meta.py",
+      "astropy/visualization/wcsaxes/tests/test_transforms.py",
+      "astropy/visualization/wcsaxes/tests/test_utils.py",
+      "astropy/wcs/tests/extension/test_extension.py",
+      "astropy/wcs/tests/test_pickle.py",
+      "astropy/wcs/tests/test_profiling.py",
+      "astropy/wcs/tests/test_utils.py",
+      "astropy/wcs/tests/test_wcs.py",
+      "astropy/wcs/tests/test_wcsprm.py",
+      "astropy/wcs/wcsapi/tests/test_fitswcs.py",
+      "astropy/wcs/wcsapi/tests/test_high_level_api.py",
+      "astropy/wcs/wcsapi/tests/test_high_level_wcs_wrapper.py",
+      "astropy/wcs/wcsapi/tests/test_low_level_api.py",
+      "astropy/wcs/wcsapi/tests/test_sliced_low_level_wcs.py",
+      "astropy/wcs/wcsapi/tests/test_utils.py"
+    ],
+    "elapsed_seconds": 175.841,
+    "failed_test_files": [
+      "astropy/convolution/tests/test_convolve_speeds.py",
+      "astropy/coordinates/tests/test_angular_separation.py",
+      "astropy/coordinates/tests/test_api_ape5.py",
+      "astropy/coordinates/tests/test_frames.py",
+      "astropy/coordinates/tests/test_funcs.py",
+      "astropy/coordinates/tests/test_regression.py",
+      "astropy/coordinates/tests/test_representation.py",
+      "astropy/coordinates/tests/test_transformations.py",
+      "astropy/io/ascii/tests/test_c_reader.py",
+      "astropy/io/ascii/tests/test_read.py",
+      "astropy/io/ascii/tests/test_write.py",
+      "astropy/io/fits/tests/test_connect.py",
+      "astropy/io/fits/tests/test_convenience.py",
+      "astropy/io/fits/tests/test_core.py",
+      "astropy/io/fits/tests/test_diff.py",
+      "astropy/io/fits/tests/test_division.py",
+      "astropy/io/fits/tests/test_fitscheck.py",
+      "astropy/io/fits/tests/test_fitsdiff.py",
+      "astropy/io/fits/tests/test_fitstime.py",
+      "astropy/io/fits/tests/test_hdulist.py",
+      "astropy/io/fits/tests/test_header.py",
+      "astropy/io/fits/tests/test_image.py",
+      "astropy/io/fits/tests/test_table.py",
+      "astropy/io/fits/tests/test_uint.py",
+      "astropy/io/fits/tests/test_util.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_angle.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_earthlocation.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_frames.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_representation.py",
+      "astropy/io/misc/asdf/tags/coordinates/tests/test_skycoord.py",
+      "astropy/io/misc/asdf/tags/fits/tests/test_fits.py",
+      "astropy/io/misc/asdf/tags/table/tests/test_table.py",
+      "astropy/io/misc/asdf/tags/time/tests/test_time.py",
+      "astropy/io/misc/asdf/tags/time/tests/test_timedelta.py",
+      "astropy/io/misc/asdf/tags/transform/tests/test_transform.py",
+      "astropy/io/misc/asdf/tags/unit/tests/test_equivalency.py",
+      "astropy/io/misc/asdf/tags/unit/tests/test_quantity.py",
+      "astropy/io/misc/asdf/tags/unit/tests/test_unit.py",
+      "astropy/io/misc/asdf/tests/test_io.py",
+      "astropy/io/misc/tests/test_pandas.py",
+      "astropy/nddata/tests/test_utils.py",
+      "astropy/samp/tests/test_helpers.py",
+      "astropy/table/tests/test_groups.py",
+      "astropy/table/tests/test_item_access.py",
+      "astropy/table/tests/test_operations.py",
+      "astropy/table/tests/test_row.py",
+      "astropy/table/tests/test_table.py",
+      "astropy/time/tests/test_basic.py",
+      "astropy/units/tests/test_equivalencies.py",
+      "astropy/units/tests/test_quantity.py",
+      "astropy/utils/tests/test_console.py",
+      "astropy/utils/tests/test_progress_bar_func.py",
+      "astropy/visualization/scripts/tests/test_fits2bitmap.py",
+      "astropy/visualization/tests/test_norm.py",
+      "astropy/visualization/tests/test_units.py",
+      "astropy/visualization/wcsaxes/tests/test_coordinate_helpers.py",
+      "astropy/visualization/wcsaxes/tests/test_display_world_coordinates.py",
+      "astropy/visualization/wcsaxes/tests/test_misc.py",
+      "astropy/wcs/tests/extension/test_extension.py",
+      "astropy/wcs/tests/test_wcs.py",
+      "astropy/wcs/tests/test_wcsprm.py",
+      "astropy_helpers/astropy_helpers/tests/test_ah_bootstrap.py",
+      "astropy_helpers/astropy_helpers/tests/test_git_helpers.py",
+      "astropy_helpers/astropy_helpers/tests/test_openmp_helpers.py",
+      "astropy_helpers/astropy_helpers/tests/test_setup_helpers.py",
+      "astropy_helpers/astropy_helpers/tests/test_utils.py"
+    ],
+    "in_test_hit_tests": [
+      "astropy/constants/tests/test_constant.py",
+      "astropy/constants/tests/test_prior_version.py",
+      "astropy/convolution/tests/test_convolve.py",
+      "astropy/convolution/tests/test_convolve_fft.py",
+      "astropy/convolution/tests/test_convolve_kernels.py",
+      "astropy/convolution/tests/test_convolve_models.py",
+      "astropy/convolution/tests/test_convolve_nddata.py",
+      "astropy/convolution/tests/test_kernel_class.py",
+      "astropy/coordinates/tests/accuracy/test_ecliptic.py",
+      "astropy/coordinates/tests/accuracy/test_fk4_no_e_fk4.py",
+      "astropy/coordinates/tests/accuracy/test_fk4_no_e_fk5.py",
+      "astropy/coordinates/tests/accuracy/test_galactic_fk4.py",
+      "astropy/coordinates/tests/accuracy/test_icrs_fk5.py",
+      "astropy/coordinates/tests/test_angles.py",
+      "astropy/coordinates/tests/test_arrays.py",
+      "astropy/coordinates/tests/test_atc_replacements.py",
+      "astropy/coordinates/tests/test_celestial_transformations.py",
+      "astropy/coordinates/tests/test_distance.py",
+      "astropy/coordinates/tests/test_earth.py",
+      "astropy/coordinates/tests/test_finite_difference_velocities.py",
+      "astropy/coordinates/tests/test_formatting.py",
+      "astropy/coordinates/tests/test_frames_with_velocity.py",
+      "astropy/coordinates/tests/test_iau_fullstack.py",
+      "astropy/coordinates/tests/test_intermediate_transformations.py",
+      "astropy/coordinates/tests/test_matrix_utilities.py",
+      "astropy/coordinates/tests/test_name_resolve.py",
+      "astropy/coordinates/tests/test_pickle.py",
+      "astropy/coordinates/tests/test_representation_arithmetic.py",
+      "astropy/coordinates/tests/test_representation_methods.py",
+      "astropy/coordinates/tests/test_sites.py",
+      "astropy/coordinates/tests/test_sky_coord.py",
+      "astropy/coordinates/tests/test_sky_coord_velocities.py",
+      "astropy/coordinates/tests/test_skyoffset_transformations.py",
+      "astropy/coordinates/tests/test_solar_system.py",
+      "astropy/cosmology/tests/test_cosmology.py",
+      "astropy/io/ascii/tests/test_cds_header_from_readme.py",
+      "astropy/io/ascii/tests/test_connect.py",
+      "astropy/io/ascii/tests/test_ecsv.py",
+      "astropy/io/fits/tests/test_checksum.py",
+      "astropy/io/fits/tests/test_compression_failures.py",
+      "astropy/io/fits/tests/test_fitsheader.py",
+      "astropy/io/fits/tests/test_structured.py",
+      "astropy/io/misc/tests/test_yaml.py",
+      "astropy/io/tests/test_registry.py",
+      "astropy/modeling/tests/test_blackbody.py",
+      "astropy/modeling/tests/test_functional_models.py",
+      "astropy/modeling/tests/test_models_quantities.py",
+      "astropy/modeling/tests/test_projections.py",
+      "astropy/modeling/tests/test_quantities_evaluation.py",
+      "astropy/modeling/tests/test_quantities_model.py",
+      "astropy/modeling/tests/test_quantities_parameters.py",
+      "astropy/modeling/tests/test_quantities_rotations.py",
+      "astropy/modeling/tests/test_rotations.py",
+      "astropy/nddata/mixins/tests/test_ndarithmetic.py",
+      "astropy/nddata/mixins/tests/test_ndslicing.py",
+      "astropy/nddata/tests/test_ccddata.py",
+      "astropy/nddata/tests/test_nddata.py",
+      "astropy/nddata/tests/test_nduncertainty.py",
+      "astropy/stats/tests/test_circstats.py",
+      "astropy/stats/tests/test_funcs.py",
+      "astropy/stats/tests/test_sigma_clipping.py",
+      "astropy/table/tests/test_column.py",
+      "astropy/table/tests/test_index.py",
+      "astropy/table/tests/test_info.py",
+      "astropy/table/tests/test_mixin.py",
+      "astropy/table/tests/test_pickle.py",
+      "astropy/table/tests/test_pprint.py",
+      "astropy/table/tests/test_showtable.py",
+      "astropy/tests/tests/test_imports.py",
+      "astropy/tests/tests/test_quantity_helpers.py",
+      "astropy/tests/tests/test_run_tests.py",
+      "astropy/tests/tests/test_runner.py",
+      "astropy/time/tests/test_corrs.py",
+      "astropy/time/tests/test_delta.py",
+      "astropy/time/tests/test_mask.py",
+      "astropy/time/tests/test_methods.py",
+      "astropy/time/tests/test_precision.py",
+      "astropy/time/tests/test_quantity_interaction.py",
+      "astropy/time/tests/test_sidereal.py",
+      "astropy/time/tests/test_ut1.py",
+      "astropy/timeseries/periodograms/bls/tests/test_bls.py",
+      "astropy/timeseries/periodograms/lombscargle/tests/test_lombscargle.py",
+      "astropy/timeseries/tests/test_binned.py",
+      "astropy/timeseries/tests/test_common.py",
+      "astropy/timeseries/tests/test_downsample.py",
+      "astropy/timeseries/tests/test_sampled.py",
+      "astropy/uncertainty/tests/test_distribution.py",
+      "astropy/units/tests/test_format.py",
+      "astropy/units/tests/test_logarithmic.py",
+      "astropy/units/tests/test_photometric.py",
+      "astropy/units/tests/test_quantity_annotations.py",
+      "astropy/units/tests/test_quantity_array_methods.py",
+      "astropy/units/tests/test_quantity_decorator.py",
+      "astropy/units/tests/test_quantity_helpers.py",
+      "astropy/units/tests/test_quantity_non_ufuncs.py",
+      "astropy/units/tests/test_quantity_ufuncs.py",
+      "astropy/units/tests/test_units.py",
+      "astropy/units/tests/test_utils.py",
+      "astropy/utils/iers/tests/test_iers.py",
+      "astropy/utils/tests/test_misc.py",
+      "astropy/visualization/tests/test_time.py",
+      "astropy/visualization/wcsaxes/tests/test_formatter_locator.py",
+      "astropy/visualization/wcsaxes/tests/test_utils.py",
+      "astropy/wcs/tests/test_utils.py",
+      "astropy/wcs/wcsapi/tests/test_fitswcs.py",
+      "astropy/wcs/wcsapi/tests/test_high_level_api.py",
+      "astropy/wcs/wcsapi/tests/test_high_level_wcs_wrapper.py",
+      "astropy/wcs/wcsapi/tests/test_sliced_low_level_wcs.py",
+      "astropy/wcs/wcsapi/tests/test_utils.py"
+    ],
+    "instance_id": "astropy__astropy-8872",
+    "modified_functions": [
+      {
+        "insertion_line": 275,
+        "line": 272,
+        "marker": "astropy/units/quantity.py::Quantity.__new__",
+        "path": "astropy/units/quantity.py",
+        "qualname": "Quantity.__new__"
+      }
+    ],
+    "passed_test_files": 205,
+    "patch_file": "b750a0e6ee76fb6b8a099a4d16ec51977be46bf6/golden.patch",
+    "project": "astropy/astropy",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/python39/astropy/ground_truth_runs/astropy__astropy-8872_1784792999_764211",
+    "test_env": "RTSTest39_astropy_710c878e",
+    "tests_to_run": [
+      "astropy/_erfa/tests/test_erfa.py",
+      "astropy/config/tests/test_configs.py",
+      "astropy/constants/tests/test_constant.py",
+      "astropy/constants/tests/test_pickle.py",
+      "astropy/constants/tests/test_prior_version.py",
+      "astropy/constants/tests/test_sciencestate.py",
+      "astropy/convolution/tests/test_convolve.py",
+      "astropy/convolution/tests/test_convolve_fft.py",
+      "astropy/convolution/tests/test_convolve_kernels.py",
+      "astropy/convolution/tests/test_convolve_models.py",
+      "astropy/convolution/tests/test_convolve_nddata.py",
+      "astropy/convolution/tests/test_discretize.py",
+      "astropy/convolution/tests/test_kernel_class.py",
+      "astropy/convolution/tests/test_pickle.py",
+      "astropy/coordinates/tests/accuracy/test_altaz_icrs.py",
+      "astropy/coordinates/tests/accuracy/test_ecliptic.py",
+      "astropy/coordinates/tests/accuracy/test_fk4_no_e_fk4.py",
+      "astropy/coordinates/tests/accuracy/test_fk4_no_e_fk5.py",
+      "astropy/coordinates/tests/accuracy/test_galactic_fk4.py",
+      "astropy/coordinates/tests/accuracy/test_icrs_fk5.py",
+      "astropy/coordinates/tests/test_angles.py",
+      "astropy/coordinates/tests/test_arrays.py",
+      "astropy/coordinates/tests/test_atc_replacements.py",
+      "astropy/coordinates/tests/test_celestial_transformations.py",
+      "astropy/coordinates/tests/test_distance.py",
+      "astropy/coordinates/tests/test_earth.py",
+      "astropy/coordinates/tests/test_finite_difference_velocities.py",
+      "astropy/coordinates/tests/test_formatting.py",
+      "astropy/coordinates/tests/test_frames_with_velocity.py",
+      "astropy/coordinates/tests/test_iau_fullstack.py",
+      "astropy/coordinates/tests/test_intermediate_transformations.py",
+      "astropy/coordinates/tests/test_matching.py",
+      "astropy/coordinates/tests/test_matrix_utilities.py",
+      "astropy/coordinates/tests/test_name_resolve.py",
+      "astropy/coordinates/tests/test_pickle.py",
+      "astropy/coordinates/tests/test_representation_arithmetic.py",
+      "astropy/coordinates/tests/test_representation_methods.py",
+      "astropy/coordinates/tests/test_shape_manipulation.py",
+      "astropy/coordinates/tests/test_sites.py",
+      "astropy/coordinates/tests/test_sky_coord.py",
+      "astropy/coordinates/tests/test_sky_coord_velocities.py",
+      "astropy/coordinates/tests/test_skyoffset_transformations.py",
+      "astropy/coordinates/tests/test_solar_system.py",
+      "astropy/coordinates/tests/test_unit_representation.py",
+      "astropy/coordinates/tests/test_velocity_corrs.py",
+      "astropy/cosmology/tests/test_cosmology.py",
+      "astropy/cosmology/tests/test_pickle.py",
+      "astropy/io/ascii/tests/test_cds_header_from_readme.py",
+      "astropy/io/ascii/tests/test_compressed.py",
+      "astropy/io/ascii/tests/test_connect.py",
+      "astropy/io/ascii/tests/test_ecsv.py",
+      "astropy/io/ascii/tests/test_fixedwidth.py",
+      "astropy/io/ascii/tests/test_html.py",
+      "astropy/io/ascii/tests/test_ipac_definitions.py",
+      "astropy/io/ascii/tests/test_rst.py",
+      "astropy/io/ascii/tests/test_types.py",
+      "astropy/io/fits/tests/test_checksum.py",
+      "astropy/io/fits/tests/test_compression_failures.py",
+      "astropy/io/fits/tests/test_fitsheader.py",
+      "astropy/io/fits/tests/test_fitsinfo.py",
+      "astropy/io/fits/tests/test_groups.py",
+      "astropy/io/fits/tests/test_nonstandard.py",
+      "astropy/io/fits/tests/test_structured.py",
+      "astropy/io/misc/tests/test_hdf5.py",
+      "astropy/io/misc/tests/test_pickle_helpers.py",
+      "astropy/io/misc/tests/test_yaml.py",
+      "astropy/io/tests/test_registry.py",
+      "astropy/io/tests/test_registry_help.py",
+      "astropy/modeling/tests/test_blackbody.py",
+      "astropy/modeling/tests/test_compound.py",
+      "astropy/modeling/tests/test_constraints.py",
+      "astropy/modeling/tests/test_core.py",
+      "astropy/modeling/tests/test_fitters.py",
+      "astropy/modeling/tests/test_functional_models.py",
+      "astropy/modeling/tests/test_input.py",
+      "astropy/modeling/tests/test_mappings.py",
+      "astropy/modeling/tests/test_model_sets.py",
+      "astropy/modeling/tests/test_models.py",
+      "astropy/modeling/tests/test_models_quantities.py",
+      "astropy/modeling/tests/test_parameters.py",
+      "astropy/modeling/tests/test_polynomial.py",
+      "astropy/modeling/tests/test_projections.py",
+      "astropy/modeling/tests/test_quantities_evaluation.py",
+      "astropy/modeling/tests/test_quantities_fitting.py",
+      "astropy/modeling/tests/test_quantities_model.py",
+      "astropy/modeling/tests/test_quantities_parameters.py",
+      "astropy/modeling/tests/test_quantities_rotations.py",
+      "astropy/modeling/tests/test_rotations.py",
+      "astropy/modeling/tests/test_separable.py",
+      "astropy/modeling/tests/test_utils.py",
+      "astropy/nddata/mixins/tests/test_ndarithmetic.py",
+      "astropy/nddata/mixins/tests/test_ndio.py",
+      "astropy/nddata/mixins/tests/test_ndslicing.py",
+      "astropy/nddata/tests/test_bitmask.py",
+      "astropy/nddata/tests/test_ccddata.py",
+      "astropy/nddata/tests/test_compat.py",
+      "astropy/nddata/tests/test_decorators.py",
+      "astropy/nddata/tests/test_flag_collection.py",
+      "astropy/nddata/tests/test_nddata.py",
+      "astropy/nddata/tests/test_nddata_base.py",
+      "astropy/nddata/tests/test_nduncertainty.py",
+      "astropy/samp/tests/test_client.py",
+      "astropy/samp/tests/test_errors.py",
+      "astropy/samp/tests/test_hub.py",
+      "astropy/samp/tests/test_hub_proxy.py",
+      "astropy/samp/tests/test_hub_script.py",
+      "astropy/samp/tests/test_standard_profile.py",
+      "astropy/samp/tests/test_web_profile.py",
+      "astropy/stats/tests/test_bayesian_blocks.py",
+      "astropy/stats/tests/test_biweight.py",
+      "astropy/stats/tests/test_circstats.py",
+      "astropy/stats/tests/test_funcs.py",
+      "astropy/stats/tests/test_histogram.py",
+      "astropy/stats/tests/test_info_theory.py",
+      "astropy/stats/tests/test_jackknife.py",
+      "astropy/stats/tests/test_sigma_clipping.py",
+      "astropy/stats/tests/test_spatial.py",
+      "astropy/table/tests/test_array.py",
+      "astropy/table/tests/test_bst.py",
+      "astropy/table/tests/test_column.py",
+      "astropy/table/tests/test_index.py",
+      "astropy/table/tests/test_info.py",
+      "astropy/table/tests/test_init_table.py",
+      "astropy/table/tests/test_jsviewer.py",
+      "astropy/table/tests/test_masked.py",
+      "astropy/table/tests/test_mixin.py",
+      "astropy/table/tests/test_np_utils.py",
+      "astropy/table/tests/test_pickle.py",
+      "astropy/table/tests/test_pprint.py",
+      "astropy/table/tests/test_showtable.py",
+      "astropy/table/tests/test_subclass.py",
+      "astropy/tests/test_logger.py",
+      "astropy/tests/tests/test_imports.py",
+      "astropy/tests/tests/test_quantity_helpers.py",
+      "astropy/tests/tests/test_run_tests.py",
+      "astropy/tests/tests/test_runner.py",
+      "astropy/time/tests/test_comparisons.py",
+      "astropy/time/tests/test_corrs.py",
+      "astropy/time/tests/test_delta.py",
+      "astropy/time/tests/test_guess.py",
+      "astropy/time/tests/test_mask.py",
+      "astropy/time/tests/test_methods.py",
+      "astropy/time/tests/test_pickle.py",
+      "astropy/time/tests/test_precision.py",
+      "astropy/time/tests/test_quantity_interaction.py",
+      "astropy/time/tests/test_sidereal.py",
+      "astropy/time/tests/test_ut1.py",
+      "astropy/timeseries/io/tests/test_kepler.py",
+      "astropy/timeseries/periodograms/bls/tests/test_bls.py",
+      "astropy/timeseries/periodograms/lombscargle/implementations/tests/test_mle.py",
+      "astropy/timeseries/periodograms/lombscargle/implementations/tests/test_utils.py",
+      "astropy/timeseries/periodograms/lombscargle/tests/test_lombscargle.py",
+      "astropy/timeseries/periodograms/lombscargle/tests/test_statistics.py",
+      "astropy/timeseries/periodograms/lombscargle/tests/test_utils.py",
+      "astropy/timeseries/tests/test_binned.py",
+      "astropy/timeseries/tests/test_common.py",
+      "astropy/timeseries/tests/test_downsample.py",
+      "astropy/timeseries/tests/test_sampled.py",
+      "astropy/uncertainty/tests/test_distribution.py",
+      "astropy/units/tests/test_deprecated.py",
+      "astropy/units/tests/test_format.py",
+      "astropy/units/tests/test_logarithmic.py",
+      "astropy/units/tests/test_photometric.py",
+      "astropy/units/tests/test_physical.py",
+      "astropy/units/tests/test_quantity_annotations.py",
+      "astropy/units/tests/test_quantity_array_methods.py",
+      "astropy/units/tests/test_quantity_decorator.py",
+      "astropy/units/tests/test_quantity_helpers.py",
+      "astropy/units/tests/test_quantity_non_ufuncs.py",
+      "astropy/units/tests/test_quantity_ufuncs.py",
+      "astropy/units/tests/test_units.py",
+      "astropy/units/tests/test_utils.py",
+      "astropy/utils/iers/tests/test_iers.py",
+      "astropy/utils/tests/test_codegen.py",
+      "astropy/utils/tests/test_collections.py",
+      "astropy/utils/tests/test_data.py",
+      "astropy/utils/tests/test_data_info.py",
+      "astropy/utils/tests/test_decorators.py",
+      "astropy/utils/tests/test_diff.py",
+      "astropy/utils/tests/test_introspection.py",
+      "astropy/utils/tests/test_metadata.py",
+      "astropy/utils/tests/test_misc.py",
+      "astropy/utils/tests/test_timer.py",
+      "astropy/utils/tests/test_xml.py",
+      "astropy/utils/xml/tests/test_iterparse.py",
+      "astropy/visualization/tests/test_histogram.py",
+      "astropy/visualization/tests/test_interval.py",
+      "astropy/visualization/tests/test_lupton_rgb.py",
+      "astropy/visualization/tests/test_stretch.py",
+      "astropy/visualization/tests/test_time.py",
+      "astropy/visualization/wcsaxes/tests/test_formatter_locator.py",
+      "astropy/visualization/wcsaxes/tests/test_frame.py",
+      "astropy/visualization/wcsaxes/tests/test_images.py",
+      "astropy/visualization/wcsaxes/tests/test_transform_coord_meta.py",
+      "astropy/visualization/wcsaxes/tests/test_transforms.py",
+      "astropy/visualization/wcsaxes/tests/test_utils.py",
+      "astropy/wcs/tests/test_pickle.py",
+      "astropy/wcs/tests/test_profiling.py",
+      "astropy/wcs/tests/test_utils.py",
+      "astropy/wcs/wcsapi/tests/test_fitswcs.py",
+      "astropy/wcs/wcsapi/tests/test_high_level_api.py",
+      "astropy/wcs/wcsapi/tests/test_high_level_wcs_wrapper.py",
+      "astropy/wcs/wcsapi/tests/test_low_level_api.py",
+      "astropy/wcs/wcsapi/tests/test_sliced_low_level_wcs.py",
+      "astropy/wcs/wcsapi/tests/test_utils.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 271,
+    "uninstrumentable_changes": [],
+    "version": "3.1"
+  }
+]

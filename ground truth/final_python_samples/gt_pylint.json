@@ -1,0 +1,126 @@
+[
+  {
+    "affected_functions_by_test": {
+      "tests/unittest_pyreverse_diadefs.py": [
+        "pylint/pyreverse/diagrams.py::ClassDiagram.class_names",
+        "pylint/pyreverse/inspector.py::Linker.handle_assignattr_type",
+        "pylint/pyreverse/inspector.py::Linker.visit_assignname",
+        "pylint/pyreverse/utils.py::get_annotation",
+        "pylint/pyreverse/utils.py::get_annotation_label",
+        "pylint/pyreverse/utils.py::infer_node"
+      ],
+      "tests/unittest_pyreverse_inspector.py": [
+        "pylint/pyreverse/inspector.py::Linker.handle_assignattr_type",
+        "pylint/pyreverse/inspector.py::Linker.visit_assignname",
+        "pylint/pyreverse/utils.py::get_annotation",
+        "pylint/pyreverse/utils.py::get_annotation_label",
+        "pylint/pyreverse/utils.py::infer_node"
+      ],
+      "tests/unittest_pyreverse_writer.py": [
+        "pylint/pyreverse/diagrams.py::ClassDiagram.class_names",
+        "pylint/pyreverse/inspector.py::Linker.handle_assignattr_type",
+        "pylint/pyreverse/inspector.py::Linker.visit_assignname",
+        "pylint/pyreverse/utils.py::get_annotation",
+        "pylint/pyreverse/utils.py::get_annotation_label",
+        "pylint/pyreverse/utils.py::infer_node",
+        "pylint/pyreverse/writer.py::DotWriter.get_values"
+      ]
+    },
+    "base_commit": "99589b08de8c5a2c6cc61e13a37420a868c80599",
+    "dynamic_hit_tests": [
+      "tests/unittest_pyreverse_diadefs.py",
+      "tests/unittest_pyreverse_inspector.py",
+      "tests/unittest_pyreverse_writer.py"
+    ],
+    "dynamic_hit_tests_all": [
+      "tests/unittest_pyreverse_diadefs.py",
+      "tests/unittest_pyreverse_inspector.py",
+      "tests/unittest_pyreverse_writer.py"
+    ],
+    "elapsed_seconds": 53.377,
+    "failed_test_files": [
+      "tests/acceptance/test_stdlib.py",
+      "tests/checkers/unittest_imports.py",
+      "tests/functional/t/test_compile.py",
+      "tests/regrtest_data/test_pylintrc_comments.py",
+      "tests/test_functional.py"
+    ],
+    "in_test_hit_tests": [
+      "tests/unittest_pyreverse_diadefs.py",
+      "tests/unittest_pyreverse_inspector.py",
+      "tests/unittest_pyreverse_writer.py"
+    ],
+    "instance_id": "pylint-dev__pylint-4551",
+    "modified_functions": [
+      {
+        "insertion_line": 120,
+        "line": 118,
+        "marker": "pylint/pyreverse/diagrams.py::ClassDiagram.class_names",
+        "path": "pylint/pyreverse/diagrams.py",
+        "qualname": "ClassDiagram.class_names"
+      },
+      {
+        "insertion_line": 228,
+        "line": 223,
+        "marker": "pylint/pyreverse/inspector.py::Linker.handle_assignattr_type",
+        "path": "pylint/pyreverse/inspector.py",
+        "qualname": "Linker.handle_assignattr_type"
+      },
+      {
+        "insertion_line": 199,
+        "line": 192,
+        "marker": "pylint/pyreverse/inspector.py::Linker.visit_assignname",
+        "path": "pylint/pyreverse/inspector.py",
+        "qualname": "Linker.visit_assignname"
+      },
+      {
+        "insertion_line": 234,
+        "line": 230,
+        "marker": "pylint/pyreverse/utils.py::get_annotation",
+        "path": "pylint/pyreverse/utils.py",
+        "qualname": "get_annotation"
+      },
+      {
+        "insertion_line": 222,
+        "line": 221,
+        "marker": "pylint/pyreverse/utils.py::get_annotation_label",
+        "path": "pylint/pyreverse/utils.py",
+        "qualname": "get_annotation_label"
+      },
+      {
+        "insertion_line": 269,
+        "line": 265,
+        "marker": "pylint/pyreverse/utils.py::infer_node",
+        "path": "pylint/pyreverse/utils.py",
+        "qualname": "infer_node"
+      },
+      {
+        "insertion_line": 131,
+        "line": 126,
+        "marker": "pylint/pyreverse/writer.py::DotWriter.get_values",
+        "path": "pylint/pyreverse/writer.py",
+        "qualname": "DotWriter.get_values"
+      }
+    ],
+    "passed_test_files": 59,
+    "passing_dynamic_hit_tests": [
+      "tests/unittest_pyreverse_diadefs.py",
+      "tests/unittest_pyreverse_inspector.py",
+      "tests/unittest_pyreverse_writer.py"
+    ],
+    "patch_file": "99589b08de8c5a2c6cc61e13a37420a868c80599/golden.patch",
+    "project": "pylint-dev/pylint",
+    "python": "Python 3.9.20",
+    "run_dir": "/shared_dir/projects/namerts/runtime/final_python_samples/pylint/ground_truth_runs/pylint-dev__pylint-4551_1784862558_994527",
+    "test_env": "RTSTest39_pylint_7d52f971",
+    "tests_to_run": [
+      "tests/unittest_pyreverse_diadefs.py",
+      "tests/unittest_pyreverse_inspector.py",
+      "tests/unittest_pyreverse_writer.py"
+    ],
+    "timed_out_test_files": [],
+    "total_tests": 64,
+    "uninstrumentable_changes": [],
+    "version": "2.9"
+  }
+]
