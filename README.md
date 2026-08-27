@@ -72,9 +72,13 @@ broader range of projects and historical environments in SWE-bench:
   not require injecting pytest hooks or modifying a target repository's
   `conftest.py`, which also enables projects with custom runners such as
   Django.
-- **Per-file execution controls.** Test files can run in separate processes
-  with bounded parallelism, captured output, and per-file timeouts. Timed-out
-  process groups are terminated without blocking the remainder of a batch.
+- **Initialization-time execution controls.** While collecting dynamic
+  dependency information for the reusable NameRTS cache, test files can run in
+  separate processes with bounded parallelism, captured output, and per-file
+  timeouts. These controls are only needed for instrumented cache
+  initialization. After NameRTS selects tests for a candidate patch, the
+  SWE-bench harness executes the selected tests through the project's normal
+  test path, without NameRTS instrumentation or per-file execution.
 - **SWE-bench project compatibility.** The fork handles project-specific test
   targets, preserves the real checkout path used by official images, and
   includes robustness fixes for historical source trees—for example,
