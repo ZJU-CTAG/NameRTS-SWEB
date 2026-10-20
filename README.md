@@ -75,10 +75,11 @@ broader range of projects and historical environments in SWE-bench:
 - **Initialization-time execution controls.** While collecting dynamic
   dependency information for the reusable NameRTS cache, test files can run in
   separate processes with bounded parallelism, captured output, and per-file
-  timeouts. These controls are only needed for instrumented cache
-  initialization. After NameRTS selects tests for a candidate patch, the
-  SWE-bench harness executes the selected tests through the project's normal
-  test path, without NameRTS instrumentation or per-file execution.
+  timeouts. After NameRTS selects tests for a candidate patch, the SWE-bench
+  harness uses the same bounded per-file execution through the project's normal
+  runner prefix, without NameRTS instrumentation. Per-file processes use a
+  private temporary/config root and deterministic Python hash seed, and the
+  legacy SymPy runner receives a deterministic test seed.
 - **SWE-bench project compatibility.** The fork handles project-specific test
   targets, preserves the real checkout path used by official images, and
   includes robustness fixes for historical source trees—for example,
@@ -146,5 +147,5 @@ repository.
 
 This repository is derived from
 [ZJU-CTAG/NameRTS](https://github.com/ZJU-CTAG/NameRTS). NameRTS is distributed
-under the [Apache License 2.0](https://github.com/ZJU-CTAG/NameRTS/blob/main/LICENSE).
+under the [Apache License 2.0](LICENSE).
 Please retain the upstream attribution when redistributing modified versions.

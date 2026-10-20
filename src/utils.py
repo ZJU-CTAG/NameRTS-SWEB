@@ -5,8 +5,10 @@ import os
 import pprint
 import re
 import signal
+import shutil
 import subprocess
 import sys
+import tempfile
 import time
 import traceback
 import shlex
@@ -124,6 +126,7 @@ def run_test_files_parallel(
     workers: int,
     timeout: int = None,
     test_targets=None,
+    test_timeouts=None,
     capture_dependencies: bool = False,
     nbdp_capturing: bool = False,
 ):
@@ -138,6 +141,19 @@ def run_test_files_parallel(
     process_env["OMP_NUM_THREADS"] = "1"
     process_env["OPENBLAS_NUM_THREADS"] = "1"
     process_env["MKL_NUM_THREADS"] = "1"
+    # Golden and target runs must not disagree only because Python selected a
+    # different hash seed.  This also makes instrumentation repeatable.
+    process_env["PYTHONHASHSEED"] = "0"
+    try:
+        command_tokens = shlex.split(test_command)
+    except ValueError:
+        command_tokens = []
+    if (
+        any(token == "bin/test" or token.endswith("/bin/test") for token in command_tokens)
+        and "--seed" not in command_tokens
+    ):
+        # SymPy's legacy runner has a second, independent random seed.
+        test_command += " --seed 0"
     if capture_dependencies:
         bootstrap_dir = str(Path(__file__).parent / "runtime_bootstrap")
         process_env["NAMERTS_CAPTURE_DEPENDENCIES"] = "1"
@@ -155,6 +171,12 @@ def run_test_files_parallel(
             else bootstrap_dir + os.pathsep + old_pythonpath
         )
 
+    # Separate pytest's numbered temporary-directory roots (and generic
+    # tempfile users) across the independently spawned test-file processes.
+    # Older pytest releases can otherwise race while pruning the shared
+    # /tmp/pytest-of-<user> directory and report spurious setup errors.
+    run_temp_root = tempfile.mkdtemp(prefix="namerts-test-files-")
+
     def run_one(test_file):
         target = (
             test_targets.get(test_file, test_file)
@@ -162,8 +184,22 @@ def run_test_files_parallel(
             else test_file
         )
         command = test_command + " " + shlex.quote(target)
+        file_timeout = (
+            test_timeouts.get(test_file, timeout)
+            if test_timeouts is not None
+            else timeout
+        )
         started = time.time()
         test_process_env = process_env.copy()
+        test_temp_root = tempfile.mkdtemp(prefix="file-", dir=run_temp_root)
+        test_process_env["TMPDIR"] = test_temp_root
+        test_process_env["TMP"] = test_temp_root
+        test_process_env["TEMP"] = test_temp_root
+        test_process_env["PYTEST_DEBUG_TEMPROOT"] = test_temp_root
+        # Matplotlib uses MPLCONFIGDIR for its font/config caches.  Sharing
+        # that directory across independent pytest processes can change font
+        # metrics while a cache is being rebuilt and make layout tests flaky.
+        test_process_env["MPLCONFIGDIR"] = test_temp_root
         if capture_dependencies:
             test_process_env["NAMERTS_TEST_FILE"] = test_file
         process = subprocess.Popen(
@@ -177,7 +213,7 @@ def run_test_files_parallel(
         )
         timed_out = False
         try:
-            stdout, stderr = process.communicate(timeout=timeout)
+            stdout, stderr = process.communicate(timeout=file_timeout)
             return_code = process.returncode
         except subprocess.TimeoutExpired:
             timed_out = True
@@ -194,6 +230,7 @@ def run_test_files_parallel(
             "test_file": test_file,
             "return_code": return_code,
             "timed_out": timed_out,
+            "timeout_seconds": file_timeout,
             "duration": time.time() - started,
             "stdout": stdout,
             "stderr": stderr,
@@ -201,26 +238,34 @@ def run_test_files_parallel(
 
     results = []
     pool_size = min(max(1, workers), len(test_files))
-    with ThreadPoolExecutor(max_workers=pool_size) as executor:
-        futures = {executor.submit(run_one, test_file): test_file for test_file in test_files}
-        for completed, future in enumerate(as_completed(futures), start=1):
-            result = future.result()
-            results.append(result)
-            if result["return_code"] != 0:
-                InstanceLogger().get_logger().warning(
-                    "Test file failed: {} (exit {}, timeout={})\nstdout:\n{}\nstderr:\n{}".format(
-                        result["test_file"],
-                        result["return_code"],
-                        result["timed_out"],
-                        result["stdout"],
-                        result["stderr"],
+    try:
+        with ThreadPoolExecutor(max_workers=pool_size) as executor:
+            futures = {
+                executor.submit(run_one, test_file): test_file
+                for test_file in test_files
+            }
+            for completed, future in enumerate(as_completed(futures), start=1):
+                result = future.result()
+                results.append(result)
+                if result["return_code"] != 0:
+                    InstanceLogger().get_logger().warning(
+                        "Test file failed: {} (exit {}, timeout={})\nstdout:\n{}\nstderr:\n{}".format(
+                            result["test_file"],
+                            result["return_code"],
+                            result["timed_out"],
+                            result["stdout"],
+                            result["stderr"],
+                        )
                     )
-                )
-            if completed == len(test_files) or completed % 10 == 0:
-                print(
-                    "Test-file progress: {}/{}".format(completed, len(test_files)),
-                    flush=True,
-                )
+                if completed == len(test_files) or completed % 10 == 0:
+                    print(
+                        "Test-file progress: {}/{}".format(
+                            completed, len(test_files)
+                        ),
+                        flush=True,
+                    )
+    finally:
+        shutil.rmtree(run_temp_root, ignore_errors=True)
     results.sort(key=lambda item: item["test_file"])
     failures = [item for item in results if item["return_code"] != 0]
     InstanceLogger().get_logger().info(
@@ -262,6 +307,17 @@ def co_is_attribute(co):
     return hasattr(co, "class_name") and co.class_name is not None
 
 
+NON_RUNNABLE_TEST_PATH_COMPONENTS = {
+    "example",
+    "examples",
+    "example_scripts",
+    "fixture",
+    "fixtures",
+    "gis",
+    "gis_tests",
+}
+
+
 def is_test_file_pytest(p, project_path):
     if p is None:
         return False
@@ -273,6 +329,14 @@ def is_test_file_pytest(p, project_path):
     )
     is_django = project_name == "django"
 
+    try:
+        rel_p = p.resolve().relative_to(Path(project_path).resolve())
+    except ValueError:
+        rel_p = p
+    directory_components = {part.lower() for part in rel_p.parts[:-1]}
+    if directory_components & NON_RUNNABLE_TEST_PATH_COMPONENTS:
+        return False
+
     # Django uses many ``tests.py`` modules with its own unittest runner.
     valid_name = (
         p.name.startswith("test_")
@@ -283,10 +347,6 @@ def is_test_file_pytest(p, project_path):
         return False
 
     if is_django:
-        try:
-            rel_p = p.resolve().relative_to(Path(project_path).resolve())
-        except ValueError:
-            return False
         return len(rel_p.parts) > 1 and rel_p.parts[0] == "tests"
 
     # Historical Requests releases keep their pytest module directly at the
@@ -627,4 +687,3 @@ def seconds_to_timestr(sec: float) -> str:
 def timestr_to_seconds(s: str) -> float:
     td = pd.to_timedelta(s)
     return td.total_seconds()
-
