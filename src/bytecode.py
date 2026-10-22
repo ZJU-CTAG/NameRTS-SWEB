@@ -337,7 +337,7 @@ def get_used_names_instr(instr: dis.Instruction, previous_instr: Optional[dis.In
 
     attr, name, both = None, None, None
     if op in opcode.hasname:
-        if opname.endswith("_ATTR"):
+        if opname.endswith("_ATTR") or opname == "LOAD_METHOD":
             attr_hint = ["self", "cls"]
             if previous_instr and previous_instr.argval and ((isinstance(previous_instr.argval, str) and previous_instr.argval in attr_hint) or
                                                              (isinstance(previous_instr.argval, Collection) and any(s in str(previous_instr.argval) for s in attr_hint))):

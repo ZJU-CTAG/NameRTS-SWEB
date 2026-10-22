@@ -131,7 +131,8 @@ def run_test_files_parallel(
     nbdp_capturing: bool = False,
 ):
     """Run one test file per process with bounded outer-level concurrency."""
-    test_files = sorted(test_files)
+    excluded = set(json.loads(os.environ.get("NAMERTS_EXCLUDED_TEST_FILES", "[]")))
+    test_files = sorted(set(test_files) - excluded)
     if not test_files:
         return []
     env_python = resolve_conda_python(conda_env_name)
@@ -317,6 +318,18 @@ NON_RUNNABLE_TEST_PATH_COMPONENTS = {
     "gis_tests",
 }
 
+# Project-relative file/directory prefixes, separate from measured slow tests.
+NON_RUNNABLE_TEST_PATHS_BY_PROJECT = {
+    # SymPy's conftest.py excludes this optional integration suite because
+    # collection itself can fail. Explicit per-file pytest bypasses that ignore.
+    "sympy": (
+        "sympy/integrals/rubi",
+        # Historical runner self-tests import Failed, defined only outside
+        # pytest mode. Exclude from RTS, not the official harness test suite.
+        "sympy/utilities/tests/test_pytest.py",
+    ),
+}
+
 
 def is_test_file_pytest(p, project_path):
     if p is None:
@@ -336,6 +349,10 @@ def is_test_file_pytest(p, project_path):
     directory_components = {part.lower() for part in rel_p.parts[:-1]}
     if directory_components & NON_RUNNABLE_TEST_PATH_COMPONENTS:
         return False
+    for excluded in NON_RUNNABLE_TEST_PATHS_BY_PROJECT.get(project_name, ()):
+        prefix = Path(excluded).parts
+        if rel_p.parts[:len(prefix)] == prefix:
+            return False
 
     # Django uses many ``tests.py`` modules with its own unittest runner.
     valid_name = (

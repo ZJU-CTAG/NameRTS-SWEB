@@ -26,6 +26,24 @@ _GLOBAL_DIFF_CHECKSUMS = None
 _GLOBAL_INIT = None
 
 
+def _instrumentor_reference(node, source_bytes):
+    # Python <3.12 forbids reusing an enclosing f-string's quote character.
+    quotes = set()
+    parent = node.parent
+    while parent is not None:
+        if parent.type == "string":
+            for child in parent.children:
+                if child.type == "string_start":
+                    quotes.update(c for c in source_bytes[child.start_byte:child.end_byte]
+                                  if c in (34, 39))
+        parent = parent.parent
+    for quote in (b"'", b'"'):
+        if quote[0] not in quotes:
+            return b"__import__(" + quote + b"nbdp_instrumentor" + quote + b")."
+    # Nested f-strings may consume both quote characters; use a quote-free name.
+    return "__import__(bytes({}).decode()).".format(tuple(b"nbdp_instrumentor")).encode("ascii")
+
+
 def instrument_name_introspection_source(source):
     """Instrument getattr/getmembers expressions without wrapping the calls.
 
@@ -105,11 +123,10 @@ def instrument_name_introspection_source(source):
     ]
 
     replacements = []
-    helper_prefix = b"__import__('nbdp_instrumentor')."
     for call in getmembers_calls:
         original = source_bytes[call.start_byte:call.end_byte]
         replacement = (
-            helper_prefix
+            _instrumentor_reference(call, source_bytes)
             + b"capture_getmembers_result("
             + original
             + b")"
@@ -118,7 +135,7 @@ def instrument_name_introspection_source(source):
     for argument in getattr_arguments:
         original = source_bytes[argument.start_byte:argument.end_byte]
         replacement = (
-            helper_prefix
+            _instrumentor_reference(argument, source_bytes)
             + b"capture_getattr_name("
             + original
             + b")"
@@ -592,15 +609,14 @@ class NameBDP:
                     s = file_lines[line - 1]
                 leading_ws = s[:len(s) - len(s.lstrip())]
                 file_lines[line - 1] = (
-                            leading_ws + "import nbdp_instrumentor\n" +
-                            leading_ws + f"if nbdp_instrumentor.is_importing: \n" +
-                            leading_ws + indent + f"if not nbdp_instrumentor.import_{monitor_type}_{identifier}: \n" +
-                            leading_ws + indent + indent + f"nbdp_instrumentor.import_{monitor_type}_{identifier} = True\n" +
-                            leading_ws + indent + indent + f"nbdp_instrumentor.visited_when_importing.add(\"{monitor_type}_{identifier}\")\n" +
-                            leading_ws + f"elif not nbdp_instrumentor.{monitor_type}_{identifier}: \n" +
-                            leading_ws + indent + f"nbdp_instrumentor.{monitor_type}_{identifier} = True\n" +
+                            leading_ws + f"if __import__('nbdp_instrumentor').is_importing: \n" +
+                            leading_ws + indent + f"if not __import__('nbdp_instrumentor').import_{monitor_type}_{identifier}: \n" +
+                            leading_ws + indent + indent + f"__import__('nbdp_instrumentor').import_{monitor_type}_{identifier} = True\n" +
+                            leading_ws + indent + indent + f"__import__('nbdp_instrumentor').visited_when_importing.add(\"{monitor_type}_{identifier}\")\n" +
+                            leading_ws + f"elif not __import__('nbdp_instrumentor').{monitor_type}_{identifier}: \n" +
+                            leading_ws + indent + f"__import__('nbdp_instrumentor').{monitor_type}_{identifier} = True\n" +
                             s)
-                added_lines[file_path][line] += 7
+                added_lines[file_path][line] += 6
 
             new_file_contents = "".join(file_lines)
 
@@ -1056,6 +1072,7 @@ class NameBDP:
     def run_and_update(self, tests_to_run):
         file_backups, added_lines = self.instrument_monitored_functions()
         self.ekstazip.run_and_update(tests_to_run, added_lines)
+        self.test_results = getattr(self.ekstazip, "test_results", [])
         self.file_recover(file_backups)
 
 

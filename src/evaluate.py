@@ -101,7 +101,7 @@ def evaluate_instance(direct_parent, true_parent, current, target, tool_name, re
         _elapsed_time = end_time - start_time
         _test_time = tool_obj.get_test_time()
         _select_time = _elapsed_time - _test_time
-        return _tests_to_run, _test_time, _select_time
+        return _tests_to_run, _test_time, _select_time, getattr(tool_obj, "test_results", [])
 
     InstanceLogger(
         logger_id=f"{tool_name}_{true_parent}_{current}",
@@ -111,19 +111,21 @@ def evaluate_instance(direct_parent, true_parent, current, target, tool_name, re
     # no cache found
     clear_cache()
     init_time = 0.0
+    instrumentation_results = []
     parent_cache_loaded = run_parent and reuse_parent_cache and load_cache(true_parent)
     if run_parent and not parent_cache_loaded:
-        _, init_test_time, init_select_time = run_tool(true_parent, init=True)
+        _, init_test_time, init_select_time, instrumentation_results = run_tool(true_parent, init=True)
         init_time = init_test_time + init_select_time
 
     current_ref = current if current is not None else true_parent
-    tests_to_run, test_time, select_time = run_tool(
+    tests_to_run, test_time, select_time, _ = run_tool(
         current_ref,
         patch_to_apply=patch_path,
         execute_tests=run_current_tests,
     )
     InstanceLogger().get_logger().info(f"[{true_parent}->{current}] tests to run: {len(tests_to_run)}")
     return {
+        "instrumentation_results": instrumentation_results,
         "current": current,
         "direct_parent": direct_parent,
         "true_parent": true_parent,

@@ -113,7 +113,7 @@ class EkstaziP:
         }
 
         start_time = time.time()
-        run_test_files_parallel(
+        self.test_results = run_test_files_parallel(
             self.project_path,
             self.conda_env_name,
             test_command,
